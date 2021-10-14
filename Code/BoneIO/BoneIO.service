@@ -1,0 +1,10 @@
+[Unit]
+Description=boneIO
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/debian/boneIO/BoneIO/main.py
+
+[Install]
+WantedBy=multi-user.target
