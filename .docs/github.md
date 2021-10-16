@@ -1,4 +1,4 @@
-#Jak pracować z github
+# Jak pracować z github
 
 - Pierwszy krok to założenie konta na stronie [GitHub](http://www.github.com/)
 
