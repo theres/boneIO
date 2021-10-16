@@ -64,7 +64,7 @@ NoConn ~ 19650 8900
 NoConn ~ 19550 8900
 NoConn ~ 19450 10200
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K18
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K18
 U 1 1 656F8EFF
 P 19750 10200
 F 0 "K18" H 20400 10465 50  0000 C CNN
@@ -109,7 +109,7 @@ NoConn ~ 19650 7150
 NoConn ~ 19550 7150
 NoConn ~ 19450 8450
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K17
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K17
 U 1 1 656F8F21
 P 19750 8450
 F 0 "K17" H 20400 8715 50  0000 C CNN
@@ -155,7 +155,7 @@ NoConn ~ 19650 12450
 NoConn ~ 19550 12450
 NoConn ~ 19450 13750
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K20
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K20
 U 1 1 656F8F47
 P 19750 13750
 F 0 "K20" H 20400 14015 50  0000 C CNN
@@ -200,7 +200,7 @@ NoConn ~ 19650 10700
 NoConn ~ 19550 10700
 NoConn ~ 19450 12000
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K19
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K19
 U 1 1 656F8F69
 P 19750 12000
 F 0 "K19" H 20400 12265 50  0000 C CNN
@@ -264,7 +264,7 @@ NoConn ~ 15100 8900
 NoConn ~ 15200 8900
 NoConn ~ 15300 10200
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K15
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K15
 U 1 1 6557F0EC
 P 15000 10200
 F 0 "K15" H 15650 10465 50  0000 C CNN
@@ -301,7 +301,7 @@ NoConn ~ 15100 7150
 NoConn ~ 15200 7150
 NoConn ~ 15300 8450
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K16
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K16
 U 1 1 6557F0CB
 P 15000 8450
 F 0 "K16" H 15650 8715 50  0000 C CNN
@@ -337,7 +337,7 @@ NoConn ~ 15100 12450
 NoConn ~ 15200 12450
 NoConn ~ 15300 13750
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K13
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K13
 U 1 1 6557F0A7
 P 15000 13750
 F 0 "K13" H 15650 14015 50  0000 C CNN
@@ -374,7 +374,7 @@ NoConn ~ 15100 10700
 NoConn ~ 15200 10700
 NoConn ~ 15300 12000
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K14
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K14
 U 1 1 6557F085
 P 15000 12000
 F 0 "K14" H 15650 12265 50  0000 C CNN
@@ -410,7 +410,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 13850 12500 13750
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K11
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K11
 U 1 1 6557F056
 P 12500 12000
 F 0 "K11" H 13150 12265 50  0000 C CNN
@@ -445,7 +445,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 10700 12200 10550
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K12
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K12
 U 1 1 6557F034
 P 12500 13750
 F 0 "K12" H 13150 14015 50  0000 C CNN
@@ -481,7 +481,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 10300 12500 10200
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K9
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K9
 U 1 1 6557F00E
 P 12500 8450
 F 0 "K9" H 13150 8715 50  0000 C CNN
@@ -518,7 +518,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 7150 12200 7000
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K10
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K10
 U 1 1 6557EFEC
 P 12500 10200
 F 0 "K10" H 13150 10465 50  0000 C CNN
@@ -550,7 +550,7 @@ NoConn ~ 7900 8900
 NoConn ~ 8000 8900
 NoConn ~ 8100 10200
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K6
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K6
 U 1 1 650CB5D8
 P 7800 10200
 F 0 "K6" H 8450 10465 50  0000 C CNN
@@ -587,7 +587,7 @@ NoConn ~ 7900 7150
 NoConn ~ 8000 7150
 NoConn ~ 8100 8450
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K5
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K5
 U 1 1 650CB5FA
 P 7800 8450
 F 0 "K5" H 8450 8715 50  0000 C CNN
@@ -623,7 +623,7 @@ NoConn ~ 7900 12450
 NoConn ~ 8000 12450
 NoConn ~ 8100 13750
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K8
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K8
 U 1 1 650CB61E
 P 7800 13750
 F 0 "K8" H 8450 14015 50  0000 C CNN
@@ -660,7 +660,7 @@ NoConn ~ 7900 10700
 NoConn ~ 8000 10700
 NoConn ~ 8100 12000
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K7
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K7
 U 1 1 650CB640
 P 7800 12000
 F 0 "K7" H 8450 12265 50  0000 C CNN
@@ -700,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 13850 5300 13750
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K3
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K3
 U 1 1 64E84F3A
 P 5300 12000
 F 0 "K3" H 5950 12265 50  0000 C CNN
@@ -737,7 +737,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 10700 5000 10550
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K4
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K4
 U 1 1 64E84F18
 P 5300 13750
 F 0 "K4" H 5950 14015 50  0000 C CNN
@@ -771,7 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 10300 5300 10200
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K1
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K1
 U 1 1 6266FFCC
 P 5300 8450
 F 0 "K1" H 5950 8715 50  0000 C CNN
@@ -808,7 +808,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 7150 5000 7000
 $Comp
-L boneIO---relay-board-rescue:RM85-2011-35-1005-MK K2
+L boneIO---relay-board-rescue:RM85-2011-35-1005-MK-boneIO---relay-board-rescue K2
 U 1 1 6266FFF0
 P 5300 10200
 F 0 "K2" H 5950 10465 50  0000 C CNN
@@ -1754,7 +1754,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 4450 4550 4150
 $Comp
-L boneIO---relay-board-rescue:MCP9808_MSOP-Sensor_Temperature U4
+L boneIO---relay-board-rescue:MCP9808_MSOP-Sensor_Temperature-boneIO---relay-board-rescue U4
 U 1 1 61B8C06C
 P 8750 4200
 F 0 "U4" H 9194 4246 50  0000 L CNN
