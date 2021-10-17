@@ -28,22 +28,31 @@
     - Po wykonaniu operacji **push** będzie ona widoczna na serwerze **jednak tylko na naszym forku**
     ![Github](../.resources/after_push.png?raw=true)
 
-5. W celu przeniesienia zmian na **główne repozytorium** z którego stworzyliśmy naszego forka musimy stworzyć tzw. **Pull Request** a więc prośbę o wgranie naszych zmian do repozytorium głównego. Możemy to zrobić w zakłądce `Pull Requests` wybierając opcje `New pull request`
+5. Praca z Fork
+
+    - Pobieramy aplikację [Fork](https://git-fork.com/)
+    - Klonujemy repozytorium ![Github](../.resources/winfork_clone?raw=true)![Github](../.resources/winfork_clone2?raw=true)
+    - Po wykonaniu przez nas zmian musimy przenieść pliki do sekcji **stage** używając przycisku `Stage' dla pojedyńczego pliku lub podwójnej strzałki dla wszystkich ![Github](../.resources/winfork_stage.png?raw=true)
+    - Na podstawie plików z sekcji **stage** tworzymy nowy **commit**  ![Github](../.resources/winfork_commit.png?raw=true)
+    - W celu wysłania stworzonych commitów na serwer używamy opcji **push**. ![Github](../.resources/winfork_push.png?raw=true)
+    
+
+6. W celu przeniesienia zmian na **główne repozytorium** z którego stworzyliśmy naszego forka musimy stworzyć tzw. **Pull Request** a więc prośbę o wgranie naszych zmian do repozytorium głównego. Możemy to zrobić w zakłądce `Pull Requests` wybierając opcje `New pull request`
 
 ![Github](../.resources/pr_create.png?raw=true)
 
-6. Po wciśnięciu przycisku widzimy informacje z jakiego forka tworzony jest nasz pull request oraz widizmy listę zmian które wykonaliśmy. Pamiętajmy, że jeśli ktoś inny wykonał zmiany w tych samych plikach i ubiegł nas przed wgraniem naszych to mogą wystąpić konflikty które będzie trzeba rozwiązać. Po wciśnięciu przycisku `Create new pull reqest' przenosimy się do ekranu koentarza
+7. Po wciśnięciu przycisku widzimy informacje z jakiego forka tworzony jest nasz pull request oraz widizmy listę zmian które wykonaliśmy. Pamiętajmy, że jeśli ktoś inny wykonał zmiany w tych samych plikach i ubiegł nas przed wgraniem naszych to mogą wystąpić konflikty które będzie trzeba rozwiązać. Po wciśnięciu przycisku `Create new pull reqest' przenosimy się do ekranu koentarza
 
 ![Github](../.resources/pr.png?raw=true)
 
-7. Możemy dodać komentarz do naszych zmian i po wniśnięciu przycisku `Create pull request' nasz PR będzie gotowy
+8. Możemy dodać komentarz do naszych zmian i po wniśnięciu przycisku `Create pull request' nasz PR będzie gotowy
 
 ![Github](../.resources/pr_comment.png?raw=true)
 
-8. Nasz **Pull Request** jest gotowy i czeka na akceptację przez administratorów repozytorium. Możliwe, że dostaniemy komentarz i będziemy musieli coś poprawić lub administrator stwierdzi, że nie zgadza się na nasze zmiany. 
+9. Nasz **Pull Request** jest gotowy i czeka na akceptację przez administratorów repozytorium. Możliwe, że dostaniemy komentarz i będziemy musieli coś poprawić lub administrator stwierdzi, że nie zgadza się na nasze zmiany. 
 
 ![Github](../.resources/pr_final.png?raw=true)
 
-9. Jeśli ostatecznie wszystko będzie ok i dostaniemy akceptację wtedy będziemy mogli wykonać tzw. **Merge** czyli wgranie naszych zmian do głównego repozytorium
+10. Jeśli ostatecznie wszystko będzie ok i dostaniemy akceptację wtedy będziemy mogli wykonać tzw. **Merge** czyli wgranie naszych zmian do głównego repozytorium
 
 ![Github](../.resources/merge.png?raw=true)
