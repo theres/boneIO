@@ -32,6 +32,7 @@
 
     - Pobieramy aplikację [Fork](https://git-fork.com/)
     - Klonujemy repozytorium 
+    
     ![Github](../.resources/winfork_clone.png?raw=true)
     ![Github](../.resources/winfork_clone_2.png?raw=true)
     - Po wykonaniu przez nas zmian musimy przenieść pliki do sekcji **stage** używając przycisku `Stage' dla pojedyńczego pliku lub podwójnej strzałki dla wszystkich 
