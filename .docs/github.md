@@ -32,14 +32,15 @@
 
     - Pobieramy aplikację [Fork](https://git-fork.com/)
     - Klonujemy repozytorium 
-    
+
     ![Github](../.resources/winfork_clone.png?raw=true)
     ![Github](../.resources/winfork_clone_2.png?raw=true)
     - Po wykonaniu przez nas zmian musimy przenieść pliki do sekcji **stage** używając przycisku `Stage' dla pojedyńczego pliku lub podwójnej strzałki dla wszystkich 
     ![Github](../.resources/winfork_stage.png?raw=true)
     - Na podstawie plików z sekcji **stage** tworzymy nowy **commit**  
     ![Github](../.resources/winfork_commit.png?raw=true)
-    - W celu wysłania stworzonych commitów na serwer używamy opcji **push**. 
+    - W celu wysłania stworzonych commitów na serwer używamy opcji **push**.
+     
     ![Github](../.resources/winfork_push.png?raw=true)
     
 
