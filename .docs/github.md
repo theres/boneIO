@@ -2,11 +2,11 @@
 
 - Pierwszy krok to założenie konta na stronie [GitHub](http://www.github.com/)
 
-![Github](https://github.com/maciejk1984/boneIO/blob/main/.resources/github.png?raw=true)
+![Github](../.resources/github.png?raw=true)
 
 - Po zalogwaniu się na swoje konto tworzymy tzw. **Fork** repozytorium z którym chcemy pracować. Fork oznacza naszą prywatną kopie danego repozytorium na którym możemy dokonywać swoich poprawek. Tworzenie forka jest banalnie prosta - wystarczy wcisnąć przycisk w prawym górnym rogu ekranu
 
-![Github](https://github.com/maciejk1984/boneIO/blob/main/.resources/fork.png?raw=true)
+![Github](.resources/fork.png?raw=true)
 
 - Po przejściu na swojego forka widzimy że jesteśmy już na naszej kopii **[1]**. Możemy pobrać ją do lokalnej edycji wciskając przycisk **Code** **[2]** i pobierając link **[3]**
 
