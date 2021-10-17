@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x23_Odd_Even P9
+L boneIO---input-board-rescue:Conn_02x23_Odd_Even-Connector_Generic P9
 U 1 1 55DF7DBA
 P 9300 3650
 F 0 "P9" H 9300 4850 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 9300 2800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0101
+L boneIO---input-board-rescue:GND-power #PWR0101
 U 1 1 5FB90262
 P 9250 2200
 F 0 "#PWR0101" H 9250 1950 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 9250 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L boneIO---input-board-rescue:GND-power #PWR0104
 U 1 1 5FB92372
 P 9650 3400
 F 0 "#PWR0104" H 9650 3150 50  0001 C CNN
@@ -47,7 +47,7 @@ F 3 "" H 9650 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x11_Odd_Even J11
+L boneIO---input-board-rescue:Conn_02x11_Odd_Even-Connector_Generic J11
 U 1 1 5FB93898
 P 6500 3650
 F 0 "J11" H 6550 4367 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "~" H 6500 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0107
+L boneIO---input-board-rescue:+5V-power #PWR0107
 U 1 1 5FBAF40F
 P 6000 4050
 F 0 "#PWR0107" H 6000 3900 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 6000 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR0108
+L boneIO---input-board-rescue:+5V-power #PWR0108
 U 1 1 5FBB3985
 P 9700 4300
 F 0 "#PWR0108" H 9700 4150 50  0001 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 9700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L boneIO---input-board-rescue:GND-power #PWR0109
 U 1 1 5FBB4249
 P 10500 2250
 F 0 "#PWR0109" H 10500 2000 50  0001 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 10500 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x08 J7
+L boneIO---input-board-rescue:Screw_Terminal_01x08-Connector J7
 U 1 1 5FBC0ABF
 P 2550 1600
 F 0 "J7" V 2630 1592 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "~" H 2550 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x08 J6
+L boneIO---input-board-rescue:Screw_Terminal_01x08-Connector J6
 U 1 1 5FBC27EC
 P 3500 1600
 F 0 "J6" H 3580 1592 50  0000 L CNN
@@ -113,7 +113,7 @@ F 3 "~" H 3500 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x08 J5
+L boneIO---input-board-rescue:Screw_Terminal_01x08-Connector J5
 U 1 1 5FBC4BBE
 P 4450 1600
 F 0 "J5" H 4530 1592 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "~" H 4450 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x08 J2
+L boneIO---input-board-rescue:Screw_Terminal_01x08-Connector J2
 U 1 1 5FBC66CA
 P 3150 5600
 F 0 "J2" H 3068 4975 50  0000 C CNN
@@ -135,7 +135,7 @@ F 3 "~" H 3150 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0113
+L boneIO---input-board-rescue:GND-power #PWR0113
 U 1 1 5FBCF9DC
 P 1500 5050
 F 0 "#PWR0113" H 1500 4800 50  0001 C CNN
@@ -146,7 +146,7 @@ F 3 "" H 1500 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L boneIO---input-board-rescue:GND-power #PWR0114
 U 1 1 5FBCFD71
 P 6000 3150
 F 0 "#PWR0114" H 6000 2900 50  0001 C CNN
@@ -157,7 +157,7 @@ F 3 "" H 6000 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x08 J3
+L boneIO---input-board-rescue:Screw_Terminal_01x08-Connector J3
 U 1 1 5FCC407F
 P 4200 5600
 F 0 "J3" H 4118 4975 50  0000 C CNN
@@ -168,7 +168,7 @@ F 3 "~" H 4200 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x08 J4
+L boneIO---input-board-rescue:Screw_Terminal_01x08-Connector J4
 U 1 1 5FCC570E
 P 5150 5600
 F 0 "J4" H 5068 4975 50  0000 C CNN
@@ -179,7 +179,7 @@ F 3 "~" H 5150 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J1
+L boneIO---input-board-rescue:Screw_Terminal_01x03-Connector J1
 U 1 1 5FD7EAE8
 P 2300 5600
 F 0 "J1" H 2380 5642 50  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "~" H 2300 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 VDD1
+L boneIO---input-board-rescue:Screw_Terminal_01x02-Connector VDD1
 U 1 1 5FDB330F
 P 5950 6950
 F 0 "VDD1" H 6030 6942 50  0000 L CNN
@@ -201,7 +201,7 @@ F 3 "~" H 5950 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L boneIO---input-board-rescue:GND-power #PWR0118
 U 1 1 5FDB3CFF
 P 5600 7350
 F 0 "#PWR0118" H 5600 7100 50  0001 C CNN
@@ -212,7 +212,7 @@ F 3 "" H 5600 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0119
+L boneIO---input-board-rescue:+5V-power #PWR0119
 U 1 1 5FDB44B3
 P 5550 6650
 F 0 "#PWR0119" H 5550 6500 50  0001 C CNN
@@ -231,7 +231,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 7050 5600 7350
 $Comp
-L power:+3.3V #PWR0121
+L boneIO---input-board-rescue:+3.3V-power #PWR0121
 U 1 1 5FDDE18D
 P 9850 4650
 F 0 "#PWR0121" H 9850 4500 50  0001 C CNN
@@ -242,7 +242,7 @@ F 3 "" H 9850 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 I2C1
+L boneIO---input-board-rescue:Conn_01x04-Connector_Generic I2C1
 U 1 1 5FDF9F1B
 P 9900 3750
 F 0 "I2C1" H 9980 3742 50  0000 L CNN
@@ -253,7 +253,7 @@ F 3 "~" H 9900 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0122
+L boneIO---input-board-rescue:+3.3V-power #PWR0122
 U 1 1 5FDFA9B6
 P 9900 3400
 F 0 "#PWR0122" H 9900 3250 50  0001 C CNN
@@ -264,7 +264,7 @@ F 3 "" H 9900 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L boneIO---input-board-rescue:GND-power #PWR0123
 U 1 1 5FDFB41B
 P 8200 4800
 F 0 "#PWR0123" H 8200 4550 50  0001 C CNN
@@ -275,7 +275,7 @@ F 3 "" H 8200 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 ANVDD1
+L boneIO---input-board-rescue:Screw_Terminal_01x02-Connector ANVDD1
 U 1 1 5FE784F5
 P 8700 2200
 F 0 "ANVDD1" H 8780 2192 50  0000 L CNN
@@ -286,7 +286,7 @@ F 3 "~" H 8700 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x07 AN1
+L boneIO---input-board-rescue:Screw_Terminal_01x07-Connector AN1
 U 1 1 5FE99E8D
 P 7750 5450
 F 0 "AN1" H 7830 5492 50  0000 L CNN
@@ -297,7 +297,7 @@ F 3 "~" H 7750 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x23_Odd_Even P8
+L boneIO---input-board-rescue:Conn_02x23_Odd_Even-Connector_Generic P8
 U 1 1 55DF7DE1
 P 1550 3600
 F 0 "P8" H 1550 4800 50  0000 C CNN
@@ -638,7 +638,7 @@ NoConn ~ 9500 4350
 NoConn ~ 9500 4450
 NoConn ~ 9000 4450
 $Comp
-L Switch:SW_Push SW1
+L boneIO---input-board-rescue:SW_Push-Switch SW1
 U 1 1 60E68B6D
 P 10750 2550
 F 0 "SW1" V 10704 2698 50  0000 L CNN
@@ -653,7 +653,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 2350 10750 2350
 $Comp
-L Switch:SW_Push SW2
+L boneIO---input-board-rescue:SW_Push-Switch SW2
 U 1 1 60E913E3
 P 8750 4600
 F 0 "SW2" V 8796 4552 50  0000 R CNN
@@ -664,7 +664,7 @@ F 3 "~" H 8750 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L boneIO---input-board-rescue:MountingHole-Mechanical H1
 U 1 1 6082D678
 P 2850 6550
 F 0 "H1" H 2950 6596 50  0000 L CNN
@@ -675,7 +675,7 @@ F 3 "~" H 2850 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L boneIO---input-board-rescue:MountingHole-Mechanical H2
 U 1 1 6082DBB5
 P 4350 6600
 F 0 "H2" H 4450 6646 50  0000 L CNN
@@ -921,7 +921,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2450 2350 1800
 $Comp
-L power:GND #PWR0102
+L boneIO---input-board-rescue:GND-power #PWR0102
 U 1 1 60F14745
 P 2400 5150
 F 0 "#PWR0102" H 2400 4900 50  0001 C CNN
@@ -932,7 +932,7 @@ F 3 "" H 2400 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L boneIO---input-board-rescue:GND-power #PWR0103
 U 1 1 60F15484
 P 3450 5150
 F 0 "#PWR0103" H 3450 4900 50  0001 C CNN
@@ -943,7 +943,7 @@ F 3 "" H 3450 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0105
+L boneIO---input-board-rescue:GND-power #PWR0105
 U 1 1 60F159E6
 P 4500 5150
 F 0 "#PWR0105" H 4500 4900 50  0001 C CNN
@@ -954,7 +954,7 @@ F 3 "" H 4500 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L boneIO---input-board-rescue:GND-power #PWR0106
 U 1 1 60F15BC0
 P 5450 5150
 F 0 "#PWR0106" H 5450 4900 50  0001 C CNN
@@ -973,7 +973,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 5150 5450 5400
 $Comp
-L power:GND #PWR0110
+L boneIO---input-board-rescue:GND-power #PWR0110
 U 1 1 60F7ECAD
 P 4150 2000
 F 0 "#PWR0110" H 4150 1750 50  0001 C CNN
@@ -984,7 +984,7 @@ F 3 "" H 4150 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L boneIO---input-board-rescue:GND-power #PWR0111
 U 1 1 60F7FFFD
 P 3200 2000
 F 0 "#PWR0111" H 3200 1750 50  0001 C CNN
@@ -995,7 +995,7 @@ F 3 "" H 3200 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L boneIO---input-board-rescue:GND-power #PWR0112
 U 1 1 60F80392
 P 2250 2000
 F 0 "#PWR0112" H 2250 1750 50  0001 C CNN
