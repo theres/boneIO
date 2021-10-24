@@ -129,8 +129,7 @@ dmypy.json
 .pyre/
 
 # KiCad (Source: https://github.com/github/gitignore/blob/master/KiCad.gitignore)
-
-# Temporary files
+#  Temporary files
 *.000
 *.bak
 *.bck
