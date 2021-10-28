@@ -388,17 +388,6 @@ Wire Wire Line
 	14100 4000 14100 3700
 Wire Wire Line
 	13850 4000 14100 4000
-$Comp
-L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U3
-U 1 1 6557F0FA
-P 13450 4300
-F 0 "U3" H 13450 4867 50  0000 C CNN
-F 1 "ULN2803A" H 13450 4776 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 13500 3650 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 13550 4100 50  0001 C CNN
-	1    13450 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13450 5000 13450 5250
 $Comp
@@ -434,234 +423,6 @@ F 3 "" H 21950 1650 50  0001 C CNN
 	1    21950 1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R24
-U 1 1 625E1547
-P 19500 3000
-F 0 "R24" H 19570 3046 50  0000 L CNN
-F 1 "10k" H 19570 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19430 3000 50  0001 C CNN
-F 3 "~" H 19500 3000 50  0001 C CNN
-	1    19500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R25
-U 1 1 625E154D
-P 19750 3000
-F 0 "R25" H 19820 3046 50  0000 L CNN
-F 1 "10k" H 19820 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19680 3000 50  0001 C CNN
-F 3 "~" H 19750 3000 50  0001 C CNN
-	1    19750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R26
-U 1 1 625E1553
-P 20000 3000
-F 0 "R26" H 20070 3046 50  0000 L CNN
-F 1 "10k" H 20070 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19930 3000 50  0001 C CNN
-F 3 "~" H 20000 3000 50  0001 C CNN
-	1    20000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R27
-U 1 1 625E1559
-P 20250 3000
-F 0 "R27" H 20320 3046 50  0000 L CNN
-F 1 "10k" H 20320 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20180 3000 50  0001 C CNN
-F 3 "~" H 20250 3000 50  0001 C CNN
-	1    20250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R28
-U 1 1 625E155F
-P 20500 3000
-F 0 "R28" H 20570 3046 50  0000 L CNN
-F 1 "10k" H 20570 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20430 3000 50  0001 C CNN
-F 3 "~" H 20500 3000 50  0001 C CNN
-	1    20500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R29
-U 1 1 625E1565
-P 20750 3000
-F 0 "R29" H 20820 3046 50  0000 L CNN
-F 1 "10k" H 20820 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20680 3000 50  0001 C CNN
-F 3 "~" H 20750 3000 50  0001 C CNN
-	1    20750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR054
-U 1 1 625E1583
-P 20750 3200
-F 0 "#PWR054" H 20750 2950 50  0001 C CNN
-F 1 "GND" H 20755 3027 50  0000 C CNN
-F 2 "" H 20750 3200 50  0001 C CNN
-F 3 "" H 20750 3200 50  0001 C CNN
-	1    20750 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR053
-U 1 1 625E1589
-P 20500 3200
-F 0 "#PWR053" H 20500 2950 50  0001 C CNN
-F 1 "GND" H 20505 3027 50  0000 C CNN
-F 2 "" H 20500 3200 50  0001 C CNN
-F 3 "" H 20500 3200 50  0001 C CNN
-	1    20500 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR052
-U 1 1 625E158F
-P 20250 3200
-F 0 "#PWR052" H 20250 2950 50  0001 C CNN
-F 1 "GND" H 20255 3027 50  0000 C CNN
-F 2 "" H 20250 3200 50  0001 C CNN
-F 3 "" H 20250 3200 50  0001 C CNN
-	1    20250 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR051
-U 1 1 625E1595
-P 20000 3200
-F 0 "#PWR051" H 20000 2950 50  0001 C CNN
-F 1 "GND" H 20005 3027 50  0000 C CNN
-F 2 "" H 20000 3200 50  0001 C CNN
-F 3 "" H 20000 3200 50  0001 C CNN
-	1    20000 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR050
-U 1 1 625E159B
-P 19750 3200
-F 0 "#PWR050" H 19750 2950 50  0001 C CNN
-F 1 "GND" H 19755 3027 50  0000 C CNN
-F 2 "" H 19750 3200 50  0001 C CNN
-F 3 "" H 19750 3200 50  0001 C CNN
-	1    19750 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR049
-U 1 1 625E15A1
-P 19500 3200
-F 0 "#PWR049" H 19500 2950 50  0001 C CNN
-F 1 "GND" H 19505 3027 50  0000 C CNN
-F 2 "" H 19500 3200 50  0001 C CNN
-F 3 "" H 19500 3200 50  0001 C CNN
-	1    19500 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19500 3200 19500 3150
-Wire Wire Line
-	19750 3200 19750 3150
-Wire Wire Line
-	20000 3200 20000 3150
-Wire Wire Line
-	20250 3200 20250 3150
-Wire Wire Line
-	20500 3200 20500 3150
-Wire Wire Line
-	20750 3200 20750 3150
-$Comp
-L boneIO---ssr-board-rescue:R-Device R23
-U 1 1 626456CC
-P 19250 3000
-F 0 "R23" H 19320 3046 50  0000 L CNN
-F 1 "10k" H 19320 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19180 3000 50  0001 C CNN
-F 3 "~" H 19250 3000 50  0001 C CNN
-	1    19250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR048
-U 1 1 626456D3
-P 19250 3200
-F 0 "#PWR048" H 19250 2950 50  0001 C CNN
-F 1 "GND" H 19255 3027 50  0000 C CNN
-F 2 "" H 19250 3200 50  0001 C CNN
-F 3 "" H 19250 3200 50  0001 C CNN
-	1    19250 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19250 3200 19250 3150
-$Comp
-L boneIO---ssr-board-rescue:R-Device R22
-U 1 1 6266E13C
-P 19000 3000
-F 0 "R22" H 19070 3046 50  0000 L CNN
-F 1 "10k" H 19070 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 18930 3000 50  0001 C CNN
-F 3 "~" H 19000 3000 50  0001 C CNN
-	1    19000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR047
-U 1 1 6266E143
-P 19000 3200
-F 0 "#PWR047" H 19000 2950 50  0001 C CNN
-F 1 "GND" H 19005 3027 50  0000 C CNN
-F 2 "" H 19000 3200 50  0001 C CNN
-F 3 "" H 19000 3200 50  0001 C CNN
-	1    19000 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19000 3200 19000 3150
-Wire Wire Line
-	19000 2850 19000 2750
-Connection ~ 19000 2750
-Wire Wire Line
-	19000 2750 20900 2750
-Wire Wire Line
-	19250 2850 19250 2650
-Connection ~ 19250 2650
-Wire Wire Line
-	19500 2850 19500 2550
-Connection ~ 19500 2550
-Wire Wire Line
-	19500 2550 20900 2550
-Wire Wire Line
-	19750 2850 19750 2450
-Connection ~ 19750 2450
-Wire Wire Line
-	19750 2450 20900 2450
-Wire Wire Line
-	20000 2850 20000 2350
-Connection ~ 20000 2350
-Wire Wire Line
-	20000 2350 20900 2350
-Wire Wire Line
-	20250 2850 20250 2250
-Connection ~ 20250 2250
-Wire Wire Line
-	20500 2850 20500 2150
-Connection ~ 20500 2150
-Wire Wire Line
-	20500 2150 20900 2150
-Wire Wire Line
-	20750 2850 20750 2050
-Connection ~ 20750 2050
-Wire Wire Line
-	20750 2050 20900 2050
 Wire Wire Line
 	5950 3950 6750 3950
 Connection ~ 6750 3950
@@ -697,640 +458,6 @@ F 3 "" H 21950 3700 50  0001 C CNN
 	1    21950 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R13
-U 1 1 61D84466
-P 11650 3000
-F 0 "R13" H 11720 3046 50  0000 L CNN
-F 1 "10k" H 11720 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11580 3000 50  0001 C CNN
-F 3 "~" H 11650 3000 50  0001 C CNN
-	1    11650 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R15
-U 1 1 61D8446C
-P 11900 3000
-F 0 "R15" H 11970 3046 50  0000 L CNN
-F 1 "10k" H 11970 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11830 3000 50  0001 C CNN
-F 3 "~" H 11900 3000 50  0001 C CNN
-	1    11900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R17
-U 1 1 61D84472
-P 12150 3000
-F 0 "R17" H 12220 3046 50  0000 L CNN
-F 1 "10k" H 12220 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12080 3000 50  0001 C CNN
-F 3 "~" H 12150 3000 50  0001 C CNN
-	1    12150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R19
-U 1 1 61D84478
-P 12400 3000
-F 0 "R19" H 12470 3046 50  0000 L CNN
-F 1 "10k" H 12470 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12330 3000 50  0001 C CNN
-F 3 "~" H 12400 3000 50  0001 C CNN
-	1    12400 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R21
-U 1 1 61D8447E
-P 12650 3000
-F 0 "R21" H 12720 3046 50  0000 L CNN
-F 1 "10k" H 12720 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12580 3000 50  0001 C CNN
-F 3 "~" H 12650 3000 50  0001 C CNN
-	1    12650 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R31
-U 1 1 61D84484
-P 12900 3000
-F 0 "R31" H 12970 3046 50  0000 L CNN
-F 1 "10k" H 12970 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12830 3000 50  0001 C CNN
-F 3 "~" H 12900 3000 50  0001 C CNN
-	1    12900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0103
-U 1 1 61D8448A
-P 12900 3200
-F 0 "#PWR0103" H 12900 2950 50  0001 C CNN
-F 1 "GND" H 12905 3027 50  0000 C CNN
-F 2 "" H 12900 3200 50  0001 C CNN
-F 3 "" H 12900 3200 50  0001 C CNN
-	1    12900 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0104
-U 1 1 61D84490
-P 12650 3200
-F 0 "#PWR0104" H 12650 2950 50  0001 C CNN
-F 1 "GND" H 12655 3027 50  0000 C CNN
-F 2 "" H 12650 3200 50  0001 C CNN
-F 3 "" H 12650 3200 50  0001 C CNN
-	1    12650 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0105
-U 1 1 61D84496
-P 12400 3200
-F 0 "#PWR0105" H 12400 2950 50  0001 C CNN
-F 1 "GND" H 12405 3027 50  0000 C CNN
-F 2 "" H 12400 3200 50  0001 C CNN
-F 3 "" H 12400 3200 50  0001 C CNN
-	1    12400 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0106
-U 1 1 61D8449C
-P 12150 3200
-F 0 "#PWR0106" H 12150 2950 50  0001 C CNN
-F 1 "GND" H 12155 3027 50  0000 C CNN
-F 2 "" H 12150 3200 50  0001 C CNN
-F 3 "" H 12150 3200 50  0001 C CNN
-	1    12150 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0107
-U 1 1 61D844A2
-P 11900 3200
-F 0 "#PWR0107" H 11900 2950 50  0001 C CNN
-F 1 "GND" H 11905 3027 50  0000 C CNN
-F 2 "" H 11900 3200 50  0001 C CNN
-F 3 "" H 11900 3200 50  0001 C CNN
-	1    11900 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0108
-U 1 1 61D844A8
-P 11650 3200
-F 0 "#PWR0108" H 11650 2950 50  0001 C CNN
-F 1 "GND" H 11655 3027 50  0000 C CNN
-F 2 "" H 11650 3200 50  0001 C CNN
-F 3 "" H 11650 3200 50  0001 C CNN
-	1    11650 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11650 3200 11650 3150
-Wire Wire Line
-	11900 3200 11900 3150
-Wire Wire Line
-	12150 3200 12150 3150
-Wire Wire Line
-	12400 3200 12400 3150
-Wire Wire Line
-	12650 3200 12650 3150
-Wire Wire Line
-	12900 3200 12900 3150
-$Comp
-L boneIO---ssr-board-rescue:R-Device R11
-U 1 1 61D844B4
-P 11400 3000
-F 0 "R11" H 11470 3046 50  0000 L CNN
-F 1 "10k" H 11470 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11330 3000 50  0001 C CNN
-F 3 "~" H 11400 3000 50  0001 C CNN
-	1    11400 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0109
-U 1 1 61D844BA
-P 11400 3200
-F 0 "#PWR0109" H 11400 2950 50  0001 C CNN
-F 1 "GND" H 11405 3027 50  0000 C CNN
-F 2 "" H 11400 3200 50  0001 C CNN
-F 3 "" H 11400 3200 50  0001 C CNN
-	1    11400 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11400 3200 11400 3150
-$Comp
-L boneIO---ssr-board-rescue:R-Device R10
-U 1 1 61D844C1
-P 11150 3000
-F 0 "R10" H 11220 3046 50  0000 L CNN
-F 1 "10k" H 11220 2955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11080 3000 50  0001 C CNN
-F 3 "~" H 11150 3000 50  0001 C CNN
-	1    11150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0110
-U 1 1 61D844C7
-P 11150 3200
-F 0 "#PWR0110" H 11150 2950 50  0001 C CNN
-F 1 "GND" H 11155 3027 50  0000 C CNN
-F 2 "" H 11150 3200 50  0001 C CNN
-F 3 "" H 11150 3200 50  0001 C CNN
-	1    11150 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11150 3200 11150 3150
-Wire Wire Line
-	11150 2850 11150 2750
-Connection ~ 11150 2750
-Wire Wire Line
-	11150 2750 13050 2750
-Wire Wire Line
-	11400 2850 11400 2650
-Connection ~ 11400 2650
-Wire Wire Line
-	11400 2650 13050 2650
-Wire Wire Line
-	11650 2850 11650 2550
-Connection ~ 11650 2550
-Wire Wire Line
-	11650 2550 13050 2550
-Wire Wire Line
-	11900 2850 11900 2450
-Connection ~ 11900 2450
-Wire Wire Line
-	11900 2450 13050 2450
-Wire Wire Line
-	12150 2850 12150 2350
-Connection ~ 12150 2350
-Wire Wire Line
-	12150 2350 13050 2350
-Wire Wire Line
-	12400 2850 12400 2250
-Connection ~ 12400 2250
-Wire Wire Line
-	12400 2250 13050 2250
-Wire Wire Line
-	12650 2850 12650 2150
-Connection ~ 12650 2150
-Wire Wire Line
-	12650 2150 13050 2150
-Wire Wire Line
-	12900 2850 12900 2050
-Connection ~ 12900 2050
-Wire Wire Line
-	12900 2050 13050 2050
-$Comp
-L boneIO---ssr-board-rescue:R-Device R14
-U 1 1 61DC9A92
-P 11650 5050
-F 0 "R14" H 11720 5096 50  0000 L CNN
-F 1 "10k" H 11720 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11580 5050 50  0001 C CNN
-F 3 "~" H 11650 5050 50  0001 C CNN
-	1    11650 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R16
-U 1 1 61DC9A98
-P 11900 5050
-F 0 "R16" H 11970 5096 50  0000 L CNN
-F 1 "10k" H 11970 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11830 5050 50  0001 C CNN
-F 3 "~" H 11900 5050 50  0001 C CNN
-	1    11900 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R18
-U 1 1 61DC9A9E
-P 12150 5050
-F 0 "R18" H 12220 5096 50  0000 L CNN
-F 1 "10k" H 12220 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12080 5050 50  0001 C CNN
-F 3 "~" H 12150 5050 50  0001 C CNN
-	1    12150 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R20
-U 1 1 61DC9AA4
-P 12400 5050
-F 0 "R20" H 12470 5096 50  0000 L CNN
-F 1 "10k" H 12470 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12330 5050 50  0001 C CNN
-F 3 "~" H 12400 5050 50  0001 C CNN
-	1    12400 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R30
-U 1 1 61DC9AAA
-P 12650 5050
-F 0 "R30" H 12720 5096 50  0000 L CNN
-F 1 "10k" H 12720 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12580 5050 50  0001 C CNN
-F 3 "~" H 12650 5050 50  0001 C CNN
-	1    12650 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0111
-U 1 1 61DC9ABC
-P 12650 5250
-F 0 "#PWR0111" H 12650 5000 50  0001 C CNN
-F 1 "GND" H 12655 5077 50  0000 C CNN
-F 2 "" H 12650 5250 50  0001 C CNN
-F 3 "" H 12650 5250 50  0001 C CNN
-	1    12650 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0112
-U 1 1 61DC9AC2
-P 12400 5250
-F 0 "#PWR0112" H 12400 5000 50  0001 C CNN
-F 1 "GND" H 12405 5077 50  0000 C CNN
-F 2 "" H 12400 5250 50  0001 C CNN
-F 3 "" H 12400 5250 50  0001 C CNN
-	1    12400 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0113
-U 1 1 61DC9AC8
-P 12150 5250
-F 0 "#PWR0113" H 12150 5000 50  0001 C CNN
-F 1 "GND" H 12155 5077 50  0000 C CNN
-F 2 "" H 12150 5250 50  0001 C CNN
-F 3 "" H 12150 5250 50  0001 C CNN
-	1    12150 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0114
-U 1 1 61DC9ACE
-P 11900 5250
-F 0 "#PWR0114" H 11900 5000 50  0001 C CNN
-F 1 "GND" H 11905 5077 50  0000 C CNN
-F 2 "" H 11900 5250 50  0001 C CNN
-F 3 "" H 11900 5250 50  0001 C CNN
-	1    11900 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0115
-U 1 1 61DC9AD4
-P 11650 5250
-F 0 "#PWR0115" H 11650 5000 50  0001 C CNN
-F 1 "GND" H 11655 5077 50  0000 C CNN
-F 2 "" H 11650 5250 50  0001 C CNN
-F 3 "" H 11650 5250 50  0001 C CNN
-	1    11650 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11650 5250 11650 5200
-Wire Wire Line
-	11900 5250 11900 5200
-Wire Wire Line
-	12150 5250 12150 5200
-Wire Wire Line
-	12400 5250 12400 5200
-Wire Wire Line
-	12650 5250 12650 5200
-$Comp
-L boneIO---ssr-board-rescue:R-Device R12
-U 1 1 61DC9AE0
-P 11400 5050
-F 0 "R12" H 11470 5096 50  0000 L CNN
-F 1 "10k" H 11470 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11330 5050 50  0001 C CNN
-F 3 "~" H 11400 5050 50  0001 C CNN
-	1    11400 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0116
-U 1 1 61DC9AE6
-P 11400 5250
-F 0 "#PWR0116" H 11400 5000 50  0001 C CNN
-F 1 "GND" H 11405 5077 50  0000 C CNN
-F 2 "" H 11400 5250 50  0001 C CNN
-F 3 "" H 11400 5250 50  0001 C CNN
-	1    11400 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11400 5250 11400 5200
-Wire Wire Line
-	11400 4900 11400 4700
-Connection ~ 11400 4700
-Wire Wire Line
-	11400 4700 13050 4700
-Wire Wire Line
-	11650 4900 11650 4600
-Connection ~ 11650 4600
-Wire Wire Line
-	11650 4600 13050 4600
-Wire Wire Line
-	11900 4900 11900 4500
-Connection ~ 11900 4500
-Wire Wire Line
-	11900 4500 13050 4500
-Wire Wire Line
-	12150 4900 12150 4400
-Connection ~ 12150 4400
-Wire Wire Line
-	12150 4400 13050 4400
-Wire Wire Line
-	12400 4900 12400 4300
-Connection ~ 12400 4300
-Wire Wire Line
-	12400 4300 13050 4300
-Wire Wire Line
-	12650 4900 12650 4200
-Connection ~ 12650 4200
-Wire Wire Line
-	12650 4200 13050 4200
-Wire Wire Line
-	12900 4100 13050 4100
-Connection ~ 12900 4100
-Wire Wire Line
-	12900 4900 12900 4100
-Wire Wire Line
-	12900 5250 12900 5200
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0117
-U 1 1 61DC9AB6
-P 12900 5250
-F 0 "#PWR0117" H 12900 5000 50  0001 C CNN
-F 1 "GND" H 12905 5077 50  0000 C CNN
-F 2 "" H 12900 5250 50  0001 C CNN
-F 3 "" H 12900 5250 50  0001 C CNN
-	1    12900 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R32
-U 1 1 61DC9AB0
-P 12900 5050
-F 0 "R32" H 12970 5096 50  0000 L CNN
-F 1 "10k" H 12970 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12830 5050 50  0001 C CNN
-F 3 "~" H 12900 5050 50  0001 C CNN
-	1    12900 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R34
-U 1 1 61E30CA5
-P 19500 5050
-F 0 "R34" H 19570 5096 50  0000 L CNN
-F 1 "10k" H 19570 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19430 5050 50  0001 C CNN
-F 3 "~" H 19500 5050 50  0001 C CNN
-	1    19500 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R35
-U 1 1 61E30CAB
-P 19750 5050
-F 0 "R35" H 19820 5096 50  0000 L CNN
-F 1 "10k" H 19820 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19680 5050 50  0001 C CNN
-F 3 "~" H 19750 5050 50  0001 C CNN
-	1    19750 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R36
-U 1 1 61E30CB1
-P 20000 5050
-F 0 "R36" H 20070 5096 50  0000 L CNN
-F 1 "10k" H 20070 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19930 5050 50  0001 C CNN
-F 3 "~" H 20000 5050 50  0001 C CNN
-	1    20000 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R37
-U 1 1 61E30CB7
-P 20250 5050
-F 0 "R37" H 20320 5096 50  0000 L CNN
-F 1 "10k" H 20320 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20180 5050 50  0001 C CNN
-F 3 "~" H 20250 5050 50  0001 C CNN
-	1    20250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R38
-U 1 1 61E30CBD
-P 20500 5050
-F 0 "R38" H 20570 5096 50  0000 L CNN
-F 1 "10k" H 20570 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20430 5050 50  0001 C CNN
-F 3 "~" H 20500 5050 50  0001 C CNN
-	1    20500 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:R-Device R39
-U 1 1 61E30CC3
-P 20750 5050
-F 0 "R39" H 20820 5096 50  0000 L CNN
-F 1 "10k" H 20820 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20680 5050 50  0001 C CNN
-F 3 "~" H 20750 5050 50  0001 C CNN
-	1    20750 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0118
-U 1 1 61E30CC9
-P 20750 5250
-F 0 "#PWR0118" H 20750 5000 50  0001 C CNN
-F 1 "GND" H 20755 5077 50  0000 C CNN
-F 2 "" H 20750 5250 50  0001 C CNN
-F 3 "" H 20750 5250 50  0001 C CNN
-	1    20750 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0119
-U 1 1 61E30CCF
-P 20500 5250
-F 0 "#PWR0119" H 20500 5000 50  0001 C CNN
-F 1 "GND" H 20505 5077 50  0000 C CNN
-F 2 "" H 20500 5250 50  0001 C CNN
-F 3 "" H 20500 5250 50  0001 C CNN
-	1    20500 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0120
-U 1 1 61E30CD5
-P 20250 5250
-F 0 "#PWR0120" H 20250 5000 50  0001 C CNN
-F 1 "GND" H 20255 5077 50  0000 C CNN
-F 2 "" H 20250 5250 50  0001 C CNN
-F 3 "" H 20250 5250 50  0001 C CNN
-	1    20250 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0121
-U 1 1 61E30CDB
-P 20000 5250
-F 0 "#PWR0121" H 20000 5000 50  0001 C CNN
-F 1 "GND" H 20005 5077 50  0000 C CNN
-F 2 "" H 20000 5250 50  0001 C CNN
-F 3 "" H 20000 5250 50  0001 C CNN
-	1    20000 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0122
-U 1 1 61E30CE1
-P 19750 5250
-F 0 "#PWR0122" H 19750 5000 50  0001 C CNN
-F 1 "GND" H 19755 5077 50  0000 C CNN
-F 2 "" H 19750 5250 50  0001 C CNN
-F 3 "" H 19750 5250 50  0001 C CNN
-	1    19750 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0123
-U 1 1 61E30CE7
-P 19500 5250
-F 0 "#PWR0123" H 19500 5000 50  0001 C CNN
-F 1 "GND" H 19505 5077 50  0000 C CNN
-F 2 "" H 19500 5250 50  0001 C CNN
-F 3 "" H 19500 5250 50  0001 C CNN
-	1    19500 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19500 5250 19500 5200
-Wire Wire Line
-	19750 5250 19750 5200
-Wire Wire Line
-	20000 5250 20000 5200
-Wire Wire Line
-	20250 5250 20250 5200
-Wire Wire Line
-	20500 5250 20500 5200
-Wire Wire Line
-	20750 5250 20750 5200
-$Comp
-L boneIO---ssr-board-rescue:R-Device R33
-U 1 1 61E30CF3
-P 19250 5050
-F 0 "R33" H 19320 5096 50  0000 L CNN
-F 1 "10k" H 19320 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 19180 5050 50  0001 C CNN
-F 3 "~" H 19250 5050 50  0001 C CNN
-	1    19250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0124
-U 1 1 61E30CF9
-P 19250 5250
-F 0 "#PWR0124" H 19250 5000 50  0001 C CNN
-F 1 "GND" H 19255 5077 50  0000 C CNN
-F 2 "" H 19250 5250 50  0001 C CNN
-F 3 "" H 19250 5250 50  0001 C CNN
-	1    19250 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19250 5250 19250 5200
-Wire Wire Line
-	19250 4900 19250 4700
-Connection ~ 19250 4700
-Wire Wire Line
-	19500 4900 19500 4600
-Connection ~ 19500 4600
-Wire Wire Line
-	19500 4600 20900 4600
-Wire Wire Line
-	19750 4900 19750 4500
-Connection ~ 19750 4500
-Wire Wire Line
-	19750 4500 20900 4500
-Wire Wire Line
-	20000 4900 20000 4400
-Connection ~ 20000 4400
-Wire Wire Line
-	20000 4400 20900 4400
-Wire Wire Line
-	20250 4900 20250 4300
-Connection ~ 20250 4300
-Wire Wire Line
-	20500 4900 20500 4200
-Connection ~ 20500 4200
-Wire Wire Line
-	20500 4200 20900 4200
-Wire Wire Line
-	20750 4900 20750 4100
-Connection ~ 20750 4100
-Wire Wire Line
-	20750 4100 20900 4100
 Text GLabel 13850 2050 2    50   Input ~ 0
 RELAY1
 Text GLabel 13850 2150 2    50   Input ~ 0
@@ -1363,10 +490,6 @@ Text GLabel 13850 4700 2    50   Input ~ 0
 RELAY15
 Text GLabel 21700 2050 2    50   Input ~ 0
 RELAY16
-Wire Wire Line
-	20250 2250 20900 2250
-Wire Wire Line
-	19250 2650 20900 2650
 $Comp
 L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U4
 U 1 1 656F900D
@@ -1394,10 +517,6 @@ Text GLabel 21700 2750 2    50   Input ~ 0
 RELAY23
 Text GLabel 21700 4100 2    50   Input ~ 0
 RELAY24
-Wire Wire Line
-	20250 4300 20900 4300
-Wire Wire Line
-	19250 4700 20900 4700
 $Comp
 L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U5
 U 1 1 61D33FEE
@@ -1433,63 +552,31 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 9900 1750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10400 2050 12900 2050
-Wire Wire Line
-	10400 2150 12650 2150
-Wire Wire Line
-	10400 2250 12400 2250
-Wire Wire Line
 	10400 2950 10950 2950
 Wire Wire Line
 	10950 2950 10950 4100
-Wire Wire Line
-	10950 4100 12900 4100
 Wire Wire Line
 	10400 3050 10900 3050
 Wire Wire Line
 	10900 3050 10900 4200
 Wire Wire Line
-	10900 4200 12650 4200
-Wire Wire Line
 	10400 3150 10850 3150
 Wire Wire Line
 	10850 3150 10850 4300
-Wire Wire Line
-	10850 4300 12400 4300
 Wire Wire Line
 	10400 3250 10800 3250
 Wire Wire Line
 	10800 3250 10800 4400
 Wire Wire Line
-	10800 4400 12150 4400
-Wire Wire Line
 	10400 3350 10750 3350
 Wire Wire Line
 	10750 3350 10750 4500
 Wire Wire Line
-	10750 4500 11900 4500
-Wire Wire Line
 	10400 3450 10700 3450
-Wire Wire Line
-	10700 3450 10700 4600
-Wire Wire Line
-	10700 4600 11650 4600
 Wire Wire Line
 	10400 3550 10650 3550
 Wire Wire Line
 	10650 3550 10650 4700
-Wire Wire Line
-	10650 4700 11400 4700
-Wire Wire Line
-	10400 2350 12150 2350
-Wire Wire Line
-	10400 2450 11900 2450
-Wire Wire Line
-	10400 2550 11650 2550
-Wire Wire Line
-	10400 2650 11400 2650
-Wire Wire Line
-	10400 2750 11150 2750
 $Comp
 L power:GND #PWR?
 U 1 1 618692E6
@@ -1580,49 +667,19 @@ SDA
 Text GLabel 16750 2150 0    50   Input ~ 0
 SCL
 Wire Wire Line
-	18150 2750 19000 2750
-Wire Wire Line
-	18150 2650 19250 2650
-Wire Wire Line
-	18150 2550 19500 2550
-Wire Wire Line
-	18150 2450 19750 2450
-Wire Wire Line
-	18150 2250 20250 2250
-Wire Wire Line
-	18150 2150 20500 2150
-Wire Wire Line
-	18150 2050 20750 2050
-Wire Wire Line
-	18150 2350 20000 2350
-Wire Wire Line
 	18700 2950 18700 4100
-Wire Wire Line
-	18700 4100 20750 4100
 Wire Wire Line
 	18650 3050 18650 4200
 Wire Wire Line
-	18650 4200 20500 4200
-Wire Wire Line
 	18600 3150 18600 4300
-Wire Wire Line
-	18600 4300 20250 4300
 Wire Wire Line
 	18550 3250 18550 4400
 Wire Wire Line
-	18550 4400 20000 4400
-Wire Wire Line
 	18500 3350 18500 4500
-Wire Wire Line
-	18500 4500 19750 4500
 Wire Wire Line
 	18450 3450 18450 4600
 Wire Wire Line
-	18450 4600 19500 4600
-Wire Wire Line
 	18400 3550 18400 4700
-Wire Wire Line
-	18400 4700 19250 4700
 $Comp
 L Device:C C1
 U 1 1 6193EB6F
@@ -1653,10 +710,10 @@ Wire Wire Line
 Wire Wire Line
 	11050 1750 11050 1800
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 6196629B
 P 18300 1750
-F 0 "C?" V 18048 1750 50  0000 C CNN
+F 0 "C2" V 18048 1750 50  0000 C CNN
 F 1 "100nF" V 18139 1750 50  0000 C CNN
 F 2 "" H 18338 1600 50  0001 C CNN
 F 3 "~" H 18300 1750 50  0001 C CNN
@@ -1718,10 +775,10 @@ Connection ~ 7500 3450
 Wire Wire Line
 	7500 3450 7500 3550
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R3
 U 1 1 619D4336
 P 8950 3900
-F 0 "R?" H 9020 3946 50  0000 L CNN
+F 0 "R3" H 9020 3946 50  0000 L CNN
 F 1 "10k" H 9020 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8880 3900 50  0001 C CNN
 F 3 "~" H 8950 3900 50  0001 C CNN
@@ -1742,10 +799,10 @@ $EndComp
 Wire Wire Line
 	8950 4100 8950 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R2
 U 1 1 619D4343
 P 8700 3900
-F 0 "R?" H 8770 3946 50  0000 L CNN
+F 0 "R2" H 8770 3946 50  0000 L CNN
 F 1 "10k" H 8770 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 3900 50  0001 C CNN
 F 3 "~" H 8700 3900 50  0001 C CNN
@@ -1766,10 +823,10 @@ $EndComp
 Wire Wire Line
 	8700 4100 8700 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R1
 U 1 1 619D4350
 P 8450 3900
-F 0 "R?" H 8520 3946 50  0000 L CNN
+F 0 "R1" H 8520 3946 50  0000 L CNN
 F 1 "10k" H 8520 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 3900 50  0001 C CNN
 F 3 "~" H 8450 3900 50  0001 C CNN
@@ -1847,10 +904,10 @@ Connection ~ 15250 3450
 Wire Wire Line
 	15250 3450 15250 3550
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R6
 U 1 1 61A59AED
 P 16700 3900
-F 0 "R?" H 16770 3946 50  0000 L CNN
+F 0 "R6" H 16770 3946 50  0000 L CNN
 F 1 "10k" H 16770 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 16630 3900 50  0001 C CNN
 F 3 "~" H 16700 3900 50  0001 C CNN
@@ -1871,10 +928,10 @@ $EndComp
 Wire Wire Line
 	16700 4100 16700 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R5
 U 1 1 61A59AFA
 P 16450 3900
-F 0 "R?" H 16520 3946 50  0000 L CNN
+F 0 "R5" H 16520 3946 50  0000 L CNN
 F 1 "10k" H 16520 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 3900 50  0001 C CNN
 F 3 "~" H 16450 3900 50  0001 C CNN
@@ -1895,10 +952,10 @@ $EndComp
 Wire Wire Line
 	16450 4100 16450 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R4
 U 1 1 61A59B07
 P 16200 3900
-F 0 "R?" H 16270 3946 50  0000 L CNN
+F 0 "R4" H 16270 3946 50  0000 L CNN
 F 1 "10k" H 16270 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 16130 3900 50  0001 C CNN
 F 3 "~" H 16200 3900 50  0001 C CNN
@@ -1984,10 +1041,10 @@ Connection ~ 1450 3100
 Wire Wire Line
 	1450 3100 1450 3200
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R12
 U 1 1 61B4F66D
 P 2900 3550
-F 0 "R?" H 2970 3596 50  0000 L CNN
+F 0 "R12" H 2970 3596 50  0000 L CNN
 F 1 "10k" H 2970 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 3550 50  0001 C CNN
 F 3 "~" H 2900 3550 50  0001 C CNN
@@ -2008,10 +1065,10 @@ $EndComp
 Wire Wire Line
 	2900 3750 2900 3700
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R11
 U 1 1 61B4F67A
 P 2650 3550
-F 0 "R?" H 2720 3596 50  0000 L CNN
+F 0 "R11" H 2720 3596 50  0000 L CNN
 F 1 "10k" H 2720 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 3550 50  0001 C CNN
 F 3 "~" H 2650 3550 50  0001 C CNN
@@ -2032,10 +1089,10 @@ $EndComp
 Wire Wire Line
 	2650 3750 2650 3700
 $Comp
-L boneIO---ssr-board-rescue:R-Device R?
+L boneIO---ssr-board-rescue:R-Device R10
 U 1 1 61B4F687
 P 2400 3550
-F 0 "R?" H 2470 3596 50  0000 L CNN
+F 0 "R10" H 2470 3596 50  0000 L CNN
 F 1 "10k" H 2470 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 3550 50  0001 C CNN
 F 3 "~" H 2400 3550 50  0001 C CNN
@@ -3146,4 +2203,77 @@ Text GLabel 15850 8950 2    50   Input ~ 0
 RELAY20
 Text GLabel 15850 9950 2    50   Input ~ 0
 RELAY21
+Wire Wire Line
+	10700 3450 10700 4600
+$Comp
+L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U3
+U 1 1 6557F0FA
+P 13450 4300
+F 0 "U3" H 13450 4867 50  0000 C CNN
+F 1 "ULN2803A" H 13450 4776 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 13500 3650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 13550 4100 50  0001 C CNN
+	1    13450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 4700 13050 4700
+Wire Wire Line
+	10700 4600 13050 4600
+Wire Wire Line
+	10750 4500 13050 4500
+Wire Wire Line
+	10800 4400 13050 4400
+Wire Wire Line
+	10850 4300 13050 4300
+Wire Wire Line
+	10900 4200 13050 4200
+Wire Wire Line
+	10950 4100 13050 4100
+Wire Wire Line
+	10400 2750 13050 2750
+Wire Wire Line
+	10400 2650 13050 2650
+Wire Wire Line
+	10400 2550 13050 2550
+Wire Wire Line
+	10400 2450 13050 2450
+Wire Wire Line
+	10400 2350 13050 2350
+Wire Wire Line
+	10400 2250 13050 2250
+Wire Wire Line
+	10400 2150 13050 2150
+Wire Wire Line
+	10400 2050 13050 2050
+Wire Wire Line
+	18150 2050 20900 2050
+Wire Wire Line
+	18150 2150 20900 2150
+Wire Wire Line
+	18150 2250 20900 2250
+Wire Wire Line
+	18150 2350 20900 2350
+Wire Wire Line
+	18150 2450 20900 2450
+Wire Wire Line
+	18150 2550 20900 2550
+Wire Wire Line
+	18150 2650 20900 2650
+Wire Wire Line
+	18150 2750 20900 2750
+Wire Wire Line
+	18700 4100 20900 4100
+Wire Wire Line
+	18650 4200 20900 4200
+Wire Wire Line
+	18600 4300 20900 4300
+Wire Wire Line
+	18550 4400 20900 4400
+Wire Wire Line
+	18500 4500 20900 4500
+Wire Wire Line
+	18450 4600 20900 4600
+Wire Wire Line
+	18400 4700 20900 4700
 $EndSCHEMATC
