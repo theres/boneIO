@@ -129,11 +129,11 @@ X ~ 6 300 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_+24V-power
+# boneIO---relay-board-30x5A-rescue_+24V-power-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_+24V-power #PWR 0 0 Y Y 1 F P
+DEF boneIO---relay-board-30x5A-rescue_+24V-power-boneIO---ssr-board-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "boneIO---ssr-board-rescue_+24V-power" 0 140 50 H V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_+24V-power-boneIO---ssr-board-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -144,11 +144,11 @@ X +24V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_+3V3-power
+# boneIO---relay-board-30x5A-rescue_+3V3-power-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+DEF boneIO---relay-board-30x5A-rescue_+3V3-power-boneIO---ssr-board-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "boneIO---ssr-board-rescue_+3V3-power" 0 140 50 H V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_+3V3-power-boneIO---ssr-board-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -159,11 +159,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_Conn_02x13_Odd_Even-Connector_Generic
+# boneIO---relay-board-30x5A-rescue_Conn_02x13_Odd_Even-Connector_Generic-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_Conn_02x13_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF boneIO---relay-board-30x5A-rescue_Conn_02x13_Odd_Even-Connector_Generic-boneIO---ssr-board-rescue J 0 40 Y N 1 F N
 F0 "J" 50 700 50 H V C CNN
-F1 "boneIO---ssr-board-rescue_Conn_02x13_Odd_Even-Connector_Generic" 50 -700 50 H V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_Conn_02x13_Odd_Even-Connector_Generic-boneIO---ssr-board-rescue" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -226,11 +226,11 @@ X Pin_9 9 -200 200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_GND-power
+# boneIO---relay-board-30x5A-rescue_GND-power-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF boneIO---relay-board-30x5A-rescue_GND-power-boneIO---ssr-board-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "boneIO---ssr-board-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_GND-power-boneIO---ssr-board-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -239,11 +239,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_MCP9808_MSOP-Sensor_Temperature
+# boneIO---relay-board-30x5A-rescue_MCP9808_MSOP-Sensor_Temperature-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_MCP9808_MSOP-Sensor_Temperature U 0 20 Y Y 1 F N
+DEF boneIO---relay-board-30x5A-rescue_MCP9808_MSOP-Sensor_Temperature-boneIO---ssr-board-rescue U 0 20 Y Y 1 F N
 F0 "U" -250 450 50 H V C CNN
-F1 "boneIO---ssr-board-rescue_MCP9808_MSOP-Sensor_Temperature" 400 450 50 H V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_MCP9808_MSOP-Sensor_Temperature-boneIO---ssr-board-rescue" 400 450 50 H V C CNN
 F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 0 0 50 H I C CNN
 F3 "" -250 450 50 H I C CNN
 $FPLIST
@@ -262,11 +262,11 @@ X VDD 8 0 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_R-Device
+# boneIO---relay-board-30x5A-rescue_R-Device-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_R-Device R 0 0 N Y 1 F N
+DEF boneIO---relay-board-30x5A-rescue_R-Device-boneIO---ssr-board-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "boneIO---ssr-board-rescue_R-Device" 0 0 50 V V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_R-Device-boneIO---ssr-board-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -279,11 +279,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_Screw_Terminal_01x04-Connector
+# boneIO---relay-board-30x5A-rescue_Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_Screw_Terminal_01x04-Connector J 0 40 Y N 1 F N
+DEF boneIO---relay-board-30x5A-rescue_Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "boneIO---ssr-board-rescue_Screw_Terminal_01x04-Connector" 0 -300 50 H V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -310,11 +310,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# boneIO---ssr-board-rescue_ULN2803A-Transistor_Array
+# boneIO---relay-board-30x5A-rescue_ULN2803A-Transistor_Array-boneIO---ssr-board-rescue
 #
-DEF boneIO---ssr-board-rescue_ULN2803A-Transistor_Array U 0 20 Y Y 1 F N
+DEF boneIO---relay-board-30x5A-rescue_ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U 0 20 Y Y 1 F N
 F0 "U" 0 525 50 H V C CNN
-F1 "boneIO---ssr-board-rescue_ULN2803A-Transistor_Array" 0 450 50 H V C CNN
+F1 "boneIO---relay-board-30x5A-rescue_ULN2803A-Transistor_Array-boneIO---ssr-board-rescue" 0 450 50 H V C CNN
 F2 "" 50 -650 50 H I L CNN
 F3 "" 100 -200 50 H I C CNN
 $FPLIST

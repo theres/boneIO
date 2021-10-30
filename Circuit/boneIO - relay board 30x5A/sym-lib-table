@@ -3,4 +3,5 @@
   (lib (name boneIO---relay-board-rescue)(type Legacy)(uri "${KIPRJMOD}/boneIO - relay board-rescue.lib")(options "")(descr "")(disabled))
   (lib (name boneIO---ssr-board-rescue)(type Legacy)(uri "${KIPRJMOD}/boneIO - ssr board-rescue.lib")(options "")(descr ""))
   (lib (name HF46F)(type Legacy)(uri ${KIPRJMOD}/HF46/HF46F.lib)(options "")(descr ""))
+  (lib (name boneIO---relay-board-30x5A-rescue)(type Legacy)(uri "${KIPRJMOD}/boneIO - relay board 30x5A-rescue.lib")(options "")(descr ""))
 )

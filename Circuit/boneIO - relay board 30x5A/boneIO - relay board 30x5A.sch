@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J9
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J9
 U 1 1 656F8F11
 P 17750 8250
 F 0 "J9" H 17668 7825 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 17750 8250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J10
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J10
 U 1 1 656F8F59
 P 17750 11800
 F 0 "J10" H 17668 11375 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "~" H 17750 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J7
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J7
 U 1 1 6557F0D6
 P 17000 8150
 F 0 "J7" H 16918 7725 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "~" H 17000 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J8
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J8
 U 1 1 6557F090
 P 17000 11700
 F 0 "J8" H 16918 11275 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "~" H 17000 11700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J6
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J6
 U 1 1 6557F046
 P 10500 11800
 F 0 "J6" H 10418 11375 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "~" H 10500 11800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J5
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J5
 U 1 1 6557EFFE
 P 10500 8150
 F 0 "J5" H 10418 7725 50  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "~" H 10500 8150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J3
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J3
 U 1 1 650CB5EA
 P 9800 8150
 F 0 "J3" H 9718 7725 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "~" H 9800 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J4
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J4
 U 1 1 650CB630
 P 9800 11700
 F 0 "J4" H 9718 11275 50  0000 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 9800 11700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J2
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J2
 U 1 1 64E84F2A
 P 2300 12050
 F 0 "J2" H 2218 11625 50  0000 C CNN
@@ -113,7 +113,7 @@ F 3 "~" H 2300 12050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:Screw_Terminal_01x04-Connector J1
+L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J1
 U 1 1 6266FFD7
 P 2300 8500
 F 0 "J1" H 2218 8075 50  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "~" H 2300 8500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR029
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR029
 U 1 1 691065EF
 P 13450 3100
 F 0 "#PWR029" H 13450 2850 50  0001 C CNN
@@ -137,7 +137,7 @@ $EndComp
 Wire Wire Line
 	13450 2950 13450 3100
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR055
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR055
 U 1 1 6915DFE8
 P 21300 3100
 F 0 "#PWR055" H 21300 2850 50  0001 C CNN
@@ -150,7 +150,7 @@ $EndComp
 Wire Wire Line
 	21300 2950 21300 3100
 $Comp
-L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U2
+L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U2
 U 1 1 6384F332
 P 13450 2250
 F 0 "U2" H 13450 2817 50  0000 C CNN
@@ -177,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2750 6750 2750
 $Comp
-L boneIO---ssr-board-rescue:Conn_02x13_Odd_Even-Connector_Generic J11
+L boneIO---relay-board-30x5A-rescue:Conn_02x13_Odd_Even-Connector_Generic-boneIO---ssr-board-rescue J11
 U 1 1 6928CDF2
 P 5650 3350
 F 0 "J11" H 5700 4167 50  0000 C CNN
@@ -192,7 +192,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 2750 5450 2750
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR022
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR022
 U 1 1 6629E19B
 P 6750 4550
 F 0 "#PWR022" H 6750 4300 50  0001 C CNN
@@ -203,7 +203,7 @@ F 3 "" H 6750 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:+3V3-power #PWR016
+L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR016
 U 1 1 680FD577
 P 4900 2200
 F 0 "#PWR016" H 4900 2050 50  0001 C CNN
@@ -230,7 +230,7 @@ RELAY
 Wire Wire Line
 	6750 2750 6750 3950
 $Comp
-L boneIO---ssr-board-rescue:+24V-power #PWR017
+L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR017
 U 1 1 61A987E9
 P 5100 2200
 F 0 "#PWR017" H 5100 2050 50  0001 C CNN
@@ -241,7 +241,7 @@ F 3 "" H 5100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:MCP9808_MSOP-Sensor_Temperature U1
+L boneIO---relay-board-30x5A-rescue:MCP9808_MSOP-Sensor_Temperature-boneIO---ssr-board-rescue U1
 U 1 1 61B8C06C
 P 3350 3000
 F 0 "U1" H 3794 3046 50  0000 L CNN
@@ -252,7 +252,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 3100 3450 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:R-Device R8
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R8
 U 1 1 61BC2208
 P 2750 2400
 F 0 "R8" H 2820 2446 50  0000 L CNN
@@ -263,7 +263,7 @@ F 3 "~" H 2750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:R-Device R7
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R7
 U 1 1 61BC2F50
 P 2400 2400
 F 0 "R7" H 2470 2446 50  0000 L CNN
@@ -286,7 +286,7 @@ SDA
 Text GLabel 2350 2800 0    50   Input ~ 0
 SCL
 $Comp
-L boneIO---ssr-board-rescue:+3V3-power #PWR07
+L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR07
 U 1 1 61C69064
 P 2400 2200
 F 0 "#PWR07" H 2400 2050 50  0001 C CNN
@@ -297,7 +297,7 @@ F 3 "" H 2400 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:+3V3-power #PWR08
+L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR08
 U 1 1 61C84D23
 P 2750 2200
 F 0 "#PWR08" H 2750 2050 50  0001 C CNN
@@ -308,7 +308,7 @@ F 3 "" H 2750 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:+3V3-power #PWR09
+L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR09
 U 1 1 61CA08D5
 P 3350 2200
 F 0 "#PWR09" H 3350 2050 50  0001 C CNN
@@ -323,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2200 2400 2250
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR010
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR010
 U 1 1 61D4A536
 P 3350 3600
 F 0 "#PWR010" H 3350 3350 50  0001 C CNN
@@ -336,7 +336,7 @@ $EndComp
 Wire Wire Line
 	3350 3500 3350 3600
 $Comp
-L boneIO---ssr-board-rescue:R-Device R9
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R9
 U 1 1 61D83774
 P 3950 2400
 F 0 "R9" H 4020 2446 50  0000 L CNN
@@ -349,7 +349,7 @@ $EndComp
 Wire Wire Line
 	3750 3000 3950 3000
 $Comp
-L boneIO---ssr-board-rescue:+3V3-power #PWR011
+L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR011
 U 1 1 61DBD734
 P 3950 2200
 F 0 "#PWR011" H 3950 2050 50  0001 C CNN
@@ -374,7 +374,7 @@ Connection ~ 2750 2700
 Text Notes 1900 1750 0    197  ~ 39
 MCP9808\n\n
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR045
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR045
 U 1 1 69140973
 P 13450 5250
 F 0 "#PWR045" H 13450 5000 50  0001 C CNN
@@ -387,7 +387,7 @@ $EndComp
 Wire Wire Line
 	13450 5000 13450 5250
 $Comp
-L boneIO---ssr-board-rescue:+24V-power #PWR046
+L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR046
 U 1 1 622A770B
 P 14100 3700
 F 0 "#PWR046" H 14100 3550 50  0001 C CNN
@@ -398,7 +398,7 @@ F 3 "" H 14100 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:+24V-power #PWR034
+L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR034
 U 1 1 6246F7CD
 P 14100 1650
 F 0 "#PWR034" H 14100 1500 50  0001 C CNN
@@ -409,7 +409,7 @@ F 3 "" H 14100 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:+24V-power #PWR060
+L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR060
 U 1 1 6258DFB1
 P 21950 1650
 F 0 "#PWR060" H 21950 1500 50  0001 C CNN
@@ -427,7 +427,7 @@ Wire Wire Line
 Wire Notes Line
 	950  900  22500 900 
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0101
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0101
 U 1 1 61D33FE0
 P 21300 5250
 F 0 "#PWR0101" H 21300 5000 50  0001 C CNN
@@ -444,7 +444,7 @@ Wire Wire Line
 Wire Wire Line
 	21300 5000 21300 5250
 $Comp
-L boneIO---ssr-board-rescue:+24V-power #PWR0102
+L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR0102
 U 1 1 61D3405B
 P 21950 3700
 F 0 "#PWR0102" H 21950 3550 50  0001 C CNN
@@ -487,7 +487,7 @@ RELAY15
 Text GLabel 13850 2750 2    50   Input ~ 0
 RELAY16
 $Comp
-L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U4
+L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U4
 U 1 1 656F900D
 P 21300 2250
 F 0 "U4" H 21300 2817 50  0000 C CNN
@@ -514,7 +514,7 @@ RELAY23
 Text GLabel 21700 2650 2    50   Input ~ 0
 RELAY24
 $Comp
-L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U5
+L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U5
 U 1 1 61D33FEE
 P 21300 4300
 F 0 "U5" H 21300 4867 50  0000 C CNN
@@ -771,7 +771,7 @@ Connection ~ 7500 3450
 Wire Wire Line
 	7500 3450 7500 3550
 $Comp
-L boneIO---ssr-board-rescue:R-Device R3
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R3
 U 1 1 619D4336
 P 8950 3900
 F 0 "R3" H 9020 3946 50  0000 L CNN
@@ -782,7 +782,7 @@ F 3 "~" H 8950 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0110
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0110
 U 1 1 619D433C
 P 8950 4100
 F 0 "#PWR0110" H 8950 3850 50  0001 C CNN
@@ -795,7 +795,7 @@ $EndComp
 Wire Wire Line
 	8950 4100 8950 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R2
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R2
 U 1 1 619D4343
 P 8700 3900
 F 0 "R2" H 8770 3946 50  0000 L CNN
@@ -806,7 +806,7 @@ F 3 "~" H 8700 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0111
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0111
 U 1 1 619D4349
 P 8700 4100
 F 0 "#PWR0111" H 8700 3850 50  0001 C CNN
@@ -819,7 +819,7 @@ $EndComp
 Wire Wire Line
 	8700 4100 8700 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R1
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R1
 U 1 1 619D4350
 P 8450 3900
 F 0 "R1" H 8520 3946 50  0000 L CNN
@@ -830,7 +830,7 @@ F 3 "~" H 8450 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0112
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0112
 U 1 1 619D4356
 P 8450 4100
 F 0 "#PWR0112" H 8450 3850 50  0001 C CNN
@@ -900,7 +900,7 @@ Connection ~ 15250 3450
 Wire Wire Line
 	15250 3450 15250 3550
 $Comp
-L boneIO---ssr-board-rescue:R-Device R6
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R6
 U 1 1 61A59AED
 P 16700 3900
 F 0 "R6" H 16770 3946 50  0000 L CNN
@@ -911,7 +911,7 @@ F 3 "~" H 16700 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0114
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0114
 U 1 1 61A59AF3
 P 16700 4100
 F 0 "#PWR0114" H 16700 3850 50  0001 C CNN
@@ -924,7 +924,7 @@ $EndComp
 Wire Wire Line
 	16700 4100 16700 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R5
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R5
 U 1 1 61A59AFA
 P 16450 3900
 F 0 "R5" H 16520 3946 50  0000 L CNN
@@ -935,7 +935,7 @@ F 3 "~" H 16450 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0115
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0115
 U 1 1 61A59B00
 P 16450 4100
 F 0 "#PWR0115" H 16450 3850 50  0001 C CNN
@@ -948,7 +948,7 @@ $EndComp
 Wire Wire Line
 	16450 4100 16450 4050
 $Comp
-L boneIO---ssr-board-rescue:R-Device R4
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R4
 U 1 1 61A59B07
 P 16200 3900
 F 0 "R4" H 16270 3946 50  0000 L CNN
@@ -959,7 +959,7 @@ F 3 "~" H 16200 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0116
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0116
 U 1 1 61A59B0D
 P 16200 4100
 F 0 "#PWR0116" H 16200 3850 50  0001 C CNN
@@ -1037,7 +1037,7 @@ Connection ~ 1450 3100
 Wire Wire Line
 	1450 3100 1450 3200
 $Comp
-L boneIO---ssr-board-rescue:R-Device R12
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R12
 U 1 1 61B4F66D
 P 2900 3550
 F 0 "R12" H 2970 3596 50  0000 L CNN
@@ -1048,7 +1048,7 @@ F 3 "~" H 2900 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0118
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0118
 U 1 1 61B4F673
 P 2900 3750
 F 0 "#PWR0118" H 2900 3500 50  0001 C CNN
@@ -1061,7 +1061,7 @@ $EndComp
 Wire Wire Line
 	2900 3750 2900 3700
 $Comp
-L boneIO---ssr-board-rescue:R-Device R11
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R11
 U 1 1 61B4F67A
 P 2650 3550
 F 0 "R11" H 2720 3596 50  0000 L CNN
@@ -1072,7 +1072,7 @@ F 3 "~" H 2650 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0119
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0119
 U 1 1 61B4F680
 P 2650 3750
 F 0 "#PWR0119" H 2650 3500 50  0001 C CNN
@@ -1085,7 +1085,7 @@ $EndComp
 Wire Wire Line
 	2650 3750 2650 3700
 $Comp
-L boneIO---ssr-board-rescue:R-Device R10
+L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R10
 U 1 1 61B4F687
 P 2400 3550
 F 0 "R10" H 2470 3596 50  0000 L CNN
@@ -1096,7 +1096,7 @@ F 3 "~" H 2400 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---ssr-board-rescue:GND-power #PWR0120
+L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0120
 U 1 1 61B4F68D
 P 2400 3750
 F 0 "#PWR0120" H 2400 3500 50  0001 C CNN
@@ -2078,7 +2078,7 @@ RELAY21
 Wire Wire Line
 	10700 3450 10700 4600
 $Comp
-L boneIO---ssr-board-rescue:ULN2803A-Transistor_Array U3
+L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U3
 U 1 1 6557F0FA
 P 13450 4300
 F 0 "U3" H 13450 4867 50  0000 C CNN
