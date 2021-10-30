@@ -896,12 +896,6 @@ Wire Wire Line
 	8650 2600 8650 2800
 Text Notes 8500 1400 0    157  ~ 31
 Switch\n\n
-Text Notes 15900 13150 0    157  ~ 31
-Pin_Down_PCB\n\n
-Text GLabel 16950 14700 2    50   Input ~ 0
-SDA
-Text GLabel 16450 14700 0    50   Input ~ 0
-SCL
 Text GLabel 13700 12600 0    50   Input ~ 0
 P9.39
 Text GLabel 13700 12700 0    50   Input ~ 0
@@ -918,72 +912,6 @@ Text GLabel 13700 13200 0    50   Input ~ 0
 P9.33
 Text GLabel 9550 1800 2    50   Input ~ 0
 P9.41
-Wire Wire Line
-	15750 14800 15750 13450
-Wire Wire Line
-	16450 14800 15750 14800
-$Comp
-L power:+3.3V #PWR065
-U 1 1 653C1BB9
-P 15750 13450
-F 0 "#PWR065" H 15750 13300 50  0001 C CNN
-F 1 "+3.3V" H 15765 13623 50  0000 C CNN
-F 2 "" H 15750 13450 50  0001 C CNN
-F 3 "" H 15750 13450 50  0001 C CNN
-	1    15750 13450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR067
-U 1 1 653A44CA
-P 16050 13450
-F 0 "#PWR067" H 16050 13300 50  0001 C CNN
-F 1 "+24V" H 16065 13623 50  0000 C CNN
-F 2 "" H 16050 13450 50  0001 C CNN
-F 3 "" H 16050 13450 50  0001 C CNN
-	1    16050 13450
-	1    0    0    -1  
-$EndComp
-Connection ~ 17400 14800
-Wire Wire Line
-	16950 13600 17400 13600
-Wire Wire Line
-	17400 13600 17400 14800
-Wire Wire Line
-	17400 14800 17400 14850
-Wire Wire Line
-	16950 14800 17400 14800
-$Comp
-L power:GND #PWR074
-U 1 1 6534CE80
-P 17400 14850
-F 0 "#PWR074" H 17400 14600 50  0001 C CNN
-F 1 "GND" H 17405 14677 50  0000 C CNN
-F 2 "" H 17400 14850 50  0001 C CNN
-F 3 "" H 17400 14850 50  0001 C CNN
-	1    17400 14850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16050 13600 16050 13450
-Wire Wire Line
-	16450 13600 16050 13600
-Text GLabel 16950 13700 2    50   Input ~ 0
-P9.42
-Text GLabel 16950 13800 2    50   Input ~ 0
-P9.31
-Text GLabel 16950 13900 2    50   Input ~ 0
-P9.30
-Text GLabel 16950 14000 2    50   Input ~ 0
-P9.29
-Text GLabel 16950 14100 2    50   Input ~ 0
-P9.28
-Text GLabel 16950 14200 2    50   Input ~ 0
-P9.27
-Text GLabel 16950 14300 2    50   Input ~ 0
-P9.25
-Text GLabel 16950 14400 2    50   Input ~ 0
-P9.23
 Text GLabel 11400 2100 0    50   Input ~ 0
 SCL
 Wire Wire Line
@@ -994,26 +922,6 @@ Wire Wire Line
 	12000 2450 12000 2000
 Wire Wire Line
 	12300 1900 12150 1900
-Text GLabel 16450 13700 0    50   Input ~ 0
-P9.11
-Text GLabel 16450 13800 0    50   Input ~ 0
-P9.12
-Text GLabel 16450 13900 0    50   Input ~ 0
-P9.13
-Text GLabel 16450 14000 0    50   Input ~ 0
-P9.14
-Text GLabel 16450 14100 0    50   Input ~ 0
-P9.15
-Text GLabel 16450 14200 0    50   Input ~ 0
-P9.16
-Text GLabel 16450 14500 0    50   Input ~ 0
-P9.17
-Text GLabel 16450 14600 0    50   Input ~ 0
-P9.18
-Text GLabel 16950 14600 2    50   Input ~ 0
-P9.21
-Text GLabel 16950 14500 2    50   Input ~ 0
-P9.22
 Text GLabel 5200 12850 2    50   Input ~ 0
 P8.03
 Text GLabel 5200 11750 2    50   Input ~ 0
@@ -1077,17 +985,6 @@ F 2 "Connector:8pin" H 10250 12800 50  0001 C CNN
 F 3 "~" H 10250 12800 50  0001 C CNN
 	1    10250 12800
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x13_Odd_Even J8
-U 1 1 61AC45D9
-P 16650 14200
-F 0 "J8" H 16700 15017 50  0000 C CNN
-F 1 "Conn_02x13_Odd_Even" H 16700 14926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x13_P2.54mm_Vertical" H 16650 14200 50  0001 C CNN
-F 3 "~" H 16650 14200 50  0001 C CNN
-	1    16650 14200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW1
@@ -4499,10 +4396,6 @@ Wire Wire Line
 	20500 13600 20400 13600
 Wire Wire Line
 	20400 13600 20400 13700
-Text GLabel 16450 14400 0    50   Input ~ 0
-P8.19
-Text GLabel 16450 14300 0    50   Input ~ 0
-P8.13
 Text GLabel 13700 14800 3    50   Input ~ 0
 GND_ADC
 Text GLabel 13600 14800 3    50   Input ~ 0
@@ -5226,4 +5119,91 @@ F 3 "" H 9350 1400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9350 1450 9350 1400
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J12
+U 1 1 61855C49
+P 18750 13950
+F 0 "J12" H 18800 14267 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 18800 14176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 18750 13950 50  0001 C CNN
+F 3 "~" H 18750 13950 50  0001 C CNN
+	1    18750 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0109
+U 1 1 61857D08
+P 19350 13600
+F 0 "#PWR0109" H 19350 13450 50  0001 C CNN
+F 1 "+24V" H 19365 13773 50  0000 C CNN
+F 2 "" H 19350 13600 50  0001 C CNN
+F 3 "" H 19350 13600 50  0001 C CNN
+	1    19350 13600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 61859D3B
+P 19550 13600
+F 0 "#PWR0110" H 19550 13450 50  0001 C CNN
+F 1 "+5V" H 19565 13773 50  0000 C CNN
+F 2 "" H 19550 13600 50  0001 C CNN
+F 3 "" H 19550 13600 50  0001 C CNN
+	1    19550 13600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 6185BCCA
+P 19750 13600
+F 0 "#PWR0111" H 19750 13450 50  0001 C CNN
+F 1 "+3.3V" H 19765 13773 50  0000 C CNN
+F 2 "" H 19750 13600 50  0001 C CNN
+F 3 "" H 19750 13600 50  0001 C CNN
+	1    19750 13600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	19050 13850 19350 13850
+Wire Wire Line
+	19350 13850 19350 13600
+Wire Wire Line
+	19050 13950 19550 13950
+Wire Wire Line
+	19550 13950 19550 13600
+Wire Wire Line
+	19050 14150 19750 14150
+Wire Wire Line
+	19750 14150 19750 13600
+$Comp
+L power:GND #PWR0112
+U 1 1 61C1E0E6
+P 18200 14400
+F 0 "#PWR0112" H 18200 14150 50  0001 C CNN
+F 1 "GND" H 18205 14227 50  0000 C CNN
+F 2 "" H 18200 14400 50  0001 C CNN
+F 3 "" H 18200 14400 50  0001 C CNN
+	1    18200 14400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18550 14150 18200 14150
+Wire Wire Line
+	18200 14150 18200 14400
+Wire Wire Line
+	18550 13850 18200 13850
+Wire Wire Line
+	18200 13850 18200 13950
+Connection ~ 18200 14150
+Wire Wire Line
+	18550 13950 18200 13950
+Connection ~ 18200 13950
+Wire Wire Line
+	18200 13950 18200 14150
+Text GLabel 18550 14050 0    50   Input ~ 0
+SDA
+Text GLabel 19050 14050 2    50   Input ~ 0
+SCL
+Text Notes 18050 13450 0    157  ~ 31
+Pin_Down_PCB\n\n
 $EndSCHEMATC
