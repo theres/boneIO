@@ -169,28 +169,18 @@ Wire Wire Line
 Wire Wire Line
 	21700 1950 21950 1950
 Wire Wire Line
-	5250 3850 5450 3850
-Wire Wire Line
-	5950 3850 6150 3850
-Wire Wire Line
-	4900 3950 5450 3950
-Wire Wire Line
 	5950 2750 6750 2750
 $Comp
-L boneIO---relay-board-30x5A-rescue:Conn_02x13_Odd_Even-Connector_Generic-boneIO---ssr-board-rescue J11
+L Connector_Generic:Conn_02x04_Odd_Even J11
 U 1 1 6928CDF2
-P 5650 3350
-F 0 "J11" H 5700 4167 50  0000 C CNN
-F 1 "Conn_02x13_Odd_Even" H 5700 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 5650 3350 50  0001 C CNN
-F 3 "~" H 5650 3350 50  0001 C CNN
-	1    5650 3350
+P 5650 2850
+F 0 "J11" H 5700 3200 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 5700 3100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+	1    5650 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 2200 5100 2750
-Wire Wire Line
-	5100 2750 5450 2750
 $Comp
 L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR022
 U 1 1 6629E19B
@@ -205,19 +195,17 @@ $EndComp
 $Comp
 L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR016
 U 1 1 680FD577
-P 4900 2200
-F 0 "#PWR016" H 4900 2050 50  0001 C CNN
-F 1 "+3V3" H 4915 2373 50  0000 C CNN
-F 2 "" H 4900 2200 50  0001 C CNN
-F 3 "" H 4900 2200 50  0001 C CNN
-	1    4900 2200
+P 4650 2200
+F 0 "#PWR016" H 4650 2050 50  0001 C CNN
+F 1 "+3V3" H 4665 2373 50  0000 C CNN
+F 2 "" H 4650 2200 50  0001 C CNN
+F 3 "" H 4650 2200 50  0001 C CNN
+	1    4650 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 3950 4900 2200
-Text GLabel 5250 3850 0    50   Input ~ 0
+Text GLabel 5250 2950 0    50   Input ~ 0
 SCL
-Text GLabel 6150 3850 2    50   Input ~ 0
+Text GLabel 6150 2950 2    50   Input ~ 0
 SDA
 Text Notes 5250 1400 0    197  ~ 39
 PINOUT
@@ -228,16 +216,16 @@ Wire Notes Line
 Text Notes 11400 6300 0    197  ~ 39
 RELAY
 Wire Wire Line
-	6750 2750 6750 3950
+	6750 2750 6750 2850
 $Comp
 L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR017
 U 1 1 61A987E9
-P 5100 2200
-F 0 "#PWR017" H 5100 2050 50  0001 C CNN
-F 1 "+24V" H 5115 2373 50  0000 C CNN
-F 2 "" H 5100 2200 50  0001 C CNN
-F 3 "" H 5100 2200 50  0001 C CNN
-	1    5100 2200
+P 5150 2200
+F 0 "#PWR017" H 5150 2050 50  0001 C CNN
+F 1 "+24V" H 5165 2373 50  0000 C CNN
+F 2 "" H 5150 2200 50  0001 C CNN
+F 3 "" H 5150 2200 50  0001 C CNN
+	1    5150 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -419,11 +407,6 @@ F 3 "" H 21950 1650 50  0001 C CNN
 	1    21950 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 3950 6750 3950
-Connection ~ 6750 3950
-Wire Wire Line
-	6750 3950 6750 4550
 Wire Notes Line
 	950  900  22500 900 
 $Comp
@@ -2216,14 +2199,6 @@ Wire Wire Line
 	17950 8250 18250 8250
 Wire Wire Line
 	18250 8250 18250 9700
-Text GLabel 5300 2850 0    50   Input ~ 0
-MCP.1
-Wire Wire Line
-	5300 2850 5450 2850
-Text GLabel 6150 2850 2    50   Input ~ 0
-MCP.2
-Wire Wire Line
-	6150 2850 5950 2850
 $Comp
 L Device:R R13
 U 1 1 61D1E52E
@@ -2318,4 +2293,41 @@ Wire Wire Line
 	18350 8700 18850 8700
 Wire Wire Line
 	18350 7650 18850 7650
+Wire Wire Line
+	4650 2200 4650 3050
+Wire Wire Line
+	4650 3050 5450 3050
+$Comp
+L power:+5V #PWR0131
+U 1 1 6185FB31
+P 4900 2200
+F 0 "#PWR0131" H 4900 2050 50  0001 C CNN
+F 1 "+5V" H 4915 2373 50  0000 C CNN
+F 2 "" H 4900 2200 50  0001 C CNN
+F 3 "" H 4900 2200 50  0001 C CNN
+	1    4900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2200 5150 2750
+Wire Wire Line
+	5150 2750 5450 2750
+Wire Wire Line
+	4900 2200 4900 2850
+Wire Wire Line
+	4900 2850 5450 2850
+Wire Wire Line
+	5950 2850 6750 2850
+Connection ~ 6750 2850
+Wire Wire Line
+	6750 2850 6750 3050
+Wire Wire Line
+	5950 3050 6750 3050
+Connection ~ 6750 3050
+Wire Wire Line
+	6750 3050 6750 4550
+Wire Wire Line
+	5950 2950 6150 2950
+Wire Wire Line
+	5250 2950 5450 2950
 $EndSCHEMATC
