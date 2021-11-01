@@ -14,1104 +14,592 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J9
-U 1 1 656F8F11
-P 17750 8250
-F 0 "J9" H 17668 7825 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 17668 7916 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 17750 8250 50  0001 C CNN
-F 3 "~" H 17750 8250 50  0001 C CNN
-	1    17750 8250
-	-1   0    0    1   
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J10
-U 1 1 656F8F59
-P 17750 11800
-F 0 "J10" H 17668 11375 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 17668 11466 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 17750 11800 50  0001 C CNN
-F 3 "~" H 17750 11800 50  0001 C CNN
-	1    17750 11800
-	-1   0    0    1   
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J7
-U 1 1 6557F0D6
-P 17000 8150
-F 0 "J7" H 16918 7725 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 16918 7816 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 17000 8150 50  0001 C CNN
-F 3 "~" H 17000 8150 50  0001 C CNN
-	1    17000 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J8
-U 1 1 6557F090
-P 17000 11700
-F 0 "J8" H 16918 11275 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 16918 11366 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 17000 11700 50  0001 C CNN
-F 3 "~" H 17000 11700 50  0001 C CNN
-	1    17000 11700
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J6
-U 1 1 6557F046
-P 10500 11800
-F 0 "J6" H 10418 11375 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 10418 11466 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 10500 11800 50  0001 C CNN
-F 3 "~" H 10500 11800 50  0001 C CNN
-	1    10500 11800
-	-1   0    0    1   
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J5
-U 1 1 6557EFFE
-P 10500 8150
-F 0 "J5" H 10418 7725 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 10418 7816 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 10500 8150 50  0001 C CNN
-F 3 "~" H 10500 8150 50  0001 C CNN
-	1    10500 8150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J3
-U 1 1 650CB5EA
-P 9800 8150
-F 0 "J3" H 9718 7725 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 9718 7816 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 9800 8150 50  0001 C CNN
-F 3 "~" H 9800 8150 50  0001 C CNN
-	1    9800 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J4
-U 1 1 650CB630
-P 9800 11700
-F 0 "J4" H 9718 11275 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 9718 11366 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 9800 11700 50  0001 C CNN
-F 3 "~" H 9800 11700 50  0001 C CNN
-	1    9800 11700
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J2
-U 1 1 64E84F2A
-P 2300 12050
-F 0 "J2" H 2218 11625 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 2218 11716 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 2300 12050 50  0001 C CNN
-F 3 "~" H 2300 12050 50  0001 C CNN
-	1    2300 12050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:Screw_Terminal_01x04-Connector-boneIO---ssr-board-rescue J1
+L Connector:Screw_Terminal_01x03 J1
 U 1 1 6266FFD7
 P 2300 8500
 F 0 "J1" H 2218 8075 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 2218 8166 50  0000 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_4-G_1x04_P7.50mm_Horizontal" H 2300 8500 50  0001 C CNN
+F 1 "Screw_Terminal_01x03" H 2218 8166 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 2300 8500 50  0001 C CNN
 F 3 "~" H 2300 8500 50  0001 C CNN
 	1    2300 8500
 	-1   0    0    -1  
 $EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR029
-U 1 1 691065EF
-P 13450 3100
-F 0 "#PWR029" H 13450 2850 50  0001 C CNN
-F 1 "GND" H 13455 2927 50  0000 C CNN
-F 2 "" H 13450 3100 50  0001 C CNN
-F 3 "" H 13450 3100 50  0001 C CNN
-	1    13450 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	13450 2950 13450 3100
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR055
-U 1 1 6915DFE8
-P 21300 3100
-F 0 "#PWR055" H 21300 2850 50  0001 C CNN
-F 1 "GND" H 21305 2927 50  0000 C CNN
-F 2 "" H 21300 3100 50  0001 C CNN
-F 3 "" H 21300 3100 50  0001 C CNN
-	1    21300 3100
-	1    0    0    -1  
-$EndComp
+	5750 2950 5750 3100
 Wire Wire Line
-	21300 2950 21300 3100
+	13000 2950 13000 3100
 $Comp
-L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U2
+L Transistor_Array:ULN2803A U2
 U 1 1 6384F332
-P 13450 2250
-F 0 "U2" H 13450 2817 50  0000 C CNN
-F 1 "ULN2803A" H 13450 2726 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 13500 1600 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 13550 2050 50  0001 C CNN
-	1    13450 2250
+P 5750 2250
+F 0 "U2" H 5750 2817 50  0000 C CNN
+F 1 "ULN2803A" H 5750 2726 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 5800 1600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5850 2050 50  0001 C CNN
+	1    5750 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14100 1950 14100 1650
+	6400 1950 6400 1650
 Wire Wire Line
-	13850 1950 14100 1950
+	6150 1950 6400 1950
 Wire Wire Line
-	21950 1950 21950 1650
+	13650 1950 13650 1650
 Wire Wire Line
-	21700 1950 21950 1950
+	13400 1950 13650 1950
 Wire Wire Line
-	5950 2750 6750 2750
+	21300 2700 22100 2700
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J11
+L Connector_Generic:Conn_02x04_Odd_Even J15
 U 1 1 6928CDF2
-P 5650 2850
-F 0 "J11" H 5700 3200 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 5700 3100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5650 2850 50  0001 C CNN
-F 3 "~" H 5650 2850 50  0001 C CNN
-	1    5650 2850
+P 21000 2800
+F 0 "J15" H 21050 3150 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 21050 3050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 21000 2800 50  0001 C CNN
+F 3 "~" H 21000 2800 50  0001 C CNN
+	1    21000 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR022
-U 1 1 6629E19B
-P 6750 4550
-F 0 "#PWR022" H 6750 4300 50  0001 C CNN
-F 1 "GND" H 6755 4377 50  0000 C CNN
-F 2 "" H 6750 4550 50  0001 C CNN
-F 3 "" H 6750 4550 50  0001 C CNN
-	1    6750 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR016
-U 1 1 680FD577
-P 4650 2200
-F 0 "#PWR016" H 4650 2050 50  0001 C CNN
-F 1 "+3V3" H 4665 2373 50  0000 C CNN
-F 2 "" H 4650 2200 50  0001 C CNN
-F 3 "" H 4650 2200 50  0001 C CNN
-	1    4650 2200
-	1    0    0    -1  
-$EndComp
-Text GLabel 5250 2950 0    50   Input ~ 0
+Text GLabel 20600 2900 0    50   Input ~ 0
 SCL
-Text GLabel 6150 2950 2    50   Input ~ 0
+Text GLabel 21500 2900 2    50   Input ~ 0
 SDA
-Text Notes 5250 1400 0    197  ~ 39
+Text Notes 20600 1350 0    197  ~ 39
 PINOUT
-Text Notes 13150 1350 0    197  ~ 39
+Text Notes 6600 1350 0    197  ~ 39
 MCP23017 and ULN2803A
 Wire Notes Line
 	22500 900  22500 13650
 Text Notes 11400 6300 0    197  ~ 39
-RELAY
+HF46F RELAY
 Wire Wire Line
-	6750 2750 6750 2850
+	22100 2700 22100 2800
 $Comp
-L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR017
-U 1 1 61A987E9
-P 5150 2200
-F 0 "#PWR017" H 5150 2050 50  0001 C CNN
-F 1 "+24V" H 5165 2373 50  0000 C CNN
-F 2 "" H 5150 2200 50  0001 C CNN
-F 3 "" H 5150 2200 50  0001 C CNN
-	1    5150 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:MCP9808_MSOP-Sensor_Temperature-boneIO---ssr-board-rescue U1
+L Sensor_Temperature:MCP9808_MSOP U7
 U 1 1 61B8C06C
-P 3350 3000
-F 0 "U1" H 3794 3046 50  0000 L CNN
-F 1 "MCP9808_MSOP" H 3794 2955 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 3350 3000 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 3100 3450 50  0001 C CNN
-	1    3350 3000
+P 18000 2950
+F 0 "U7" H 18444 2996 50  0000 L CNN
+F 1 "MCP9808_MSOP" H 18444 2905 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 18000 2950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf" H 17750 3400 50  0001 C CNN
+	1    18000 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R8
+L Device:R R12
 U 1 1 61BC2208
-P 2750 2400
-F 0 "R8" H 2820 2446 50  0000 L CNN
-F 1 "4.7k" H 2820 2355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 2400 50  0001 C CNN
-F 3 "~" H 2750 2400 50  0001 C CNN
-	1    2750 2400
+P 17400 2350
+F 0 "R12" H 17470 2396 50  0000 L CNN
+F 1 "4.7k" H 17470 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17330 2350 50  0001 C CNN
+F 3 "~" H 17400 2350 50  0001 C CNN
+	1    17400 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R7
+L Device:R R9
 U 1 1 61BC2F50
-P 2400 2400
-F 0 "R7" H 2470 2446 50  0000 L CNN
-F 1 "4.7k" H 2470 2355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 2400 50  0001 C CNN
-F 3 "~" H 2400 2400 50  0001 C CNN
-	1    2400 2400
+P 17050 2350
+F 0 "R9" H 17120 2396 50  0000 L CNN
+F 1 "4.7k" H 17120 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16980 2350 50  0001 C CNN
+F 3 "~" H 17050 2350 50  0001 C CNN
+	1    17050 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 2700 2750 2700
+	17600 2650 17400 2650
 Wire Wire Line
-	2750 2700 2750 2550
+	17400 2650 17400 2500
 Wire Wire Line
-	2950 2800 2400 2800
+	17600 2750 17050 2750
 Wire Wire Line
-	2400 2800 2400 2550
-Text GLabel 2350 2700 0    50   Input ~ 0
+	17050 2750 17050 2500
+Text GLabel 17000 2650 0    50   Input ~ 0
 SDA
-Text GLabel 2350 2800 0    50   Input ~ 0
+Text GLabel 17000 2750 0    50   Input ~ 0
 SCL
-$Comp
-L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR07
-U 1 1 61C69064
-P 2400 2200
-F 0 "#PWR07" H 2400 2050 50  0001 C CNN
-F 1 "+3V3" H 2415 2373 50  0000 C CNN
-F 2 "" H 2400 2200 50  0001 C CNN
-F 3 "" H 2400 2200 50  0001 C CNN
-	1    2400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR08
-U 1 1 61C84D23
-P 2750 2200
-F 0 "#PWR08" H 2750 2050 50  0001 C CNN
-F 1 "+3V3" H 2765 2373 50  0000 C CNN
-F 2 "" H 2750 2200 50  0001 C CNN
-F 3 "" H 2750 2200 50  0001 C CNN
-	1    2750 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR09
-U 1 1 61CA08D5
-P 3350 2200
-F 0 "#PWR09" H 3350 2050 50  0001 C CNN
-F 1 "+3V3" H 3365 2373 50  0000 C CNN
-F 2 "" H 3350 2200 50  0001 C CNN
-F 3 "" H 3350 2200 50  0001 C CNN
-	1    3350 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2750 2200 2750 2250
+	17400 2150 17400 2200
 Wire Wire Line
-	2400 2200 2400 2250
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR010
-U 1 1 61D4A536
-P 3350 3600
-F 0 "#PWR010" H 3350 3350 50  0001 C CNN
-F 1 "GND" H 3355 3427 50  0000 C CNN
-F 2 "" H 3350 3600 50  0001 C CNN
-F 3 "" H 3350 3600 50  0001 C CNN
-	1    3350 3600
-	1    0    0    -1  
-$EndComp
+	17050 2150 17050 2200
 Wire Wire Line
-	3350 3500 3350 3600
+	18000 3450 18000 3550
 $Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R9
+L Device:R R14
 U 1 1 61D83774
-P 3950 2400
-F 0 "R9" H 4020 2446 50  0000 L CNN
-F 1 "4.7k" H 4020 2355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3880 2400 50  0001 C CNN
-F 3 "~" H 3950 2400 50  0001 C CNN
-	1    3950 2400
+P 18600 2350
+F 0 "R14" H 18670 2396 50  0000 L CNN
+F 1 "4.7k" H 18670 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 18530 2350 50  0001 C CNN
+F 3 "~" H 18600 2350 50  0001 C CNN
+	1    18600 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 3000 3950 3000
-$Comp
-L boneIO---relay-board-30x5A-rescue:+3V3-power-boneIO---ssr-board-rescue #PWR011
-U 1 1 61DBD734
-P 3950 2200
-F 0 "#PWR011" H 3950 2050 50  0001 C CNN
-F 1 "+3V3" H 3965 2373 50  0000 C CNN
-F 2 "" H 3950 2200 50  0001 C CNN
-F 3 "" H 3950 2200 50  0001 C CNN
-	1    3950 2200
-	1    0    0    -1  
-$EndComp
+	18400 2950 18600 2950
 Wire Wire Line
-	3350 2200 3350 2500
+	18000 2150 18000 2450
 Wire Wire Line
-	3950 2250 3950 2200
+	18600 2200 18600 2150
 Wire Wire Line
-	3950 2550 3950 3000
+	18600 2500 18600 2950
 Wire Wire Line
-	2350 2800 2400 2800
-Connection ~ 2400 2800
+	17000 2750 17050 2750
+Connection ~ 17050 2750
 Wire Wire Line
-	2350 2700 2750 2700
-Connection ~ 2750 2700
-Text Notes 1900 1750 0    197  ~ 39
+	17000 2650 17400 2650
+Connection ~ 17400 2650
+Text Notes 16550 1700 0    197  ~ 39
 MCP9808\n\n
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR045
-U 1 1 69140973
-P 13450 5250
-F 0 "#PWR045" H 13450 5000 50  0001 C CNN
-F 1 "GND" H 13455 5077 50  0000 C CNN
-F 2 "" H 13450 5250 50  0001 C CNN
-F 3 "" H 13450 5250 50  0001 C CNN
-	1    13450 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	13450 5000 13450 5250
-$Comp
-L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR046
-U 1 1 622A770B
-P 14100 3700
-F 0 "#PWR046" H 14100 3550 50  0001 C CNN
-F 1 "+24V" H 14115 3873 50  0000 C CNN
-F 2 "" H 14100 3700 50  0001 C CNN
-F 3 "" H 14100 3700 50  0001 C CNN
-	1    14100 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR034
-U 1 1 6246F7CD
-P 14100 1650
-F 0 "#PWR034" H 14100 1500 50  0001 C CNN
-F 1 "+24V" H 14115 1823 50  0000 C CNN
-F 2 "" H 14100 1650 50  0001 C CNN
-F 3 "" H 14100 1650 50  0001 C CNN
-	1    14100 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR060
-U 1 1 6258DFB1
-P 21950 1650
-F 0 "#PWR060" H 21950 1500 50  0001 C CNN
-F 1 "+24V" H 21965 1823 50  0000 C CNN
-F 2 "" H 21950 1650 50  0001 C CNN
-F 3 "" H 21950 1650 50  0001 C CNN
-	1    21950 1650
-	1    0    0    -1  
-$EndComp
+	5750 5000 5750 5250
 Wire Notes Line
 	950  900  22500 900 
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0101
-U 1 1 61D33FE0
-P 21300 5250
-F 0 "#PWR0101" H 21300 5000 50  0001 C CNN
-F 1 "GND" H 21305 5077 50  0000 C CNN
-F 2 "" H 21300 5250 50  0001 C CNN
-F 3 "" H 21300 5250 50  0001 C CNN
-	1    21300 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	21950 4000 21950 3700
+	13650 4000 13650 3700
 Wire Wire Line
-	21700 4000 21950 4000
+	13400 4000 13650 4000
 Wire Wire Line
-	21300 5000 21300 5250
-$Comp
-L boneIO---relay-board-30x5A-rescue:+24V-power-boneIO---ssr-board-rescue #PWR0102
-U 1 1 61D3405B
-P 21950 3700
-F 0 "#PWR0102" H 21950 3550 50  0001 C CNN
-F 1 "+24V" H 21965 3873 50  0000 C CNN
-F 2 "" H 21950 3700 50  0001 C CNN
-F 3 "" H 21950 3700 50  0001 C CNN
-	1    21950 3700
-	1    0    0    -1  
-$EndComp
-Text GLabel 13850 2350 2    50   Input ~ 0
+	13000 5000 13000 5250
+Text GLabel 6150 2750 2    50   Input ~ 0
 RELAY1
-Text GLabel 13850 2250 2    50   Input ~ 0
+Text GLabel 6150 2650 2    50   Input ~ 0
 RELAY2
-Text GLabel 13850 2150 2    50   Input ~ 0
+Text GLabel 6150 2550 2    50   Input ~ 0
 RELAY3
-Text GLabel 13850 2050 2    50   Input ~ 0
+Text GLabel 6150 2450 2    50   Input ~ 0
 RELAY4
-Text GLabel 13850 4400 2    50   Input ~ 0
+Text GLabel 6150 2350 2    50   Input ~ 0
 RELAY5
-Text GLabel 13850 4500 2    50   Input ~ 0
+Text GLabel 6150 2250 2    50   Input ~ 0
 RELAY6
-Text GLabel 13850 4600 2    50   Input ~ 0
+Text GLabel 6150 2150 2    50   Input ~ 0
 RELAY7
-Text GLabel 21700 2350 2    50   Input ~ 0
+Text GLabel 6150 2050 2    50   Input ~ 0
 RELAY8
-Text GLabel 21700 2250 2    50   Input ~ 0
+Text GLabel 13400 2750 2    50   Input ~ 0
 RELAY9
-Text GLabel 21700 2150 2    50   Input ~ 0
+Text GLabel 13400 2650 2    50   Input ~ 0
 RELAY10
-Text GLabel 21700 2050 2    50   Input ~ 0
+Text GLabel 13400 2550 2    50   Input ~ 0
 RELAY11
-Text GLabel 21700 4500 2    50   Input ~ 0
+Text GLabel 13400 2450 2    50   Input ~ 0
 RELAY12
-Text GLabel 21700 4600 2    50   Input ~ 0
+Text GLabel 13400 2350 2    50   Input ~ 0
 RELAY13
-Text GLabel 21700 4700 2    50   Input ~ 0
+Text GLabel 13400 2250 2    50   Input ~ 0
 RELAY14
-Text GLabel 21700 4800 2    50   Input ~ 0
+Text GLabel 13400 2150 2    50   Input ~ 0
 RELAY15
-Text GLabel 13850 2750 2    50   Input ~ 0
+Text GLabel 13400 2050 2    50   Input ~ 0
 RELAY16
 $Comp
-L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U4
+L Transistor_Array:ULN2803A U5
 U 1 1 656F900D
-P 21300 2250
-F 0 "U4" H 21300 2817 50  0000 C CNN
-F 1 "ULN2803A" H 21300 2726 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 21350 1600 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 21400 2050 50  0001 C CNN
-	1    21300 2250
+P 13000 2250
+F 0 "U5" H 13000 2817 50  0000 C CNN
+F 1 "ULN2803A" H 13000 2726 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 13050 1600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 13100 2050 50  0001 C CNN
+	1    13000 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 13850 2650 2    50   Input ~ 0
+Text GLabel 6150 4100 2    50   Input ~ 0
 RELAY17
-Text GLabel 13850 2550 2    50   Input ~ 0
+Text GLabel 6150 4200 2    50   Input ~ 0
 RELAY18
-Text GLabel 13850 2450 2    50   Input ~ 0
+Text GLabel 6150 4300 2    50   Input ~ 0
 RELAY19
-Text GLabel 13850 4100 2    50   Input ~ 0
+Text GLabel 6150 4400 2    50   Input ~ 0
 RELAY20
-Text GLabel 13850 4200 2    50   Input ~ 0
+Text GLabel 6150 4500 2    50   Input ~ 0
 RELAY21
-Text GLabel 13850 4300 2    50   Input ~ 0
+Text GLabel 6150 4600 2    50   Input ~ 0
 RELAY22
-Text GLabel 21700 2750 2    50   Input ~ 0
+Text GLabel 6150 4700 2    50   Input ~ 0
 RELAY23
-Text GLabel 21700 2650 2    50   Input ~ 0
+Text GLabel 6150 4800 2    50   Input ~ 0
 RELAY24
 $Comp
-L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U5
+L Transistor_Array:ULN2803A U6
 U 1 1 61D33FEE
-P 21300 4300
-F 0 "U5" H 21300 4867 50  0000 C CNN
-F 1 "ULN2803A" H 21300 4776 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 21350 3650 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 21400 4100 50  0001 C CNN
-	1    21300 4300
+P 13000 4300
+F 0 "U6" H 13000 4867 50  0000 C CNN
+F 1 "ULN2803A" H 13000 4776 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 13050 3650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 13100 4100 50  0001 C CNN
+	1    13000 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 21700 2550 2    50   Input ~ 0
+Text GLabel 13400 4100 2    50   Input ~ 0
 RELAY25
-Text GLabel 21700 2450 2    50   Input ~ 0
+Text GLabel 13400 4200 2    50   Input ~ 0
 RELAY26
-Text GLabel 21700 4100 2    50   Input ~ 0
+Text GLabel 13400 4300 2    50   Input ~ 0
 RELAY27
-Text GLabel 21700 4200 2    50   Input ~ 0
+Text GLabel 13400 4400 2    50   Input ~ 0
 RELAY28
-Text GLabel 21700 4300 2    50   Input ~ 0
+Text GLabel 13400 4500 2    50   Input ~ 0
 RELAY29
-Text GLabel 21700 4400 2    50   Input ~ 0
+Text GLabel 13400 4600 2    50   Input ~ 0
 RELAY30
+Wire Wire Line
+	4150 2950 4700 2950
+Wire Wire Line
+	4700 2950 4700 4100
+Wire Wire Line
+	4150 3050 4650 3050
+Wire Wire Line
+	4650 3050 4650 4200
+Wire Wire Line
+	4150 3150 4600 3150
+Wire Wire Line
+	4600 3150 4600 4300
+Wire Wire Line
+	4150 3250 4550 3250
+Wire Wire Line
+	4150 3350 4500 3350
+Wire Wire Line
+	4500 3350 4500 4500
+Wire Wire Line
+	4150 3450 4450 3450
 $Comp
-L Interface_Expansion:MCP23017_SS U6
-U 1 1 617B7CC0
-P 9700 2850
-F 0 "U6" H 9700 4131 50  0000 C CNN
-F 1 "MCP23017_SS" H 9700 4040 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 9900 1850 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 9900 1750 50  0001 L CNN
-	1    9700 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 2950 10950 2950
-Wire Wire Line
-	10950 2950 10950 4100
-Wire Wire Line
-	10400 3050 10900 3050
-Wire Wire Line
-	10900 3050 10900 4200
-Wire Wire Line
-	10400 3150 10850 3150
-Wire Wire Line
-	10850 3150 10850 4300
-Wire Wire Line
-	10400 3250 10800 3250
-Wire Wire Line
-	10800 3250 10800 4400
-Wire Wire Line
-	10400 3350 10750 3350
-Wire Wire Line
-	10750 3350 10750 4500
-Wire Wire Line
-	10400 3450 10700 3450
-Wire Wire Line
-	10400 3550 10650 3550
-Wire Wire Line
-	10650 3550 10650 4700
-$Comp
-L power:GND #PWR0103
+L power:GND #PWR06
 U 1 1 618692E6
-P 9700 4150
-F 0 "#PWR0103" H 9700 3900 50  0001 C CNN
-F 1 "GND" H 9705 3977 50  0000 C CNN
-F 2 "" H 9700 4150 50  0001 C CNN
-F 3 "" H 9700 4150 50  0001 C CNN
-	1    9700 4150
+P 3450 4150
+F 0 "#PWR06" H 3450 3900 50  0001 C CNN
+F 1 "GND" H 3455 3977 50  0000 C CNN
+F 2 "" H 3450 4150 50  0001 C CNN
+F 3 "" H 3450 4150 50  0001 C CNN
+	1    3450 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 3950 9700 4150
+	3450 3950 3450 4150
 $Comp
-L power:+3V3 #PWR0104
+L power:+3V3 #PWR07
 U 1 1 6188B748
-P 10250 1650
-F 0 "#PWR0104" H 10250 1500 50  0001 C CNN
-F 1 "+3V3" H 10265 1823 50  0000 C CNN
-F 2 "" H 10250 1650 50  0001 C CNN
-F 3 "" H 10250 1650 50  0001 C CNN
-	1    10250 1650
+P 4000 1650
+F 0 "#PWR07" H 4000 1500 50  0001 C CNN
+F 1 "+3V3" H 4015 1823 50  0000 C CNN
+F 2 "" H 4000 1650 50  0001 C CNN
+F 3 "" H 4000 1650 50  0001 C CNN
+	1    4000 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 1750 10250 1750
+	3450 1750 4000 1750
 Wire Wire Line
-	10250 1750 10250 1650
-Text GLabel 9000 2050 0    50   Input ~ 0
+	4000 1750 4000 1650
+Text GLabel 2750 2050 0    50   Input ~ 0
 SDA
-Text GLabel 9000 2150 0    50   Input ~ 0
+Text GLabel 2750 2150 0    50   Input ~ 0
 SCL
 $Comp
-L Interface_Expansion:MCP23017_SS U7
+L Interface_Expansion:MCP23017_SS U4
 U 1 1 618E0AF8
-P 17450 2850
-F 0 "U7" H 17450 4131 50  0000 C CNN
-F 1 "MCP23017_SS" H 17450 4040 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 17650 1850 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 17650 1750 50  0001 L CNN
-	1    17450 2850
+P 10600 2850
+F 0 "U4" H 10600 4131 50  0000 C CNN
+F 1 "MCP23017_SS" H 10600 4040 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 10800 1850 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 10800 1750 50  0001 L CNN
+	1    10600 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18150 2950 18700 2950
+	11300 2950 11850 2950
 Wire Wire Line
-	18150 3050 18650 3050
+	11300 3050 11800 3050
 Wire Wire Line
-	18150 3150 18600 3150
+	11300 3150 11750 3150
 Wire Wire Line
-	18150 3250 18550 3250
+	11300 3250 11700 3250
 Wire Wire Line
-	18150 3350 18500 3350
+	11300 3350 11650 3350
 Wire Wire Line
-	18150 3450 18450 3450
+	11300 3450 11600 3450
 Wire Wire Line
-	18150 3550 18400 3550
+	11300 3550 11550 3550
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR026
 U 1 1 618E0B0D
-P 17450 4150
-F 0 "#PWR0105" H 17450 3900 50  0001 C CNN
-F 1 "GND" H 17455 3977 50  0000 C CNN
-F 2 "" H 17450 4150 50  0001 C CNN
-F 3 "" H 17450 4150 50  0001 C CNN
-	1    17450 4150
+P 10600 4150
+F 0 "#PWR026" H 10600 3900 50  0001 C CNN
+F 1 "GND" H 10605 3977 50  0000 C CNN
+F 2 "" H 10600 4150 50  0001 C CNN
+F 3 "" H 10600 4150 50  0001 C CNN
+	1    10600 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17450 3950 17450 4150
+	10600 3950 10600 4150
 $Comp
-L power:+3V3 #PWR0106
+L power:+3V3 #PWR027
 U 1 1 618E0B14
-P 18000 1650
-F 0 "#PWR0106" H 18000 1500 50  0001 C CNN
-F 1 "+3V3" H 18015 1823 50  0000 C CNN
-F 2 "" H 18000 1650 50  0001 C CNN
-F 3 "" H 18000 1650 50  0001 C CNN
-	1    18000 1650
+P 11150 1650
+F 0 "#PWR027" H 11150 1500 50  0001 C CNN
+F 1 "+3V3" H 11165 1823 50  0000 C CNN
+F 2 "" H 11150 1650 50  0001 C CNN
+F 3 "" H 11150 1650 50  0001 C CNN
+	1    11150 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17450 1750 18000 1750
+	10600 1750 11150 1750
 Wire Wire Line
-	18000 1750 18000 1650
-Text GLabel 16750 2050 0    50   Input ~ 0
+	11150 1750 11150 1650
+Text GLabel 9900 2050 0    50   Input ~ 0
 SDA
-Text GLabel 16750 2150 0    50   Input ~ 0
+Text GLabel 9900 2150 0    50   Input ~ 0
 SCL
 Wire Wire Line
-	18700 2950 18700 4100
+	11850 2950 11850 4100
 Wire Wire Line
-	18650 3050 18650 4200
+	11800 3050 11800 4200
 Wire Wire Line
-	18600 3150 18600 4300
+	11750 3150 11750 4300
 Wire Wire Line
-	18550 3250 18550 4400
+	11700 3250 11700 4400
 Wire Wire Line
-	18500 3350 18500 4500
+	11650 3350 11650 4500
 Wire Wire Line
-	18450 3450 18450 4600
+	11600 3450 11600 4600
 Wire Wire Line
-	18400 3550 18400 4700
+	11550 3550 11550 4700
 $Comp
 L Device:C C1
 U 1 1 6193EB6F
-P 10600 1750
-F 0 "C1" V 10348 1750 50  0000 C CNN
-F 1 "100nF" V 10439 1750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10638 1600 50  0001 C CNN
-F 3 "~" H 10600 1750 50  0001 C CNN
-	1    10600 1750
+P 4350 1750
+F 0 "C1" V 4098 1750 50  0000 C CNN
+F 1 "100nF" V 4189 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 1600 50  0001 C CNN
+F 3 "~" H 4350 1750 50  0001 C CNN
+	1    4350 1750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10450 1750 10250 1750
-Connection ~ 10250 1750
+	4200 1750 4000 1750
+Connection ~ 4000 1750
 $Comp
-L power:GND #PWR0107
+L power:GND #PWR011
 U 1 1 6195895D
-P 11050 1800
-F 0 "#PWR0107" H 11050 1550 50  0001 C CNN
-F 1 "GND" H 11055 1627 50  0000 C CNN
-F 2 "" H 11050 1800 50  0001 C CNN
-F 3 "" H 11050 1800 50  0001 C CNN
-	1    11050 1800
+P 4800 1800
+F 0 "#PWR011" H 4800 1550 50  0001 C CNN
+F 1 "GND" H 4805 1627 50  0000 C CNN
+F 2 "" H 4800 1800 50  0001 C CNN
+F 3 "" H 4800 1800 50  0001 C CNN
+	1    4800 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 1750 11050 1750
+	4500 1750 4800 1750
 Wire Wire Line
-	11050 1750 11050 1800
+	4800 1750 4800 1800
 $Comp
-L Device:C C2
+L Device:C C4
 U 1 1 6196629B
-P 18300 1750
-F 0 "C2" V 18048 1750 50  0000 C CNN
-F 1 "100nF" V 18139 1750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 18338 1600 50  0001 C CNN
-F 3 "~" H 18300 1750 50  0001 C CNN
-	1    18300 1750
+P 11450 1750
+F 0 "C4" V 11198 1750 50  0000 C CNN
+F 1 "100nF" V 11289 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11488 1600 50  0001 C CNN
+F 3 "~" H 11450 1750 50  0001 C CNN
+	1    11450 1750
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0108
+L power:GND #PWR030
 U 1 1 619662A1
-P 18750 1800
-F 0 "#PWR0108" H 18750 1550 50  0001 C CNN
-F 1 "GND" H 18755 1627 50  0000 C CNN
-F 2 "" H 18750 1800 50  0001 C CNN
-F 3 "" H 18750 1800 50  0001 C CNN
-	1    18750 1800
+P 11900 1800
+F 0 "#PWR030" H 11900 1550 50  0001 C CNN
+F 1 "GND" H 11905 1627 50  0000 C CNN
+F 2 "" H 11900 1800 50  0001 C CNN
+F 3 "" H 11900 1800 50  0001 C CNN
+	1    11900 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18450 1750 18750 1750
+	11600 1750 11900 1750
 Wire Wire Line
-	18750 1750 18750 1800
+	11900 1750 11900 1800
 Wire Wire Line
-	18150 1750 18000 1750
-Connection ~ 18000 1750
+	11300 1750 11150 1750
+Connection ~ 11150 1750
 $Comp
 L Switch:SW_DIP_x03 SW1
 U 1 1 6198123F
-P 8000 3650
-F 0 "SW1" H 8000 4117 50  0000 C CNN
-F 1 "SW_DIP_x03" H 8000 4026 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin" H 8000 3650 50  0001 C CNN
-F 3 "~" H 8000 3650 50  0001 C CNN
-	1    8000 3650
+P 1750 3650
+F 0 "SW1" H 1750 4117 50  0000 C CNN
+F 1 "SW_DIP_x03" H 1750 4026 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin" H 1750 3650 50  0001 C CNN
+F 3 "~" H 1750 3650 50  0001 C CNN
+	1    1750 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0109
+L power:+3V3 #PWR01
 U 1 1 619A9DA0
-P 7500 3200
-F 0 "#PWR0109" H 7500 3050 50  0001 C CNN
-F 1 "+3V3" H 7515 3373 50  0000 C CNN
-F 2 "" H 7500 3200 50  0001 C CNN
-F 3 "" H 7500 3200 50  0001 C CNN
-	1    7500 3200
+P 1250 3200
+F 0 "#PWR01" H 1250 3050 50  0001 C CNN
+F 1 "+3V3" H 1265 3373 50  0000 C CNN
+F 2 "" H 1250 3200 50  0001 C CNN
+F 3 "" H 1250 3200 50  0001 C CNN
+	1    1250 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 3200 7500 3450
+	1250 3200 1250 3450
 Wire Wire Line
-	7500 3650 7700 3650
+	1250 3650 1450 3650
 Wire Wire Line
-	7700 3550 7500 3550
-Connection ~ 7500 3550
+	1450 3550 1250 3550
+Connection ~ 1250 3550
 Wire Wire Line
-	7500 3550 7500 3650
+	1250 3550 1250 3650
 Wire Wire Line
-	7700 3450 7500 3450
-Connection ~ 7500 3450
+	1450 3450 1250 3450
+Connection ~ 1250 3450
 Wire Wire Line
-	7500 3450 7500 3550
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R3
-U 1 1 619D4336
-P 8950 3900
-F 0 "R3" H 9020 3946 50  0000 L CNN
-F 1 "10k" H 9020 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8880 3900 50  0001 C CNN
-F 3 "~" H 8950 3900 50  0001 C CNN
-	1    8950 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0110
-U 1 1 619D433C
-P 8950 4100
-F 0 "#PWR0110" H 8950 3850 50  0001 C CNN
-F 1 "GND" H 8955 3927 50  0000 C CNN
-F 2 "" H 8950 4100 50  0001 C CNN
-F 3 "" H 8950 4100 50  0001 C CNN
-	1    8950 4100
-	1    0    0    -1  
-$EndComp
+	1250 3450 1250 3550
 Wire Wire Line
-	8950 4100 8950 4050
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R2
-U 1 1 619D4343
-P 8700 3900
-F 0 "R2" H 8770 3946 50  0000 L CNN
-F 1 "10k" H 8770 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 3900 50  0001 C CNN
-F 3 "~" H 8700 3900 50  0001 C CNN
-	1    8700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0111
-U 1 1 619D4349
-P 8700 4100
-F 0 "#PWR0111" H 8700 3850 50  0001 C CNN
-F 1 "GND" H 8705 3927 50  0000 C CNN
-F 2 "" H 8700 4100 50  0001 C CNN
-F 3 "" H 8700 4100 50  0001 C CNN
-	1    8700 4100
-	1    0    0    -1  
-$EndComp
+	2050 3450 2700 3450
 Wire Wire Line
-	8700 4100 8700 4050
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R1
-U 1 1 619D4350
-P 8450 3900
-F 0 "R1" H 8520 3946 50  0000 L CNN
-F 1 "10k" H 8520 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8380 3900 50  0001 C CNN
-F 3 "~" H 8450 3900 50  0001 C CNN
-	1    8450 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0112
-U 1 1 619D4356
-P 8450 4100
-F 0 "#PWR0112" H 8450 3850 50  0001 C CNN
-F 1 "GND" H 8455 3927 50  0000 C CNN
-F 2 "" H 8450 4100 50  0001 C CNN
-F 3 "" H 8450 4100 50  0001 C CNN
-	1    8450 4100
-	1    0    0    -1  
-$EndComp
+	2050 3550 2450 3550
 Wire Wire Line
-	8450 4100 8450 4050
+	2050 3650 2200 3650
 Wire Wire Line
-	8300 3450 8950 3450
+	2200 3750 2200 3650
+Connection ~ 2200 3650
 Wire Wire Line
-	8300 3550 8700 3550
+	2200 3650 2750 3650
 Wire Wire Line
-	8300 3650 8450 3650
+	2450 3750 2450 3550
+Connection ~ 2450 3550
 Wire Wire Line
-	8450 3750 8450 3650
-Connection ~ 8450 3650
+	2450 3550 2750 3550
 Wire Wire Line
-	8450 3650 9000 3650
+	2700 3750 2700 3450
+Connection ~ 2700 3450
 Wire Wire Line
-	8700 3750 8700 3550
-Connection ~ 8700 3550
-Wire Wire Line
-	8700 3550 9000 3550
-Wire Wire Line
-	8950 3750 8950 3450
-Connection ~ 8950 3450
-Wire Wire Line
-	8950 3450 9000 3450
+	2700 3450 2750 3450
 $Comp
 L Switch:SW_DIP_x03 SW2
 U 1 1 61A59AD9
-P 15750 3650
-F 0 "SW2" H 15750 4117 50  0000 C CNN
-F 1 "SW_DIP_x03" H 15750 4026 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin" H 15750 3650 50  0001 C CNN
-F 3 "~" H 15750 3650 50  0001 C CNN
-	1    15750 3650
+P 8900 3650
+F 0 "SW2" H 8900 4117 50  0000 C CNN
+F 1 "SW_DIP_x03" H 8900 4026 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin" H 8900 3650 50  0001 C CNN
+F 3 "~" H 8900 3650 50  0001 C CNN
+	1    8900 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0113
+L power:+3V3 #PWR021
 U 1 1 61A59ADF
-P 15250 3200
-F 0 "#PWR0113" H 15250 3050 50  0001 C CNN
-F 1 "+3V3" H 15265 3373 50  0000 C CNN
-F 2 "" H 15250 3200 50  0001 C CNN
-F 3 "" H 15250 3200 50  0001 C CNN
-	1    15250 3200
+P 8400 3200
+F 0 "#PWR021" H 8400 3050 50  0001 C CNN
+F 1 "+3V3" H 8415 3373 50  0000 C CNN
+F 2 "" H 8400 3200 50  0001 C CNN
+F 3 "" H 8400 3200 50  0001 C CNN
+	1    8400 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15250 3200 15250 3450
+	8400 3200 8400 3450
 Wire Wire Line
-	15250 3650 15450 3650
+	8400 3650 8600 3650
 Wire Wire Line
-	15450 3550 15250 3550
-Connection ~ 15250 3550
+	8600 3550 8400 3550
+Connection ~ 8400 3550
 Wire Wire Line
-	15250 3550 15250 3650
+	8400 3550 8400 3650
 Wire Wire Line
-	15450 3450 15250 3450
-Connection ~ 15250 3450
+	8600 3450 8400 3450
+Connection ~ 8400 3450
 Wire Wire Line
-	15250 3450 15250 3550
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R6
-U 1 1 61A59AED
-P 16700 3900
-F 0 "R6" H 16770 3946 50  0000 L CNN
-F 1 "10k" H 16770 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 16630 3900 50  0001 C CNN
-F 3 "~" H 16700 3900 50  0001 C CNN
-	1    16700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0114
-U 1 1 61A59AF3
-P 16700 4100
-F 0 "#PWR0114" H 16700 3850 50  0001 C CNN
-F 1 "GND" H 16705 3927 50  0000 C CNN
-F 2 "" H 16700 4100 50  0001 C CNN
-F 3 "" H 16700 4100 50  0001 C CNN
-	1    16700 4100
-	1    0    0    -1  
-$EndComp
+	8400 3450 8400 3550
 Wire Wire Line
-	16700 4100 16700 4050
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R5
-U 1 1 61A59AFA
-P 16450 3900
-F 0 "R5" H 16520 3946 50  0000 L CNN
-F 1 "10k" H 16520 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 3900 50  0001 C CNN
-F 3 "~" H 16450 3900 50  0001 C CNN
-	1    16450 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0115
-U 1 1 61A59B00
-P 16450 4100
-F 0 "#PWR0115" H 16450 3850 50  0001 C CNN
-F 1 "GND" H 16455 3927 50  0000 C CNN
-F 2 "" H 16450 4100 50  0001 C CNN
-F 3 "" H 16450 4100 50  0001 C CNN
-	1    16450 4100
-	1    0    0    -1  
-$EndComp
+	9200 3450 9850 3450
 Wire Wire Line
-	16450 4100 16450 4050
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R4
-U 1 1 61A59B07
-P 16200 3900
-F 0 "R4" H 16270 3946 50  0000 L CNN
-F 1 "10k" H 16270 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 16130 3900 50  0001 C CNN
-F 3 "~" H 16200 3900 50  0001 C CNN
-	1    16200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0116
-U 1 1 61A59B0D
-P 16200 4100
-F 0 "#PWR0116" H 16200 3850 50  0001 C CNN
-F 1 "GND" H 16205 3927 50  0000 C CNN
-F 2 "" H 16200 4100 50  0001 C CNN
-F 3 "" H 16200 4100 50  0001 C CNN
-	1    16200 4100
-	1    0    0    -1  
-$EndComp
+	9200 3550 9600 3550
 Wire Wire Line
-	16200 4100 16200 4050
+	9200 3650 9350 3650
 Wire Wire Line
-	16050 3450 16700 3450
+	9350 3750 9350 3650
+Connection ~ 9350 3650
 Wire Wire Line
-	16050 3550 16450 3550
+	9350 3650 9900 3650
 Wire Wire Line
-	16050 3650 16200 3650
+	9600 3750 9600 3550
+Connection ~ 9600 3550
 Wire Wire Line
-	16200 3750 16200 3650
-Connection ~ 16200 3650
+	9600 3550 9900 3550
 Wire Wire Line
-	16200 3650 16750 3650
+	9850 3750 9850 3450
+Connection ~ 9850 3450
 Wire Wire Line
-	16450 3750 16450 3550
-Connection ~ 16450 3550
-Wire Wire Line
-	16450 3550 16750 3550
-Wire Wire Line
-	16700 3750 16700 3450
-Connection ~ 16700 3450
-Wire Wire Line
-	16700 3450 16750 3450
+	9850 3450 9900 3450
 Wire Notes Line
 	22500 5850 950  5850
 Wire Notes Line
 	950  900  950  13650
-Wire Notes Line
-	4500 900  4500 5850
-Wire Notes Line
-	7050 900  7050 5850
 $Comp
 L Switch:SW_DIP_x03 SW3
 U 1 1 61B4F659
-P 1950 3300
-F 0 "SW3" H 1950 3767 50  0000 C CNN
-F 1 "SW_DIP_x03" H 1950 3676 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin" H 1950 3300 50  0001 C CNN
-F 3 "~" H 1950 3300 50  0001 C CNN
-	1    1950 3300
+P 16600 3250
+F 0 "SW3" H 16600 3717 50  0000 C CNN
+F 1 "SW_DIP_x03" H 16600 3626 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin" H 16600 3250 50  0001 C CNN
+F 3 "~" H 16600 3250 50  0001 C CNN
+	1    16600 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0117
+L power:+3V3 #PWR040
 U 1 1 61B4F65F
-P 1450 2850
-F 0 "#PWR0117" H 1450 2700 50  0001 C CNN
-F 1 "+3V3" H 1465 3023 50  0000 C CNN
-F 2 "" H 1450 2850 50  0001 C CNN
-F 3 "" H 1450 2850 50  0001 C CNN
-	1    1450 2850
+P 16100 2800
+F 0 "#PWR040" H 16100 2650 50  0001 C CNN
+F 1 "+3V3" H 16115 2973 50  0000 C CNN
+F 2 "" H 16100 2800 50  0001 C CNN
+F 3 "" H 16100 2800 50  0001 C CNN
+	1    16100 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 2850 1450 3100
+	16100 2800 16100 3050
 Wire Wire Line
-	1450 3300 1650 3300
+	16100 3250 16300 3250
 Wire Wire Line
-	1650 3200 1450 3200
-Connection ~ 1450 3200
+	16300 3150 16100 3150
+Connection ~ 16100 3150
 Wire Wire Line
-	1450 3200 1450 3300
+	16100 3150 16100 3250
 Wire Wire Line
-	1650 3100 1450 3100
-Connection ~ 1450 3100
+	16300 3050 16100 3050
+Connection ~ 16100 3050
 Wire Wire Line
-	1450 3100 1450 3200
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R12
-U 1 1 61B4F66D
-P 2900 3550
-F 0 "R12" H 2970 3596 50  0000 L CNN
-F 1 "10k" H 2970 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 3550 50  0001 C CNN
-F 3 "~" H 2900 3550 50  0001 C CNN
-	1    2900 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0118
-U 1 1 61B4F673
-P 2900 3750
-F 0 "#PWR0118" H 2900 3500 50  0001 C CNN
-F 1 "GND" H 2905 3577 50  0000 C CNN
-F 2 "" H 2900 3750 50  0001 C CNN
-F 3 "" H 2900 3750 50  0001 C CNN
-	1    2900 3750
-	1    0    0    -1  
-$EndComp
+	16100 3050 16100 3150
 Wire Wire Line
-	2900 3750 2900 3700
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R11
-U 1 1 61B4F67A
-P 2650 3550
-F 0 "R11" H 2720 3596 50  0000 L CNN
-F 1 "10k" H 2720 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 3550 50  0001 C CNN
-F 3 "~" H 2650 3550 50  0001 C CNN
-	1    2650 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0119
-U 1 1 61B4F680
-P 2650 3750
-F 0 "#PWR0119" H 2650 3500 50  0001 C CNN
-F 1 "GND" H 2655 3577 50  0000 C CNN
-F 2 "" H 2650 3750 50  0001 C CNN
-F 3 "" H 2650 3750 50  0001 C CNN
-	1    2650 3750
-	1    0    0    -1  
-$EndComp
+	16900 3050 17550 3050
 Wire Wire Line
-	2650 3750 2650 3700
-$Comp
-L boneIO---relay-board-30x5A-rescue:R-Device-boneIO---ssr-board-rescue R10
-U 1 1 61B4F687
-P 2400 3550
-F 0 "R10" H 2470 3596 50  0000 L CNN
-F 1 "10k" H 2470 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 3550 50  0001 C CNN
-F 3 "~" H 2400 3550 50  0001 C CNN
-	1    2400 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L boneIO---relay-board-30x5A-rescue:GND-power-boneIO---ssr-board-rescue #PWR0120
-U 1 1 61B4F68D
-P 2400 3750
-F 0 "#PWR0120" H 2400 3500 50  0001 C CNN
-F 1 "GND" H 2405 3577 50  0000 C CNN
-F 2 "" H 2400 3750 50  0001 C CNN
-F 3 "" H 2400 3750 50  0001 C CNN
-	1    2400 3750
-	1    0    0    -1  
-$EndComp
+	16900 3150 17300 3150
 Wire Wire Line
-	2400 3750 2400 3700
+	16900 3250 17050 3250
 Wire Wire Line
-	2250 3100 2900 3100
+	17050 3350 17050 3250
+Connection ~ 17050 3250
 Wire Wire Line
-	2250 3200 2650 3200
+	17050 3250 17600 3250
 Wire Wire Line
-	2250 3300 2400 3300
+	17300 3350 17300 3150
+Connection ~ 17300 3150
 Wire Wire Line
-	2400 3400 2400 3300
-Connection ~ 2400 3300
+	17300 3150 17600 3150
 Wire Wire Line
-	2400 3300 2950 3300
+	17550 3350 17550 3050
+Connection ~ 17550 3050
 Wire Wire Line
-	2650 3400 2650 3200
-Connection ~ 2650 3200
-Wire Wire Line
-	2650 3200 2950 3200
-Wire Wire Line
-	2900 3400 2900 3100
-Connection ~ 2900 3100
-Wire Wire Line
-	2900 3100 2950 3100
+	17550 3050 17600 3050
 $Comp
 L HF46F:HF46F K1
 U 1 1 61B88957
@@ -1140,20 +628,6 @@ F 6 "HF46F" H 4050 8450 50  0001 L CNN "Manufacturer_Part_Number"
 	1    3400 8850
 	1    0    0    -1  
 $EndComp
-$Comp
-L HF46F:HF46F K3
-U 1 1 61B8B9F9
-P 3400 9850
-F 0 "K3" H 3800 10115 50  0000 C CNN
-F 1 "HF46F" H 3800 10024 50  0000 C CNN
-F 2 "HF46F:HF46F" H 4050 9950 50  0001 L CNN
-F 3 "" H 4050 9850 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 4050 9750 50  0001 L CNN "Description"
-F 5 "Hongfa" H 4050 9550 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 4050 9450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3400 9850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 8400 3000 8400
 Wire Wire Line
@@ -1166,11 +640,6 @@ Wire Wire Line
 	3000 8950 3400 8950
 Connection ~ 3000 8400
 Wire Wire Line
-	3000 8950 3000 9950
-Wire Wire Line
-	3000 9950 3400 9950
-Connection ~ 3000 8950
-Wire Wire Line
 	2500 8500 3100 8500
 Wire Wire Line
 	3100 8500 3100 8000
@@ -1178,15 +647,11 @@ Wire Wire Line
 	2500 8600 2900 8600
 Wire Wire Line
 	2900 8600 2900 9050
-Wire Wire Line
-	2500 8700 2800 8700
-Wire Wire Line
-	2800 8700 2800 10050
 $Comp
-L power:+24V #PWR0121
+L power:+24V #PWR08
 U 1 1 61C3CA19
 P 4350 7300
-F 0 "#PWR0121" H 4350 7150 50  0001 C CNN
+F 0 "#PWR08" H 4350 7150 50  0001 C CNN
 F 1 "+24V" H 4365 7473 50  0000 C CNN
 F 2 "" H 4350 7300 50  0001 C CNN
 F 3 "" H 4350 7300 50  0001 C CNN
@@ -1196,12 +661,7 @@ $EndComp
 Wire Wire Line
 	4350 7300 4350 7800
 Wire Wire Line
-	4350 9850 4200 9850
-Wire Wire Line
 	4200 8850 4350 8850
-Connection ~ 4350 8850
-Wire Wire Line
-	4350 8850 4350 9850
 Wire Wire Line
 	4200 7800 4350 7800
 Connection ~ 4350 7800
@@ -1211,1123 +671,2013 @@ Text GLabel 3400 7800 0    50   Input ~ 0
 RELAY1
 Text GLabel 3400 8850 0    50   Input ~ 0
 RELAY2
-Text GLabel 3400 9850 0    50   Input ~ 0
-RELAY3
+Wire Wire Line
+	4450 3450 4450 4600
 $Comp
-L HF46F:HF46F K4
-U 1 1 61C8795B
-P 3400 11350
-F 0 "K4" H 3800 11615 50  0000 C CNN
-F 1 "HF46F" H 3800 11524 50  0000 C CNN
-F 2 "HF46F:HF46F" H 4050 11450 50  0001 L CNN
-F 3 "" H 4050 11350 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 4050 11250 50  0001 L CNN "Description"
-F 5 "Hongfa" H 4050 11050 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 4050 10950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3400 11350
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K5
-U 1 1 61C87964
-P 3400 12400
-F 0 "K5" H 3800 12665 50  0000 C CNN
-F 1 "HF46F" H 3800 12574 50  0000 C CNN
-F 2 "HF46F:HF46F" H 4050 12500 50  0001 L CNN
-F 3 "" H 4050 12400 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 4050 12300 50  0001 L CNN "Description"
-F 5 "Hongfa" H 4050 12100 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 4050 12000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3400 12400
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K6
-U 1 1 61C8796D
-P 3400 13400
-F 0 "K6" H 3800 13665 50  0000 C CNN
-F 1 "HF46F" H 3800 13574 50  0000 C CNN
-F 2 "HF46F:HF46F" H 4050 13500 50  0001 L CNN
-F 3 "" H 4050 13400 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 4050 13300 50  0001 L CNN "Description"
-F 5 "Hongfa" H 4050 13100 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 4050 13000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3400 13400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 11950 3000 11950
-Wire Wire Line
-	3000 11950 3000 11450
-Wire Wire Line
-	3000 11450 3400 11450
-Wire Wire Line
-	3000 11950 3000 12500
-Wire Wire Line
-	3000 12500 3400 12500
-Connection ~ 3000 11950
-Wire Wire Line
-	3000 12500 3000 13500
-Wire Wire Line
-	3000 13500 3400 13500
-Connection ~ 3000 12500
-Wire Wire Line
-	2500 12050 3100 12050
-Wire Wire Line
-	3100 12050 3100 11550
-Wire Wire Line
-	2500 12150 2900 12150
-Wire Wire Line
-	2900 12150 2900 12600
-Wire Wire Line
-	2500 12250 2800 12250
-Wire Wire Line
-	2800 12250 2800 13600
-$Comp
-L power:+24V #PWR0122
-U 1 1 61C87985
-P 4350 10850
-F 0 "#PWR0122" H 4350 10700 50  0001 C CNN
-F 1 "+24V" H 4365 11023 50  0000 C CNN
-F 2 "" H 4350 10850 50  0001 C CNN
-F 3 "" H 4350 10850 50  0001 C CNN
-	1    4350 10850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 10850 4350 11350
-Wire Wire Line
-	4350 13400 4200 13400
-Wire Wire Line
-	4200 12400 4350 12400
-Connection ~ 4350 12400
-Wire Wire Line
-	4350 12400 4350 13400
-Wire Wire Line
-	4200 11350 4350 11350
-Connection ~ 4350 11350
-Wire Wire Line
-	4350 11350 4350 12400
-Text GLabel 3400 11350 0    50   Input ~ 0
-RELAY4
-Text GLabel 3400 12400 0    50   Input ~ 0
-RELAY5
-Text GLabel 3400 13400 0    50   Input ~ 0
-RELAY6
-$Comp
-L HF46F:HF46F K13
-U 1 1 61D30A80
-P 11600 7450
-F 0 "K13" H 12000 7715 50  0000 C CNN
-F 1 "HF46F" H 12000 7624 50  0000 C CNN
-F 2 "HF46F:HF46F" H 12250 7550 50  0001 L CNN
-F 3 "" H 12250 7450 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 12250 7350 50  0001 L CNN "Description"
-F 5 "Hongfa" H 12250 7150 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 12250 7050 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11600 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K14
-U 1 1 61D30A89
-P 11600 8500
-F 0 "K14" H 12000 8765 50  0000 C CNN
-F 1 "HF46F" H 12000 8674 50  0000 C CNN
-F 2 "HF46F:HF46F" H 12250 8600 50  0001 L CNN
-F 3 "" H 12250 8500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 12250 8400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 12250 8200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 12250 8100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11600 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K15
-U 1 1 61D30A92
-P 11600 9500
-F 0 "K15" H 12000 9765 50  0000 C CNN
-F 1 "HF46F" H 12000 9674 50  0000 C CNN
-F 2 "HF46F:HF46F" H 12250 9600 50  0001 L CNN
-F 3 "" H 12250 9500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 12250 9400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 12250 9200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 12250 9100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11600 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 8050 11200 8050
-Wire Wire Line
-	11200 8050 11200 7550
-Wire Wire Line
-	11200 7550 11600 7550
-Wire Wire Line
-	11200 8050 11200 8600
-Wire Wire Line
-	11200 8600 11600 8600
-Connection ~ 11200 8050
-Wire Wire Line
-	11200 8600 11200 9600
-Wire Wire Line
-	11200 9600 11600 9600
-Connection ~ 11200 8600
-Wire Wire Line
-	10700 8150 11300 8150
-Wire Wire Line
-	11300 8150 11300 7650
-Wire Wire Line
-	10700 8250 11100 8250
-Wire Wire Line
-	11100 8250 11100 8700
-Wire Wire Line
-	10700 8350 11000 8350
-Wire Wire Line
-	11000 8350 11000 9700
-$Comp
-L power:+24V #PWR0123
-U 1 1 61D30AAA
-P 12550 6950
-F 0 "#PWR0123" H 12550 6800 50  0001 C CNN
-F 1 "+24V" H 12565 7123 50  0000 C CNN
-F 2 "" H 12550 6950 50  0001 C CNN
-F 3 "" H 12550 6950 50  0001 C CNN
-	1    12550 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12550 6950 12550 7450
-Wire Wire Line
-	12550 9500 12400 9500
-Wire Wire Line
-	12400 8500 12550 8500
-Connection ~ 12550 8500
-Wire Wire Line
-	12550 8500 12550 9500
-Wire Wire Line
-	12400 7450 12550 7450
-Connection ~ 12550 7450
-Wire Wire Line
-	12550 7450 12550 8500
-Text GLabel 11600 7450 0    50   Input ~ 0
-RELAY13
-Text GLabel 11600 8500 0    50   Input ~ 0
-RELAY14
-Text GLabel 11600 9500 0    50   Input ~ 0
-RELAY15
-$Comp
-L HF46F:HF46F K16
-U 1 1 61D4F5E9
-P 11600 11000
-F 0 "K16" H 12000 11265 50  0000 C CNN
-F 1 "HF46F" H 12000 11174 50  0000 C CNN
-F 2 "HF46F:HF46F" H 12250 11100 50  0001 L CNN
-F 3 "" H 12250 11000 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 12250 10900 50  0001 L CNN "Description"
-F 5 "Hongfa" H 12250 10700 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 12250 10600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11600 11000
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K17
-U 1 1 61D4F5F2
-P 11600 12050
-F 0 "K17" H 12000 12315 50  0000 C CNN
-F 1 "HF46F" H 12000 12224 50  0000 C CNN
-F 2 "HF46F:HF46F" H 12250 12150 50  0001 L CNN
-F 3 "" H 12250 12050 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 12250 11950 50  0001 L CNN "Description"
-F 5 "Hongfa" H 12250 11750 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 12250 11650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11600 12050
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K18
-U 1 1 61D4F5FB
-P 11600 13050
-F 0 "K18" H 12000 13315 50  0000 C CNN
-F 1 "HF46F" H 12000 13224 50  0000 C CNN
-F 2 "HF46F:HF46F" H 12250 13150 50  0001 L CNN
-F 3 "" H 12250 13050 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 12250 12950 50  0001 L CNN "Description"
-F 5 "Hongfa" H 12250 12750 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 12250 12650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    11600 13050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11200 11100 11600 11100
-Wire Wire Line
-	11200 12150 11600 12150
-Wire Wire Line
-	11200 12150 11200 13150
-Wire Wire Line
-	11200 13150 11600 13150
-Connection ~ 11200 12150
-$Comp
-L power:+24V #PWR0124
-U 1 1 61D4F613
-P 12550 10500
-F 0 "#PWR0124" H 12550 10350 50  0001 C CNN
-F 1 "+24V" H 12565 10673 50  0000 C CNN
-F 2 "" H 12550 10500 50  0001 C CNN
-F 3 "" H 12550 10500 50  0001 C CNN
-	1    12550 10500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12550 10500 12550 11000
-Wire Wire Line
-	12550 13050 12400 13050
-Wire Wire Line
-	12400 12050 12550 12050
-Connection ~ 12550 12050
-Wire Wire Line
-	12550 12050 12550 13050
-Wire Wire Line
-	12400 11000 12550 11000
-Connection ~ 12550 11000
-Wire Wire Line
-	12550 11000 12550 12050
-Text GLabel 11600 11000 0    50   Input ~ 0
-RELAY16
-Text GLabel 11600 12050 0    50   Input ~ 0
-RELAY17
-Text GLabel 11600 13050 0    50   Input ~ 0
-RELAY18
-$Comp
-L HF46F:HF46F K25
-U 1 1 61D98263
-P 18850 7450
-F 0 "K25" H 19250 7715 50  0000 C CNN
-F 1 "HF46F" H 19250 7624 50  0000 C CNN
-F 2 "HF46F:HF46F" H 19500 7550 50  0001 L CNN
-F 3 "" H 19500 7450 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 19500 7350 50  0001 L CNN "Description"
-F 5 "Hongfa" H 19500 7150 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 19500 7050 50  0001 L CNN "Manufacturer_Part_Number"
-	1    18850 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K26
-U 1 1 61D9826C
-P 18850 8500
-F 0 "K26" H 19250 8765 50  0000 C CNN
-F 1 "HF46F" H 19250 8674 50  0000 C CNN
-F 2 "HF46F:HF46F" H 19500 8600 50  0001 L CNN
-F 3 "" H 19500 8500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 19500 8400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 19500 8200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 19500 8100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    18850 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K27
-U 1 1 61D98275
-P 18850 9500
-F 0 "K27" H 19250 9765 50  0000 C CNN
-F 1 "HF46F" H 19250 9674 50  0000 C CNN
-F 2 "HF46F:HF46F" H 19500 9600 50  0001 L CNN
-F 3 "" H 19500 9500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 19500 9400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 19500 9200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 19500 9100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    18850 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18450 8600 18850 8600
-Wire Wire Line
-	18450 8600 18450 9600
-Wire Wire Line
-	18450 9600 18850 9600
-$Comp
-L power:+24V #PWR0125
-U 1 1 61D9828D
-P 19800 6950
-F 0 "#PWR0125" H 19800 6800 50  0001 C CNN
-F 1 "+24V" H 19815 7123 50  0000 C CNN
-F 2 "" H 19800 6950 50  0001 C CNN
-F 3 "" H 19800 6950 50  0001 C CNN
-	1    19800 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19800 6950 19800 7450
-Wire Wire Line
-	19800 9500 19650 9500
-Wire Wire Line
-	19650 8500 19800 8500
-Connection ~ 19800 8500
-Wire Wire Line
-	19800 8500 19800 9500
-Wire Wire Line
-	19650 7450 19800 7450
-Connection ~ 19800 7450
-Wire Wire Line
-	19800 7450 19800 8500
-Text GLabel 18850 7450 0    50   Input ~ 0
-RELAY25
-Text GLabel 18850 8500 0    50   Input ~ 0
-RELAY26
-Text GLabel 18850 9500 0    50   Input ~ 0
-RELAY27
-$Comp
-L HF46F:HF46F K28
-U 1 1 61DBF07A
-P 18850 11000
-F 0 "K28" H 19250 11265 50  0000 C CNN
-F 1 "HF46F" H 19250 11174 50  0000 C CNN
-F 2 "HF46F:HF46F" H 19500 11100 50  0001 L CNN
-F 3 "" H 19500 11000 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 19500 10900 50  0001 L CNN "Description"
-F 5 "Hongfa" H 19500 10700 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 19500 10600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    18850 11000
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K29
-U 1 1 61DBF083
-P 18850 12050
-F 0 "K29" H 19250 12315 50  0000 C CNN
-F 1 "HF46F" H 19250 12224 50  0000 C CNN
-F 2 "HF46F:HF46F" H 19500 12150 50  0001 L CNN
-F 3 "" H 19500 12050 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 19500 11950 50  0001 L CNN "Description"
-F 5 "Hongfa" H 19500 11750 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 19500 11650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    18850 12050
-	1    0    0    -1  
-$EndComp
-$Comp
-L HF46F:HF46F K30
-U 1 1 61DBF08C
-P 18850 13050
-F 0 "K30" H 19250 13315 50  0000 C CNN
-F 1 "HF46F" H 19250 13224 50  0000 C CNN
-F 2 "HF46F:HF46F" H 19500 13150 50  0001 L CNN
-F 3 "" H 19500 13050 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 19500 12950 50  0001 L CNN "Description"
-F 5 "Hongfa" H 19500 12750 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 19500 12650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    18850 13050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18450 11100 18850 11100
-Wire Wire Line
-	18450 12150 18850 12150
-Wire Wire Line
-	18450 12150 18450 13150
-Wire Wire Line
-	18450 13150 18850 13150
-Connection ~ 18450 12150
-$Comp
-L power:+24V #PWR0126
-U 1 1 61DBF0A4
-P 19800 10500
-F 0 "#PWR0126" H 19800 10350 50  0001 C CNN
-F 1 "+24V" H 19815 10673 50  0000 C CNN
-F 2 "" H 19800 10500 50  0001 C CNN
-F 3 "" H 19800 10500 50  0001 C CNN
-	1    19800 10500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19800 10500 19800 11000
-Wire Wire Line
-	19800 13050 19650 13050
-Wire Wire Line
-	19650 12050 19800 12050
-Connection ~ 19800 12050
-Wire Wire Line
-	19800 12050 19800 13050
-Wire Wire Line
-	19650 11000 19800 11000
-Connection ~ 19800 11000
-Wire Wire Line
-	19800 11000 19800 12050
-Text GLabel 18850 11000 0    50   Input ~ 0
-RELAY28
-Text GLabel 18850 12050 0    50   Input ~ 0
-RELAY29
-Text GLabel 18850 13050 0    50   Input ~ 0
-RELAY30
-$Comp
-L HF46F:HF46F K7
-U 1 1 61DE860D
-P 8650 7900
-F 0 "K7" H 9050 7435 50  0000 C CNN
-F 1 "HF46F" H 9050 7526 50  0000 C CNN
-F 2 "HF46F:HF46F" H 9300 8000 50  0001 L CNN
-F 3 "" H 9300 7900 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 9300 7800 50  0001 L CNN "Description"
-F 5 "Hongfa" H 9300 7600 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 9300 7500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8650 7900
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K9
-U 1 1 61DE861F
-P 8650 9950
-F 0 "K9" H 9050 9485 50  0000 C CNN
-F 1 "HF46F" H 9050 9576 50  0000 C CNN
-F 2 "HF46F:HF46F" H 9300 10050 50  0001 L CNN
-F 3 "" H 9300 9950 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 9300 9850 50  0001 L CNN "Description"
-F 5 "Hongfa" H 9300 9650 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 9300 9550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8650 9950
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K8
-U 1 1 61DE8616
-P 8650 8950
-F 0 "K8" H 9050 8485 50  0000 C CNN
-F 1 "HF46F" H 9050 8576 50  0000 C CNN
-F 2 "HF46F:HF46F" H 9300 9050 50  0001 L CNN
-F 3 "" H 9300 8950 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 9300 8850 50  0001 L CNN "Description"
-F 5 "Hongfa" H 9300 8650 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 9300 8550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8650 8950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9600 8250 8950 8250
-Wire Wire Line
-	8950 8250 8950 8750
-Wire Wire Line
-	9600 8350 9050 8350
-Wire Wire Line
-	9050 8350 9050 9750
-Wire Wire Line
-	9150 8050 9150 7800
-Wire Wire Line
-	9150 7800 8650 7800
-Wire Wire Line
-	9150 8050 9150 8850
-Wire Wire Line
-	9150 9850 8650 9850
-Connection ~ 9150 8050
-Wire Wire Line
-	8650 8850 9150 8850
-Connection ~ 9150 8850
-Wire Wire Line
-	9150 8850 9150 9850
-Wire Wire Line
-	9050 8150 9050 7700
-Wire Wire Line
-	9050 8150 9600 8150
-Wire Wire Line
-	9150 8050 9600 8050
-Wire Wire Line
-	7850 9950 7650 9950
-Wire Wire Line
-	7650 9950 7650 8950
-Wire Wire Line
-	7650 7900 7850 7900
-Wire Wire Line
-	7850 8950 7650 8950
-Connection ~ 7650 8950
-Wire Wire Line
-	7650 8950 7650 7900
-$Comp
-L power:+24V #PWR0127
-U 1 1 624605B7
-P 7650 7300
-F 0 "#PWR0127" H 7650 7150 50  0001 C CNN
-F 1 "+24V" H 7665 7473 50  0000 C CNN
-F 2 "" H 7650 7300 50  0001 C CNN
-F 3 "" H 7650 7300 50  0001 C CNN
-	1    7650 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 7900 7650 7300
-Connection ~ 7650 7900
-Text GLabel 8650 7900 2    50   Input ~ 0
-RELAY7
-Text GLabel 8650 8950 2    50   Input ~ 0
-RELAY8
-Text GLabel 8650 9950 2    50   Input ~ 0
-RELAY9
-$Comp
-L HF46F:HF46F K10
-U 1 1 624964D0
-P 8650 11450
-F 0 "K10" H 9050 10985 50  0000 C CNN
-F 1 "HF46F" H 9050 11076 50  0000 C CNN
-F 2 "HF46F:HF46F" H 9300 11550 50  0001 L CNN
-F 3 "" H 9300 11450 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 9300 11350 50  0001 L CNN "Description"
-F 5 "Hongfa" H 9300 11150 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 9300 11050 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8650 11450
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K12
-U 1 1 624964D9
-P 8650 13500
-F 0 "K12" H 9050 13035 50  0000 C CNN
-F 1 "HF46F" H 9050 13126 50  0000 C CNN
-F 2 "HF46F:HF46F" H 9300 13600 50  0001 L CNN
-F 3 "" H 9300 13500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 9300 13400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 9300 13200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 9300 13100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8650 13500
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K11
-U 1 1 624964E2
-P 8650 12500
-F 0 "K11" H 9050 12035 50  0000 C CNN
-F 1 "HF46F" H 9050 12126 50  0000 C CNN
-F 2 "HF46F:HF46F" H 9300 12600 50  0001 L CNN
-F 3 "" H 9300 12500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 9300 12400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 9300 12200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 9300 12100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8650 12500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9600 11800 8950 11800
-Wire Wire Line
-	8950 11800 8950 12300
-Wire Wire Line
-	9600 11900 9050 11900
-Wire Wire Line
-	9050 11900 9050 13300
-Wire Wire Line
-	9150 11600 9150 11350
-Wire Wire Line
-	9150 11350 8650 11350
-Wire Wire Line
-	9150 11600 9150 12400
-Wire Wire Line
-	9150 13400 8650 13400
-Connection ~ 9150 11600
-Wire Wire Line
-	8650 12400 9150 12400
-Connection ~ 9150 12400
-Wire Wire Line
-	9150 12400 9150 13400
-Wire Wire Line
-	9050 11700 9050 11250
-Wire Wire Line
-	9050 11700 9600 11700
-Wire Wire Line
-	9150 11600 9600 11600
-Wire Wire Line
-	7850 13500 7650 13500
-Wire Wire Line
-	7650 13500 7650 12500
-Wire Wire Line
-	7650 11450 7850 11450
-Wire Wire Line
-	7850 12500 7650 12500
-Connection ~ 7650 12500
-Wire Wire Line
-	7650 12500 7650 11450
-$Comp
-L power:+24V #PWR0128
-U 1 1 62496500
-P 7650 10850
-F 0 "#PWR0128" H 7650 10700 50  0001 C CNN
-F 1 "+24V" H 7665 11023 50  0000 C CNN
-F 2 "" H 7650 10850 50  0001 C CNN
-F 3 "" H 7650 10850 50  0001 C CNN
-	1    7650 10850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 11450 7650 10850
-Connection ~ 7650 11450
-Text GLabel 8650 11450 2    50   Input ~ 0
-RELAY10
-Text GLabel 8650 12500 2    50   Input ~ 0
-RELAY11
-Text GLabel 8650 13500 2    50   Input ~ 0
-RELAY12
-$Comp
-L HF46F:HF46F K22
-U 1 1 624CECF1
-P 15850 13500
-F 0 "K22" H 16250 13035 50  0000 C CNN
-F 1 "HF46F" H 16250 13126 50  0000 C CNN
-F 2 "HF46F:HF46F" H 16500 13600 50  0001 L CNN
-F 3 "" H 16500 13500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 16500 13400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 16500 13200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 16500 13100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    15850 13500
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K24
-U 1 1 624CECFA
-P 15850 11450
-F 0 "K24" H 16250 10985 50  0000 C CNN
-F 1 "HF46F" H 16250 11076 50  0000 C CNN
-F 2 "HF46F:HF46F" H 16500 11550 50  0001 L CNN
-F 3 "" H 16500 11450 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 16500 11350 50  0001 L CNN "Description"
-F 5 "Hongfa" H 16500 11150 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 16500 11050 50  0001 L CNN "Manufacturer_Part_Number"
-	1    15850 11450
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K23
-U 1 1 624CED03
-P 15850 12500
-F 0 "K23" H 16250 12035 50  0000 C CNN
-F 1 "HF46F" H 16250 12126 50  0000 C CNN
-F 2 "HF46F:HF46F" H 16500 12600 50  0001 L CNN
-F 3 "" H 16500 12500 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 16500 12400 50  0001 L CNN "Description"
-F 5 "Hongfa" H 16500 12200 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 16500 12100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    15850 12500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	16800 11800 16150 11800
-Wire Wire Line
-	16150 11800 16150 12300
-Wire Wire Line
-	16800 11900 16250 11900
-Wire Wire Line
-	16250 11900 16250 13300
-Wire Wire Line
-	16350 11600 16350 11350
-Wire Wire Line
-	16350 11350 15850 11350
-Wire Wire Line
-	16350 11600 16350 12400
-Wire Wire Line
-	16350 13400 15850 13400
-Connection ~ 16350 11600
-Wire Wire Line
-	15850 12400 16350 12400
-Connection ~ 16350 12400
-Wire Wire Line
-	16350 12400 16350 13400
-Wire Wire Line
-	16250 11700 16250 11250
-Wire Wire Line
-	16250 11700 16800 11700
-Wire Wire Line
-	16350 11600 16800 11600
-Wire Wire Line
-	15050 13500 14850 13500
-Wire Wire Line
-	14850 13500 14850 12500
-Wire Wire Line
-	14850 11450 15050 11450
-Wire Wire Line
-	15050 12500 14850 12500
-Connection ~ 14850 12500
-Wire Wire Line
-	14850 12500 14850 11450
-$Comp
-L power:+24V #PWR0129
-U 1 1 624CED21
-P 14850 10850
-F 0 "#PWR0129" H 14850 10700 50  0001 C CNN
-F 1 "+24V" H 14865 11023 50  0000 C CNN
-F 2 "" H 14850 10850 50  0001 C CNN
-F 3 "" H 14850 10850 50  0001 C CNN
-	1    14850 10850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14850 11450 14850 10850
-Connection ~ 14850 11450
-Text GLabel 15850 13500 2    50   Input ~ 0
-RELAY22
-Text GLabel 15850 11450 2    50   Input ~ 0
-RELAY24
-$Comp
-L HF46F:HF46F K19
-U 1 1 62508C4A
-P 15850 9950
-F 0 "K19" H 16250 9485 50  0000 C CNN
-F 1 "HF46F" H 16250 9576 50  0000 C CNN
-F 2 "HF46F:HF46F" H 16500 10050 50  0001 L CNN
-F 3 "" H 16500 9950 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 16500 9850 50  0001 L CNN "Description"
-F 5 "Hongfa" H 16500 9650 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 16500 9550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    15850 9950
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K21
-U 1 1 62508C53
-P 15850 7900
-F 0 "K21" H 16250 7435 50  0000 C CNN
-F 1 "HF46F" H 16250 7526 50  0000 C CNN
-F 2 "HF46F:HF46F" H 16500 8000 50  0001 L CNN
-F 3 "" H 16500 7900 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 16500 7800 50  0001 L CNN "Description"
-F 5 "Hongfa" H 16500 7600 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 16500 7500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    15850 7900
-	-1   0    0    1   
-$EndComp
-$Comp
-L HF46F:HF46F K20
-U 1 1 62508C5C
-P 15850 8950
-F 0 "K20" H 16250 8485 50  0000 C CNN
-F 1 "HF46F" H 16250 8576 50  0000 C CNN
-F 2 "HF46F:HF46F" H 16500 9050 50  0001 L CNN
-F 3 "" H 16500 8950 50  0001 L CNN
-F 4 "Sub-miniature intermediate power relay" H 16500 8850 50  0001 L CNN "Description"
-F 5 "Hongfa" H 16500 8650 50  0001 L CNN "Manufacturer_Name"
-F 6 "HF46F" H 16500 8550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    15850 8950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	16800 8250 16150 8250
-Wire Wire Line
-	16150 8250 16150 8750
-Wire Wire Line
-	16800 8350 16250 8350
-Wire Wire Line
-	16250 8350 16250 9750
-Wire Wire Line
-	16350 8050 16350 7800
-Wire Wire Line
-	16350 7800 15850 7800
-Wire Wire Line
-	16350 8050 16350 8850
-Connection ~ 16350 8050
-Wire Wire Line
-	15850 8850 16350 8850
-Connection ~ 16350 8850
-Wire Wire Line
-	16350 8850 16350 9850
-Wire Wire Line
-	16250 8150 16250 7700
-Wire Wire Line
-	16250 8150 16800 8150
-Wire Wire Line
-	16350 8050 16800 8050
-Wire Wire Line
-	15050 9950 14850 9950
-Wire Wire Line
-	14850 9950 14850 8950
-Wire Wire Line
-	14850 7900 15050 7900
-Wire Wire Line
-	15050 8950 14850 8950
-Connection ~ 14850 8950
-Wire Wire Line
-	14850 8950 14850 7900
-$Comp
-L power:+24V #PWR0130
-U 1 1 62508C7A
-P 14850 7300
-F 0 "#PWR0130" H 14850 7150 50  0001 C CNN
-F 1 "+24V" H 14865 7473 50  0000 C CNN
-F 2 "" H 14850 7300 50  0001 C CNN
-F 3 "" H 14850 7300 50  0001 C CNN
-	1    14850 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14850 7900 14850 7300
-Connection ~ 14850 7900
-Text GLabel 15850 9950 2    50   Input ~ 0
-RELAY19
-Text GLabel 15850 8950 2    50   Input ~ 0
-RELAY20
-Text GLabel 15850 7900 2    50   Input ~ 0
-RELAY21
-Wire Wire Line
-	10700 3450 10700 4600
-$Comp
-L boneIO---relay-board-30x5A-rescue:ULN2803A-Transistor_Array-boneIO---ssr-board-rescue U3
+L Transistor_Array:ULN2803A U3
 U 1 1 6557F0FA
-P 13450 4300
-F 0 "U3" H 13450 4867 50  0000 C CNN
-F 1 "ULN2803A" H 13450 4776 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 13500 3650 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 13550 4100 50  0001 C CNN
-	1    13450 4300
+P 5750 4300
+F 0 "U3" H 5750 4867 50  0000 C CNN
+F 1 "ULN2803A" H 5750 4776 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 5800 3650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5850 4100 50  0001 C CNN
+	1    5750 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 4700 13050 4700
+	6150 4000 6400 4000
 Wire Wire Line
-	10700 4600 13050 4600
-Wire Wire Line
-	10750 4500 13050 4500
-Wire Wire Line
-	10800 4400 13050 4400
-Wire Wire Line
-	10850 4300 13050 4300
-Wire Wire Line
-	10900 4200 13050 4200
-Wire Wire Line
-	10950 4100 13050 4100
-Wire Wire Line
-	10400 2750 13050 2750
-Wire Wire Line
-	10400 2650 13050 2650
-Wire Wire Line
-	10400 2550 13050 2550
-Wire Wire Line
-	10400 2450 13050 2450
-Wire Wire Line
-	10400 2350 13050 2350
-Wire Wire Line
-	10400 2250 13050 2250
-Wire Wire Line
-	10400 2150 13050 2150
-Wire Wire Line
-	10400 2050 13050 2050
-Wire Wire Line
-	18150 2050 20900 2050
-Wire Wire Line
-	18150 2150 20900 2150
-Wire Wire Line
-	18150 2250 20900 2250
-Wire Wire Line
-	18150 2350 20900 2350
-Wire Wire Line
-	18150 2450 20900 2450
-Wire Wire Line
-	18150 2550 20900 2550
-Wire Wire Line
-	18150 2650 20900 2650
-Wire Wire Line
-	18150 2750 20900 2750
-Wire Wire Line
-	18700 4100 20900 4100
-Wire Wire Line
-	18650 4200 20900 4200
-Wire Wire Line
-	18600 4300 20900 4300
-Wire Wire Line
-	18550 4400 20900 4400
-Wire Wire Line
-	18500 4500 20900 4500
-Wire Wire Line
-	18450 4600 20900 4600
-Wire Wire Line
-	18400 4700 20900 4700
-Wire Wire Line
-	18450 11100 18450 11900
-Wire Wire Line
-	17950 11900 18450 11900
-Connection ~ 18450 11900
-Wire Wire Line
-	18450 11900 18450 12150
-Wire Wire Line
-	18250 11800 18250 13250
-Wire Wire Line
-	13850 4000 14100 4000
-Wire Wire Line
-	14100 4000 14100 3700
-Wire Wire Line
-	11200 11100 11200 11900
-Wire Wire Line
-	10700 11900 11200 11900
-Connection ~ 11200 11900
-Wire Wire Line
-	11200 11900 11200 12150
-Wire Wire Line
-	10700 11600 11300 11600
-Wire Wire Line
-	11300 11200 11300 11600
-Wire Wire Line
-	10700 11700 11100 11700
-Wire Wire Line
-	11100 11700 11100 12250
-Wire Wire Line
-	10700 11800 11000 11800
-Wire Wire Line
-	11000 11800 11000 13250
-Wire Wire Line
-	15850 9850 16350 9850
-Text GLabel 15850 12500 2    50   Input ~ 0
-RELAY23
-Wire Wire Line
-	17950 11800 18250 11800
-Wire Wire Line
-	18350 11700 18350 12250
-Wire Wire Line
-	17950 11700 18350 11700
-Wire Wire Line
-	17950 11600 18350 11600
-Wire Wire Line
-	18350 11600 18350 11200
-Wire Wire Line
-	18450 8600 18450 8350
-Wire Wire Line
-	18450 7550 18850 7550
-Connection ~ 18450 8600
-Wire Wire Line
-	17950 8350 18450 8350
-Connection ~ 18450 8350
-Wire Wire Line
-	18450 8350 18450 7550
-Wire Wire Line
-	17950 8050 18350 8050
-Wire Wire Line
-	18350 8050 18350 7650
-Wire Wire Line
-	17950 8150 18350 8150
-Wire Wire Line
-	18350 8150 18350 8700
-Wire Wire Line
-	17950 8250 18250 8250
-Wire Wire Line
-	18250 8250 18250 9700
-$Comp
-L Device:R R13
-U 1 1 61D1E52E
-P 14450 4700
-F 0 "R13" V 14243 4700 50  0000 C CNN
-F 1 "0" V 14334 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14380 4700 50  0001 C CNN
-F 3 "~" H 14450 4700 50  0001 C CNN
-	1    14450 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 61D1EDDB
-P 14450 5000
-F 0 "R14" V 14657 5000 50  0000 C CNN
-F 1 "0" V 14566 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14380 5000 50  0001 C CNN
-F 3 "~" H 14450 5000 50  0001 C CNN
-	1    14450 5000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13850 4700 14300 4700
-Wire Wire Line
-	13850 4800 14100 4800
-Wire Wire Line
-	14100 4800 14100 5000
-Wire Wire Line
-	14100 5000 14300 5000
-Text GLabel 14600 4700 2    50   Input ~ 0
-MCP.1
-Text GLabel 14600 5000 2    50   Input ~ 0
-MCP.2
+	6400 4000 6400 3700
 Wire Wire Line
 	3100 8000 3400 8000
 Wire Wire Line
 	2900 9050 3400 9050
 Wire Wire Line
-	2800 10050 3400 10050
+	20000 2150 20000 3000
 Wire Wire Line
-	3100 11550 3400 11550
-Wire Wire Line
-	2900 12600 3400 12600
-Wire Wire Line
-	2800 13600 3400 13600
-Wire Wire Line
-	8650 13300 9050 13300
-Wire Wire Line
-	8650 12300 8950 12300
-Wire Wire Line
-	8650 11250 9050 11250
-Wire Wire Line
-	8650 9750 9050 9750
-Wire Wire Line
-	8650 8750 8950 8750
-Wire Wire Line
-	8650 7700 9050 7700
-Wire Wire Line
-	11300 7650 11600 7650
-Wire Wire Line
-	11100 8700 11600 8700
-Wire Wire Line
-	11000 9700 11600 9700
-Wire Wire Line
-	15850 7700 16250 7700
-Wire Wire Line
-	15850 8750 16150 8750
-Wire Wire Line
-	15850 9750 16250 9750
-Wire Wire Line
-	15850 11250 16250 11250
-Wire Wire Line
-	15850 12300 16150 12300
-Wire Wire Line
-	15850 13300 16250 13300
-Wire Wire Line
-	11300 11200 11600 11200
-Wire Wire Line
-	11100 12250 11600 12250
-Wire Wire Line
-	11000 13250 11600 13250
-Wire Wire Line
-	18250 13250 18850 13250
-Wire Wire Line
-	18350 12250 18850 12250
-Wire Wire Line
-	18350 11200 18850 11200
-Wire Wire Line
-	18250 9700 18850 9700
-Wire Wire Line
-	18350 8700 18850 8700
-Wire Wire Line
-	18350 7650 18850 7650
-Wire Wire Line
-	4650 2200 4650 3050
-Wire Wire Line
-	4650 3050 5450 3050
+	20000 3000 20800 3000
 $Comp
-L power:+5V #PWR0131
+L power:+5V #PWR055
 U 1 1 6185FB31
-P 4900 2200
-F 0 "#PWR0131" H 4900 2050 50  0001 C CNN
-F 1 "+5V" H 4915 2373 50  0000 C CNN
-F 2 "" H 4900 2200 50  0001 C CNN
-F 3 "" H 4900 2200 50  0001 C CNN
-	1    4900 2200
+P 20250 2150
+F 0 "#PWR055" H 20250 2000 50  0001 C CNN
+F 1 "+5V" H 20265 2323 50  0000 C CNN
+F 2 "" H 20250 2150 50  0001 C CNN
+F 3 "" H 20250 2150 50  0001 C CNN
+	1    20250 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 2200 5150 2750
+	20500 2150 20500 2700
 Wire Wire Line
-	5150 2750 5450 2750
+	20500 2700 20800 2700
 Wire Wire Line
-	4900 2200 4900 2850
+	20250 2150 20250 2800
 Wire Wire Line
-	4900 2850 5450 2850
+	20250 2800 20800 2800
 Wire Wire Line
-	5950 2850 6750 2850
-Connection ~ 6750 2850
+	21300 2800 22100 2800
+Connection ~ 22100 2800
 Wire Wire Line
-	6750 2850 6750 3050
+	22100 2800 22100 3000
 Wire Wire Line
-	5950 3050 6750 3050
-Connection ~ 6750 3050
+	21300 3000 22100 3000
 Wire Wire Line
-	6750 3050 6750 4550
+	21300 2900 21500 2900
 Wire Wire Line
-	5950 2950 6150 2950
+	20600 2900 20800 2900
+$Comp
+L Device:R R3
+U 1 1 618178A5
+P 2500 2950
+F 0 "R3" V 2600 2900 50  0000 L CNN
+F 1 "4.7k" V 2700 2875 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 2950 50  0001 C CNN
+F 3 "~" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	5250 2950 5450 2950
+	2650 2950 2750 2950
+$Comp
+L power:+3.3V #PWR02
+U 1 1 618958C7
+P 2175 2800
+F 0 "#PWR02" H 2175 2650 50  0001 C CNN
+F 1 "+3.3V" H 2190 2973 50  0000 C CNN
+F 2 "" H 2175 2800 50  0001 C CNN
+F 3 "" H 2175 2800 50  0001 C CNN
+	1    2175 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2175 2800 2175 2950
+Wire Wire Line
+	2175 2950 2350 2950
+$Comp
+L Device:R R7
+U 1 1 618EB56D
+P 9625 2950
+F 0 "R7" V 9725 2900 50  0000 L CNN
+F 1 "4.7k" V 9825 2875 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9555 2950 50  0001 C CNN
+F 3 "~" H 9625 2950 50  0001 C CNN
+	1    9625 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR022
+U 1 1 618EB574
+P 9300 2800
+F 0 "#PWR022" H 9300 2650 50  0001 C CNN
+F 1 "+3.3V" H 9315 2973 50  0000 C CNN
+F 2 "" H 9300 2800 50  0001 C CNN
+F 3 "" H 9300 2800 50  0001 C CNN
+	1    9300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2800 9300 2950
+Wire Wire Line
+	9300 2950 9475 2950
+Wire Wire Line
+	9775 2950 9900 2950
+$Comp
+L Device:C C3
+U 1 1 6196A1AE
+P 6750 1950
+F 0 "C3" V 6498 1950 50  0000 C CNN
+F 1 "100nF" V 6589 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6788 1800 50  0001 C CNN
+F 3 "~" H 6750 1950 50  0001 C CNN
+	1    6750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6196A1B5
+P 7200 2000
+F 0 "#PWR017" H 7200 1750 50  0001 C CNN
+F 1 "GND" H 7205 1827 50  0000 C CNN
+F 2 "" H 7200 2000 50  0001 C CNN
+F 3 "" H 7200 2000 50  0001 C CNN
+	1    7200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1950 7200 1950
+Wire Wire Line
+	7200 1950 7200 2000
+Wire Wire Line
+	6600 1950 6400 1950
+Connection ~ 6400 1950
+$Comp
+L Device:C C2
+U 1 1 619BD056
+P 6700 4000
+F 0 "C2" V 6448 4000 50  0000 C CNN
+F 1 "100nF" V 6539 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6738 3850 50  0001 C CNN
+F 3 "~" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 619BD05C
+P 7150 4050
+F 0 "#PWR016" H 7150 3800 50  0001 C CNN
+F 1 "GND" H 7155 3877 50  0000 C CNN
+F 2 "" H 7150 4050 50  0001 C CNN
+F 3 "" H 7150 4050 50  0001 C CNN
+	1    7150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4000 7150 4000
+Wire Wire Line
+	7150 4000 7150 4050
+Wire Wire Line
+	6400 4000 6550 4000
+Connection ~ 6400 4000
+$Comp
+L Device:C C5
+U 1 1 61ABB239
+P 13950 1950
+F 0 "C5" V 13698 1950 50  0000 C CNN
+F 1 "100nF" V 13789 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13988 1800 50  0001 C CNN
+F 3 "~" H 13950 1950 50  0001 C CNN
+	1    13950 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 61ABB23F
+P 14400 2000
+F 0 "#PWR038" H 14400 1750 50  0001 C CNN
+F 1 "GND" H 14405 1827 50  0000 C CNN
+F 2 "" H 14400 2000 50  0001 C CNN
+F 3 "" H 14400 2000 50  0001 C CNN
+	1    14400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 1950 14400 1950
+Wire Wire Line
+	14400 1950 14400 2000
+$Comp
+L Device:C C6
+U 1 1 61AE2E06
+P 13950 4000
+F 0 "C6" V 13698 4000 50  0000 C CNN
+F 1 "100nF" V 13789 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13988 3850 50  0001 C CNN
+F 3 "~" H 13950 4000 50  0001 C CNN
+	1    13950 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 61AE2E0C
+P 14400 4050
+F 0 "#PWR039" H 14400 3800 50  0001 C CNN
+F 1 "GND" H 14405 3877 50  0000 C CNN
+F 2 "" H 14400 4050 50  0001 C CNN
+F 3 "" H 14400 4050 50  0001 C CNN
+	1    14400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 4000 14400 4000
+Wire Wire Line
+	14400 4000 14400 4050
+Wire Wire Line
+	13650 1950 13800 1950
+Connection ~ 13650 1950
+Wire Wire Line
+	13650 4000 13800 4000
+Connection ~ 13650 4000
+Wire Wire Line
+	11300 3650 11500 3650
+Wire Wire Line
+	11500 3650 11500 4800
+Wire Notes Line
+	15150 900  15150 5850
+Wire Notes Line
+	19450 900  19450 5850
+Wire Wire Line
+	11300 2050 12600 2050
+Wire Wire Line
+	12600 2150 11300 2150
+Wire Wire Line
+	11300 2250 12600 2250
+Wire Wire Line
+	12600 2350 11300 2350
+Wire Wire Line
+	11300 2450 12600 2450
+Wire Wire Line
+	12600 2550 11300 2550
+Wire Wire Line
+	11300 2650 12600 2650
+Wire Wire Line
+	12600 2750 11300 2750
+Wire Wire Line
+	11850 4100 12600 4100
+Wire Wire Line
+	12600 4200 11800 4200
+Wire Wire Line
+	11750 4300 12600 4300
+Wire Wire Line
+	12600 4400 11700 4400
+Wire Wire Line
+	11650 4500 12600 4500
+Wire Wire Line
+	11600 4600 12600 4600
+Wire Wire Line
+	12600 4700 11550 4700
+Wire Wire Line
+	11500 4800 12600 4800
+Wire Wire Line
+	4150 2050 5350 2050
+Wire Wire Line
+	5350 2150 4150 2150
+Wire Wire Line
+	4150 2250 5350 2250
+Wire Wire Line
+	5350 2350 4150 2350
+Wire Wire Line
+	4150 2450 5350 2450
+Wire Wire Line
+	5350 2550 4150 2550
+Wire Wire Line
+	4150 2650 5350 2650
+Wire Wire Line
+	5350 2750 4150 2750
+Wire Wire Line
+	4700 4100 5350 4100
+Wire Wire Line
+	4650 4200 5350 4200
+Wire Wire Line
+	5350 4300 4600 4300
+Wire Wire Line
+	4550 4400 5350 4400
+Wire Wire Line
+	5350 4500 4500 4500
+Wire Wire Line
+	4450 4600 5350 4600
+$Comp
+L power:+24V #PWR014
+U 1 1 623FF5EE
+P 6400 1650
+F 0 "#PWR014" H 6400 1500 50  0001 C CNN
+F 1 "+24V" H 6415 1823 50  0000 C CNN
+F 2 "" H 6400 1650 50  0001 C CNN
+F 3 "" H 6400 1650 50  0001 C CNN
+	1    6400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR056
+U 1 1 624005A1
+P 20500 2150
+F 0 "#PWR056" H 20500 2000 50  0001 C CNN
+F 1 "+24V" H 20515 2323 50  0000 C CNN
+F 2 "" H 20500 2150 50  0001 C CNN
+F 3 "" H 20500 2150 50  0001 C CNN
+	1    20500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR054
+U 1 1 62401328
+P 20000 2150
+F 0 "#PWR054" H 20000 2000 50  0001 C CNN
+F 1 "+3.3V" H 20015 2323 50  0000 C CNN
+F 2 "" H 20000 2150 50  0001 C CNN
+F 3 "" H 20000 2150 50  0001 C CNN
+	1    20000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR057
+U 1 1 6240259C
+P 22100 4500
+F 0 "#PWR057" H 22100 4250 50  0001 C CNN
+F 1 "GND" H 22105 4327 50  0000 C CNN
+F 2 "" H 22100 4500 50  0001 C CNN
+F 3 "" H 22100 4500 50  0001 C CNN
+	1    22100 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 22100 3000
+Wire Wire Line
+	22100 3000 22100 4500
+$Comp
+L power:+24V #PWR015
+U 1 1 62409A0E
+P 6400 3700
+F 0 "#PWR015" H 6400 3550 50  0001 C CNN
+F 1 "+24V" H 6415 3873 50  0000 C CNN
+F 2 "" H 6400 3700 50  0001 C CNN
+F 3 "" H 6400 3700 50  0001 C CNN
+	1    6400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR036
+U 1 1 6243536F
+P 13650 1650
+F 0 "#PWR036" H 13650 1500 50  0001 C CNN
+F 1 "+24V" H 13665 1823 50  0000 C CNN
+F 2 "" H 13650 1650 50  0001 C CNN
+F 3 "" H 13650 1650 50  0001 C CNN
+	1    13650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR037
+U 1 1 62460BB0
+P 13650 3700
+F 0 "#PWR037" H 13650 3550 50  0001 C CNN
+F 1 "+24V" H 13665 3873 50  0000 C CNN
+F 2 "" H 13650 3700 50  0001 C CNN
+F 3 "" H 13650 3700 50  0001 C CNN
+	1    13650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6248C7F3
+P 5750 5250
+F 0 "#PWR013" H 5750 5000 50  0001 C CNN
+F 1 "GND" H 5755 5077 50  0000 C CNN
+F 2 "" H 5750 5250 50  0001 C CNN
+F 3 "" H 5750 5250 50  0001 C CNN
+	1    5750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 624B8266
+P 5750 3100
+F 0 "#PWR012" H 5750 2850 50  0001 C CNN
+F 1 "GND" H 5755 2927 50  0000 C CNN
+F 2 "" H 5750 3100 50  0001 C CNN
+F 3 "" H 5750 3100 50  0001 C CNN
+	1    5750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3250 4550 4400
+$Comp
+L power:GND #PWR05
+U 1 1 6259534B
+P 2700 4100
+F 0 "#PWR05" H 2700 3850 50  0001 C CNN
+F 1 "GND" H 2705 3927 50  0000 C CNN
+F 2 "" H 2700 4100 50  0001 C CNN
+F 3 "" H 2700 4100 50  0001 C CNN
+	1    2700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 62569A48
+P 2200 4100
+F 0 "#PWR03" H 2200 3850 50  0001 C CNN
+F 1 "GND" H 2205 3927 50  0000 C CNN
+F 2 "" H 2200 4100 50  0001 C CNN
+F 3 "" H 2200 4100 50  0001 C CNN
+	1    2200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 624E3CEE
+P 2450 4100
+F 0 "#PWR04" H 2450 3850 50  0001 C CNN
+F 1 "GND" H 2455 3927 50  0000 C CNN
+F 2 "" H 2450 4100 50  0001 C CNN
+F 3 "" H 2450 4100 50  0001 C CNN
+	1    2450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4100 2200 4050
+$Comp
+L Device:R R1
+U 1 1 619D4350
+P 2200 3900
+F 0 "R1" H 2270 3946 50  0000 L CNN
+F 1 "10k" H 2270 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 3900 50  0001 C CNN
+F 3 "~" H 2200 3900 50  0001 C CNN
+	1    2200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4100 2450 4050
+$Comp
+L Device:R R2
+U 1 1 619D4343
+P 2450 3900
+F 0 "R2" H 2520 3946 50  0000 L CNN
+F 1 "10k" H 2520 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 3900 50  0001 C CNN
+F 3 "~" H 2450 3900 50  0001 C CNN
+	1    2450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4100 2700 4050
+$Comp
+L Device:R R4
+U 1 1 619D4336
+P 2700 3900
+F 0 "R4" H 2770 3946 50  0000 L CNN
+F 1 "10k" H 2770 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 3900 50  0001 C CNN
+F 3 "~" H 2700 3900 50  0001 C CNN
+	1    2700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:MCP23017_SS U1
+U 1 1 617B7CC0
+P 3450 2850
+F 0 "U1" H 3450 4131 50  0000 C CNN
+F 1 "MCP23017_SS" H 3450 4040 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 3650 1850 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3650 1750 50  0001 L CNN
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 6261BF2F
+P 9350 4100
+F 0 "#PWR023" H 9350 3850 50  0001 C CNN
+F 1 "GND" H 9355 3927 50  0000 C CNN
+F 2 "" H 9350 4100 50  0001 C CNN
+F 3 "" H 9350 4100 50  0001 C CNN
+	1    9350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4100 9350 4050
+$Comp
+L Device:R R5
+U 1 1 6261BF36
+P 9350 3900
+F 0 "R5" H 9420 3946 50  0000 L CNN
+F 1 "10k" H 9420 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 3900 50  0001 C CNN
+F 3 "~" H 9350 3900 50  0001 C CNN
+	1    9350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 62647A17
+P 9600 4100
+F 0 "#PWR024" H 9600 3850 50  0001 C CNN
+F 1 "GND" H 9605 3927 50  0000 C CNN
+F 2 "" H 9600 4100 50  0001 C CNN
+F 3 "" H 9600 4100 50  0001 C CNN
+	1    9600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4100 9600 4050
+$Comp
+L Device:R R6
+U 1 1 62647A1E
+P 9600 3900
+F 0 "R6" H 9670 3946 50  0000 L CNN
+F 1 "10k" H 9670 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9530 3900 50  0001 C CNN
+F 3 "~" H 9600 3900 50  0001 C CNN
+	1    9600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 626736DA
+P 9850 4100
+F 0 "#PWR025" H 9850 3850 50  0001 C CNN
+F 1 "GND" H 9855 3927 50  0000 C CNN
+F 2 "" H 9850 4100 50  0001 C CNN
+F 3 "" H 9850 4100 50  0001 C CNN
+	1    9850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4100 9850 4050
+$Comp
+L Device:R R8
+U 1 1 626736E1
+P 9850 3900
+F 0 "R8" H 9920 3946 50  0000 L CNN
+F 1 "10k" H 9920 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9780 3900 50  0001 C CNN
+F 3 "~" H 9850 3900 50  0001 C CNN
+	1    9850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 6269FC11
+P 13000 5250
+F 0 "#PWR032" H 13000 5000 50  0001 C CNN
+F 1 "GND" H 13005 5077 50  0000 C CNN
+F 2 "" H 13000 5250 50  0001 C CNN
+F 3 "" H 13000 5250 50  0001 C CNN
+	1    13000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 626CBBD5
+P 13000 3100
+F 0 "#PWR031" H 13000 2850 50  0001 C CNN
+F 1 "GND" H 13005 2927 50  0000 C CNN
+F 2 "" H 13000 3100 50  0001 C CNN
+F 3 "" H 13000 3100 50  0001 C CNN
+	1    13000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR050
+U 1 1 626F7F40
+P 18000 3550
+F 0 "#PWR050" H 18000 3300 50  0001 C CNN
+F 1 "GND" H 18005 3377 50  0000 C CNN
+F 2 "" H 18000 3550 50  0001 C CNN
+F 3 "" H 18000 3550 50  0001 C CNN
+	1    18000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 6277C4FD
+P 17050 3700
+F 0 "#PWR045" H 17050 3450 50  0001 C CNN
+F 1 "GND" H 17055 3527 50  0000 C CNN
+F 2 "" H 17050 3700 50  0001 C CNN
+F 3 "" H 17050 3700 50  0001 C CNN
+	1    17050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17050 3700 17050 3650
+$Comp
+L Device:R R10
+U 1 1 6277C504
+P 17050 3500
+F 0 "R10" H 17120 3546 50  0000 L CNN
+F 1 "10k" H 17120 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16980 3500 50  0001 C CNN
+F 3 "~" H 17050 3500 50  0001 C CNN
+	1    17050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 627A7D33
+P 17300 3700
+F 0 "#PWR046" H 17300 3450 50  0001 C CNN
+F 1 "GND" H 17305 3527 50  0000 C CNN
+F 2 "" H 17300 3700 50  0001 C CNN
+F 3 "" H 17300 3700 50  0001 C CNN
+	1    17300 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17300 3700 17300 3650
+$Comp
+L Device:R R11
+U 1 1 627A7D3A
+P 17300 3500
+F 0 "R11" H 17370 3546 50  0000 L CNN
+F 1 "10k" H 17370 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17230 3500 50  0001 C CNN
+F 3 "~" H 17300 3500 50  0001 C CNN
+	1    17300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR048
+U 1 1 627D3710
+P 17550 3700
+F 0 "#PWR048" H 17550 3450 50  0001 C CNN
+F 1 "GND" H 17555 3527 50  0000 C CNN
+F 2 "" H 17550 3700 50  0001 C CNN
+F 3 "" H 17550 3700 50  0001 C CNN
+	1    17550 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17550 3700 17550 3650
+$Comp
+L Device:R R13
+U 1 1 627D3717
+P 17550 3500
+F 0 "R13" H 17620 3546 50  0000 L CNN
+F 1 "10k" H 17620 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17480 3500 50  0001 C CNN
+F 3 "~" H 17550 3500 50  0001 C CNN
+	1    17550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR044
+U 1 1 627FF641
+P 17050 2150
+F 0 "#PWR044" H 17050 2000 50  0001 C CNN
+F 1 "+3V3" H 17065 2323 50  0000 C CNN
+F 2 "" H 17050 2150 50  0001 C CNN
+F 3 "" H 17050 2150 50  0001 C CNN
+	1    17050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR047
+U 1 1 6282B2F6
+P 17400 2150
+F 0 "#PWR047" H 17400 2000 50  0001 C CNN
+F 1 "+3V3" H 17415 2323 50  0000 C CNN
+F 2 "" H 17400 2150 50  0001 C CNN
+F 3 "" H 17400 2150 50  0001 C CNN
+	1    17400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR049
+U 1 1 62856E43
+P 18000 2150
+F 0 "#PWR049" H 18000 2000 50  0001 C CNN
+F 1 "+3V3" H 18015 2323 50  0000 C CNN
+F 2 "" H 18000 2150 50  0001 C CNN
+F 3 "" H 18000 2150 50  0001 C CNN
+	1    18000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR051
+U 1 1 62882A88
+P 18600 2150
+F 0 "#PWR051" H 18600 2000 50  0001 C CNN
+F 1 "+3V3" H 18615 2323 50  0000 C CNN
+F 2 "" H 18600 2150 50  0001 C CNN
+F 3 "" H 18600 2150 50  0001 C CNN
+	1    18600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J2
+U 1 1 62B1A656
+P 2300 10850
+F 0 "J2" H 2218 10425 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 2218 10516 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 2300 10850 50  0001 C CNN
+F 3 "~" H 2300 10850 50  0001 C CNN
+	1    2300 10850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K3
+U 1 1 62B1A65F
+P 3400 10150
+F 0 "K3" H 3800 10415 50  0000 C CNN
+F 1 "HF46F" H 3800 10324 50  0000 C CNN
+F 2 "HF46F:HF46F" H 4050 10250 50  0001 L CNN
+F 3 "" H 4050 10150 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 4050 10050 50  0001 L CNN "Description"
+F 5 "Hongfa" H 4050 9850 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 4050 9750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3400 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K4
+U 1 1 62B1A668
+P 3400 11200
+F 0 "K4" H 3800 11465 50  0000 C CNN
+F 1 "HF46F" H 3800 11374 50  0000 C CNN
+F 2 "HF46F:HF46F" H 4050 11300 50  0001 L CNN
+F 3 "" H 4050 11200 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 4050 11100 50  0001 L CNN "Description"
+F 5 "Hongfa" H 4050 10900 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 4050 10800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3400 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 10750 3000 10750
+Wire Wire Line
+	3000 10750 3000 10250
+Wire Wire Line
+	3000 10250 3400 10250
+Wire Wire Line
+	3000 10750 3000 11300
+Wire Wire Line
+	3000 11300 3400 11300
+Connection ~ 3000 10750
+Wire Wire Line
+	2500 10850 3100 10850
+Wire Wire Line
+	3100 10850 3100 10350
+Wire Wire Line
+	2500 10950 2900 10950
+Wire Wire Line
+	2900 10950 2900 11400
+$Comp
+L power:+24V #PWR09
+U 1 1 62B1A678
+P 4350 9650
+F 0 "#PWR09" H 4350 9500 50  0001 C CNN
+F 1 "+24V" H 4365 9823 50  0000 C CNN
+F 2 "" H 4350 9650 50  0001 C CNN
+F 3 "" H 4350 9650 50  0001 C CNN
+	1    4350 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 9650 4350 10150
+Wire Wire Line
+	4200 11200 4350 11200
+Wire Wire Line
+	4200 10150 4350 10150
+Connection ~ 4350 10150
+Wire Wire Line
+	4350 10150 4350 11200
+Wire Wire Line
+	3100 10350 3400 10350
+Wire Wire Line
+	2900 11400 3400 11400
+$Comp
+L Connector:Screw_Terminal_01x03 J3
+U 1 1 62B2A56D
+P 2300 13200
+F 0 "J3" H 2218 12775 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 2218 12866 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 2300 13200 50  0001 C CNN
+F 3 "~" H 2300 13200 50  0001 C CNN
+	1    2300 13200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K5
+U 1 1 62B2A576
+P 3400 12500
+F 0 "K5" H 3800 12765 50  0000 C CNN
+F 1 "HF46F" H 3800 12674 50  0000 C CNN
+F 2 "HF46F:HF46F" H 4050 12600 50  0001 L CNN
+F 3 "" H 4050 12500 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 4050 12400 50  0001 L CNN "Description"
+F 5 "Hongfa" H 4050 12200 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 4050 12100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3400 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K6
+U 1 1 62B2A57F
+P 3400 13550
+F 0 "K6" H 3800 13815 50  0000 C CNN
+F 1 "HF46F" H 3800 13724 50  0000 C CNN
+F 2 "HF46F:HF46F" H 4050 13650 50  0001 L CNN
+F 3 "" H 4050 13550 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 4050 13450 50  0001 L CNN "Description"
+F 5 "Hongfa" H 4050 13250 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 4050 13150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3400 13550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 13100 3000 13100
+Wire Wire Line
+	3000 13100 3000 12600
+Wire Wire Line
+	3000 12600 3400 12600
+Wire Wire Line
+	3000 13100 3000 13650
+Wire Wire Line
+	3000 13650 3400 13650
+Connection ~ 3000 13100
+Wire Wire Line
+	2500 13200 3100 13200
+Wire Wire Line
+	3100 13200 3100 12700
+Wire Wire Line
+	2500 13300 2900 13300
+Wire Wire Line
+	2900 13300 2900 13750
+$Comp
+L power:+24V #PWR010
+U 1 1 62B2A58F
+P 4350 12000
+F 0 "#PWR010" H 4350 11850 50  0001 C CNN
+F 1 "+24V" H 4365 12173 50  0000 C CNN
+F 2 "" H 4350 12000 50  0001 C CNN
+F 3 "" H 4350 12000 50  0001 C CNN
+	1    4350 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 12000 4350 12500
+Wire Wire Line
+	4200 13550 4350 13550
+Wire Wire Line
+	4200 12500 4350 12500
+Connection ~ 4350 12500
+Wire Wire Line
+	4350 12500 4350 13550
+Wire Wire Line
+	3100 12700 3400 12700
+Wire Wire Line
+	2900 13750 3400 13750
+$Comp
+L Connector:Screw_Terminal_01x03 J4
+U 1 1 62C5A603
+P 5900 8500
+F 0 "J4" H 5818 8075 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 5818 8166 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 5900 8500 50  0001 C CNN
+F 3 "~" H 5900 8500 50  0001 C CNN
+	1    5900 8500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K7
+U 1 1 62C5A60C
+P 7000 7800
+F 0 "K7" H 7400 8065 50  0000 C CNN
+F 1 "HF46F" H 7400 7974 50  0000 C CNN
+F 2 "HF46F:HF46F" H 7650 7900 50  0001 L CNN
+F 3 "" H 7650 7800 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 7650 7700 50  0001 L CNN "Description"
+F 5 "Hongfa" H 7650 7500 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 7650 7400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7000 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K8
+U 1 1 62C5A615
+P 7000 8850
+F 0 "K8" H 7400 9115 50  0000 C CNN
+F 1 "HF46F" H 7400 9024 50  0000 C CNN
+F 2 "HF46F:HF46F" H 7650 8950 50  0001 L CNN
+F 3 "" H 7650 8850 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 7650 8750 50  0001 L CNN "Description"
+F 5 "Hongfa" H 7650 8550 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 7650 8450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7000 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 8400 6600 8400
+Wire Wire Line
+	6600 8400 6600 7900
+Wire Wire Line
+	6600 7900 7000 7900
+Wire Wire Line
+	6600 8400 6600 8950
+Wire Wire Line
+	6600 8950 7000 8950
+Connection ~ 6600 8400
+Wire Wire Line
+	6100 8500 6700 8500
+Wire Wire Line
+	6700 8500 6700 8000
+Wire Wire Line
+	6100 8600 6500 8600
+Wire Wire Line
+	6500 8600 6500 9050
+$Comp
+L power:+24V #PWR018
+U 1 1 62C5A625
+P 7950 7300
+F 0 "#PWR018" H 7950 7150 50  0001 C CNN
+F 1 "+24V" H 7965 7473 50  0000 C CNN
+F 2 "" H 7950 7300 50  0001 C CNN
+F 3 "" H 7950 7300 50  0001 C CNN
+	1    7950 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 7300 7950 7800
+Wire Wire Line
+	7800 8850 7950 8850
+Wire Wire Line
+	7800 7800 7950 7800
+Connection ~ 7950 7800
+Wire Wire Line
+	7950 7800 7950 8850
+Wire Wire Line
+	6700 8000 7000 8000
+Wire Wire Line
+	6500 9050 7000 9050
+$Comp
+L Connector:Screw_Terminal_01x03 J5
+U 1 1 62C5A634
+P 5900 10850
+F 0 "J5" H 5818 10425 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 5818 10516 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 5900 10850 50  0001 C CNN
+F 3 "~" H 5900 10850 50  0001 C CNN
+	1    5900 10850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K9
+U 1 1 62C5A63D
+P 7000 10150
+F 0 "K9" H 7400 10415 50  0000 C CNN
+F 1 "HF46F" H 7400 10324 50  0000 C CNN
+F 2 "HF46F:HF46F" H 7650 10250 50  0001 L CNN
+F 3 "" H 7650 10150 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 7650 10050 50  0001 L CNN "Description"
+F 5 "Hongfa" H 7650 9850 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 7650 9750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7000 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K10
+U 1 1 62C5A646
+P 7000 11200
+F 0 "K10" H 7400 11465 50  0000 C CNN
+F 1 "HF46F" H 7400 11374 50  0000 C CNN
+F 2 "HF46F:HF46F" H 7650 11300 50  0001 L CNN
+F 3 "" H 7650 11200 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 7650 11100 50  0001 L CNN "Description"
+F 5 "Hongfa" H 7650 10900 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 7650 10800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7000 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 10750 6600 10750
+Wire Wire Line
+	6600 10750 6600 10250
+Wire Wire Line
+	6600 10250 7000 10250
+Wire Wire Line
+	6600 10750 6600 11300
+Wire Wire Line
+	6600 11300 7000 11300
+Connection ~ 6600 10750
+Wire Wire Line
+	6100 10850 6700 10850
+Wire Wire Line
+	6700 10850 6700 10350
+Wire Wire Line
+	6100 10950 6500 10950
+Wire Wire Line
+	6500 10950 6500 11400
+$Comp
+L power:+24V #PWR019
+U 1 1 62C5A656
+P 7950 9650
+F 0 "#PWR019" H 7950 9500 50  0001 C CNN
+F 1 "+24V" H 7965 9823 50  0000 C CNN
+F 2 "" H 7950 9650 50  0001 C CNN
+F 3 "" H 7950 9650 50  0001 C CNN
+	1    7950 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 9650 7950 10150
+Wire Wire Line
+	7800 11200 7950 11200
+Wire Wire Line
+	7800 10150 7950 10150
+Connection ~ 7950 10150
+Wire Wire Line
+	7950 10150 7950 11200
+Wire Wire Line
+	6700 10350 7000 10350
+Wire Wire Line
+	6500 11400 7000 11400
+$Comp
+L Connector:Screw_Terminal_01x03 J6
+U 1 1 62C5A663
+P 5900 13200
+F 0 "J6" H 5818 12775 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 5818 12866 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 5900 13200 50  0001 C CNN
+F 3 "~" H 5900 13200 50  0001 C CNN
+	1    5900 13200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K11
+U 1 1 62C5A66C
+P 7000 12500
+F 0 "K11" H 7400 12765 50  0000 C CNN
+F 1 "HF46F" H 7400 12674 50  0000 C CNN
+F 2 "HF46F:HF46F" H 7650 12600 50  0001 L CNN
+F 3 "" H 7650 12500 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 7650 12400 50  0001 L CNN "Description"
+F 5 "Hongfa" H 7650 12200 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 7650 12100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7000 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K12
+U 1 1 62C5A675
+P 7000 13550
+F 0 "K12" H 7400 13815 50  0000 C CNN
+F 1 "HF46F" H 7400 13724 50  0000 C CNN
+F 2 "HF46F:HF46F" H 7650 13650 50  0001 L CNN
+F 3 "" H 7650 13550 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 7650 13450 50  0001 L CNN "Description"
+F 5 "Hongfa" H 7650 13250 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 7650 13150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7000 13550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 13100 6600 13100
+Wire Wire Line
+	6600 13100 6600 12600
+Wire Wire Line
+	6600 12600 7000 12600
+Wire Wire Line
+	6600 13100 6600 13650
+Wire Wire Line
+	6600 13650 7000 13650
+Connection ~ 6600 13100
+Wire Wire Line
+	6100 13200 6700 13200
+Wire Wire Line
+	6700 13200 6700 12700
+Wire Wire Line
+	6100 13300 6500 13300
+Wire Wire Line
+	6500 13300 6500 13750
+$Comp
+L power:+24V #PWR020
+U 1 1 62C5A685
+P 7950 12000
+F 0 "#PWR020" H 7950 11850 50  0001 C CNN
+F 1 "+24V" H 7965 12173 50  0000 C CNN
+F 2 "" H 7950 12000 50  0001 C CNN
+F 3 "" H 7950 12000 50  0001 C CNN
+	1    7950 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 12000 7950 12500
+Wire Wire Line
+	7800 13550 7950 13550
+Wire Wire Line
+	7800 12500 7950 12500
+Connection ~ 7950 12500
+Wire Wire Line
+	7950 12500 7950 13550
+Wire Wire Line
+	6700 12700 7000 12700
+Wire Wire Line
+	6500 13750 7000 13750
+$Comp
+L Connector:Screw_Terminal_01x03 J7
+U 1 1 62C7374F
+P 9650 8500
+F 0 "J7" H 9568 8075 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 9568 8166 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 9650 8500 50  0001 C CNN
+F 3 "~" H 9650 8500 50  0001 C CNN
+	1    9650 8500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K13
+U 1 1 62C73758
+P 10750 7800
+F 0 "K13" H 11150 8065 50  0000 C CNN
+F 1 "HF46F" H 11150 7974 50  0000 C CNN
+F 2 "HF46F:HF46F" H 11400 7900 50  0001 L CNN
+F 3 "" H 11400 7800 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 11400 7700 50  0001 L CNN "Description"
+F 5 "Hongfa" H 11400 7500 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 11400 7400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10750 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K14
+U 1 1 62C73761
+P 10750 8850
+F 0 "K14" H 11150 9115 50  0000 C CNN
+F 1 "HF46F" H 11150 9024 50  0000 C CNN
+F 2 "HF46F:HF46F" H 11400 8950 50  0001 L CNN
+F 3 "" H 11400 8850 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 11400 8750 50  0001 L CNN "Description"
+F 5 "Hongfa" H 11400 8550 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 11400 8450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10750 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 8400 10350 8400
+Wire Wire Line
+	10350 8400 10350 7900
+Wire Wire Line
+	10350 7900 10750 7900
+Wire Wire Line
+	10350 8400 10350 8950
+Wire Wire Line
+	10350 8950 10750 8950
+Connection ~ 10350 8400
+Wire Wire Line
+	9850 8500 10450 8500
+Wire Wire Line
+	10450 8500 10450 8000
+Wire Wire Line
+	9850 8600 10250 8600
+Wire Wire Line
+	10250 8600 10250 9050
+$Comp
+L power:+24V #PWR028
+U 1 1 62C73771
+P 11700 7300
+F 0 "#PWR028" H 11700 7150 50  0001 C CNN
+F 1 "+24V" H 11715 7473 50  0000 C CNN
+F 2 "" H 11700 7300 50  0001 C CNN
+F 3 "" H 11700 7300 50  0001 C CNN
+	1    11700 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 7300 11700 7800
+Wire Wire Line
+	11550 8850 11700 8850
+Wire Wire Line
+	11550 7800 11700 7800
+Connection ~ 11700 7800
+Wire Wire Line
+	11700 7800 11700 8850
+Wire Wire Line
+	10450 8000 10750 8000
+Wire Wire Line
+	10250 9050 10750 9050
+$Comp
+L Connector:Screw_Terminal_01x03 J8
+U 1 1 62C73780
+P 9650 10850
+F 0 "J8" H 9568 10425 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 9568 10516 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 9650 10850 50  0001 C CNN
+F 3 "~" H 9650 10850 50  0001 C CNN
+	1    9650 10850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K15
+U 1 1 62C73789
+P 10750 10150
+F 0 "K15" H 11150 10415 50  0000 C CNN
+F 1 "HF46F" H 11150 10324 50  0000 C CNN
+F 2 "HF46F:HF46F" H 11400 10250 50  0001 L CNN
+F 3 "" H 11400 10150 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 11400 10050 50  0001 L CNN "Description"
+F 5 "Hongfa" H 11400 9850 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 11400 9750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10750 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L HF46F:HF46F K16
+U 1 1 62C73792
+P 10750 11200
+F 0 "K16" H 11150 11465 50  0000 C CNN
+F 1 "HF46F" H 11150 11374 50  0000 C CNN
+F 2 "HF46F:HF46F" H 11400 11300 50  0001 L CNN
+F 3 "" H 11400 11200 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 11400 11100 50  0001 L CNN "Description"
+F 5 "Hongfa" H 11400 10900 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 11400 10800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10750 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 10750 10350 10750
+Wire Wire Line
+	10350 10750 10350 10250
+Wire Wire Line
+	10350 10250 10750 10250
+Wire Wire Line
+	10350 10750 10350 11300
+Wire Wire Line
+	10350 11300 10750 11300
+Connection ~ 10350 10750
+Wire Wire Line
+	9850 10850 10450 10850
+Wire Wire Line
+	10450 10850 10450 10350
+Wire Wire Line
+	9850 10950 10250 10950
+Wire Wire Line
+	10250 10950 10250 11400
+$Comp
+L power:+24V #PWR029
+U 1 1 62C737A2
+P 11700 9650
+F 0 "#PWR029" H 11700 9500 50  0001 C CNN
+F 1 "+24V" H 11715 9823 50  0000 C CNN
+F 2 "" H 11700 9650 50  0001 C CNN
+F 3 "" H 11700 9650 50  0001 C CNN
+	1    11700 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 9650 11700 10150
+Wire Wire Line
+	11550 11200 11700 11200
+Wire Wire Line
+	11550 10150 11700 10150
+Connection ~ 11700 10150
+Wire Wire Line
+	11700 10150 11700 11200
+Wire Wire Line
+	10450 10350 10750 10350
+Wire Wire Line
+	10250 11400 10750 11400
+$Comp
+L HF46F:HF46F K17
+U 1 1 62CC3428
+P 14100 7800
+F 0 "K17" H 14500 8065 50  0000 C CNN
+F 1 "HF46F" H 14500 7974 50  0000 C CNN
+F 2 "HF46F:HF46F" H 14750 7900 50  0001 L CNN
+F 3 "" H 14750 7800 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 14750 7700 50  0001 L CNN "Description"
+F 5 "Hongfa" H 14750 7500 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 14750 7400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 7800
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K18
+U 1 1 62CC3431
+P 14100 8850
+F 0 "K18" H 14500 9115 50  0000 C CNN
+F 1 "HF46F" H 14500 9024 50  0000 C CNN
+F 2 "HF46F:HF46F" H 14750 8950 50  0001 L CNN
+F 3 "" H 14750 8850 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 14750 8750 50  0001 L CNN "Description"
+F 5 "Hongfa" H 14750 8550 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 14750 8450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 8850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR033
+U 1 1 62CC3441
+P 13100 7300
+F 0 "#PWR033" H 13100 7150 50  0001 C CNN
+F 1 "+24V" H 13115 7473 50  0000 C CNN
+F 2 "" H 13100 7300 50  0001 C CNN
+F 3 "" H 13100 7300 50  0001 C CNN
+	1    13100 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 7300 13100 7800
+Wire Wire Line
+	13300 7800 13100 7800
+Connection ~ 13100 7800
+Wire Wire Line
+	13100 7800 13100 8850
+Wire Wire Line
+	13300 8850 13100 8850
+$Comp
+L Connector:Screw_Terminal_01x03 J9
+U 1 1 62CC341F
+P 15300 8200
+F 0 "J9" H 15218 7775 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 15218 7866 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 15300 8200 50  0001 C CNN
+F 3 "~" H 15300 8200 50  0001 C CNN
+	1    15300 8200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	15100 8300 14500 8300
+Wire Wire Line
+	14500 8300 14500 7700
+Wire Wire Line
+	14100 7700 14500 7700
+Wire Wire Line
+	14500 8750 14500 8300
+Wire Wire Line
+	14100 8750 14500 8750
+Connection ~ 14500 8300
+Wire Wire Line
+	15100 8200 14400 8200
+Wire Wire Line
+	14400 8200 14400 8650
+Wire Wire Line
+	14400 8650 14100 8650
+Wire Wire Line
+	15100 8100 14600 8100
+Wire Wire Line
+	14600 8100 14600 7600
+Wire Wire Line
+	14600 7600 14100 7600
+$Comp
+L HF46F:HF46F K19
+U 1 1 6326F0BD
+P 14100 10150
+F 0 "K19" H 14500 10415 50  0000 C CNN
+F 1 "HF46F" H 14500 10324 50  0000 C CNN
+F 2 "HF46F:HF46F" H 14750 10250 50  0001 L CNN
+F 3 "" H 14750 10150 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 14750 10050 50  0001 L CNN "Description"
+F 5 "Hongfa" H 14750 9850 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 14750 9750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 10150
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K20
+U 1 1 6326F0C6
+P 14100 11200
+F 0 "K20" H 14500 11465 50  0000 C CNN
+F 1 "HF46F" H 14500 11374 50  0000 C CNN
+F 2 "HF46F:HF46F" H 14750 11300 50  0001 L CNN
+F 3 "" H 14750 11200 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 14750 11100 50  0001 L CNN "Description"
+F 5 "Hongfa" H 14750 10900 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 14750 10800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 11200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR034
+U 1 1 6326F0CC
+P 13100 9650
+F 0 "#PWR034" H 13100 9500 50  0001 C CNN
+F 1 "+24V" H 13115 9823 50  0000 C CNN
+F 2 "" H 13100 9650 50  0001 C CNN
+F 3 "" H 13100 9650 50  0001 C CNN
+	1    13100 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 9650 13100 10150
+Wire Wire Line
+	13300 10150 13100 10150
+Connection ~ 13100 10150
+Wire Wire Line
+	13100 10150 13100 11200
+Wire Wire Line
+	13300 11200 13100 11200
+$Comp
+L Connector:Screw_Terminal_01x03 J10
+U 1 1 6326F0D7
+P 15300 10550
+F 0 "J10" H 15218 10125 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 15218 10216 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 15300 10550 50  0001 C CNN
+F 3 "~" H 15300 10550 50  0001 C CNN
+	1    15300 10550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	15100 10650 14500 10650
+Wire Wire Line
+	14500 10650 14500 10050
+Wire Wire Line
+	14100 10050 14500 10050
+Wire Wire Line
+	14500 11100 14500 10650
+Wire Wire Line
+	14100 11100 14500 11100
+Connection ~ 14500 10650
+Wire Wire Line
+	15100 10550 14400 10550
+Wire Wire Line
+	14400 10550 14400 11000
+Wire Wire Line
+	14400 11000 14100 11000
+Wire Wire Line
+	15100 10450 14600 10450
+Wire Wire Line
+	14600 10450 14600 9950
+Wire Wire Line
+	14600 9950 14100 9950
+$Comp
+L HF46F:HF46F K21
+U 1 1 6328F764
+P 14100 12650
+F 0 "K21" H 14500 12915 50  0000 C CNN
+F 1 "HF46F" H 14500 12824 50  0000 C CNN
+F 2 "HF46F:HF46F" H 14750 12750 50  0001 L CNN
+F 3 "" H 14750 12650 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 14750 12550 50  0001 L CNN "Description"
+F 5 "Hongfa" H 14750 12350 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 14750 12250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 12650
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K22
+U 1 1 6328F76D
+P 14100 13700
+F 0 "K22" H 14500 13965 50  0000 C CNN
+F 1 "HF46F" H 14500 13874 50  0000 C CNN
+F 2 "HF46F:HF46F" H 14750 13800 50  0001 L CNN
+F 3 "" H 14750 13700 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 14750 13600 50  0001 L CNN "Description"
+F 5 "Hongfa" H 14750 13400 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 14750 13300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14100 13700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR035
+U 1 1 6328F773
+P 13100 12150
+F 0 "#PWR035" H 13100 12000 50  0001 C CNN
+F 1 "+24V" H 13115 12323 50  0000 C CNN
+F 2 "" H 13100 12150 50  0001 C CNN
+F 3 "" H 13100 12150 50  0001 C CNN
+	1    13100 12150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 12150 13100 12650
+Wire Wire Line
+	13300 12650 13100 12650
+Connection ~ 13100 12650
+Wire Wire Line
+	13100 12650 13100 13700
+Wire Wire Line
+	13300 13700 13100 13700
+$Comp
+L Connector:Screw_Terminal_01x03 J11
+U 1 1 6328F77E
+P 15300 13050
+F 0 "J11" H 15218 12625 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 15218 12716 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 15300 13050 50  0001 C CNN
+F 3 "~" H 15300 13050 50  0001 C CNN
+	1    15300 13050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	15100 13150 14500 13150
+Wire Wire Line
+	14500 13150 14500 12550
+Wire Wire Line
+	14100 12550 14500 12550
+Wire Wire Line
+	14500 13600 14500 13150
+Wire Wire Line
+	14100 13600 14500 13600
+Connection ~ 14500 13150
+Wire Wire Line
+	15100 13050 14400 13050
+Wire Wire Line
+	14400 13050 14400 13500
+Wire Wire Line
+	14400 13500 14100 13500
+Wire Wire Line
+	15100 12950 14600 12950
+Wire Wire Line
+	14600 12950 14600 12450
+Wire Wire Line
+	14600 12450 14100 12450
+$Comp
+L HF46F:HF46F K23
+U 1 1 632BAFD0
+P 17550 7750
+F 0 "K23" H 17950 8015 50  0000 C CNN
+F 1 "HF46F" H 17950 7924 50  0000 C CNN
+F 2 "HF46F:HF46F" H 18200 7850 50  0001 L CNN
+F 3 "" H 18200 7750 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 18200 7650 50  0001 L CNN "Description"
+F 5 "Hongfa" H 18200 7450 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 18200 7350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17550 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K24
+U 1 1 632BAFD9
+P 17550 8800
+F 0 "K24" H 17950 9065 50  0000 C CNN
+F 1 "HF46F" H 17950 8974 50  0000 C CNN
+F 2 "HF46F:HF46F" H 18200 8900 50  0001 L CNN
+F 3 "" H 18200 8800 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 18200 8700 50  0001 L CNN "Description"
+F 5 "Hongfa" H 18200 8500 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 18200 8400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17550 8800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR041
+U 1 1 632BAFDF
+P 16550 7250
+F 0 "#PWR041" H 16550 7100 50  0001 C CNN
+F 1 "+24V" H 16565 7423 50  0000 C CNN
+F 2 "" H 16550 7250 50  0001 C CNN
+F 3 "" H 16550 7250 50  0001 C CNN
+	1    16550 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16550 7250 16550 7750
+Wire Wire Line
+	16750 7750 16550 7750
+Connection ~ 16550 7750
+Wire Wire Line
+	16550 7750 16550 8800
+Wire Wire Line
+	16750 8800 16550 8800
+$Comp
+L Connector:Screw_Terminal_01x03 J12
+U 1 1 632BAFEA
+P 18750 8150
+F 0 "J12" H 18668 7725 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 18668 7816 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 18750 8150 50  0001 C CNN
+F 3 "~" H 18750 8150 50  0001 C CNN
+	1    18750 8150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	18550 8250 17950 8250
+Wire Wire Line
+	17950 8250 17950 7650
+Wire Wire Line
+	17550 7650 17950 7650
+Wire Wire Line
+	17950 8700 17950 8250
+Wire Wire Line
+	17550 8700 17950 8700
+Connection ~ 17950 8250
+Wire Wire Line
+	18550 8150 17850 8150
+Wire Wire Line
+	17850 8150 17850 8600
+Wire Wire Line
+	17850 8600 17550 8600
+Wire Wire Line
+	18550 8050 18050 8050
+Wire Wire Line
+	18050 8050 18050 7550
+Wire Wire Line
+	18050 7550 17550 7550
+$Comp
+L HF46F:HF46F K25
+U 1 1 632BAFFF
+P 17550 10100
+F 0 "K25" H 17950 10365 50  0000 C CNN
+F 1 "HF46F" H 17950 10274 50  0000 C CNN
+F 2 "HF46F:HF46F" H 18200 10200 50  0001 L CNN
+F 3 "" H 18200 10100 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 18200 10000 50  0001 L CNN "Description"
+F 5 "Hongfa" H 18200 9800 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 18200 9700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17550 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K26
+U 1 1 632BB008
+P 17550 11150
+F 0 "K26" H 17950 11415 50  0000 C CNN
+F 1 "HF46F" H 17950 11324 50  0000 C CNN
+F 2 "HF46F:HF46F" H 18200 11250 50  0001 L CNN
+F 3 "" H 18200 11150 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 18200 11050 50  0001 L CNN "Description"
+F 5 "Hongfa" H 18200 10850 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 18200 10750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17550 11150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR042
+U 1 1 632BB00E
+P 16550 9600
+F 0 "#PWR042" H 16550 9450 50  0001 C CNN
+F 1 "+24V" H 16565 9773 50  0000 C CNN
+F 2 "" H 16550 9600 50  0001 C CNN
+F 3 "" H 16550 9600 50  0001 C CNN
+	1    16550 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16550 9600 16550 10100
+Wire Wire Line
+	16750 10100 16550 10100
+Connection ~ 16550 10100
+Wire Wire Line
+	16550 10100 16550 11150
+Wire Wire Line
+	16750 11150 16550 11150
+$Comp
+L Connector:Screw_Terminal_01x03 J13
+U 1 1 632BB019
+P 18750 10500
+F 0 "J13" H 18668 10075 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 18668 10166 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 18750 10500 50  0001 C CNN
+F 3 "~" H 18750 10500 50  0001 C CNN
+	1    18750 10500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	18550 10600 17950 10600
+Wire Wire Line
+	17950 10600 17950 10000
+Wire Wire Line
+	17550 10000 17950 10000
+Wire Wire Line
+	17950 11050 17950 10600
+Wire Wire Line
+	17550 11050 17950 11050
+Connection ~ 17950 10600
+Wire Wire Line
+	18550 10500 17850 10500
+Wire Wire Line
+	17850 10500 17850 10950
+Wire Wire Line
+	17850 10950 17550 10950
+Wire Wire Line
+	18550 10400 18050 10400
+Wire Wire Line
+	18050 10400 18050 9900
+Wire Wire Line
+	18050 9900 17550 9900
+$Comp
+L HF46F:HF46F K27
+U 1 1 632BB02E
+P 17550 12600
+F 0 "K27" H 17950 12865 50  0000 C CNN
+F 1 "HF46F" H 17950 12774 50  0000 C CNN
+F 2 "HF46F:HF46F" H 18200 12700 50  0001 L CNN
+F 3 "" H 18200 12600 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 18200 12500 50  0001 L CNN "Description"
+F 5 "Hongfa" H 18200 12300 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 18200 12200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17550 12600
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K28
+U 1 1 632BB037
+P 17550 13650
+F 0 "K28" H 17950 13915 50  0000 C CNN
+F 1 "HF46F" H 17950 13824 50  0000 C CNN
+F 2 "HF46F:HF46F" H 18200 13750 50  0001 L CNN
+F 3 "" H 18200 13650 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 18200 13550 50  0001 L CNN "Description"
+F 5 "Hongfa" H 18200 13350 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 18200 13250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17550 13650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR043
+U 1 1 632BB03D
+P 16550 12100
+F 0 "#PWR043" H 16550 11950 50  0001 C CNN
+F 1 "+24V" H 16565 12273 50  0000 C CNN
+F 2 "" H 16550 12100 50  0001 C CNN
+F 3 "" H 16550 12100 50  0001 C CNN
+	1    16550 12100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16550 12100 16550 12600
+Wire Wire Line
+	16750 12600 16550 12600
+Connection ~ 16550 12600
+Wire Wire Line
+	16550 12600 16550 13650
+Wire Wire Line
+	16750 13650 16550 13650
+$Comp
+L Connector:Screw_Terminal_01x03 J14
+U 1 1 632BB048
+P 18750 13000
+F 0 "J14" H 18668 12575 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 18668 12666 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 18750 13000 50  0001 C CNN
+F 3 "~" H 18750 13000 50  0001 C CNN
+	1    18750 13000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	18550 13100 17950 13100
+Wire Wire Line
+	17950 13100 17950 12500
+Wire Wire Line
+	17550 12500 17950 12500
+Wire Wire Line
+	17950 13550 17950 13100
+Wire Wire Line
+	17550 13550 17950 13550
+Connection ~ 17950 13100
+Wire Wire Line
+	18550 13000 17850 13000
+Wire Wire Line
+	17850 13000 17850 13450
+Wire Wire Line
+	17850 13450 17550 13450
+Wire Wire Line
+	18550 12900 18050 12900
+Wire Wire Line
+	18050 12900 18050 12400
+Wire Wire Line
+	18050 12400 17550 12400
+$Comp
+L HF46F:HF46F K29
+U 1 1 632EF485
+P 20750 7750
+F 0 "K29" H 21150 8015 50  0000 C CNN
+F 1 "HF46F" H 21150 7924 50  0000 C CNN
+F 2 "HF46F:HF46F" H 21400 7850 50  0001 L CNN
+F 3 "" H 21400 7750 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 21400 7650 50  0001 L CNN "Description"
+F 5 "Hongfa" H 21400 7450 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 21400 7350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    20750 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K30
+U 1 1 632EF48E
+P 20750 8800
+F 0 "K30" H 21150 9065 50  0000 C CNN
+F 1 "HF46F" H 21150 8974 50  0000 C CNN
+F 2 "HF46F:HF46F" H 21400 8900 50  0001 L CNN
+F 3 "" H 21400 8800 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 21400 8700 50  0001 L CNN "Description"
+F 5 "Hongfa" H 21400 8500 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 21400 8400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    20750 8800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR052
+U 1 1 632EF494
+P 19750 7250
+F 0 "#PWR052" H 19750 7100 50  0001 C CNN
+F 1 "+24V" H 19765 7423 50  0000 C CNN
+F 2 "" H 19750 7250 50  0001 C CNN
+F 3 "" H 19750 7250 50  0001 C CNN
+	1    19750 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19750 7250 19750 7750
+Wire Wire Line
+	19950 7750 19750 7750
+Connection ~ 19750 7750
+Wire Wire Line
+	19750 7750 19750 8800
+Wire Wire Line
+	19950 8800 19750 8800
+$Comp
+L Connector:Screw_Terminal_01x03 J16
+U 1 1 632EF49F
+P 21950 8150
+F 0 "J16" H 21868 7725 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 21868 7816 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 21950 8150 50  0001 C CNN
+F 3 "~" H 21950 8150 50  0001 C CNN
+	1    21950 8150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	21750 8250 21150 8250
+Wire Wire Line
+	21150 8250 21150 7650
+Wire Wire Line
+	20750 7650 21150 7650
+Wire Wire Line
+	21150 8700 21150 8250
+Wire Wire Line
+	20750 8700 21150 8700
+Connection ~ 21150 8250
+Wire Wire Line
+	21750 8150 21050 8150
+Wire Wire Line
+	21050 8150 21050 8600
+Wire Wire Line
+	21050 8600 20750 8600
+Wire Wire Line
+	21750 8050 21250 8050
+Wire Wire Line
+	21250 8050 21250 7550
+Wire Wire Line
+	21250 7550 20750 7550
+$Comp
+L HF46F:HF46F K31
+U 1 1 632EF4B4
+P 20750 10100
+F 0 "K31" H 21150 10365 50  0000 C CNN
+F 1 "HF46F" H 21150 10274 50  0000 C CNN
+F 2 "HF46F:HF46F" H 21400 10200 50  0001 L CNN
+F 3 "" H 21400 10100 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 21400 10000 50  0001 L CNN "Description"
+F 5 "Hongfa" H 21400 9800 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 21400 9700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    20750 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L HF46F:HF46F K32
+U 1 1 632EF4BD
+P 20750 11150
+F 0 "K32" H 21150 11415 50  0000 C CNN
+F 1 "HF46F" H 21150 11324 50  0000 C CNN
+F 2 "HF46F:HF46F" H 21400 11250 50  0001 L CNN
+F 3 "" H 21400 11150 50  0001 L CNN
+F 4 "Sub-miniature intermediate power relay" H 21400 11050 50  0001 L CNN "Description"
+F 5 "Hongfa" H 21400 10850 50  0001 L CNN "Manufacturer_Name"
+F 6 "HF46F" H 21400 10750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    20750 11150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR053
+U 1 1 632EF4C3
+P 19750 9600
+F 0 "#PWR053" H 19750 9450 50  0001 C CNN
+F 1 "+24V" H 19765 9773 50  0000 C CNN
+F 2 "" H 19750 9600 50  0001 C CNN
+F 3 "" H 19750 9600 50  0001 C CNN
+	1    19750 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19750 9600 19750 10100
+Wire Wire Line
+	19950 10100 19750 10100
+Connection ~ 19750 10100
+Wire Wire Line
+	19750 10100 19750 11150
+Wire Wire Line
+	19950 11150 19750 11150
+$Comp
+L Connector:Screw_Terminal_01x03 J17
+U 1 1 632EF4CE
+P 21950 10500
+F 0 "J17" H 21868 10075 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 21868 10166 50  0000 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal" H 21950 10500 50  0001 C CNN
+F 3 "~" H 21950 10500 50  0001 C CNN
+	1    21950 10500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	21750 10600 21150 10600
+Wire Wire Line
+	21150 10600 21150 10000
+Wire Wire Line
+	20750 10000 21150 10000
+Wire Wire Line
+	21150 11050 21150 10600
+Wire Wire Line
+	20750 11050 21150 11050
+Connection ~ 21150 10600
+Wire Wire Line
+	21750 10500 21050 10500
+Wire Wire Line
+	21050 10500 21050 10950
+Wire Wire Line
+	21050 10950 20750 10950
+Wire Wire Line
+	21750 10400 21250 10400
+Wire Wire Line
+	21250 10400 21250 9900
+Wire Wire Line
+	21250 9900 20750 9900
+Text GLabel 13400 4700 2    50   Input ~ 0
+RELAY31
+Text GLabel 13400 4800 2    50   Input ~ 0
+RELAY32
+Text GLabel 3400 10150 0    50   Input ~ 0
+RELAY3
+Text GLabel 3400 11200 0    50   Input ~ 0
+RELAY4
+Text GLabel 3400 12500 0    50   Input ~ 0
+RELAY5
+Text GLabel 3400 13550 0    50   Input ~ 0
+RELAY6
+Text GLabel 7000 7800 0    50   Input ~ 0
+RELAY7
+Text GLabel 7000 8850 0    50   Input ~ 0
+RELAY8
+Text GLabel 7000 10150 0    50   Input ~ 0
+RELAY9
+Text GLabel 7000 11200 0    50   Input ~ 0
+RELAY10
+Text GLabel 7000 12500 0    50   Input ~ 0
+RELAY11
+Text GLabel 7000 13550 0    50   Input ~ 0
+RELAY12
+Text GLabel 10750 7800 0    50   Input ~ 0
+RELAY13
+Text GLabel 10750 8850 0    50   Input ~ 0
+RELAY14
+Text GLabel 10750 10150 0    50   Input ~ 0
+RELAY15
+Text GLabel 10750 11200 0    50   Input ~ 0
+RELAY16
+Text GLabel 14100 7800 2    50   Input ~ 0
+RELAY17
+Text GLabel 14100 8850 2    50   Input ~ 0
+RELAY18
+Text GLabel 14100 10150 2    50   Input ~ 0
+RELAY19
+Text GLabel 14100 11200 2    50   Input ~ 0
+RELAY20
+Text GLabel 14100 12650 2    50   Input ~ 0
+RELAY21
+Text GLabel 14100 13700 2    50   Input ~ 0
+RELAY22
+Text GLabel 17550 7750 2    50   Input ~ 0
+RELAY23
+Text GLabel 17550 8800 2    50   Input ~ 0
+RELAY24
+Text GLabel 17550 10100 2    50   Input ~ 0
+RELAY25
+Text GLabel 17550 11150 2    50   Input ~ 0
+RELAY26
+Text GLabel 17550 12600 2    50   Input ~ 0
+RELAY27
+Text GLabel 17550 13650 2    50   Input ~ 0
+RELAY28
+Text GLabel 20750 7750 2    50   Input ~ 0
+RELAY29
+Text GLabel 20750 8800 2    50   Input ~ 0
+RELAY30
+Text GLabel 20750 10100 2    50   Input ~ 0
+RELAY31
+Text GLabel 20750 11150 2    50   Input ~ 0
+RELAY32
+Wire Wire Line
+	4150 3550 4350 3550
+Wire Wire Line
+	4350 3550 4350 4700
+Wire Wire Line
+	4350 4700 5350 4700
+Wire Wire Line
+	5350 4800 4250 4800
+Wire Wire Line
+	4250 4800 4250 3650
+Wire Wire Line
+	4250 3650 4150 3650
 $EndSCHEMATC
