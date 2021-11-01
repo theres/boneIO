@@ -1957,11 +1957,9 @@ Wire Wire Line
 Wire Wire Line
 	8900 3950 8300 3950
 Wire Wire Line
-	9150 3600 9150 4150
+	9150 3600 9150 4050
 Wire Wire Line
-	9150 4150 8300 4150
-Wire Wire Line
-	7550 4350 7550 4150
+	9150 4050 8300 4050
 Wire Wire Line
 	7550 3850 7800 3850
 Wire Wire Line
@@ -1970,13 +1968,10 @@ Connection ~ 7550 3950
 Wire Wire Line
 	7550 3950 7550 3850
 Wire Wire Line
-	7800 4150 7550 4150
-Connection ~ 7550 4150
-Wire Wire Line
-	7550 4150 7550 3950
-Text GLabel 8300 4050 2    50   Input ~ 0
+	7800 4050 7550 4050
+Text GLabel 8300 4150 2    50   Input ~ 0
 SCL
-Text GLabel 7800 4050 0    50   Input ~ 0
+Text GLabel 7800 4150 0    50   Input ~ 0
 SDA
 $Comp
 L Transistor_Array:ULN2803A U5
@@ -2849,4 +2844,9 @@ Text GLabel 6150 -1850 0    50   Input ~ 0
 RESET_MCP
 Text GLabel 10500 -1850 0    50   Input ~ 0
 RESET_MCP
+Wire Wire Line
+	7550 3950 7550 4050
+Connection ~ 7550 4050
+Wire Wire Line
+	7550 4050 7550 4350
 $EndSCHEMATC
