@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.10)-1*%
-%TF.CreationDate,2021-10-27T16:25:06+02:00*%
+%TF.CreationDate,2021-10-27T16:31:34+02:00*%
 %TF.ProjectId,boneIO - relay board,626f6e65-494f-4202-9d20-72656c617920,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.10)-1) date 2021-10-27 16:25:06*
+G04 Created by KiCad (PCBNEW (5.1.10)-1) date 2021-10-27 16:31:34*
 %MOMM*%
 %LPD*%
 G01*
