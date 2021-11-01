@@ -60,9 +60,9 @@ F 3 "~" H 21000 2800 50  0001 C CNN
 	1    21000 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 20600 2900 0    50   Input ~ 0
+Text GLabel 20800 3000 0    50   Input ~ 0
 SCL
-Text GLabel 21500 2900 2    50   Input ~ 0
+Text GLabel 21300 3000 2    50   Input ~ 0
 SDA
 Text Notes 20600 1350 0    197  ~ 39
 PINOUT
@@ -693,9 +693,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 9050 3400 9050
 Wire Wire Line
-	20000 2150 20000 3000
-Wire Wire Line
-	20000 3000 20800 3000
+	20000 2150 20000 2900
 $Comp
 L power:+5V #PWR055
 U 1 1 6185FB31
@@ -718,14 +716,6 @@ Wire Wire Line
 Wire Wire Line
 	21300 2800 22100 2800
 Connection ~ 22100 2800
-Wire Wire Line
-	22100 2800 22100 3000
-Wire Wire Line
-	21300 3000 22100 3000
-Wire Wire Line
-	21300 2900 21500 2900
-Wire Wire Line
-	20600 2900 20800 2900
 $Comp
 L Device:R R3
 U 1 1 618178A5
@@ -1010,9 +1000,6 @@ F 3 "" H 22100 4500 50  0001 C CNN
 	1    22100 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 22100 3000
-Wire Wire Line
-	22100 3000 22100 4500
 $Comp
 L power:+24V #PWR015
 U 1 1 62409A0E
@@ -2680,4 +2667,13 @@ Wire Wire Line
 	4250 4800 4250 3650
 Wire Wire Line
 	4250 3650 4150 3650
+Wire Wire Line
+	22100 2800 22100 2900
+Wire Wire Line
+	20800 2900 20000 2900
+Wire Wire Line
+	21300 2900 22100 2900
+Connection ~ 22100 2900
+Wire Wire Line
+	22100 2900 22100 4500
 $EndSCHEMATC
