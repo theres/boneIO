@@ -40,10 +40,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5850 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 1950 6400 1650
-Wire Wire Line
-	6150 1950 6400 1950
-Wire Wire Line
 	13650 1950 13650 1650
 Wire Wire Line
 	13400 1950 13650 1950
@@ -55,7 +51,7 @@ U 1 1 6928CDF2
 P 16525 2725
 F 0 "J12" H 16575 3075 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 16575 2975 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 16525 2725 50  0001 C CNN
+F 2 "ph80ds-21:PinHeader_2x04_P2.54mm_Vertical" H 16525 2725 50  0001 C CNN
 F 3 "~" H 16525 2725 50  0001 C CNN
 	1    16525 2725
 	1    0    0    -1  
@@ -754,9 +750,6 @@ Wire Wire Line
 	6900 1950 7200 1950
 Wire Wire Line
 	7200 1950 7200 2000
-Wire Wire Line
-	6600 1950 6400 1950
-Connection ~ 6400 1950
 $Comp
 L Device:C C2
 U 1 1 619BD056
@@ -2693,10 +2686,7 @@ F 3 "~" H 17000 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16850 2925 17000 2925
-Wire Wire Line
 	17000 3050 17000 2925
-Connection ~ 17000 2925
 Wire Wire Line
 	17000 2925 17175 2925
 Wire Wire Line
@@ -2720,4 +2710,14 @@ Wire Wire Line
 	16150 2925 16325 2925
 Wire Notes Line
 	18200 900  18200 5850
+Wire Wire Line
+	16825 2925 17000 2925
+Connection ~ 17000 2925
+Wire Wire Line
+	6150 1950 6400 1950
+Wire Wire Line
+	6400 1650 6400 1950
+Connection ~ 6400 1950
+Wire Wire Line
+	6400 1950 6600 1950
 $EndSCHEMATC
