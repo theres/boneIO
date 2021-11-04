@@ -437,12 +437,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x08 J1
 U 1 1 62D2984A
-P 18000 10500
-F 0 "J1" V 18080 10492 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 18080 10401 50  0000 L CNN
-F 2 "Connector:8pin" H 18000 10500 50  0001 C CNN
-F 3 "~" H 18000 10500 50  0001 C CNN
-	1    18000 10500
+P 10450 7050
+F 0 "J1" V 10530 7042 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 10530 6951 50  0000 L CNN
+F 2 "Connector:8pin" H 10450 7050 50  0001 C CNN
+F 3 "~" H 10450 7050 50  0001 C CNN
+	1    10450 7050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -795,19 +795,19 @@ Wire Wire Line
 	10400 3800 10400 4000
 Text Notes 10250 2600 0    157  ~ 31
 Switch\n\n
-Text GLabel 25850 12250 0    50   Input ~ 0
+Text GLabel 17850 7900 0    50   Input ~ 0
 P9.39
-Text GLabel 25850 12350 0    50   Input ~ 0
+Text GLabel 17850 8000 0    50   Input ~ 0
 P9.40
-Text GLabel 25850 12450 0    50   Input ~ 0
+Text GLabel 17850 8100 0    50   Input ~ 0
 P9.37
-Text GLabel 25850 12550 0    50   Input ~ 0
+Text GLabel 17850 8200 0    50   Input ~ 0
 P9.38
-Text GLabel 25850 12650 0    50   Input ~ 0
+Text GLabel 17850 8300 0    50   Input ~ 0
 P9.35
-Text GLabel 25850 12750 0    50   Input ~ 0
+Text GLabel 17850 8400 0    50   Input ~ 0
 P9.36
-Text GLabel 25850 12850 0    50   Input ~ 0
+Text GLabel 17850 8500 0    50   Input ~ 0
 P9.33
 Text GLabel 11300 3000 2    50   Input ~ 0
 P9.41
@@ -821,60 +821,60 @@ Wire Wire Line
 	13550 3600 13550 3150
 Wire Wire Line
 	13850 3050 13700 3050
-Text GLabel 9800 21450 2    50   Input ~ 0
+Text GLabel 18950 16450 2    50   Input ~ 0
 P8.07
-Text GLabel 9800 21150 2    50   Input ~ 0
+Text GLabel 18950 17350 2    50   Input ~ 0
+P9.30
+Text GLabel 9800 21450 2    50   Input ~ 0
 P8.08
-Text GLabel 9800 20850 2    50   Input ~ 0
+Text GLabel 9800 21150 2    50   Input ~ 0
 P8.09
-Text GLabel 9800 20550 2    50   Input ~ 0
+Text GLabel 9800 20850 2    50   Input ~ 0
 P8.10
-Text GLabel 9800 18850 2    50   Input ~ 0
-P8.11
 $Comp
 L Connector:Screw_Terminal_01x08 J6
 U 1 1 63FDFD42
-P 21200 11650
-F 0 "J6" V 21280 11642 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 21280 11551 50  0000 L CNN
-F 2 "Connector:8pin" H 21200 11650 50  0001 C CNN
-F 3 "~" H 21200 11650 50  0001 C CNN
-	1    21200 11650
+P 13650 8200
+F 0 "J6" V 13730 8192 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 13730 8101 50  0000 L CNN
+F 2 "Connector:8pin" H 13650 8200 50  0001 C CNN
+F 3 "~" H 13650 8200 50  0001 C CNN
+	1    13650 8200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9800 18550 2    50   Input ~ 0
-P8.12
+Text GLabel 9800 20550 2    50   Input ~ 0
+P8.11
 $Comp
 L Connector:Screw_Terminal_01x08 J4
 U 1 1 63D4A193
-P 19600 11650
-F 0 "J4" V 19680 11642 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 19680 11551 50  0000 L CNN
-F 2 "Connector:8pin" H 19600 11650 50  0001 C CNN
-F 3 "~" H 19600 11650 50  0001 C CNN
-	1    19600 11650
+P 12050 8200
+F 0 "J4" V 12130 8192 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 12130 8101 50  0000 L CNN
+F 2 "Connector:8pin" H 12050 8200 50  0001 C CNN
+F 3 "~" H 12050 8200 50  0001 C CNN
+	1    12050 8200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x08 J2
 U 1 1 63A3DBAC
-P 18000 11650
-F 0 "J2" V 18080 11642 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 18080 11551 50  0000 L CNN
-F 2 "Connector:8pin" H 18000 11650 50  0001 C CNN
-F 3 "~" H 18000 11650 50  0001 C CNN
-	1    18000 11650
+P 10450 8200
+F 0 "J2" V 10530 8192 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 10530 8101 50  0000 L CNN
+F 2 "Connector:8pin" H 10450 8200 50  0001 C CNN
+F 3 "~" H 10450 8200 50  0001 C CNN
+	1    10450 8200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x08 J3
 U 1 1 63807348
-P 19600 10550
-F 0 "J3" V 19680 10542 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 19680 10451 50  0000 L CNN
-F 2 "Connector:8pin" H 19600 10550 50  0001 C CNN
-F 3 "~" H 19600 10550 50  0001 C CNN
-	1    19600 10550
+P 12050 7100
+F 0 "J3" V 12130 7092 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 12130 7001 50  0000 L CNN
+F 2 "Connector:8pin" H 12050 7100 50  0001 C CNN
+F 3 "~" H 12050 7100 50  0001 C CNN
+	1    12050 7100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -891,12 +891,12 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 ANVDD1
 U 1 1 62D1D94E
-P 26050 13300
-F 0 "ANVDD1" H 26130 13292 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 26130 13201 50  0000 L CNN
-F 2 "Connector:Phoenix_1x02_P5.00mm_Horizontal" H 26050 13300 50  0001 C CNN
-F 3 "~" H 26050 13300 50  0001 C CNN
-	1    26050 13300
+P 18050 8950
+F 0 "ANVDD1" H 18130 8942 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 18130 8851 50  0000 L CNN
+F 2 "Connector:Phoenix_1x02_P5.00mm_Horizontal" H 18050 8950 50  0001 C CNN
+F 3 "~" H 18050 8950 50  0001 C CNN
+	1    18050 8950
 	1    0    0    1   
 $EndComp
 $Comp
@@ -945,91 +945,91 @@ F 3 "" H 13550 3600 50  0001 C CNN
 $EndComp
 Text Notes 19200 1900 0    157  ~ 31
 BeagleBone_Black
-Text GLabel 9800 15950 2    50   Input ~ 0
-P8.17
-Text GLabel 9800 16250 2    50   Input ~ 0
-P8.16
 Text GLabel 9800 17950 2    50   Input ~ 0
-P8.15
+P8.16
 Text GLabel 9800 18250 2    50   Input ~ 0
+P8.15
+Text GLabel 9800 18550 2    50   Input ~ 0
 P8.14
-Text GLabel 6400 18250 0    50   Input ~ 0
+Text GLabel 9800 18850 2    50   Input ~ 0
+P8.12
+Text GLabel 6400 18550 0    50   Input ~ 0
 P8.14_OUT
-Text GLabel 6400 17950 0    50   Input ~ 0
+Text GLabel 6400 18250 0    50   Input ~ 0
 P8.15_OUT
-Text GLabel 6400 16250 0    50   Input ~ 0
+Text GLabel 6400 17950 0    50   Input ~ 0
 P8.16_OUT
-Text GLabel 6400 15950 0    50   Input ~ 0
+Text GLabel 6400 16250 0    50   Input ~ 0
 P8.17_OUT
-Text GLabel 6400 15650 0    50   Input ~ 0
+Text GLabel 6400 15950 0    50   Input ~ 0
 P8.18_OUT
 Text GLabel 9800 15650 2    50   Input ~ 0
-P8.18
-Text GLabel 6400 15350 0    50   Input ~ 0
-P8.26_OUT
-Text GLabel 9800 15350 2    50   Input ~ 0
-P8.26
+P9.16
 Text GLabel 6400 13700 0    50   Input ~ 0
+P8.26_OUT
+Text GLabel 14300 15350 2    50   Input ~ 0
+P9.11
+Text GLabel 6400 13400 0    50   Input ~ 0
 P8.27_OUT
 Text GLabel 9800 13700 2    50   Input ~ 0
-P8.27
-Text GLabel 6400 13400 0    50   Input ~ 0
+P8.26
+Text GLabel 6400 13100 0    50   Input ~ 0
 P8.28_OUT
 Text GLabel 9800 13400 2    50   Input ~ 0
-P8.28
-Text GLabel 6400 13100 0    50   Input ~ 0
-P8.29_OUT
+P8.27
 Text GLabel 6400 12800 0    50   Input ~ 0
-P8.30_OUT
+P8.29_OUT
 Text GLabel 1750 21450 0    50   Input ~ 0
+P8.30_OUT
+Text GLabel 1750 21150 0    50   Input ~ 0
 P8.31_OUT
 Text GLabel 5150 21450 2    50   Input ~ 0
-P8.31
-Text GLabel 1750 21150 0    50   Input ~ 0
+P8.30
+Text GLabel 1750 20850 0    50   Input ~ 0
 P8.32_OUT
 Text GLabel 5150 21150 2    50   Input ~ 0
-P8.32
-Text GLabel 1750 20850 0    50   Input ~ 0
+P8.31
+Text GLabel 1750 20550 0    50   Input ~ 0
 P8.33_OUT
 Text GLabel 5150 20850 2    50   Input ~ 0
-P8.33
-Text GLabel 1750 20550 0    50   Input ~ 0
+P8.32
+Text GLabel 1750 18850 0    50   Input ~ 0
 P8.34_OUT
 Text GLabel 5150 20550 2    50   Input ~ 0
-P8.34
-Text GLabel 1750 18850 0    50   Input ~ 0
+P8.33
+Text GLabel 1750 18550 0    50   Input ~ 0
 P8.35_OUT
 Text GLabel 5150 18850 2    50   Input ~ 0
-P8.35
-Text GLabel 1750 18550 0    50   Input ~ 0
+P8.34
+Text GLabel 1750 18250 0    50   Input ~ 0
 P8.36_OUT
 Text GLabel 5150 18550 2    50   Input ~ 0
-P8.36
-Text GLabel 1750 18250 0    50   Input ~ 0
+P8.35
+Text GLabel 1750 17950 0    50   Input ~ 0
 P8.37_OUT
 Text GLabel 5150 18250 2    50   Input ~ 0
-P8.37
-Text GLabel 1750 17950 0    50   Input ~ 0
+P8.36
+Text GLabel 1750 16250 0    50   Input ~ 0
 P8.38_OUT
 Text GLabel 5150 17950 2    50   Input ~ 0
-P8.38
-Text GLabel 1750 16250 0    50   Input ~ 0
+P8.37
+Text GLabel 1750 15950 0    50   Input ~ 0
 P8.39_OUT
 Text GLabel 5150 16250 2    50   Input ~ 0
-P8.39
-Text GLabel 1750 15950 0    50   Input ~ 0
+P8.38
+Text GLabel 1750 15650 0    50   Input ~ 0
 P8.40_OUT
 Text GLabel 5150 15950 2    50   Input ~ 0
-P8.40
-Text GLabel 1750 15650 0    50   Input ~ 0
+P8.39
+Text GLabel 1750 15350 0    50   Input ~ 0
 P8.41_OUT
 Text GLabel 5150 15650 2    50   Input ~ 0
-P8.41
-Text GLabel 1750 15350 0    50   Input ~ 0
+P8.40
+Text GLabel 1750 13700 0    50   Input ~ 0
 P8.42_OUT
 Text GLabel 5150 15350 2    50   Input ~ 0
-P8.42
-Text GLabel 1750 12800 0    50   Input ~ 0
+P8.41
+Text GLabel 1750 13400 0    50   Input ~ 0
 P8.43_OUT
 $Comp
 L Device:R R4
@@ -1056,7 +1056,7 @@ F 4 "C14663" H 4550 14150 50  0001 C CNN "JLCPCB"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5150 13700 2    50   Input ~ 0
-P8.43
+P8.42
 Text GLabel 1750 13100 0    50   Input ~ 0
 P8.44_OUT
 $Comp
@@ -1084,7 +1084,7 @@ F 4 "C14663" H 4950 14150 50  0001 C CNN "JLCPCB"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5150 13400 2    50   Input ~ 0
-P8.44
+P8.43
 $Comp
 L Device:R R2
 U 1 1 62D1D98B
@@ -1110,8 +1110,8 @@ F 4 "C14663" H 4150 14150 50  0001 C CNN "JLCPCB"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5150 13100 2    50   Input ~ 0
-P8.45
-Text GLabel 1750 13700 0    50   Input ~ 0
+P8.44
+Text GLabel 10900 21450 0    50   Input ~ 0
 P8.46_OUT
 $Comp
 L Device:R R1
@@ -1138,66 +1138,66 @@ F 4 "C14663" H 3750 14150 50  0001 C CNN "JLCPCB"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5150 12800 2    50   Input ~ 0
-P8.46
-Text GLabel 6400 18550 0    50   Input ~ 0
-P8.12_OUT
+P8.45
 Text GLabel 6400 18850 0    50   Input ~ 0
-P8.11_OUT
-Text GLabel 6400 20550 0    50   Input ~ 0
-P8.10_OUT
-Text GLabel 6400 20850 0    50   Input ~ 0
-P8.09_OUT
-Text GLabel 6400 21150 0    50   Input ~ 0
-P8.08_OUT
-Text GLabel 6400 21450 0    50   Input ~ 0
-P8.07_OUT
-Text GLabel 21400 10650 2    50   Input ~ 0
-P8.43_OUT
-Text GLabel 21400 10550 2    50   Input ~ 0
-P8.44_OUT
-Text GLabel 21400 10450 2    50   Input ~ 0
-P8.45_OUT
-Text GLabel 21400 10350 2    50   Input ~ 0
-P8.46_OUT
-Text GLabel 21400 10950 2    50   Input ~ 0
-P8.40_OUT
-Text GLabel 21400 10850 2    50   Input ~ 0
-P8.41_OUT
-Text GLabel 21400 10750 2    50   Input ~ 0
-P8.42_OUT
-Text GLabel 19800 10450 2    50   Input ~ 0
-P8.31_OUT
-Text GLabel 19800 10350 2    50   Input ~ 0
-P8.32_OUT
-Text GLabel 19800 10850 2    50   Input ~ 0
-P8.27_OUT
-Text GLabel 19800 10750 2    50   Input ~ 0
-P8.28_OUT
-Text GLabel 19800 10650 2    50   Input ~ 0
-P8.29_OUT
-Text GLabel 19800 10550 2    50   Input ~ 0
-P8.30_OUT
-Text GLabel 19800 10950 2    50   Input ~ 0
-P8.26_OUT
-Text GLabel 19800 11750 2    50   Input ~ 0
-P8.14_OUT
-Text GLabel 19800 11650 2    50   Input ~ 0
-P8.15_OUT
-Text GLabel 19800 11550 2    50   Input ~ 0
-P8.16_OUT
-Text GLabel 19800 11450 2    50   Input ~ 0
-P8.17_OUT
-Text GLabel 19800 11850 2    50   Input ~ 0
 P8.12_OUT
-Text GLabel 19800 11950 2    50   Input ~ 0
+Text GLabel 6400 20550 0    50   Input ~ 0
 P8.11_OUT
-Text GLabel 19800 12050 2    50   Input ~ 0
+Text GLabel 6400 20850 0    50   Input ~ 0
 P8.10_OUT
-Text GLabel 21400 11450 2    50   Input ~ 0
+Text GLabel 6400 21150 0    50   Input ~ 0
 P8.09_OUT
-Text GLabel 21400 11550 2    50   Input ~ 0
+Text GLabel 6400 21450 0    50   Input ~ 0
 P8.08_OUT
-Text GLabel 21400 11650 2    50   Input ~ 0
+Text GLabel 15550 16450 0    50   Input ~ 0
+P8.07_OUT
+Text GLabel 13850 7200 2    50   Input ~ 0
+P8.43_OUT
+Text GLabel 13850 7100 2    50   Input ~ 0
+P8.44_OUT
+Text GLabel 13850 7000 2    50   Input ~ 0
+P8.45_OUT
+Text GLabel 13850 6900 2    50   Input ~ 0
+P8.46_OUT
+Text GLabel 13850 7500 2    50   Input ~ 0
+P8.40_OUT
+Text GLabel 13850 7400 2    50   Input ~ 0
+P8.41_OUT
+Text GLabel 13850 7300 2    50   Input ~ 0
+P8.42_OUT
+Text GLabel 12250 7000 2    50   Input ~ 0
+P8.31_OUT
+Text GLabel 12250 6900 2    50   Input ~ 0
+P8.32_OUT
+Text GLabel 12250 7400 2    50   Input ~ 0
+P8.27_OUT
+Text GLabel 12250 7300 2    50   Input ~ 0
+P8.28_OUT
+Text GLabel 12250 7200 2    50   Input ~ 0
+P8.29_OUT
+Text GLabel 12250 7100 2    50   Input ~ 0
+P8.30_OUT
+Text GLabel 12250 7500 2    50   Input ~ 0
+P8.26_OUT
+Text GLabel 12250 8300 2    50   Input ~ 0
+P8.14_OUT
+Text GLabel 12250 8200 2    50   Input ~ 0
+P8.15_OUT
+Text GLabel 12250 8100 2    50   Input ~ 0
+P8.16_OUT
+Text GLabel 12250 8000 2    50   Input ~ 0
+P8.17_OUT
+Text GLabel 12250 8400 2    50   Input ~ 0
+P8.12_OUT
+Text GLabel 12250 8500 2    50   Input ~ 0
+P8.11_OUT
+Text GLabel 12250 8600 2    50   Input ~ 0
+P8.10_OUT
+Text GLabel 13850 8000 2    50   Input ~ 0
+P8.09_OUT
+Text GLabel 13850 8100 2    50   Input ~ 0
+P8.08_OUT
+Text GLabel 13850 8200 2    50   Input ~ 0
 P8.07_OUT
 $Comp
 L RF_Module:RS485 U28
@@ -1286,9 +1286,9 @@ Wire Wire Line
 	4250 9450 4150 9450
 Wire Wire Line
 	4150 9450 4150 9550
-Text GLabel 25850 13200 0    50   Input ~ 0
+Text GLabel 17850 8850 0    50   Input ~ 0
 GND_ADC
-Text GLabel 25850 13300 0    50   Input ~ 0
+Text GLabel 17850 8950 0    50   Input ~ 0
 VDD_ADC
 $Comp
 L Connector:Screw_Terminal_01x08 J9
@@ -1323,12 +1323,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x08 J7
 U 1 1 6333DBFB
-P 26050 12550
-F 0 "J7" V 26130 12542 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 26130 12451 50  0000 L CNN
-F 2 "Connector:8pin" H 26050 12550 50  0001 C CNN
-F 3 "~" H 26050 12550 50  0001 C CNN
-	1    26050 12550
+P 18050 8200
+F 0 "J7" V 18130 8192 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 18130 8101 50  0000 L CNN
+F 2 "Connector:8pin" H 18050 8200 50  0001 C CNN
+F 3 "~" H 18050 8200 50  0001 C CNN
+	1    18050 8200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1522,21 +1522,21 @@ Text GLabel 4200 9150 0    50   Input ~ 0
 SCL_OUT
 Wire Wire Line
 	3800 8950 4250 8950
-Text GLabel 18200 12050 2    50   Input ~ 0
+Text GLabel 10650 8600 2    50   Input ~ 0
 P8.18_OUT
-Text GLabel 18200 10800 2    50   Input ~ 0
+Text GLabel 10650 7350 2    50   Input ~ 0
 P8.34_OUT
-Text GLabel 18200 10900 2    50   Input ~ 0
+Text GLabel 10650 7450 2    50   Input ~ 0
 P8.33_OUT
-Text GLabel 18200 10400 2    50   Input ~ 0
+Text GLabel 10650 6950 2    50   Input ~ 0
 P8.38_OUT
-Text GLabel 18200 10500 2    50   Input ~ 0
+Text GLabel 10650 7050 2    50   Input ~ 0
 P8.37_OUT
-Text GLabel 18200 10600 2    50   Input ~ 0
+Text GLabel 10650 7150 2    50   Input ~ 0
 P8.36_OUT
-Text GLabel 18200 10700 2    50   Input ~ 0
+Text GLabel 10650 7250 2    50   Input ~ 0
 P8.35_OUT
-Text GLabel 18200 10300 2    50   Input ~ 0
+Text GLabel 10650 6850 2    50   Input ~ 0
 P8.39_OUT
 $Comp
 L Connector_Generic:BeagleBone_Black_Header J10
@@ -1896,7 +1896,7 @@ Wire Wire Line
 	21550 4750 21400 4750
 Wire Wire Line
 	21550 4850 21400 4850
-NoConn ~ 25850 12950
+NoConn ~ 17850 8600
 $Comp
 L Device:R R53
 U 1 1 62D25CAC
@@ -2073,146 +2073,146 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x08 J8
 U 1 1 61BDD2B1
-P 22800 10550
-F 0 "J8" V 22880 10542 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 22880 10451 50  0000 L CNN
-F 2 "Connector:8pin" H 22800 10550 50  0001 C CNN
-F 3 "~" H 22800 10550 50  0001 C CNN
-	1    22800 10550
+P 15250 7100
+F 0 "J8" V 15330 7092 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 15330 7001 50  0000 L CNN
+F 2 "Connector:8pin" H 15250 7100 50  0001 C CNN
+F 3 "~" H 15250 7100 50  0001 C CNN
+	1    15250 7100
 	-1   0    0    -1  
 $EndComp
-Text GLabel 18950 17350 2    50   Input ~ 0
+Text GLabel 18950 16750 2    50   Input ~ 0
 P9.42
 Text GLabel 18950 17050 2    50   Input ~ 0
 P9.31
-Text GLabel 18950 16750 2    50   Input ~ 0
-P9.30
-Text GLabel 18950 16450 2    50   Input ~ 0
+Text GLabel 14300 17950 2    50   Input ~ 0
 P9.29
-Text GLabel 14300 21450 2    50   Input ~ 0
-P9.28
-Text GLabel 14300 21150 2    50   Input ~ 0
-P9.27
-Text GLabel 14300 20850 2    50   Input ~ 0
-P9.26
-Text GLabel 14300 20550 2    50   Input ~ 0
-P9.25
-Text GLabel 14300 18850 2    50   Input ~ 0
-P9.24
-Text GLabel 14300 18550 2    50   Input ~ 0
-P9.23
+Text GLabel 14300 18250 2    50   Input ~ 0
+P9.18
 Text GLabel 14300 12800 2    50   Input ~ 0
-P9.11
+P9.28
 Text GLabel 14300 13100 2    50   Input ~ 0
-P9.12
+P9.27
 Text GLabel 14300 13400 2    50   Input ~ 0
-P9.13
+P9.26
 Text GLabel 14300 13700 2    50   Input ~ 0
+P9.25
+Text GLabel 14300 21450 2    50   Input ~ 0
+P9.46
+Text GLabel 14300 21150 2    50   Input ~ 0
+P9.17
+Text GLabel 9800 16250 2    50   Input ~ 0
+P8.17
+Text GLabel 14300 15950 2    50   Input ~ 0
+P9.13
+Text GLabel 14300 16250 2    50   Input ~ 0
 P9.14
-Text GLabel 14300 15350 2    50   Input ~ 0
+Text GLabel 9800 15350 2    50   Input ~ 0
 P9.15
 Text GLabel 14300 15650 2    50   Input ~ 0
-P9.16
-Text GLabel 14300 15950 2    50   Input ~ 0
-P9.17
-Text GLabel 14300 16250 2    50   Input ~ 0
-P9.18
-Text GLabel 14300 17950 2    50   Input ~ 0
+P9.12
+Text GLabel 9800 15950 2    50   Input ~ 0
+P8.18
+Text GLabel 14300 20550 2    50   Input ~ 0
+P9.24
+Text GLabel 14300 20850 2    50   Input ~ 0
+P9.23
+Text GLabel 14300 18550 2    50   Input ~ 0
 P9.21
-Text GLabel 14300 18250 2    50   Input ~ 0
+Text GLabel 14300 18850 2    50   Input ~ 0
 P9.22
-Text GLabel 10900 12800 0    50   Input ~ 0
-P9.11_OUT
-Text GLabel 10900 13100 0    50   Input ~ 0
-P9.12_OUT
-Text GLabel 10900 13400 0    50   Input ~ 0
-P9.13_OUT
-Text GLabel 10900 13700 0    50   Input ~ 0
-P9.14_OUT
 Text GLabel 10900 15350 0    50   Input ~ 0
-P9.15_OUT
+P9.11_OUT
 Text GLabel 10900 15650 0    50   Input ~ 0
-P9.16_OUT
+P9.12_OUT
 Text GLabel 10900 15950 0    50   Input ~ 0
-P9.17_OUT
+P9.13_OUT
 Text GLabel 10900 16250 0    50   Input ~ 0
-P9.18_OUT
-Text GLabel 10900 17950 0    50   Input ~ 0
-P9.21_OUT
+P9.14_OUT
+Text GLabel 6400 15350 0    50   Input ~ 0
+P9.15_OUT
+Text GLabel 6400 15650 0    50   Input ~ 0
+P9.16_OUT
+Text GLabel 10900 21150 0    50   Input ~ 0
+P9.17_OUT
 Text GLabel 10900 18250 0    50   Input ~ 0
+P9.18_OUT
+Text GLabel 10900 18550 0    50   Input ~ 0
+P9.21_OUT
+Text GLabel 10900 18850 0    50   Input ~ 0
 P9.22_OUT
-Text GLabel 15550 17350 0    50   Input ~ 0
+Text GLabel 15550 16750 0    50   Input ~ 0
 P9.42_OUT
 Text GLabel 15550 17050 0    50   Input ~ 0
 P9.31_OUT
-Text GLabel 15550 16750 0    50   Input ~ 0
+Text GLabel 15550 17350 0    50   Input ~ 0
 P9.30_OUT
-Text GLabel 15550 16450 0    50   Input ~ 0
+Text GLabel 10900 17950 0    50   Input ~ 0
 P9.29_OUT
-Text GLabel 10900 21450 0    50   Input ~ 0
+Text GLabel 10900 12800 0    50   Input ~ 0
 P9.28_OUT
-Text GLabel 10900 21150 0    50   Input ~ 0
+Text GLabel 10900 13100 0    50   Input ~ 0
 P9.27_OUT
-Text GLabel 10900 20850 0    50   Input ~ 0
+Text GLabel 10900 13400 0    50   Input ~ 0
 P9.26_OUT
+Text GLabel 10900 13700 0    50   Input ~ 0
+P9.25_OUT
 Text GLabel 10900 20550 0    50   Input ~ 0
-P9.25_OUT
-Text GLabel 10900 18850 0    50   Input ~ 0
 P9.24_OUT
-Text GLabel 10900 18550 0    50   Input ~ 0
+Text GLabel 10900 20850 0    50   Input ~ 0
 P9.23_OUT
-Text GLabel 21400 11750 2    50   Input ~ 0
+Text GLabel 13850 8300 2    50   Input ~ 0
 P9.42_OUT
-Text GLabel 21400 11850 2    50   Input ~ 0
+Text GLabel 13850 8400 2    50   Input ~ 0
 P9.31_OUT
-Text GLabel 21400 11950 2    50   Input ~ 0
+Text GLabel 13850 8500 2    50   Input ~ 0
 P9.30_OUT
-Text GLabel 21400 12050 2    50   Input ~ 0
+Text GLabel 13850 8600 2    50   Input ~ 0
 P9.29_OUT
-Text GLabel 23000 10350 2    50   Input ~ 0
+Text GLabel 15450 6900 2    50   Input ~ 0
 P9.28_OUT
-Text GLabel 23000 10450 2    50   Input ~ 0
+Text GLabel 15450 7000 2    50   Input ~ 0
 P9.27_OUT
-Text GLabel 23000 10550 2    50   Input ~ 0
+Text GLabel 15450 7100 2    50   Input ~ 0
 P9.26_OUT
-Text GLabel 23000 10650 2    50   Input ~ 0
+Text GLabel 15450 7200 2    50   Input ~ 0
 P9.25_OUT
-Text GLabel 23000 10750 2    50   Input ~ 0
+Text GLabel 15450 7300 2    50   Input ~ 0
 P9.24_OUT
-Text GLabel 23000 10850 2    50   Input ~ 0
+Text GLabel 15450 7400 2    50   Input ~ 0
 P9.23_OUT
-Text GLabel 18200 11450 2    50   Input ~ 0
+Text GLabel 10650 8000 2    50   Input ~ 0
 P9.11_OUT
-Text GLabel 18200 11550 2    50   Input ~ 0
+Text GLabel 10650 8100 2    50   Input ~ 0
 P9.12_OUT
-Text GLabel 18200 11650 2    50   Input ~ 0
+Text GLabel 10650 8200 2    50   Input ~ 0
 P9.13_OUT
-Text GLabel 18200 11750 2    50   Input ~ 0
+Text GLabel 10650 8300 2    50   Input ~ 0
 P9.14_OUT
-Text GLabel 18200 11850 2    50   Input ~ 0
+Text GLabel 10650 8400 2    50   Input ~ 0
 P9.15_OUT
-Text GLabel 18200 11950 2    50   Input ~ 0
+Text GLabel 10650 8500 2    50   Input ~ 0
 P9.16_OUT
-Text GLabel 23000 10950 2    50   Input ~ 0
+Text GLabel 15450 7500 2    50   Input ~ 0
 P9.17_OUT
-Text GLabel 23000 11450 2    50   Input ~ 0
+Text GLabel 15450 8000 2    50   Input ~ 0
 P9.18_OUT
-Text GLabel 23000 11550 2    50   Input ~ 0
+Text GLabel 15450 8100 2    50   Input ~ 0
 P9.21_OUT
-Text GLabel 23000 11650 2    50   Input ~ 0
+Text GLabel 15450 8200 2    50   Input ~ 0
 P9.22_OUT
 $Comp
 L Connector:Screw_Terminal_01x04 J13
 U 1 1 6607F2D0
-P 22800 11450
-F 0 "J13" H 22880 11442 50  0000 L CNN
-F 1 "Screw_Terminal_01x04" H 22880 11351 50  0000 L CNN
-F 2 "Connector:Phoenix_1x04_P5.00mm_Horizontal" H 22800 11450 50  0001 C CNN
-F 3 "~" H 22800 11450 50  0001 C CNN
-	1    22800 11450
+P 15250 8000
+F 0 "J13" H 15330 7992 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 15330 7901 50  0000 L CNN
+F 2 "Connector:Phoenix_1x04_P5.00mm_Horizontal" H 15250 8000 50  0001 C CNN
+F 3 "~" H 15250 8000 50  0001 C CNN
+	1    15250 8000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1750 13400 0    50   Input ~ 0
+Text GLabel 1750 12800 0    50   Input ~ 0
 P8.45_OUT
 $Comp
 L Isolator:TLP290-4 U1
@@ -5287,9 +5287,9 @@ F 3 "" H 9600 22050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9800 13100 2    50   Input ~ 0
-P8.29
+P8.28
 Text GLabel 9800 12800 2    50   Input ~ 0
-P8.30
+P8.29
 $Comp
 L Device:R R101
 U 1 1 710E23E8
@@ -7273,70 +7273,59 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J14
 U 1 1 7737F5B5
-P 29650 11850
-F 0 "J14" H 29730 11892 50  0000 L CNN
-F 1 "ZW_VCC" H 29730 11801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 29650 11850 50  0001 C CNN
-F 3 "~" H 29650 11850 50  0001 C CNN
-	1    29650 11850
+P 21650 7500
+F 0 "J14" H 21730 7542 50  0000 L CNN
+F 1 "ZW_VCC" H 21730 7451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 21650 7500 50  0001 C CNN
+F 3 "~" H 21650 7500 50  0001 C CNN
+	1    21650 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J16
 U 1 1 6213CA37
-P 30400 12200
-F 0 "J16" H 30480 12192 50  0000 L CNN
-F 1 "INNY ZASILACZ" H 30480 12101 50  0000 L CNN
-F 2 "Connector:Phoenix_1x02_P5.00mm_Horizontal" H 30400 12200 50  0001 C CNN
-F 3 "~" H 30400 12200 50  0001 C CNN
-	1    30400 12200
+P 22400 7850
+F 0 "J16" H 22480 7842 50  0000 L CNN
+F 1 "INNY ZASILACZ" H 22480 7751 50  0000 L CNN
+F 2 "Connector:Phoenix_1x02_P5.00mm_Horizontal" H 22400 7850 50  0001 C CNN
+F 3 "~" H 22400 7850 50  0001 C CNN
+	1    22400 7850
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GNDD #PWR0243
-U 1 1 7763046F
-P 30750 12350
-F 0 "#PWR0243" H 30750 12100 50  0001 C CNN
-F 1 "GNDD" H 30754 12195 50  0000 C CNN
-F 2 "" H 30750 12350 50  0001 C CNN
-F 3 "" H 30750 12350 50  0001 C CNN
-	1    30750 12350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	30600 12200 30750 12200
+	22600 7850 22750 7850
 Wire Wire Line
-	30750 12200 30750 12350
+	22750 7850 22750 8000
 $Comp
 L power:+48V #PWR0244
 U 1 1 776BF1C3
-P 30750 11950
-F 0 "#PWR0244" H 30750 11800 50  0001 C CNN
-F 1 "+48V" H 30765 12123 50  0000 C CNN
-F 2 "" H 30750 11950 50  0001 C CNN
-F 3 "" H 30750 11950 50  0001 C CNN
-	1    30750 11950
+P 22750 7600
+F 0 "#PWR0244" H 22750 7450 50  0001 C CNN
+F 1 "+48V" H 22765 7773 50  0000 C CNN
+F 2 "" H 22750 7600 50  0001 C CNN
+F 3 "" H 22750 7600 50  0001 C CNN
+	1    22750 7600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	30600 12100 30750 12100
+	22600 7750 22750 7750
 Wire Wire Line
-	30750 12100 30750 11950
+	22750 7750 22750 7600
 $Comp
 L power:+48V #PWR0245
 U 1 1 778EC4D4
-P 28900 11550
-F 0 "#PWR0245" H 28900 11400 50  0001 C CNN
-F 1 "+48V" H 28915 11723 50  0000 C CNN
-F 2 "" H 28900 11550 50  0001 C CNN
-F 3 "" H 28900 11550 50  0001 C CNN
-	1    28900 11550
+P 20900 7200
+F 0 "#PWR0245" H 20900 7050 50  0001 C CNN
+F 1 "+48V" H 20915 7373 50  0000 C CNN
+F 2 "" H 20900 7200 50  0001 C CNN
+F 3 "" H 20900 7200 50  0001 C CNN
+	1    20900 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	29450 11950 28900 11950
+	21450 7600 20900 7600
 Wire Wire Line
-	28900 11550 28900 11950
+	20900 7200 20900 7600
 Wire Wire Line
 	1950 9900 1950 10250
 $Comp
@@ -7354,218 +7343,229 @@ Connection ~ 1950 9900
 $Comp
 L Connector:Screw_Terminal_01x08 J5
 U 1 1 62D1D982
-P 21200 10550
-F 0 "J5" V 21280 10542 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 21280 10451 50  0000 L CNN
-F 2 "Connector:8pin" H 21200 10550 50  0001 C CNN
-F 3 "~" H 21200 10550 50  0001 C CNN
-	1    21200 10550
+P 13650 7100
+F 0 "J5" V 13730 7092 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 13730 7001 50  0000 L CNN
+F 2 "Connector:8pin" H 13650 7100 50  0001 C CNN
+F 3 "~" H 13650 7100 50  0001 C CNN
+	1    13650 7100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR0246
 U 1 1 78F5F99F
-P 29100 11550
-F 0 "#PWR0246" H 29100 11400 50  0001 C CNN
-F 1 "VDD" H 29115 11723 50  0000 C CNN
-F 2 "" H 29100 11550 50  0001 C CNN
-F 3 "" H 29100 11550 50  0001 C CNN
-	1    29100 11550
+P 21100 7200
+F 0 "#PWR0246" H 21100 7050 50  0001 C CNN
+F 1 "VDD" H 21115 7373 50  0000 C CNN
+F 2 "" H 21100 7200 50  0001 C CNN
+F 3 "" H 21100 7200 50  0001 C CNN
+	1    21100 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	29450 11850 29100 11850
+	21450 7500 21100 7500
 Wire Wire Line
-	29100 11850 29100 11550
+	21100 7500 21100 7200
 $Comp
 L power:VDD #PWR0247
 U 1 1 78FF6827
-P 18300 10150
-F 0 "#PWR0247" H 18300 10000 50  0001 C CNN
-F 1 "VDD" H 18315 10323 50  0000 C CNN
-F 2 "" H 18300 10150 50  0001 C CNN
-F 3 "" H 18300 10150 50  0001 C CNN
-	1    18300 10150
+P 10750 6700
+F 0 "#PWR0247" H 10750 6550 50  0001 C CNN
+F 1 "VDD" H 10765 6873 50  0000 C CNN
+F 2 "" H 10750 6700 50  0001 C CNN
+F 3 "" H 10750 6700 50  0001 C CNN
+	1    10750 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18200 10200 18300 10200
+	10650 6750 10750 6750
 Wire Wire Line
-	18300 10200 18300 10150
+	10750 6750 10750 6700
 $Comp
 L power:VDD #PWR0248
 U 1 1 7908E220
-P 18300 11300
-F 0 "#PWR0248" H 18300 11150 50  0001 C CNN
-F 1 "VDD" H 18315 11473 50  0000 C CNN
-F 2 "" H 18300 11300 50  0001 C CNN
-F 3 "" H 18300 11300 50  0001 C CNN
-	1    18300 11300
+P 10750 7850
+F 0 "#PWR0248" H 10750 7700 50  0001 C CNN
+F 1 "VDD" H 10765 8023 50  0000 C CNN
+F 2 "" H 10750 7850 50  0001 C CNN
+F 3 "" H 10750 7850 50  0001 C CNN
+	1    10750 7850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18200 11350 18300 11350
+	10650 7900 10750 7900
 Wire Wire Line
-	18300 11350 18300 11300
+	10750 7900 10750 7850
 $Comp
 L power:VDD #PWR0249
 U 1 1 791207BD
-P 19900 10200
-F 0 "#PWR0249" H 19900 10050 50  0001 C CNN
-F 1 "VDD" H 19915 10373 50  0000 C CNN
-F 2 "" H 19900 10200 50  0001 C CNN
-F 3 "" H 19900 10200 50  0001 C CNN
-	1    19900 10200
+P 12350 6750
+F 0 "#PWR0249" H 12350 6600 50  0001 C CNN
+F 1 "VDD" H 12365 6923 50  0000 C CNN
+F 2 "" H 12350 6750 50  0001 C CNN
+F 3 "" H 12350 6750 50  0001 C CNN
+	1    12350 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19800 10250 19900 10250
+	12250 6800 12350 6800
 Wire Wire Line
-	19900 10250 19900 10200
+	12350 6800 12350 6750
 $Comp
 L power:VDD #PWR0250
 U 1 1 791B3557
-P 19900 11300
-F 0 "#PWR0250" H 19900 11150 50  0001 C CNN
-F 1 "VDD" H 19915 11473 50  0000 C CNN
-F 2 "" H 19900 11300 50  0001 C CNN
-F 3 "" H 19900 11300 50  0001 C CNN
-	1    19900 11300
+P 12350 7850
+F 0 "#PWR0250" H 12350 7700 50  0001 C CNN
+F 1 "VDD" H 12365 8023 50  0000 C CNN
+F 2 "" H 12350 7850 50  0001 C CNN
+F 3 "" H 12350 7850 50  0001 C CNN
+	1    12350 7850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19800 11350 19900 11350
+	12250 7900 12350 7900
 Wire Wire Line
-	19900 11350 19900 11300
+	12350 7900 12350 7850
 $Comp
 L power:VDD #PWR0251
 U 1 1 79246B89
-P 21500 11300
-F 0 "#PWR0251" H 21500 11150 50  0001 C CNN
-F 1 "VDD" H 21515 11473 50  0000 C CNN
-F 2 "" H 21500 11300 50  0001 C CNN
-F 3 "" H 21500 11300 50  0001 C CNN
-	1    21500 11300
+P 13950 7850
+F 0 "#PWR0251" H 13950 7700 50  0001 C CNN
+F 1 "VDD" H 13965 8023 50  0000 C CNN
+F 2 "" H 13950 7850 50  0001 C CNN
+F 3 "" H 13950 7850 50  0001 C CNN
+	1    13950 7850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21400 11350 21500 11350
+	13850 7900 13950 7900
 Wire Wire Line
-	21500 11350 21500 11300
+	13950 7900 13950 7850
 $Comp
 L power:VDD #PWR0252
 U 1 1 792DABB5
-P 21500 10200
-F 0 "#PWR0252" H 21500 10050 50  0001 C CNN
-F 1 "VDD" H 21515 10373 50  0000 C CNN
-F 2 "" H 21500 10200 50  0001 C CNN
-F 3 "" H 21500 10200 50  0001 C CNN
-	1    21500 10200
+P 13950 6750
+F 0 "#PWR0252" H 13950 6600 50  0001 C CNN
+F 1 "VDD" H 13965 6923 50  0000 C CNN
+F 2 "" H 13950 6750 50  0001 C CNN
+F 3 "" H 13950 6750 50  0001 C CNN
+	1    13950 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21400 10250 21500 10250
+	13850 6800 13950 6800
 Wire Wire Line
-	21500 10250 21500 10200
+	13950 6800 13950 6750
 $Comp
 L power:VDD #PWR0253
 U 1 1 7936F5AB
-P 23100 10200
-F 0 "#PWR0253" H 23100 10050 50  0001 C CNN
-F 1 "VDD" H 23115 10373 50  0000 C CNN
-F 2 "" H 23100 10200 50  0001 C CNN
-F 3 "" H 23100 10200 50  0001 C CNN
-	1    23100 10200
+P 15550 6750
+F 0 "#PWR0253" H 15550 6600 50  0001 C CNN
+F 1 "VDD" H 15565 6923 50  0000 C CNN
+F 2 "" H 15550 6750 50  0001 C CNN
+F 3 "" H 15550 6750 50  0001 C CNN
+	1    15550 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	23000 10250 23100 10250
+	15450 6800 15550 6800
 Wire Wire Line
-	23100 10250 23100 10200
+	15550 6800 15550 6750
 $Comp
 L power:VDD #PWR0254
 U 1 1 794048E7
-P 23100 11300
-F 0 "#PWR0254" H 23100 11150 50  0001 C CNN
-F 1 "VDD" H 23115 11473 50  0000 C CNN
-F 2 "" H 23100 11300 50  0001 C CNN
-F 3 "" H 23100 11300 50  0001 C CNN
-	1    23100 11300
+P 15550 7850
+F 0 "#PWR0254" H 15550 7700 50  0001 C CNN
+F 1 "VDD" H 15565 8023 50  0000 C CNN
+F 2 "" H 15550 7850 50  0001 C CNN
+F 3 "" H 15550 7850 50  0001 C CNN
+	1    15550 7850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	23000 11350 23100 11350
+	15450 7900 15550 7900
 Wire Wire Line
-	23100 11350 23100 11300
+	15550 7900 15550 7850
 $Comp
 L power:+24V #PWR0255
 U 1 1 7949A7C0
-P 29300 11550
-F 0 "#PWR0255" H 29300 11400 50  0001 C CNN
-F 1 "+24V" H 29315 11723 50  0000 C CNN
-F 2 "" H 29300 11550 50  0001 C CNN
-F 3 "" H 29300 11550 50  0001 C CNN
-	1    29300 11550
+P 21300 7200
+F 0 "#PWR0255" H 21300 7050 50  0001 C CNN
+F 1 "+24V" H 21315 7373 50  0000 C CNN
+F 2 "" H 21300 7200 50  0001 C CNN
+F 3 "" H 21300 7200 50  0001 C CNN
+	1    21300 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	29450 11750 29300 11750
+	21450 7400 21300 7400
 Wire Wire Line
-	29300 11750 29300 11550
+	21300 7400 21300 7200
 $Comp
 L Connector:Screw_Terminal_01x03 J15
 U 1 1 798BAA1C
-P 29650 12350
-F 0 "J15" H 29730 12392 50  0000 L CNN
-F 1 "ZW_GND" H 29730 12301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 29650 12350 50  0001 C CNN
-F 3 "~" H 29650 12350 50  0001 C CNN
-	1    29650 12350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0256
-U 1 1 79A85DF2
-P 29300 12600
-F 0 "#PWR0256" H 29300 12350 50  0001 C CNN
-F 1 "GNDD" H 29304 12445 50  0000 C CNN
-F 2 "" H 29300 12600 50  0001 C CNN
-F 3 "" H 29300 12600 50  0001 C CNN
-	1    29300 12600
+P 21650 8000
+F 0 "J15" H 21730 8042 50  0000 L CNN
+F 1 "ZW_GND" H 21730 7951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 21650 8000 50  0001 C CNN
+F 3 "~" H 21650 8000 50  0001 C CNN
+	1    21650 8000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	29300 12450 29300 12600
+	21300 8100 21300 8250
 Wire Wire Line
-	29450 12450 29300 12450
+	21450 8100 21300 8100
 $Comp
 L power:GNDA #PWR0257
 U 1 1 79CE37F4
-P 29050 12600
-F 0 "#PWR0257" H 29050 12350 50  0001 C CNN
-F 1 "GNDA" H 29055 12427 50  0000 C CNN
-F 2 "" H 29050 12600 50  0001 C CNN
-F 3 "" H 29050 12600 50  0001 C CNN
-	1    29050 12600
+P 21050 8250
+F 0 "#PWR0257" H 21050 8000 50  0001 C CNN
+F 1 "GNDA" H 21055 8077 50  0000 C CNN
+F 2 "" H 21050 8250 50  0001 C CNN
+F 3 "" H 21050 8250 50  0001 C CNN
+	1    21050 8250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	29450 12350 29050 12350
+	21450 8000 21050 8000
 Wire Wire Line
-	29050 12350 29050 12600
+	21050 8000 21050 8250
 $Comp
 L power:GND #PWR0258
 U 1 1 79E14CC0
-P 28850 12600
-F 0 "#PWR0258" H 28850 12350 50  0001 C CNN
-F 1 "GND" H 28855 12427 50  0000 C CNN
-F 2 "" H 28850 12600 50  0001 C CNN
-F 3 "" H 28850 12600 50  0001 C CNN
-	1    28850 12600
+P 20850 8250
+F 0 "#PWR0258" H 20850 8000 50  0001 C CNN
+F 1 "GND" H 20855 8077 50  0000 C CNN
+F 2 "" H 20850 8250 50  0001 C CNN
+F 3 "" H 20850 8250 50  0001 C CNN
+	1    20850 8250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	29450 12250 28850 12250
+	21450 7900 20850 7900
 Wire Wire Line
-	28850 12250 28850 12600
+	20850 7900 20850 8250
+$Comp
+L power:GND1 #PWR?
+U 1 1 6C6B0F2F
+P 21300 8250
+F 0 "#PWR?" H 21300 8000 50  0001 C CNN
+F 1 "GND1" H 21305 8077 50  0000 C CNN
+F 2 "" H 21300 8250 50  0001 C CNN
+F 3 "" H 21300 8250 50  0001 C CNN
+	1    21300 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6C6B16E6
+P 22750 8000
+F 0 "#PWR?" H 22750 7750 50  0001 C CNN
+F 1 "GND1" H 22755 7827 50  0000 C CNN
+F 2 "" H 22750 8000 50  0001 C CNN
+F 3 "" H 22750 8000 50  0001 C CNN
+	1    22750 8000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
