@@ -785,8 +785,6 @@ F 3 "" H 14300 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14300 4350 14300 4500
-Wire Wire Line
 	3600 8250 3800 8250
 Wire Wire Line
 	3600 10000 3800 10000
@@ -1110,10 +1108,6 @@ F 3 "" H 3850 3350 50  0001 C CNN
 	1    3850 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 3350 3250 3650
-Wire Wire Line
-	3850 3400 3850 3350
 Wire Wire Line
 	3850 3700 3850 4150
 $Comp
@@ -1569,9 +1563,6 @@ Wire Wire Line
 	1200 4350 1200 4250
 Wire Wire Line
 	1350 4250 1200 4250
-Connection ~ 1200 4250
-Wire Wire Line
-	1200 4250 1200 4050
 $Comp
 L Transistor_Array:ULN2803A U5
 U 1 1 6557F0FA
@@ -1978,9 +1969,6 @@ Text GLabel 21000 3200 0    50   Input ~ 0
 SCL
 Wire Wire Line
 	20500 2500 20500 3050
-Connection ~ 21700 2500
-Wire Wire Line
-	21700 2500 21700 2250
 NoConn ~ 21000 3700
 NoConn ~ 21000 3800
 $Comp
@@ -2929,4 +2917,24 @@ Text Notes 18650 2300 0    197  ~ 39
 MCP23017
 Text Notes 8400 1200 0    197  ~ 39
 boneIO - relay board 24x16A v0.2
+Wire Wire Line
+	3250 3350 3250 3650
+NoConn ~ 18850 3700
+NoConn ~ 18850 3800
+NoConn ~ 22400 4300
+NoConn ~ 22400 4400
+NoConn ~ 22400 4500
+NoConn ~ 22400 4600
+NoConn ~ 22400 4700
+NoConn ~ 22400 4200
+Wire Wire Line
+	14300 4350 14300 4500
+Wire Wire Line
+	3850 3350 3850 3400
+Wire Wire Line
+	1200 4050 1200 4250
+Connection ~ 1200 4250
+Wire Wire Line
+	21700 2250 21700 2500
+Connection ~ 21700 2500
 $EndSCHEMATC
