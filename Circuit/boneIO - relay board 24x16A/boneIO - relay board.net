@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\GITHUB\\boneIO\\Circuit\\boneIO - relay board 24x16A\\boneIO - relay board.sch")
-    (date "07/11/2021 22:27:36")
+    (date "07/11/2021 22:38:29")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -609,7 +609,7 @@
       (tstamp 61863BB9))
     (comp (ref J3)
       (value Conn_02x04_Odd_Even)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical)
+      (footprint ph80ds-21:PinHeader_2x04_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_02x04_Odd_Even) (description "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))

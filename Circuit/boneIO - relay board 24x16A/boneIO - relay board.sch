@@ -2861,7 +2861,7 @@ U 1 1 61AD4E35
 P 6350 3350
 F 0 "J3" H 6400 3667 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 6400 3576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 6350 3350 50  0001 C CNN
+F 2 "ph80ds-21:PinHeader_2x04_P2.54mm_Vertical" H 6350 3350 50  0001 C CNN
 F 3 "~" H 6350 3350 50  0001 C CNN
 	1    6350 3350
 	1    0    0    -1  
