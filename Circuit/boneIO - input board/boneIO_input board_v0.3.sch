@@ -1,0 +1,9015 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x02 VDD1
+U 1 1 618FEB19
+P -25000 2400
+F 0 "VDD1" H -24920 2392 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H -24920 2301 50  0000 L CNN
+F 2 "Connector:Phoenix_1x02_P5.00mm_Horizontal" H -25000 2400 50  0001 C CNN
+F 3 "~" H -25000 2400 50  0001 C CNN
+	1    -25000 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Switching:LM2596S-ADJ U6
+U 1 1 62D1D956
+P -22300 2500
+F 0 "U6" H -22300 2867 50  0000 C CNN
+F 1 "LM2596S-ADJ" H -22300 2776 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H -22250 2250 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H -22300 2500 50  0001 C CNN
+	1    -22300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 62D1D94F
+P -23450 2700
+F 0 "C2" V -23700 2650 50  0000 L CNN
+F 1 "100uF/50V" V -23600 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H -23412 2550 50  0001 C CNN
+F 3 "~" H -23450 2700 50  0001 C CNN
+F 4 "C72480" H -23450 2700 50  0001 C CNN "JLCPCB"
+	1    -23450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C21
+U 1 1 618FEB08
+P -20350 3050
+F 0 "C21" H -20232 3096 50  0000 L CNN
+F 1 "220u/35V" H -20232 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H -20312 2900 50  0001 C CNN
+F 3 "~" H -20350 3050 50  0001 C CNN
+F 4 "C311611" H -20350 3050 50  0001 C CNN "JLCPCB"
+	1    -20350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 62D1D952
+P -21650 2900
+F 0 "D3" H -21650 2700 50  0000 C CNN
+F 1 "SS34" H -21650 2800 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H -21650 2900 50  0001 C CNN
+F 3 "~" H -21650 2900 50  0001 C CNN
+F 4 "C8678" H -21650 2900 50  0001 C CNN "JLCPCB"
+	1    -21650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 62D1D953
+P -20700 2800
+F 0 "C20" H -20585 2846 50  0000 L CNN
+F 1 "3n3" H -20585 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -20662 2650 50  0001 C CNN
+F 3 "~" H -20700 2800 50  0001 C CNN
+F 4 "C107149" H -20700 2800 50  0001 C CNN "JLCPCB"
+	1    -20700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 62D1D95C
+P -21000 3200
+F 0 "R36" H -20930 3246 50  0000 L CNN
+F 1 "1k" H -20930 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -21070 3200 50  0001 C CNN
+F 3 "~" H -21000 3200 50  0001 C CNN
+F 4 "C269704" H -21000 3200 50  0001 C CNN "JLCPCB"
+	1    -21000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-23450 2550 -23450 2400
+Wire Wire Line
+	-23450 2400 -23150 2400
+Wire Wire Line
+	-22800 2600 -22850 2600
+Wire Wire Line
+	-21800 2600 -21650 2600
+Wire Wire Line
+	-21650 2600 -21650 2750
+$Comp
+L Device:L L1
+U 1 1 62D1D955
+P -21300 2600
+F 0 "L1" V -21110 2600 50  0000 C CNN
+F 1 "4.7uH" V -21201 2600 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H6mm" H -21300 2600 50  0001 C CNN
+F 3 "~" H -21300 2600 50  0001 C CNN
+F 4 "C338848" H -21300 2600 50  0001 C CNN "JLCPCB"
+	1    -21300 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-21650 2600 -21450 2600
+Connection ~ -21650 2600
+Wire Wire Line
+	-21000 2950 -21000 3000
+Wire Wire Line
+	-21150 2600 -21000 2600
+Wire Wire Line
+	-21000 2600 -21000 2650
+Wire Wire Line
+	-21000 3000 -21500 3000
+Wire Wire Line
+	-21500 3000 -21500 2400
+Wire Wire Line
+	-21500 2400 -21800 2400
+Connection ~ -21000 3000
+Wire Wire Line
+	-21000 3000 -21000 3050
+Wire Wire Line
+	-21000 3500 -21000 3350
+Wire Wire Line
+	-21000 2600 -20700 2600
+Wire Wire Line
+	-20700 2600 -20700 2650
+Connection ~ -21000 2600
+Wire Wire Line
+	-21000 3000 -20700 3000
+Wire Wire Line
+	-20700 3000 -20700 2950
+Wire Wire Line
+	-20700 2600 -20350 2600
+Wire Wire Line
+	-20350 2600 -20350 2900
+Connection ~ -20700 2600
+Wire Wire Line
+	-20350 3500 -20350 3200
+Wire Wire Line
+	-19950 2250 -19950 2600
+Connection ~ -20350 2600
+$Comp
+L Device:LED_ALT D4
+U 1 1 6462932C
+P -19950 3250
+F 0 "D4" V -19911 3132 50  0000 R CNN
+F 1 "LED_RED" V -20002 3132 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H -19950 3250 50  0001 C CNN
+F 3 "~" H -19950 3250 50  0001 C CNN
+F 4 "C84256" H -19950 3250 50  0001 C CNN "JLCPCB"
+	1    -19950 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 64765999
+P -19950 2800
+F 0 "R37" H -19880 2846 50  0000 L CNN
+F 1 "1k" H -19880 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -20020 2800 50  0001 C CNN
+F 3 "~" H -19950 2800 50  0001 C CNN
+F 4 "C269704" H -19950 2800 50  0001 C CNN "JLCPCB"
+	1    -19950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-20350 2600 -19950 2600
+Wire Wire Line
+	-19950 2600 -19950 2650
+Wire Wire Line
+	-19950 2950 -19950 3100
+Wire Wire Line
+	-19950 3500 -19950 3400
+Connection ~ -19950 2600
+$Comp
+L Device:Varistor RV1
+U 1 1 64765968
+P -24100 2700
+F 0 "RV1" V -24350 2650 50  0000 L CNN
+F 1 "07D270K" V -24250 2550 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D7mm_W3.5mm_P5mm" V -24170 2700 50  0001 C CNN
+F 3 "~" H -24100 2700 50  0001 C CNN
+F 4 "C317745" H -24100 2700 50  0001 C CNN "JLCPCB"
+	1    -24100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-24100 2550 -24100 2400
+Wire Wire Line
+	-24100 2400 -23900 2400
+$Comp
+L power:+5V #PWR070
+U 1 1 62D1D957
+P -19950 2250
+F 0 "#PWR070" H -19950 2100 50  0001 C CNN
+F 1 "+5V" H -19935 2423 50  0000 C CNN
+F 2 "" H -19950 2250 50  0001 C CNN
+F 3 "" H -19950 2250 50  0001 C CNN
+	1    -19950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 613F11A8
+P -23150 2700
+F 0 "C3" H -23035 2746 50  0000 L CNN
+F 1 "100n" H -23035 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -23112 2550 50  0001 C CNN
+F 3 "~" H -23150 2700 50  0001 C CNN
+F 4 "C14663" H -23150 2700 50  0001 C CNN "JLCPCB"
+	1    -23150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-23150 2400 -23150 2550
+Connection ~ -23150 2400
+Wire Wire Line
+	-23150 2400 -22800 2400
+$Comp
+L Device:D_ALT D1
+U 1 1 62D1D967
+P -23750 2400
+F 0 "D1" H -23750 2183 50  0000 C CNN
+F 1 "B340A-13F" H -23750 2274 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H -23750 2400 50  0001 C CNN
+F 3 "~" H -23750 2400 50  0001 C CNN
+F 4 "C64982" H -23750 2400 50  0001 C CNN "JLCPCB"
+	1    -23750 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-23600 2400 -23450 2400
+Connection ~ -23450 2400
+Text Notes -22600 1900 0    157  ~ 31
+Power
+$Comp
+L Device:R R35
+U 1 1 6462932B
+P -21000 2800
+F 0 "R35" H -20930 2846 50  0000 L CNN
+F 1 "3k" H -20930 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -21070 2800 50  0001 C CNN
+F 3 "~" H -21000 2800 50  0001 C CNN
+F 4 "C126358" H -21000 2800 50  0001 C CNN "JLCPCB"
+	1    -21000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR066
+U 1 1 64629332
+P -20450 1600
+F 0 "#PWR066" H -20450 1350 50  0001 C CNN
+F 1 "GND" H -20445 1427 50  0000 C CNN
+F 2 "" H -20450 1600 50  0001 C CNN
+F 3 "" H -20450 1600 50  0001 C CNN
+	1    -20450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 61D2FD07
+P -20850 1400
+F 0 "L2" H -20894 1354 50  0000 R CNN
+F 1 "BLM21PG221SN1D" H -20894 1445 50  0000 R CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H -20850 1400 50  0001 C CNN
+F 3 "~" H -20850 1400 50  0001 C CNN
+F 4 "C85840" H -20850 1400 50  0001 C CNN "JLCPCB"
+	1    -20850 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 62D1D963
+P -24300 2400
+F 0 "F1" V -24497 2400 50  0000 C CNN
+F 1 "Fuse_3A" V -24406 2400 50  0000 C CNN
+F 2 "Fuse:Fuse_2512_6332Metric" V -24370 2400 50  0001 C CNN
+F 3 "~" H -24300 2400 50  0001 C CNN
+F 4 "C136367" H -24300 2400 50  0001 C CNN "JLCPCB"
+	1    -24300 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-24150 2400 -24100 2400
+Connection ~ -24100 2400
+Wire Wire Line
+	-24450 2400 -24500 2400
+Wire Wire Line
+	-24500 2050 -24500 2400
+Wire Wire Line
+	-21650 3050 -21650 3500
+Wire Wire Line
+	-22300 2800 -22300 3500
+Wire Wire Line
+	-22850 2600 -22850 3500
+Wire Wire Line
+	-24100 2850 -24100 3500
+Wire Wire Line
+	-23450 2850 -23450 3500
+Wire Wire Line
+	-23150 2850 -23150 3500
+$Comp
+L power:Earth #PWR013
+U 1 1 62D1D96A
+P -23450 3500
+F 0 "#PWR013" H -23450 3250 50  0001 C CNN
+F 1 "Earth" H -23450 3350 50  0001 C CNN
+F 2 "" H -23450 3500 50  0001 C CNN
+F 3 "~" H -23450 3500 50  0001 C CNN
+	1    -23450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR011
+U 1 1 62D1D96B
+P -24100 3500
+F 0 "#PWR011" H -24100 3250 50  0001 C CNN
+F 1 "Earth" H -24100 3350 50  0001 C CNN
+F 2 "" H -24100 3500 50  0001 C CNN
+F 3 "~" H -24100 3500 50  0001 C CNN
+	1    -24100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR014
+U 1 1 62D1D972
+P -23150 3500
+F 0 "#PWR014" H -23150 3250 50  0001 C CNN
+F 1 "Earth" H -23150 3350 50  0001 C CNN
+F 2 "" H -23150 3500 50  0001 C CNN
+F 3 "~" H -23150 3500 50  0001 C CNN
+	1    -23150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR016
+U 1 1 62D1D973
+P -22850 3500
+F 0 "#PWR016" H -22850 3250 50  0001 C CNN
+F 1 "Earth" H -22850 3350 50  0001 C CNN
+F 2 "" H -22850 3500 50  0001 C CNN
+F 3 "~" H -22850 3500 50  0001 C CNN
+	1    -22850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR032
+U 1 1 62D1D974
+P -22300 3500
+F 0 "#PWR032" H -22300 3250 50  0001 C CNN
+F 1 "Earth" H -22300 3350 50  0001 C CNN
+F 2 "" H -22300 3500 50  0001 C CNN
+F 3 "~" H -22300 3500 50  0001 C CNN
+	1    -22300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR046
+U 1 1 62D1D975
+P -21650 3500
+F 0 "#PWR046" H -21650 3250 50  0001 C CNN
+F 1 "Earth" H -21650 3350 50  0001 C CNN
+F 2 "" H -21650 3500 50  0001 C CNN
+F 3 "~" H -21650 3500 50  0001 C CNN
+	1    -21650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR065
+U 1 1 62097CDA
+P -21000 3500
+F 0 "#PWR065" H -21000 3250 50  0001 C CNN
+F 1 "Earth" H -21000 3350 50  0001 C CNN
+F 2 "" H -21000 3500 50  0001 C CNN
+F 3 "~" H -21000 3500 50  0001 C CNN
+	1    -21000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR067
+U 1 1 62D1D978
+P -20350 3500
+F 0 "#PWR067" H -20350 3250 50  0001 C CNN
+F 1 "Earth" H -20350 3350 50  0001 C CNN
+F 2 "" H -20350 3500 50  0001 C CNN
+F 3 "~" H -20350 3500 50  0001 C CNN
+	1    -20350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR071
+U 1 1 62D1D979
+P -19950 3500
+F 0 "#PWR071" H -19950 3250 50  0001 C CNN
+F 1 "Earth" H -19950 3350 50  0001 C CNN
+F 2 "" H -19950 3500 50  0001 C CNN
+F 3 "~" H -19950 3500 50  0001 C CNN
+	1    -19950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR056
+U 1 1 6221FF74
+P -21200 1600
+F 0 "#PWR056" H -21200 1350 50  0001 C CNN
+F 1 "Earth" H -21200 1450 50  0001 C CNN
+F 2 "" H -21200 1600 50  0001 C CNN
+F 3 "~" H -21200 1600 50  0001 C CNN
+	1    -21200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-21200 1600 -21200 1400
+Wire Wire Line
+	-21200 1400 -21000 1400
+Wire Wire Line
+	-20450 1400 -20450 1600
+Wire Wire Line
+	-20700 1400 -20450 1400
+$Comp
+L Connector:Screw_Terminal_01x08 J3
+U 1 1 6476598A
+P -15650 6950
+F 0 "J3" V -15570 6942 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -15570 6851 50  0000 L CNN
+F 2 "Connector:8pin" H -15650 6950 50  0001 C CNN
+F 3 "~" H -15650 6950 50  0001 C CNN
+	1    -15650 6950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR02
+U 1 1 62D1D9E9
+P -24900 2800
+F 0 "#PWR02" H -24900 2550 50  0001 C CNN
+F 1 "Earth" H -24900 2650 50  0001 C CNN
+F 2 "" H -24900 2800 50  0001 C CNN
+F 3 "~" H -24900 2800 50  0001 C CNN
+	1    -24900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-25000 2600 -25000 2750
+Wire Wire Line
+	-25000 2750 -25350 2750
+Wire Wire Line
+	-24900 2800 -24900 2600
+$Comp
+L power:+24V #PWR012
+U 1 1 65E9EE2F
+P -23450 2100
+F 0 "#PWR012" H -23450 1950 50  0001 C CNN
+F 1 "+24V" H -23435 2273 50  0000 C CNN
+F 2 "" H -23450 2100 50  0001 C CNN
+F 3 "" H -23450 2100 50  0001 C CNN
+	1    -23450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-23450 2400 -23450 2100
+$Comp
+L power:VCC #PWR03
+U 1 1 65EDC343
+P -24500 2050
+F 0 "#PWR03" H -24500 1900 50  0001 C CNN
+F 1 "VCC" H -24485 2223 50  0000 C CNN
+F 2 "" H -24500 2050 50  0001 C CNN
+F 3 "" H -24500 2050 50  0001 C CNN
+	1    -24500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 6EA76D25
+P -25350 2400
+F 0 "#PWR01" H -25350 2250 50  0001 C CNN
+F 1 "VCC" H -25335 2573 50  0000 C CNN
+F 2 "" H -25350 2400 50  0001 C CNN
+F 3 "" H -25350 2400 50  0001 C CNN
+	1    -25350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-25350 2400 -25350 2750
+$Comp
+L power:+3.3V #PWR0175
+U 1 1 62D1DA3E
+P -8750 3100
+F 0 "#PWR0175" H -8750 2950 50  0001 C CNN
+F 1 "+3.3V" H -8735 3273 50  0000 C CNN
+F 2 "" H -8750 3100 50  0001 C CNN
+F 3 "" H -8750 3100 50  0001 C CNN
+	1    -8750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0172
+U 1 1 62D1DA3D
+P -9550 3100
+F 0 "#PWR0172" H -9550 2950 50  0001 C CNN
+F 1 "+3.3V" H -9535 3273 50  0000 C CNN
+F 2 "" H -9550 3100 50  0001 C CNN
+F 3 "" H -9550 3100 50  0001 C CNN
+	1    -9550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0171
+U 1 1 6D5FA1DF
+P -10350 3100
+F 0 "#PWR0171" H -10350 2950 50  0001 C CNN
+F 1 "+3.3V" H -10335 3273 50  0000 C CNN
+F 2 "" H -10350 3100 50  0001 C CNN
+F 3 "" H -10350 3100 50  0001 C CNN
+	1    -10350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0167
+U 1 1 6476599A
+P -10650 3100
+F 0 "#PWR0167" H -10650 2950 50  0001 C CNN
+F 1 "+3.3V" H -10635 3273 50  0000 C CNN
+F 2 "" H -10650 3100 50  0001 C CNN
+F 3 "" H -10650 3100 50  0001 C CNN
+	1    -10650 3100
+	1    0    0    -1  
+$EndComp
+Text Notes -10100 2850 0    157  ~ 31
+Clock_RTC\n\n\n
+Wire Wire Line
+	-8400 2650 -8400 4350
+Wire Wire Line
+	-8400 2650 -8600 2650
+$Comp
+L power:GND #PWR0178
+U 1 1 64765988
+P -8400 4350
+F 0 "#PWR0178" H -8400 4100 50  0001 C CNN
+F 1 "GND" H -8395 4177 50  0000 C CNN
+F 2 "" H -8400 4350 50  0001 C CNN
+F 3 "" H -8400 4350 50  0001 C CNN
+	1    -8400 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9450 2650 -9000 2650
+Wire Wire Line
+	-9450 3400 -9450 2650
+$Comp
+L Device:Battery BT1
+U 1 1 64765985
+P -8800 2650
+F 0 "BT1" V -8555 2650 50  0000 C CNN
+F 1 "Battery" V -8646 2650 50  0000 C CNN
+F 2 "Battery:Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles" V -8800 2710 50  0001 C CNN
+F 3 "~" V -8800 2710 50  0001 C CNN
+	1    -8800 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-9450 4350 -9450 4200
+$Comp
+L power:GND #PWR0173
+U 1 1 628E2876
+P -9450 4350
+F 0 "#PWR0173" H -9450 4100 50  0001 C CNN
+F 1 "GND" H -9445 4177 50  0000 C CNN
+F 2 "" H -9450 4350 50  0001 C CNN
+F 3 "" H -9450 4350 50  0001 C CNN
+	1    -9450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-8750 3100 -8750 3300
+Wire Wire Line
+	-8750 3800 -8750 3600
+Wire Wire Line
+	-8950 3800 -8750 3800
+$Comp
+L Device:R R112
+U 1 1 6261B9C3
+P -8750 3450
+F 0 "R112" H -8680 3496 50  0000 L CNN
+F 1 "10k" H -8680 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -8820 3450 50  0001 C CNN
+F 3 "~" H -8750 3450 50  0001 C CNN
+F 4 "C238881" H -8750 3450 50  0001 C CNN "JLCPCB"
+	1    -8750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10600 4000 -9950 4000
+Wire Wire Line
+	-10600 4300 -10600 4000
+Wire Wire Line
+	-10750 4300 -10600 4300
+Wire Wire Line
+	-10750 4200 -10750 4300
+Wire Wire Line
+	-10750 3800 -10750 3900
+Wire Wire Line
+	-10600 3800 -10750 3800
+Wire Wire Line
+	-10600 3900 -10600 3800
+Wire Wire Line
+	-9950 3900 -10600 3900
+$Comp
+L Device:Crystal Y1
+U 1 1 64765980
+P -10750 4050
+F 0 "Y1" V -10850 3650 50  0000 L CNN
+F 1 "32,788 MHz" V -10750 3450 50  0000 L CNN
+F 2 "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal" H -10750 4050 50  0001 C CNN
+F 3 "~" H -10750 4050 50  0001 C CNN
+	1    -10750 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9550 3400 -9550 3100
+Wire Wire Line
+	-10350 3250 -10350 3100
+Wire Wire Line
+	-10650 3250 -10650 3100
+Connection ~ -10650 3700
+Wire Wire Line
+	-10800 3700 -10650 3700
+Connection ~ -10350 3600
+Wire Wire Line
+	-10800 3600 -10350 3600
+Text GLabel -10800 3600 0    50   Input ~ 0
+SCL
+Text GLabel -10800 3700 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	-10650 3700 -10650 3550
+Wire Wire Line
+	-9950 3700 -10650 3700
+Wire Wire Line
+	-10350 3600 -10350 3550
+Wire Wire Line
+	-9950 3600 -10350 3600
+$Comp
+L Device:R R106
+U 1 1 62D1D966
+P -10650 3400
+F 0 "R106" H -10580 3446 50  0000 L CNN
+F 1 "10k" H -10580 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -10720 3400 50  0001 C CNN
+F 3 "~" H -10650 3400 50  0001 C CNN
+F 4 "C238881" H -10650 3400 50  0001 C CNN "JLCPCB"
+	1    -10650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R107
+U 1 1 62D1D965
+P -10350 3400
+F 0 "R107" H -10280 3446 50  0000 L CNN
+F 1 "10k" H -10280 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -10420 3400 50  0001 C CNN
+F 3 "~" H -10350 3400 50  0001 C CNN
+F 4 "C238881" H -10350 3400 50  0001 C CNN "JLCPCB"
+	1    -10350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer_RTC:DS1307Z+ U16
+U 1 1 6476596A
+P -9450 3800
+F 0 "U16" H -8906 3846 50  0000 L CNN
+F 1 "DS1307Z+" H -8906 3755 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H -9450 3300 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf" H -9450 3800 50  0001 C CNN
+F 4 "C26858" H -9450 3800 50  0001 C CNN "JLCPCB"
+	1    -9450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-22150 8400 -22150 8750
+Wire Wire Line
+	-13050 2700 -13050 2600
+Wire Wire Line
+	-12750 2700 -12750 2600
+Wire Wire Line
+	-12400 2600 -12400 2950
+$Comp
+L power:+3.3V #PWR0137
+U 1 1 62D1DA45
+P -13050 2600
+F 0 "#PWR0137" H -13050 2450 50  0001 C CNN
+F 1 "+3.3V" H -13035 2773 50  0000 C CNN
+F 2 "" H -13050 2600 50  0001 C CNN
+F 3 "" H -13050 2600 50  0001 C CNN
+	1    -13050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0146
+U 1 1 62D1DA44
+P -12750 2600
+F 0 "#PWR0146" H -12750 2450 50  0001 C CNN
+F 1 "+3.3V" H -12735 2773 50  0000 C CNN
+F 2 "" H -12750 2600 50  0001 C CNN
+F 3 "" H -12750 2600 50  0001 C CNN
+	1    -12750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13050 3150 -12250 3150
+Connection ~ -13050 3150
+Wire Wire Line
+	-13050 3000 -13050 3150
+Wire Wire Line
+	-12750 3250 -12250 3250
+Connection ~ -12750 3250
+Wire Wire Line
+	-12750 3000 -12750 3250
+Wire Wire Line
+	-13150 3250 -12750 3250
+Wire Wire Line
+	-13150 3150 -13050 3150
+$Comp
+L Device:R R92
+U 1 1 62D1DA43
+P -13050 2850
+F 0 "R92" H -12980 2896 50  0000 L CNN
+F 1 "4.7k" H -12980 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -13120 2850 50  0001 C CNN
+F 3 "~" H -13050 2850 50  0001 C CNN
+F 4 "C101062" H -13050 2850 50  0001 C CNN "JLCPCB"
+	1    -13050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R97
+U 1 1 62D1DA42
+P -12750 2850
+F 0 "R97" H -12680 2896 50  0000 L CNN
+F 1 "4.7k" H -12680 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -12820 2850 50  0001 C CNN
+F 3 "~" H -12750 2850 50  0001 C CNN
+F 4 "C101062" H -12750 2850 50  0001 C CNN "JLCPCB"
+	1    -12750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-21900 9050 -21850 9050
+Wire Wire Line
+	-21900 8950 -21850 8950
+$Comp
+L power:+3.3V #PWR034
+U 1 1 62D1DA41
+P -22150 8400
+F 0 "#PWR034" H -22150 8250 50  0001 C CNN
+F 1 "+3.3V" H -22135 8573 50  0000 C CNN
+F 2 "" H -22150 8400 50  0001 C CNN
+F 3 "" H -22150 8400 50  0001 C CNN
+	1    -22150 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 6476599D
+P -22300 9300
+F 0 "#PWR033" H -22300 9050 50  0001 C CNN
+F 1 "GND" V -22295 9172 50  0000 R CNN
+F 2 "" H -22300 9300 50  0001 C CNN
+F 3 "" H -22300 9300 50  0001 C CNN
+	1    -22300 9300
+	1    0    0    -1  
+$EndComp
+Text Notes -12000 2900 0    157  ~ 31
+I2C\n\n\n
+Wire Wire Line
+	-15700 2900 -15700 3000
+Wire Wire Line
+	-15700 3700 -15700 3900
+Text Notes -15850 2500 0    157  ~ 31
+Switch\n\n
+Text GLabel -8250 7800 0    50   Input ~ 0
+P9.39
+Text GLabel -8250 7900 0    50   Input ~ 0
+P9.40
+Text GLabel -8250 8000 0    50   Input ~ 0
+P9.37
+Text GLabel -8250 8100 0    50   Input ~ 0
+P9.38
+Text GLabel -8250 8200 0    50   Input ~ 0
+P9.35
+Text GLabel -8250 8300 0    50   Input ~ 0
+P9.36
+Text GLabel -8250 8400 0    50   Input ~ 0
+P9.33
+Text GLabel -14800 2900 2    50   Input ~ 0
+P9.41
+Text GLabel -13150 3150 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	-12550 3050 -12250 3050
+Text GLabel -13150 3250 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	-12550 3500 -12550 3050
+Wire Wire Line
+	-12250 2950 -12400 2950
+Text GLabel -7150 16350 2    50   Input ~ 0
+P8.07
+Text GLabel -7150 17250 2    50   Input ~ 0
+P9.30
+$Comp
+L Connector:Screw_Terminal_01x08 J8
+U 1 1 64765994
+P -12450 8100
+F 0 "J8" V -12370 8092 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -12370 8001 50  0000 L CNN
+F 2 "Connector:8pin" H -12450 8100 50  0001 C CNN
+F 3 "~" H -12450 8100 50  0001 C CNN
+	1    -12450 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x08 J6
+U 1 1 63D4A193
+P -14050 8100
+F 0 "J6" V -13970 8092 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -13970 8001 50  0000 L CNN
+F 2 "Connector:8pin" H -14050 8100 50  0001 C CNN
+F 3 "~" H -14050 8100 50  0001 C CNN
+	1    -14050 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x08 J4
+U 1 1 63A3DBAC
+P -15650 8100
+F 0 "J4" V -15570 8092 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -15570 8001 50  0000 L CNN
+F 2 "Connector:8pin" H -15650 8100 50  0001 C CNN
+F 3 "~" H -15650 8100 50  0001 C CNN
+	1    -15650 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x08 J5
+U 1 1 63807348
+P -14050 7000
+F 0 "J5" V -13970 6992 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -13970 6901 50  0000 L CNN
+F 2 "Connector:8pin" H -14050 7000 50  0001 C CNN
+F 3 "~" H -14050 7000 50  0001 C CNN
+	1    -14050 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 618FEB23
+P -15700 3200
+F 0 "SW1" V -15746 3348 50  0000 L CNN
+F 1 "SW_Push" V -15655 3348 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H13mm" H -15700 3400 50  0001 C CNN
+F 3 "~" H -15700 3400 50  0001 C CNN
+	1    -15700 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 ANVDD1
+U 1 1 62D1D94E
+P -8050 8850
+F 0 "ANVDD1" H -7970 8842 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H -7970 8751 50  0000 L CNN
+F 2 "Connector:Phoenix_1x02_P5.00mm_Horizontal" H -8050 8850 50  0001 C CNN
+F 3 "~" H -8050 8850 50  0001 C CNN
+	1    -8050 8850
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0148
+U 1 1 64765970
+P -12400 2600
+F 0 "#PWR0148" H -12400 2450 50  0001 C CNN
+F 1 "+3.3V" H -12385 2773 50  0000 C CNN
+F 2 "" H -12400 2600 50  0001 C CNN
+F 3 "" H -12400 2600 50  0001 C CNN
+	1    -12400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 I2C1
+U 1 1 62D1D960
+P -12050 3050
+F 0 "I2C1" H -11970 3042 50  0000 L CNN
+F 1 "Conn_01x04" H -11970 2951 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H -12050 3050 50  0001 C CNN
+F 3 "~" H -12050 3050 50  0001 C CNN
+	1    -12050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 62D1D95E
+P -15700 3900
+F 0 "#PWR0113" H -15700 3650 50  0001 C CNN
+F 1 "GND" H -15695 3727 50  0000 C CNN
+F 2 "" H -15700 3900 50  0001 C CNN
+F 3 "" H -15700 3900 50  0001 C CNN
+	1    -15700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 62D1D95D
+P -12550 3500
+F 0 "#PWR0147" H -12550 3250 50  0001 C CNN
+F 1 "GND" V -12545 3372 50  0000 R CNN
+F 2 "" H -12550 3500 50  0001 C CNN
+F 3 "" H -12550 3500 50  0001 C CNN
+	1    -12550 3500
+	1    0    0    -1  
+$EndComp
+Text Notes -6900 1800 0    157  ~ 31
+BeagleBone_Black
+Text GLabel 12550 6550 0    50   Input ~ 0
+P8.14_OUT
+Text GLabel 12550 4950 0    50   Input ~ 0
+P8.15_OUT
+Text GLabel 12550 3350 0    50   Input ~ 0
+P8.16_OUT
+Text GLabel 9250 14150 0    50   Input ~ 0
+P8.17_OUT
+Text GLabel 9250 12650 0    50   Input ~ 0
+P8.18_OUT
+Text GLabel 9250 8100 0    50   Input ~ 0
+P8.26_OUT
+Text GLabel 9250 6600 0    50   Input ~ 0
+P8.27_OUT
+Text GLabel 9250 5000 0    50   Input ~ 0
+P8.28_OUT
+Text GLabel 9250 3400 0    50   Input ~ 0
+P8.29_OUT
+Text GLabel 6000 14200 0    50   Input ~ 0
+P8.30_OUT
+Text GLabel 6000 12700 0    50   Input ~ 0
+P8.31_OUT
+Text GLabel 6000 11200 0    50   Input ~ 0
+P8.32_OUT
+Text GLabel 6000 9700 0    50   Input ~ 0
+P8.33_OUT
+Text GLabel 6000 8150 0    50   Input ~ 0
+P8.34_OUT
+Text GLabel 6000 6650 0    50   Input ~ 0
+P8.35_OUT
+Text GLabel 6000 5050 0    50   Input ~ 0
+P8.36_OUT
+Text GLabel 6000 3450 0    50   Input ~ 0
+P8.37_OUT
+Text GLabel 2700 14200 0    50   Input ~ 0
+P8.38_OUT
+Text GLabel 2700 12700 0    50   Input ~ 0
+P8.39_OUT
+Text GLabel 2700 11200 0    50   Input ~ 0
+P8.40_OUT
+Text GLabel 2700 9700 0    50   Input ~ 0
+P8.41_OUT
+Text GLabel 2700 8150 0    50   Input ~ 0
+P8.42_OUT
+Text GLabel 2700 6650 0    50   Input ~ 0
+P8.43_OUT
+Text GLabel 2700 5050 0    50   Input ~ 0
+P8.44_OUT
+$Comp
+L Device:R R18
+U 1 1 62D1D98B
+P 4550 2850
+F 0 "R18" H 4620 2896 50  0000 L CNN
+F 1 "10k" H 4620 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2850 50  0001 C CNN
+F 3 "~" H 4550 2850 50  0001 C CNN
+F 4 "C238881" H 4550 2850 50  0001 C CNN "JLCPCB"
+	1    4550 2850
+	-1   0    0    1   
+$EndComp
+Text GLabel 19300 14100 0    50   Input ~ 0
+P8.46_OUT
+Text GLabel 12550 8050 0    50   Input ~ 0
+P8.12_OUT
+Text GLabel 12550 9600 0    50   Input ~ 0
+P8.11_OUT
+Text GLabel 12550 11100 0    50   Input ~ 0
+P8.10_OUT
+Text GLabel 12550 12600 0    50   Input ~ 0
+P8.09_OUT
+Text GLabel 12550 14100 0    50   Input ~ 0
+P8.08_OUT
+Text GLabel 22400 3300 0    50   Input ~ 0
+P8.07_OUT
+Text GLabel -12250 7100 2    50   Input ~ 0
+P8.43_OUT
+Text GLabel -12250 7000 2    50   Input ~ 0
+P8.44_OUT
+Text GLabel -12250 6900 2    50   Input ~ 0
+P8.45_OUT
+Text GLabel -12250 6800 2    50   Input ~ 0
+P8.46_OUT
+Text GLabel -12250 7400 2    50   Input ~ 0
+P8.40_OUT
+Text GLabel -12250 7300 2    50   Input ~ 0
+P8.41_OUT
+Text GLabel -12250 7200 2    50   Input ~ 0
+P8.42_OUT
+Text GLabel -13850 6900 2    50   Input ~ 0
+P8.31_OUT
+Text GLabel -13850 6800 2    50   Input ~ 0
+P8.32_OUT
+Text GLabel -13850 7300 2    50   Input ~ 0
+P8.27_OUT
+Text GLabel -13850 7200 2    50   Input ~ 0
+P8.28_OUT
+Text GLabel -13850 7100 2    50   Input ~ 0
+P8.29_OUT
+Text GLabel -13850 7000 2    50   Input ~ 0
+P8.30_OUT
+Text GLabel -13850 7400 2    50   Input ~ 0
+P8.26_OUT
+Text GLabel -13850 8200 2    50   Input ~ 0
+P8.14_OUT
+Text GLabel -13850 8100 2    50   Input ~ 0
+P8.15_OUT
+Text GLabel -13850 8000 2    50   Input ~ 0
+P8.16_OUT
+Text GLabel -13850 7900 2    50   Input ~ 0
+P8.17_OUT
+Text GLabel -13850 8300 2    50   Input ~ 0
+P8.12_OUT
+Text GLabel -13850 8400 2    50   Input ~ 0
+P8.11_OUT
+Text GLabel -13850 8500 2    50   Input ~ 0
+P8.10_OUT
+Text GLabel -12250 7900 2    50   Input ~ 0
+P8.09_OUT
+Text GLabel -12250 8000 2    50   Input ~ 0
+P8.08_OUT
+Text GLabel -12250 8100 2    50   Input ~ 0
+P8.07_OUT
+$Comp
+L RF_Module:RS485 U7
+U 1 1 6187A9D0
+P -19250 5700
+F 0 "U7" H -19350 5767 50  0000 C CNN
+F 1 "RS485" H -19350 5676 50  0000 C CNN
+F 2 "Module:RS485_moduleTTL" H -18900 5650 50  0001 C CNN
+F 3 "" H -18900 5650 50  0001 C CNN
+	1    -19250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR068
+U 1 1 618F1C0B
+P -20250 5650
+F 0 "#PWR068" H -20250 5500 50  0001 C CNN
+F 1 "+3.3V" H -20235 5823 50  0000 C CNN
+F 2 "" H -20250 5650 50  0001 C CNN
+F 3 "" H -20250 5650 50  0001 C CNN
+	1    -20250 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-19950 5900 -20250 5900
+Wire Wire Line
+	-20250 5900 -20250 5650
+Text GLabel -19950 6250 0    50   Input ~ 0
+RX
+Text GLabel -19950 6050 0    50   Input ~ 0
+TX
+$Comp
+L power:GND #PWR069
+U 1 1 64765972
+P -20250 6550
+F 0 "#PWR069" H -20250 6300 50  0001 C CNN
+F 1 "GND" H -20245 6377 50  0000 C CNN
+F 2 "" H -20250 6550 50  0001 C CNN
+F 3 "" H -20250 6550 50  0001 C CNN
+	1    -20250 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-19950 6400 -20250 6400
+Wire Wire Line
+	-20250 6400 -20250 6550
+Text GLabel -18750 6000 2    50   Input ~ 0
+A+
+Text GLabel -18750 6150 2    50   Input ~ 0
+B-
+$Comp
+L power:GNDD #PWR076
+U 1 1 61CB0F7C
+P -18600 6450
+F 0 "#PWR076" H -18600 6200 50  0001 C CNN
+F 1 "GNDD" H -18596 6295 50  0000 C CNN
+F 2 "" H -18600 6450 50  0001 C CNN
+F 3 "" H -18600 6450 50  0001 C CNN
+	1    -18600 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-18750 6350 -18600 6350
+Wire Wire Line
+	-18600 6350 -18600 6450
+Text GLabel -21900 9150 0    50   Input ~ 0
+A+
+Text GLabel -21900 9250 0    50   Input ~ 0
+B-
+Wire Wire Line
+	-21900 9150 -21850 9150
+Wire Wire Line
+	-21900 9250 -21850 9250
+$Comp
+L power:GNDD #PWR037
+U 1 1 6476597F
+P -21950 9450
+F 0 "#PWR037" H -21950 9200 50  0001 C CNN
+F 1 "GNDD" H -21946 9295 50  0000 C CNN
+F 2 "" H -21950 9450 50  0001 C CNN
+F 3 "" H -21950 9450 50  0001 C CNN
+	1    -21950 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-21850 9350 -21950 9350
+Wire Wire Line
+	-21950 9350 -21950 9450
+Text GLabel -8250 8750 0    50   Input ~ 0
+GND_ADC
+Text GLabel -8250 8850 0    50   Input ~ 0
+VDD_ADC
+$Comp
+L Connector:Screw_Terminal_01x08 J2
+U 1 1 62A0BF60
+P -21650 8950
+F 0 "J2" V -21570 8942 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -21570 8851 50  0000 L CNN
+F 2 "Connector:8pin" H -21650 8950 50  0001 C CNN
+F 3 "~" H -21650 8950 50  0001 C CNN
+	1    -21650 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-22300 8850 -22300 9300
+$Comp
+L power:+5V #PWR036
+U 1 1 62FDCE5B
+P -21950 8400
+F 0 "#PWR036" H -21950 8250 50  0001 C CNN
+F 1 "+5V" H -21935 8573 50  0000 C CNN
+F 2 "" H -21950 8400 50  0001 C CNN
+F 3 "" H -21950 8400 50  0001 C CNN
+	1    -21950 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-22150 8750 -21850 8750
+Wire Wire Line
+	-21950 8650 -21850 8650
+Wire Wire Line
+	-21950 8650 -21950 8400
+$Comp
+L Connector:Screw_Terminal_01x08 J11
+U 1 1 6333DBFB
+P -8050 8100
+F 0 "J11" V -7970 8092 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -7970 8001 50  0000 L CNN
+F 2 "Connector:8pin" H -8050 8100 50  0001 C CNN
+F 3 "~" H -8050 8100 50  0001 C CNN
+	1    -8050 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:P82B96 U1
+U 1 1 6476596B
+P -23400 6200
+F 0 "U1" H -23400 6817 50  0000 C CNN
+F 1 "P82B96" H -23400 6726 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H -23400 6200 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/P82B96.pdf" H -23400 6200 50  0001 C CNN
+	1    -23400 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-24500 5900 -24500 5500
+Wire Wire Line
+	-24500 5900 -24000 5900
+Text GLabel -24100 6300 0    50   Input ~ 0
+SCL
+Text GLabel -24100 6100 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	-24100 6100 -24000 6100
+Wire Wire Line
+	-24100 6300 -24000 6300
+$Comp
+L power:GND #PWR05
+U 1 1 64765975
+P -24500 6900
+F 0 "#PWR05" H -24500 6650 50  0001 C CNN
+F 1 "GND" H -24495 6727 50  0000 C CNN
+F 2 "" H -24500 6900 50  0001 C CNN
+F 3 "" H -24500 6900 50  0001 C CNN
+	1    -24500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-24000 6500 -24500 6500
+$Comp
+L Device:C C1
+U 1 1 61EEFB5E
+P -24500 6200
+F 0 "C1" H -24700 6250 50  0000 L CNN
+F 1 "100n" H -24750 6150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -24462 6050 50  0001 C CNN
+F 3 "~" H -24500 6200 50  0001 C CNN
+F 4 "C14663" H -24500 6200 50  0001 C CNN "JLCPCB"
+	1    -24500 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-24500 6050 -24500 5900
+Connection ~ -24500 5900
+Wire Wire Line
+	-24500 6350 -24500 6500
+Connection ~ -24500 6500
+$Comp
+L power:+3.3V #PWR04
+U 1 1 6476597B
+P -24500 5500
+F 0 "#PWR04" H -24500 5350 50  0001 C CNN
+F 1 "+3.3V" H -24485 5673 50  0000 C CNN
+F 2 "" H -24500 5500 50  0001 C CNN
+F 3 "" H -24500 5500 50  0001 C CNN
+	1    -24500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 6476597D
+P -22350 5650
+F 0 "R17" H -22280 5696 50  0000 L CNN
+F 1 "680R" H -22280 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -22420 5650 50  0001 C CNN
+F 3 "~" H -22350 5650 50  0001 C CNN
+F 4 "C269704" H -22350 5650 50  0001 C CNN "JLCPCB"
+	1    -22350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 6476597E
+P -21650 5650
+F 0 "R26" H -21580 5696 50  0000 L CNN
+F 1 "680R" H -21580 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -21720 5650 50  0001 C CNN
+F 3 "~" H -21650 5650 50  0001 C CNN
+F 4 "C269704" H -21650 5650 50  0001 C CNN "JLCPCB"
+	1    -21650 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel -21400 6000 2    50   Input ~ 0
+SDA_OUT
+Text GLabel -21400 6400 2    50   Input ~ 0
+SCL_OUT
+Wire Wire Line
+	-22800 6100 -22650 6100
+Wire Wire Line
+	-22650 6100 -22650 6000
+Wire Wire Line
+	-22650 5900 -22800 5900
+Wire Wire Line
+	-22800 6300 -22650 6300
+Wire Wire Line
+	-22650 6300 -22650 6400
+Wire Wire Line
+	-22650 6500 -22800 6500
+Connection ~ -22650 6000
+Wire Wire Line
+	-22650 6000 -22650 5900
+Wire Wire Line
+	-22650 6400 -22350 6400
+Connection ~ -22650 6400
+Wire Wire Line
+	-22650 6400 -22650 6500
+Wire Wire Line
+	-22350 5800 -22350 6400
+Wire Wire Line
+	-21650 5800 -21650 6000
+$Comp
+L power:+3.3V #PWR023
+U 1 1 64765984
+P -22350 5350
+F 0 "#PWR023" H -22350 5200 50  0001 C CNN
+F 1 "+3.3V" H -22335 5523 50  0000 C CNN
+F 2 "" H -22350 5350 50  0001 C CNN
+F 3 "" H -22350 5350 50  0001 C CNN
+	1    -22350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR047
+U 1 1 64765986
+P -21650 5350
+F 0 "#PWR047" H -21650 5200 50  0001 C CNN
+F 1 "+3.3V" H -21635 5523 50  0000 C CNN
+F 2 "" H -21650 5350 50  0001 C CNN
+F 3 "" H -21650 5350 50  0001 C CNN
+	1    -21650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-22350 5500 -22350 5350
+Wire Wire Line
+	-21650 5500 -21650 5350
+$Comp
+L Diode:BAT54A D2
+U 1 1 62B88A73
+P -22000 6650
+F 0 "D2" H -22000 6875 50  0000 C CNN
+F 1 "BAT54A" H -22000 6784 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H -21925 6775 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H -22120 6650 50  0001 C CNN
+	1    -22000 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-22650 6000 -21650 6000
+Connection ~ -21650 6000
+Wire Wire Line
+	-21650 6000 -21400 6000
+Wire Wire Line
+	-22350 6400 -21400 6400
+Connection ~ -22350 6400
+Wire Wire Line
+	-22350 6400 -22350 6650
+Wire Wire Line
+	-22350 6650 -22300 6650
+Wire Wire Line
+	-21650 6000 -21650 6650
+Wire Wire Line
+	-21650 6650 -21700 6650
+$Comp
+L power:GND #PWR035
+U 1 1 6476598B
+P -22000 6900
+F 0 "#PWR035" H -22000 6650 50  0001 C CNN
+F 1 "GND" H -21995 6727 50  0000 C CNN
+F 2 "" H -22000 6900 50  0001 C CNN
+F 3 "" H -22000 6900 50  0001 C CNN
+	1    -22000 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-22000 6900 -22000 6850
+Wire Wire Line
+	-24500 6500 -24500 6900
+Text GLabel -21900 8950 0    50   Input ~ 0
+SDA_OUT
+Text GLabel -21900 9050 0    50   Input ~ 0
+SCL_OUT
+Wire Wire Line
+	-22300 8850 -21850 8850
+Text GLabel -15450 8500 2    50   Input ~ 0
+P8.18_OUT
+Text GLabel -15450 7250 2    50   Input ~ 0
+P8.34_OUT
+Text GLabel -15450 7350 2    50   Input ~ 0
+P8.33_OUT
+Text GLabel -15450 6850 2    50   Input ~ 0
+P8.38_OUT
+Text GLabel -15450 6950 2    50   Input ~ 0
+P8.37_OUT
+Text GLabel -15450 7050 2    50   Input ~ 0
+P8.36_OUT
+Text GLabel -15450 7150 2    50   Input ~ 0
+P8.35_OUT
+Text GLabel -15450 6750 2    50   Input ~ 0
+P8.39_OUT
+$Comp
+L Connector_Generic:BeagleBone_Black_Header J12
+U 1 1 64765995
+P -6300 3700
+F 0 "J12" H -6300 2425 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" H -6300 2516 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical" H -6300 3700 50  0001 C CNN
+F 3 "~" H -6300 3700 50  0001 C CNN
+	1    -6300 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0185
+U 1 1 64765978
+P -7200 2300
+F 0 "#PWR0185" H -7200 2150 50  0001 C CNN
+F 1 "+3.3V" H -7185 2473 50  0000 C CNN
+F 2 "" H -7200 2300 50  0001 C CNN
+F 3 "" H -7200 2300 50  0001 C CNN
+	1    -7200 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ -6900 4850
+Wire Wire Line
+	-6900 4850 -6900 5200
+Wire Wire Line
+	-6550 4850 -6900 4850
+Connection ~ -6900 2750
+Wire Wire Line
+	-6900 2650 -6900 2750
+Wire Wire Line
+	-6550 2650 -6900 2650
+Wire Wire Line
+	-6900 2750 -6900 4850
+Wire Wire Line
+	-6550 2750 -6900 2750
+Wire Wire Line
+	-7000 2300 -7000 4650
+Wire Wire Line
+	-6550 4650 -7000 4650
+Wire Wire Line
+	-7200 4750 -6550 4750
+Wire Wire Line
+	-7200 4750 -7200 2300
+$Comp
+L power:+5V #PWR0186
+U 1 1 61EB1457
+P -7000 2300
+F 0 "#PWR0186" H -7000 2150 50  0001 C CNN
+F 1 "+5V" H -6985 2473 50  0000 C CNN
+F 2 "" H -7000 2300 50  0001 C CNN
+F 3 "" H -7000 2300 50  0001 C CNN
+	1    -7000 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel -6550 2950 0    50   Input ~ 0
+P9.39
+Text GLabel -6550 3050 0    50   Input ~ 0
+P9.37
+Text GLabel -6550 3150 0    50   Input ~ 0
+P9.35
+Text GLabel -6550 3250 0    50   Input ~ 0
+P9.33
+Text GLabel -6550 2850 0    50   Input ~ 0
+P9.41
+Text GLabel -6550 3350 0    50   Input ~ 0
+P9.31
+Text GLabel -6550 3450 0    50   Input ~ 0
+P9.29
+Text GLabel -6550 3550 0    50   Input ~ 0
+P9.27
+Text GLabel -6550 3650 0    50   Input ~ 0
+P9.25
+Text GLabel -6550 3750 0    50   Input ~ 0
+P9.23
+Text GLabel -6550 3950 0    50   Input ~ 0
+SCL
+Text GLabel -6550 3850 0    50   Input ~ 0
+P9.21
+Text GLabel -6550 4050 0    50   Input ~ 0
+P9.17
+Text GLabel -6550 4150 0    50   Input ~ 0
+P9.15
+Text GLabel -6550 4250 0    50   Input ~ 0
+P9.13
+Text GLabel -6550 4350 0    50   Input ~ 0
+P9.11
+$Comp
+L power:GND #PWR0187
+U 1 1 62D1D96D
+P -6900 5200
+F 0 "#PWR0187" H -6900 4950 50  0001 C CNN
+F 1 "GND" V -6895 5072 50  0000 R CNN
+F 2 "" H -6900 5200 50  0001 C CNN
+F 3 "" H -6900 5200 50  0001 C CNN
+	1    -6900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0190
+U 1 1 62D1D971
+P -5400 2300
+F 0 "#PWR0190" H -5400 2150 50  0001 C CNN
+F 1 "+3.3V" H -5385 2473 50  0000 C CNN
+F 2 "" H -5400 2300 50  0001 C CNN
+F 3 "" H -5400 2300 50  0001 C CNN
+	1    -5400 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ -5700 4850
+Connection ~ -5700 2750
+Wire Wire Line
+	-5700 2650 -5700 2750
+Wire Wire Line
+	-6050 2650 -5700 2650
+Wire Wire Line
+	-5700 4850 -6050 4850
+Wire Wire Line
+	-5700 2750 -5700 4850
+Wire Wire Line
+	-6050 2750 -5700 2750
+Wire Wire Line
+	-5400 2300 -5400 4750
+Wire Wire Line
+	-5600 2300 -5600 4650
+Wire Wire Line
+	-5700 4850 -5700 5200
+$Comp
+L power:GND #PWR0188
+U 1 1 61EB145D
+P -5700 5200
+F 0 "#PWR0188" H -5700 4950 50  0001 C CNN
+F 1 "GND" V -5695 5072 50  0000 R CNN
+F 2 "" H -5700 5200 50  0001 C CNN
+F 3 "" H -5700 5200 50  0001 C CNN
+	1    -5700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6050 4650 -5600 4650
+Wire Wire Line
+	-6050 4750 -5400 4750
+Text GLabel -6050 2950 2    50   Input ~ 0
+P9.40
+Text GLabel -6050 2850 2    50   Input ~ 0
+P9.42
+Text GLabel -6050 3050 2    50   Input ~ 0
+P9.38
+Text GLabel -6050 3150 2    50   Input ~ 0
+P9.36
+Text GLabel -6050 3250 2    50   Input ~ 0
+GND_ADC
+Text GLabel -6050 3350 2    50   Input ~ 0
+VDD_ADC
+Text GLabel -6050 3450 2    50   Input ~ 0
+P9.30
+Text GLabel -6050 3550 2    50   Input ~ 0
+P9.28
+Text GLabel -6050 3650 2    50   Input ~ 0
+RX
+Text GLabel -6050 3750 2    50   Input ~ 0
+TX
+Text GLabel -6050 3950 2    50   Input ~ 0
+SDA
+Text GLabel -6050 4350 2    50   Input ~ 0
+P9.12
+Text GLabel -6050 4250 2    50   Input ~ 0
+P9.14
+Text GLabel -6050 4150 2    50   Input ~ 0
+P9.16
+Text GLabel -6050 4050 2    50   Input ~ 0
+P9.18
+Text GLabel -6050 3850 2    50   Input ~ 0
+P9.22
+$Comp
+L power:+5V #PWR0189
+U 1 1 62D1D96C
+P -5600 2300
+F 0 "#PWR0189" H -5600 2150 50  0001 C CNN
+F 1 "+5V" H -5585 2473 50  0000 C CNN
+F 2 "" H -5600 2300 50  0001 C CNN
+F 3 "" H -5600 2300 50  0001 C CNN
+	1    -5600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:BeagleBone_Black_Header J15
+U 1 1 643393F0
+P -4300 3700
+F 0 "J15" H -4300 2425 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" H -4300 2516 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical" H -4300 3700 50  0001 C CNN
+F 3 "~" H -4300 3700 50  0001 C CNN
+	1    -4300 3700
+	-1   0    0    1   
+$EndComp
+Text GLabel -4050 4750 2    50   Input ~ 0
+P8.04
+Text GLabel -4050 4650 2    50   Input ~ 0
+P8.06
+Text GLabel -4050 4550 2    50   Input ~ 0
+P8.08
+Text GLabel -4050 4450 2    50   Input ~ 0
+P8.10
+Text GLabel -4050 4350 2    50   Input ~ 0
+P8.12
+Text GLabel -4050 4250 2    50   Input ~ 0
+P8.14
+Text GLabel -4050 4150 2    50   Input ~ 0
+P8.16
+Text GLabel -4050 4050 2    50   Input ~ 0
+P8.18
+Text GLabel -4050 3950 2    50   Input ~ 0
+P8.20
+Text GLabel -4050 3850 2    50   Input ~ 0
+P8.22
+Text GLabel -4050 3750 2    50   Input ~ 0
+P8.24
+Text GLabel -4050 3650 2    50   Input ~ 0
+P8.26
+Text GLabel -4050 3550 2    50   Input ~ 0
+P8.28
+Text GLabel -4050 3450 2    50   Input ~ 0
+P8.30
+Text GLabel -4050 3350 2    50   Input ~ 0
+P8.32
+Text GLabel -4050 3250 2    50   Input ~ 0
+P8.34
+Text GLabel -4050 3150 2    50   Input ~ 0
+P8.36
+Text GLabel -4050 3050 2    50   Input ~ 0
+P8.38
+Text GLabel -4050 2950 2    50   Input ~ 0
+P8.40
+Text GLabel -4050 2850 2    50   Input ~ 0
+P8.42
+Text GLabel -4050 2750 2    50   Input ~ 0
+P8.44
+Text GLabel -4050 2650 2    50   Input ~ 0
+P8.46
+Wire Wire Line
+	-3950 4850 -4050 4850
+$Comp
+L power:GND #PWR0198
+U 1 1 64765981
+P -3950 5150
+F 0 "#PWR0198" H -3950 4900 50  0001 C CNN
+F 1 "GND" V -3945 5022 50  0000 R CNN
+F 2 "" H -3950 5150 50  0001 C CNN
+F 3 "" H -3950 5150 50  0001 C CNN
+	1    -3950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3950 4850 -3950 5150
+Text GLabel -4700 4750 0    50   Input ~ 0
+P8.03
+Text GLabel -4700 4650 0    50   Input ~ 0
+P8.05
+Text GLabel -4700 4550 0    50   Input ~ 0
+P8.07
+Text GLabel -4700 4450 0    50   Input ~ 0
+P8.09
+Text GLabel -4700 4350 0    50   Input ~ 0
+P8.11
+Text GLabel -4700 4250 0    50   Input ~ 0
+P8.13
+Text GLabel -4700 4150 0    50   Input ~ 0
+P8.15
+Text GLabel -4700 4050 0    50   Input ~ 0
+P8.17
+Text GLabel -4700 3950 0    50   Input ~ 0
+P8.19
+Text GLabel -4700 3850 0    50   Input ~ 0
+P8.21
+Text GLabel -4700 3750 0    50   Input ~ 0
+P8.23
+Text GLabel -4700 3650 0    50   Input ~ 0
+P8.25
+Text GLabel -4700 3550 0    50   Input ~ 0
+P8.27
+Text GLabel -4700 3450 0    50   Input ~ 0
+P8.29
+Text GLabel -4700 3350 0    50   Input ~ 0
+P8.31
+Text GLabel -4700 3250 0    50   Input ~ 0
+P8.33
+Text GLabel -4700 3150 0    50   Input ~ 0
+P8.35
+Text GLabel -4700 3050 0    50   Input ~ 0
+P8.37
+Text GLabel -4700 2950 0    50   Input ~ 0
+P8.39
+Text GLabel -4700 2850 0    50   Input ~ 0
+P8.41
+Text GLabel -4700 2750 0    50   Input ~ 0
+P8.43
+Text GLabel -4700 2650 0    50   Input ~ 0
+P8.45
+$Comp
+L power:GND #PWR0197
+U 1 1 62D1D981
+P -4650 5150
+F 0 "#PWR0197" H -4650 4900 50  0001 C CNN
+F 1 "GND" V -4645 5022 50  0000 R CNN
+F 2 "" H -4650 5150 50  0001 C CNN
+F 3 "" H -4650 5150 50  0001 C CNN
+	1    -4650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4550 4850 -4650 4850
+Wire Wire Line
+	-4700 2650 -4550 2650
+Wire Wire Line
+	-4700 2750 -4550 2750
+Wire Wire Line
+	-4700 2850 -4550 2850
+Wire Wire Line
+	-4700 2950 -4550 2950
+Wire Wire Line
+	-4700 3050 -4550 3050
+Wire Wire Line
+	-4700 3150 -4550 3150
+Wire Wire Line
+	-4700 3250 -4550 3250
+Wire Wire Line
+	-4700 3350 -4550 3350
+Wire Wire Line
+	-4700 3450 -4550 3450
+Wire Wire Line
+	-4700 3550 -4550 3550
+Wire Wire Line
+	-4700 3650 -4550 3650
+Wire Wire Line
+	-4550 3750 -4700 3750
+Wire Wire Line
+	-4550 3850 -4700 3850
+Wire Wire Line
+	-4550 3950 -4700 3950
+Wire Wire Line
+	-4700 4050 -4550 4050
+Wire Wire Line
+	-4700 4150 -4550 4150
+Wire Wire Line
+	-4700 4250 -4550 4250
+Wire Wire Line
+	-4550 4350 -4700 4350
+Wire Wire Line
+	-4650 4850 -4650 5150
+Wire Wire Line
+	-4550 4450 -4700 4450
+Wire Wire Line
+	-4550 4550 -4700 4550
+Wire Wire Line
+	-4550 4650 -4700 4650
+Wire Wire Line
+	-4550 4750 -4700 4750
+NoConn ~ -8250 8500
+$Comp
+L Device:R R70
+U 1 1 62D25CAC
+P -15700 3550
+F 0 "R70" H -15630 3596 50  0000 L CNN
+F 1 "330R" H -15630 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -15770 3550 50  0001 C CNN
+F 3 "~" H -15700 3550 50  0001 C CNN
+F 4 "C101062" H -15700 3550 50  0001 C CNN "JLCPCB"
+	1    -15700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 62FDF461
+P -15300 3550
+F 0 "C38" H -15185 3596 50  0000 L CNN
+F 1 "100n" H -15185 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -15262 3400 50  0001 C CNN
+F 3 "~" H -15300 3550 50  0001 C CNN
+F 4 "C14663" H -15300 3550 50  0001 C CNN "JLCPCB"
+	1    -15300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15300 2900 -15300 3400
+Wire Wire Line
+	-15700 2900 -15300 2900
+Wire Wire Line
+	-15300 3700 -15300 3900
+$Comp
+L power:GND #PWR0117
+U 1 1 630C9F71
+P -15300 3900
+F 0 "#PWR0117" H -15300 3650 50  0001 C CNN
+F 1 "GND" H -15295 3727 50  0000 C CNN
+F 2 "" H -15300 3900 50  0001 C CNN
+F 3 "" H -15300 3900 50  0001 C CNN
+	1    -15300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R71
+U 1 1 631B3AD2
+P -15300 2700
+F 0 "R71" H -15230 2746 50  0000 L CNN
+F 1 "4.7k" H -15230 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -15370 2700 50  0001 C CNN
+F 3 "~" H -15300 2700 50  0001 C CNN
+F 4 "C101062" H -15300 2700 50  0001 C CNN "JLCPCB"
+	1    -15300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15300 2900 -15300 2850
+Connection ~ -15300 2900
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 634008CE
+P -15300 2500
+F 0 "#PWR0116" H -15300 2350 50  0001 C CNN
+F 1 "+3.3V" H -15285 2673 50  0000 C CNN
+F 2 "" H -15300 2500 50  0001 C CNN
+F 3 "" H -15300 2500 50  0001 C CNN
+	1    -15300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15300 2550 -15300 2500
+$Comp
+L Device:D D5
+U 1 1 635D8BC6
+P -15000 2700
+F 0 "D5" V -15046 2780 50  0000 L CNN
+F 1 "1N4148" V -14955 2780 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H -15000 2700 50  0001 C CNN
+F 3 "~" H -15000 2700 50  0001 C CNN
+	1    -15000 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-15300 2900 -15000 2900
+Wire Wire Line
+	-15000 2900 -15000 2850
+Connection ~ -15000 2900
+Wire Wire Line
+	-15000 2900 -14800 2900
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 637421AB
+P -15000 2500
+F 0 "#PWR0122" H -15000 2350 50  0001 C CNN
+F 1 "+3.3V" H -14985 2673 50  0000 C CNN
+F 2 "" H -15000 2500 50  0001 C CNN
+F 3 "" H -15000 2500 50  0001 C CNN
+	1    -15000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15000 2550 -15000 2500
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 61855C49
+P -23600 9700
+F 0 "J1" H -23550 10017 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H -23550 9926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H -23600 9700 50  0001 C CNN
+F 3 "~" H -23600 9700 50  0001 C CNN
+	1    -23600 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR015
+U 1 1 61857D08
+P -23000 9350
+F 0 "#PWR015" H -23000 9200 50  0001 C CNN
+F 1 "+24V" H -22985 9523 50  0000 C CNN
+F 2 "" H -23000 9350 50  0001 C CNN
+F 3 "" H -23000 9350 50  0001 C CNN
+	1    -23000 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR017
+U 1 1 61859D3B
+P -22800 9350
+F 0 "#PWR017" H -22800 9200 50  0001 C CNN
+F 1 "+5V" H -22785 9523 50  0000 C CNN
+F 2 "" H -22800 9350 50  0001 C CNN
+F 3 "" H -22800 9350 50  0001 C CNN
+	1    -22800 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR022
+U 1 1 6185BCCA
+P -22600 9350
+F 0 "#PWR022" H -22600 9200 50  0001 C CNN
+F 1 "+3.3V" H -22585 9523 50  0000 C CNN
+F 2 "" H -22600 9350 50  0001 C CNN
+F 3 "" H -22600 9350 50  0001 C CNN
+	1    -22600 9350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-23300 9600 -23000 9600
+Wire Wire Line
+	-23000 9600 -23000 9350
+Wire Wire Line
+	-23300 9700 -22800 9700
+Wire Wire Line
+	-22800 9700 -22800 9350
+Wire Wire Line
+	-23300 9800 -22600 9800
+Wire Wire Line
+	-23800 9800 -24150 9800
+Wire Wire Line
+	-23800 9600 -24150 9600
+Wire Wire Line
+	-24150 9600 -24150 9700
+Wire Wire Line
+	-23800 9700 -24150 9700
+Connection ~ -24150 9700
+Text GLabel -23800 9900 0    50   Input ~ 0
+SDA
+Text GLabel -23300 9900 2    50   Input ~ 0
+SCL
+Text Notes -24300 9200 0    157  ~ 31
+Pin_Down_PCB\n\n
+Wire Wire Line
+	-24150 9700 -24150 9800
+Wire Wire Line
+	-22600 9800 -22600 9350
+$Comp
+L Connector:Screw_Terminal_01x08 J9
+U 1 1 61BDD2B1
+P -10850 7000
+F 0 "J9" V -10770 6992 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -10770 6901 50  0000 L CNN
+F 2 "Connector:8pin" H -10850 7000 50  0001 C CNN
+F 3 "~" H -10850 7000 50  0001 C CNN
+	1    -10850 7000
+	-1   0    0    -1  
+$EndComp
+Text GLabel -7150 16650 2    50   Input ~ 0
+P9.42
+Text GLabel -7150 16950 2    50   Input ~ 0
+P9.31
+Text GLabel 15950 9650 0    50   Input ~ 0
+P9.11_OUT
+Text GLabel 15950 11150 0    50   Input ~ 0
+P9.12_OUT
+Text GLabel 15950 12650 0    50   Input ~ 0
+P9.13_OUT
+Text GLabel 15950 14150 0    50   Input ~ 0
+P9.14_OUT
+Text GLabel 9250 9650 0    50   Input ~ 0
+P9.15_OUT
+Text GLabel 9250 11150 0    50   Input ~ 0
+P9.16_OUT
+Text GLabel 19300 12600 0    50   Input ~ 0
+P9.17_OUT
+Text GLabel 19300 4950 0    50   Input ~ 0
+P9.18_OUT
+Text GLabel 19300 6550 0    50   Input ~ 0
+P9.21_OUT
+Text GLabel 19300 8050 0    50   Input ~ 0
+P9.22_OUT
+Text GLabel 22400 4800 0    50   Input ~ 0
+P9.42_OUT
+Text GLabel 22400 6300 0    50   Input ~ 0
+P9.31_OUT
+Text GLabel 22400 7800 0    50   Input ~ 0
+P9.30_OUT
+Text GLabel 19300 3350 0    50   Input ~ 0
+P9.29_OUT
+Text GLabel 15950 3400 0    50   Input ~ 0
+P9.28_OUT
+Text GLabel 15950 5000 0    50   Input ~ 0
+P9.27_OUT
+Text GLabel 15950 6600 0    50   Input ~ 0
+P9.26_OUT
+Text GLabel 15950 8100 0    50   Input ~ 0
+P9.25_OUT
+Text GLabel 19300 9600 0    50   Input ~ 0
+P9.24_OUT
+Text GLabel 19300 11100 0    50   Input ~ 0
+P9.23_OUT
+Text GLabel -12250 8200 2    50   Input ~ 0
+P9.42_OUT
+Text GLabel -12250 8300 2    50   Input ~ 0
+P9.31_OUT
+Text GLabel -12250 8400 2    50   Input ~ 0
+P9.30_OUT
+Text GLabel -12250 8500 2    50   Input ~ 0
+P9.29_OUT
+Text GLabel -10650 6800 2    50   Input ~ 0
+P9.28_OUT
+Text GLabel -10650 6900 2    50   Input ~ 0
+P9.27_OUT
+Text GLabel -10650 7000 2    50   Input ~ 0
+P9.26_OUT
+Text GLabel -10650 7100 2    50   Input ~ 0
+P9.25_OUT
+Text GLabel -10650 7200 2    50   Input ~ 0
+P9.24_OUT
+Text GLabel -10650 7300 2    50   Input ~ 0
+P9.23_OUT
+Text GLabel -15450 7900 2    50   Input ~ 0
+P9.11_OUT
+Text GLabel -15450 8000 2    50   Input ~ 0
+P9.12_OUT
+Text GLabel -15450 8100 2    50   Input ~ 0
+P9.13_OUT
+Text GLabel -15450 8200 2    50   Input ~ 0
+P9.14_OUT
+Text GLabel -15450 8300 2    50   Input ~ 0
+P9.15_OUT
+Text GLabel -15450 8400 2    50   Input ~ 0
+P9.16_OUT
+Text GLabel -10650 7400 2    50   Input ~ 0
+P9.17_OUT
+Text GLabel -10650 7900 2    50   Input ~ 0
+P9.18_OUT
+Text GLabel -10650 8000 2    50   Input ~ 0
+P9.21_OUT
+Text GLabel -10650 8100 2    50   Input ~ 0
+P9.22_OUT
+$Comp
+L Connector:Screw_Terminal_01x04 J10
+U 1 1 6607F2D0
+P -10850 7900
+F 0 "J10" H -10770 7892 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H -10770 7801 50  0000 L CNN
+F 2 "Connector:Phoenix_1x04_P5.00mm_Horizontal" H -10850 7900 50  0001 C CNN
+F 3 "~" H -10850 7900 50  0001 C CNN
+	1    -10850 7900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2700 3450 0    50   Input ~ 0
+P8.45_OUT
+$Comp
+L power:+3.3V #PWR024
+U 1 1 69E43503
+P 4550 2550
+F 0 "#PWR024" H 4550 2400 50  0001 C CNN
+F 1 "+3.3V" H 4565 2723 50  0000 C CNN
+F 2 "" H 4550 2550 50  0001 C CNN
+F 3 "" H 4550 2550 50  0001 C CNN
+	1    4550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2550 4550 2700
+$Comp
+L Device:C C22
+U 1 1 6D000F68
+P 4550 3400
+F 0 "C22" H 4665 3446 50  0000 L CNN
+F 1 "100n" H 4665 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 3250 50  0001 C CNN
+F 3 "~" H 4550 3400 50  0001 C CNN
+F 4 "C14663" H 4550 3400 50  0001 C CNN "JLCPCB"
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR082
+U 1 1 6D000FFE
+P 4550 3550
+F 0 "#PWR082" H 4550 3300 50  0001 C CNN
+F 1 "GND" H 4555 3377 50  0000 C CNN
+F 2 "" H 4550 3550 50  0001 C CNN
+F 3 "" H 4550 3550 50  0001 C CNN
+	1    4550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R115
+U 1 1 710E276D
+P -7750 16100
+F 0 "R115" H -7680 16146 50  0000 L CNN
+F 1 "10k" H -7680 16055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -7820 16100 50  0001 C CNN
+F 3 "~" H -7750 16100 50  0001 C CNN
+F 4 "C238881" H -7750 16100 50  0001 C CNN "JLCPCB"
+	1    -7750 16100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C57
+U 1 1 710E2774
+P -7750 17700
+F 0 "C57" H -7635 17746 50  0000 L CNN
+F 1 "100n" H -7635 17655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -7712 17550 50  0001 C CNN
+F 3 "~" H -7750 17700 50  0001 C CNN
+F 4 "C14663" H -7750 17700 50  0001 C CNN "JLCPCB"
+	1    -7750 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R114
+U 1 1 710E277B
+P -8150 16100
+F 0 "R114" H -8080 16146 50  0000 L CNN
+F 1 "10k" H -8080 16055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -8220 16100 50  0001 C CNN
+F 3 "~" H -8150 16100 50  0001 C CNN
+F 4 "C238881" H -8150 16100 50  0001 C CNN "JLCPCB"
+	1    -8150 16100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C58
+U 1 1 710E2782
+P -7350 17700
+F 0 "C58" H -7235 17746 50  0000 L CNN
+F 1 "100n" H -7235 17655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -7312 17550 50  0001 C CNN
+F 3 "~" H -7350 17700 50  0001 C CNN
+F 4 "C14663" H -7350 17700 50  0001 C CNN "JLCPCB"
+	1    -7350 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R113
+U 1 1 710E2789
+P -8550 16100
+F 0 "R113" H -8480 16146 50  0000 L CNN
+F 1 "10k" H -8480 16055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -8620 16100 50  0001 C CNN
+F 3 "~" H -8550 16100 50  0001 C CNN
+F 4 "C238881" H -8550 16100 50  0001 C CNN "JLCPCB"
+	1    -8550 16100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C56
+U 1 1 710E2790
+P -8150 17700
+F 0 "C56" H -8035 17746 50  0000 L CNN
+F 1 "100n" H -8035 17655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -8112 17550 50  0001 C CNN
+F 3 "~" H -8150 17700 50  0001 C CNN
+F 4 "C14663" H -8150 17700 50  0001 C CNN "JLCPCB"
+	1    -8150 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R108
+U 1 1 710E2797
+P -10050 16550
+F 0 "R108" H -9980 16596 50  0000 L CNN
+F 1 "4,7k" H -9980 16505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -10120 16550 50  0001 C CNN
+F 3 "~" H -10050 16550 50  0001 C CNN
+F 4 "C238881" H -10050 16550 50  0001 C CNN "JLCPCB"
+	1    -10050 16550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C55
+U 1 1 710E279E
+P -8550 17700
+F 0 "C55" H -8435 17746 50  0000 L CNN
+F 1 "100n" H -8435 17655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -8512 17550 50  0001 C CNN
+F 3 "~" H -8550 17700 50  0001 C CNN
+F 4 "C14663" H -8550 17700 50  0001 C CNN "JLCPCB"
+	1    -8550 17700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290-4 U17
+U 1 1 710E27A4
+P -9450 16450
+F 0 "U17" H -9450 16775 50  0000 C CNN
+F 1 "TLP290-4" H -9450 16684 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H -10300 16250 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H -9425 16450 50  0001 L CNN
+	1    -9450 16450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290-4 U17
+U 2 1 710E27AA
+P -9450 16750
+F 0 "U17" H -9450 17075 50  0000 C CNN
+F 1 "TLP290-4" H -9450 16984 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H -10300 16550 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H -9425 16750 50  0001 L CNN
+	2    -9450 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290-4 U17
+U 3 1 710E27B0
+P -9450 17050
+F 0 "U17" H -9450 17375 50  0000 C CNN
+F 1 "TLP290-4" H -9450 17284 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H -10300 16850 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H -9425 17050 50  0001 L CNN
+	3    -9450 17050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290-4 U17
+U 4 1 710E27B6
+P -9450 17350
+F 0 "U17" H -9450 17675 50  0000 C CNN
+F 1 "TLP290-4" H -9450 17584 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H -10300 17150 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H -9425 17350 50  0001 L CNN
+	4    -9450 17350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R109
+U 1 1 710E27BD
+P -10050 16850
+F 0 "R109" H -9980 16896 50  0000 L CNN
+F 1 "4,7k" H -9980 16805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -10120 16850 50  0001 C CNN
+F 3 "~" H -10050 16850 50  0001 C CNN
+F 4 "C238881" H -10050 16850 50  0001 C CNN "JLCPCB"
+	1    -10050 16850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R110
+U 1 1 710E27C4
+P -10050 17150
+F 0 "R110" H -9980 17196 50  0000 L CNN
+F 1 "4,7k" H -9980 17105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -10120 17150 50  0001 C CNN
+F 3 "~" H -10050 17150 50  0001 C CNN
+F 4 "C238881" H -10050 17150 50  0001 C CNN "JLCPCB"
+	1    -10050 17150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R111
+U 1 1 710E27CB
+P -10050 17450
+F 0 "R111" H -9980 17496 50  0000 L CNN
+F 1 "4,7k" H -9980 17405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -10120 17450 50  0001 C CNN
+F 3 "~" H -10050 17450 50  0001 C CNN
+F 4 "C238881" H -10050 17450 50  0001 C CNN "JLCPCB"
+	1    -10050 17450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-9900 16550 -9750 16550
+Wire Wire Line
+	-9900 16850 -9750 16850
+Wire Wire Line
+	-9900 17150 -9750 17150
+Wire Wire Line
+	-9900 17450 -9750 17450
+$Comp
+L power:GNDA #PWR0170
+U 1 1 710E27D5
+P -10450 17800
+F 0 "#PWR0170" H -10450 17550 50  0001 C CNN
+F 1 "GNDA" H -10445 17627 50  0000 C CNN
+F 2 "" H -10450 17800 50  0001 C CNN
+F 3 "" H -10450 17800 50  0001 C CNN
+	1    -10450 17800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10200 16550 -10450 16550
+Wire Wire Line
+	-10450 16550 -10450 16850
+Wire Wire Line
+	-10200 17450 -10450 17450
+Connection ~ -10450 17450
+Wire Wire Line
+	-10450 17450 -10450 17800
+Wire Wire Line
+	-10200 17150 -10450 17150
+Connection ~ -10450 17150
+Wire Wire Line
+	-10450 17150 -10450 17450
+Wire Wire Line
+	-10200 16850 -10450 16850
+Connection ~ -10450 16850
+Wire Wire Line
+	-10450 16850 -10450 17150
+Wire Wire Line
+	-10550 16350 -9750 16350
+Wire Wire Line
+	-9750 16650 -10550 16650
+Wire Wire Line
+	-9750 16950 -10550 16950
+Wire Wire Line
+	-9750 17250 -10550 17250
+$Comp
+L power:GND #PWR0174
+U 1 1 710E27EA
+P -8850 17850
+F 0 "#PWR0174" H -8850 17600 50  0001 C CNN
+F 1 "GND" H -8845 17677 50  0000 C CNN
+F 2 "" H -8850 17850 50  0001 C CNN
+F 3 "" H -8850 17850 50  0001 C CNN
+	1    -8850 17850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-9150 17450 -8850 17450
+Wire Wire Line
+	-8850 17450 -8850 17850
+Wire Wire Line
+	-9150 17150 -8850 17150
+Wire Wire Line
+	-8850 17150 -8850 17450
+Connection ~ -8850 17450
+Wire Wire Line
+	-9150 16850 -8850 16850
+Wire Wire Line
+	-8850 16850 -8850 17150
+Connection ~ -8850 17150
+Wire Wire Line
+	-9150 16550 -8850 16550
+Wire Wire Line
+	-8850 16550 -8850 16850
+Connection ~ -8850 16850
+$Comp
+L Device:R R116
+U 1 1 710E27FC
+P -7350 16100
+F 0 "R116" H -7280 16146 50  0000 L CNN
+F 1 "10k" H -7280 16055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V -7420 16100 50  0001 C CNN
+F 3 "~" H -7350 16100 50  0001 C CNN
+F 4 "C238881" H -7350 16100 50  0001 C CNN "JLCPCB"
+	1    -7350 16100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-9150 17250 -7350 17250
+Wire Wire Line
+	-9150 16950 -7750 16950
+Wire Wire Line
+	-9150 16650 -8150 16650
+Wire Wire Line
+	-9150 16350 -8550 16350
+Wire Wire Line
+	-8550 16250 -8550 16350
+Connection ~ -8550 16350
+Wire Wire Line
+	-8550 16350 -7150 16350
+Wire Wire Line
+	-8150 16250 -8150 16650
+Connection ~ -8150 16650
+Wire Wire Line
+	-8150 16650 -7150 16650
+Wire Wire Line
+	-7750 16250 -7750 16950
+Connection ~ -7750 16950
+Wire Wire Line
+	-7750 16950 -7150 16950
+Wire Wire Line
+	-7350 16250 -7350 17250
+Connection ~ -7350 17250
+Wire Wire Line
+	-7350 17250 -7150 17250
+$Comp
+L power:+3.3V #PWR0176
+U 1 1 710E2812
+P -8550 15800
+F 0 "#PWR0176" H -8550 15650 50  0001 C CNN
+F 1 "+3.3V" H -8535 15973 50  0000 C CNN
+F 2 "" H -8550 15800 50  0001 C CNN
+F 3 "" H -8550 15800 50  0001 C CNN
+	1    -8550 15800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0179
+U 1 1 710E2818
+P -8150 15800
+F 0 "#PWR0179" H -8150 15650 50  0001 C CNN
+F 1 "+3.3V" H -8135 15973 50  0000 C CNN
+F 2 "" H -8150 15800 50  0001 C CNN
+F 3 "" H -8150 15800 50  0001 C CNN
+	1    -8150 15800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0181
+U 1 1 710E281E
+P -7750 15800
+F 0 "#PWR0181" H -7750 15650 50  0001 C CNN
+F 1 "+3.3V" H -7735 15973 50  0000 C CNN
+F 2 "" H -7750 15800 50  0001 C CNN
+F 3 "" H -7750 15800 50  0001 C CNN
+	1    -7750 15800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0183
+U 1 1 710E2824
+P -7350 15800
+F 0 "#PWR0183" H -7350 15650 50  0001 C CNN
+F 1 "+3.3V" H -7335 15973 50  0000 C CNN
+F 2 "" H -7350 15800 50  0001 C CNN
+F 3 "" H -7350 15800 50  0001 C CNN
+	1    -7350 15800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7350 15800 -7350 15950
+Wire Wire Line
+	-7750 15800 -7750 15950
+Wire Wire Line
+	-8150 15800 -8150 15950
+Wire Wire Line
+	-8550 15800 -8550 15950
+Wire Wire Line
+	-8550 16350 -8550 17550
+Wire Wire Line
+	-8150 16650 -8150 17550
+Wire Wire Line
+	-7750 16950 -7750 17550
+Wire Wire Line
+	-7350 17250 -7350 17550
+$Comp
+L power:GND #PWR0177
+U 1 1 710E2832
+P -8550 17850
+F 0 "#PWR0177" H -8550 17600 50  0001 C CNN
+F 1 "GND" H -8545 17677 50  0000 C CNN
+F 2 "" H -8550 17850 50  0001 C CNN
+F 3 "" H -8550 17850 50  0001 C CNN
+	1    -8550 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 710E2838
+P -8150 17850
+F 0 "#PWR0180" H -8150 17600 50  0001 C CNN
+F 1 "GND" H -8145 17677 50  0000 C CNN
+F 2 "" H -8150 17850 50  0001 C CNN
+F 3 "" H -8150 17850 50  0001 C CNN
+	1    -8150 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0182
+U 1 1 710E283E
+P -7750 17850
+F 0 "#PWR0182" H -7750 17600 50  0001 C CNN
+F 1 "GND" H -7745 17677 50  0000 C CNN
+F 2 "" H -7750 17850 50  0001 C CNN
+F 3 "" H -7750 17850 50  0001 C CNN
+	1    -7750 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0184
+U 1 1 710E2844
+P -7350 17850
+F 0 "#PWR0184" H -7350 17600 50  0001 C CNN
+F 1 "GND" H -7345 17677 50  0000 C CNN
+F 2 "" H -7350 17850 50  0001 C CNN
+F 3 "" H -7350 17850 50  0001 C CNN
+	1    -7350 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J13
+U 1 1 7737F5B5
+P -4450 7400
+F 0 "J13" H -4370 7442 50  0000 L CNN
+F 1 "ZW_VCC" H -4370 7351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H -4450 7400 50  0001 C CNN
+F 3 "~" H -4450 7400 50  0001 C CNN
+	1    -4450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J16
+U 1 1 6213CA37
+P -3700 7750
+F 0 "J16" H -3620 7742 50  0000 L CNN
+F 1 "INNY ZASILACZ" H -3620 7651 50  0000 L CNN
+F 2 "Connector:Phoenix_1x02_P5.00mm_Horizontal" H -3700 7750 50  0001 C CNN
+F 3 "~" H -3700 7750 50  0001 C CNN
+	1    -3700 7750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-3500 7750 -3350 7750
+Wire Wire Line
+	-3350 7750 -3350 7900
+$Comp
+L power:+48V #PWR0199
+U 1 1 776BF1C3
+P -3350 7500
+F 0 "#PWR0199" H -3350 7350 50  0001 C CNN
+F 1 "+48V" H -3335 7673 50  0000 C CNN
+F 2 "" H -3350 7500 50  0001 C CNN
+F 3 "" H -3350 7500 50  0001 C CNN
+	1    -3350 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3500 7650 -3350 7650
+Wire Wire Line
+	-3350 7650 -3350 7500
+$Comp
+L power:+48V #PWR0192
+U 1 1 778EC4D4
+P -5200 7100
+F 0 "#PWR0192" H -5200 6950 50  0001 C CNN
+F 1 "+48V" H -5185 7273 50  0000 C CNN
+F 2 "" H -5200 7100 50  0001 C CNN
+F 3 "" H -5200 7100 50  0001 C CNN
+	1    -5200 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4650 7500 -5200 7500
+Wire Wire Line
+	-5200 7100 -5200 7500
+Wire Wire Line
+	-24150 9800 -24150 10150
+$Comp
+L power:GND #PWR010
+U 1 1 61C1E0E6
+P -24150 10150
+F 0 "#PWR010" H -24150 9900 50  0001 C CNN
+F 1 "GND" H -24145 9977 50  0000 C CNN
+F 2 "" H -24150 10150 50  0001 C CNN
+F 3 "" H -24150 10150 50  0001 C CNN
+	1    -24150 10150
+	-1   0    0    -1  
+$EndComp
+Connection ~ -24150 9800
+$Comp
+L Connector:Screw_Terminal_01x08 J7
+U 1 1 62D1D982
+P -12450 7000
+F 0 "J7" V -12370 6992 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H -12370 6901 50  0000 L CNN
+F 2 "Connector:8pin" H -12450 7000 50  0001 C CNN
+F 3 "~" H -12450 7000 50  0001 C CNN
+	1    -12450 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0194
+U 1 1 78F5F99F
+P -5000 7100
+F 0 "#PWR0194" H -5000 6950 50  0001 C CNN
+F 1 "VDD" H -4985 7273 50  0000 C CNN
+F 2 "" H -5000 7100 50  0001 C CNN
+F 3 "" H -5000 7100 50  0001 C CNN
+	1    -5000 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4650 7400 -5000 7400
+Wire Wire Line
+	-5000 7400 -5000 7100
+$Comp
+L power:VDD #PWR0114
+U 1 1 78FF6827
+P -15350 6600
+F 0 "#PWR0114" H -15350 6450 50  0001 C CNN
+F 1 "VDD" H -15335 6773 50  0000 C CNN
+F 2 "" H -15350 6600 50  0001 C CNN
+F 3 "" H -15350 6600 50  0001 C CNN
+	1    -15350 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15450 6650 -15350 6650
+Wire Wire Line
+	-15350 6650 -15350 6600
+$Comp
+L power:VDD #PWR0115
+U 1 1 7908E220
+P -15350 7750
+F 0 "#PWR0115" H -15350 7600 50  0001 C CNN
+F 1 "VDD" H -15335 7923 50  0000 C CNN
+F 2 "" H -15350 7750 50  0001 C CNN
+F 3 "" H -15350 7750 50  0001 C CNN
+	1    -15350 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-15450 7800 -15350 7800
+Wire Wire Line
+	-15350 7800 -15350 7750
+$Comp
+L power:VDD #PWR0123
+U 1 1 791207BD
+P -13750 6650
+F 0 "#PWR0123" H -13750 6500 50  0001 C CNN
+F 1 "VDD" H -13735 6823 50  0000 C CNN
+F 2 "" H -13750 6650 50  0001 C CNN
+F 3 "" H -13750 6650 50  0001 C CNN
+	1    -13750 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13850 6700 -13750 6700
+Wire Wire Line
+	-13750 6700 -13750 6650
+$Comp
+L power:VDD #PWR0124
+U 1 1 791B3557
+P -13750 7750
+F 0 "#PWR0124" H -13750 7600 50  0001 C CNN
+F 1 "VDD" H -13735 7923 50  0000 C CNN
+F 2 "" H -13750 7750 50  0001 C CNN
+F 3 "" H -13750 7750 50  0001 C CNN
+	1    -13750 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-13850 7800 -13750 7800
+Wire Wire Line
+	-13750 7800 -13750 7750
+$Comp
+L power:VDD #PWR0158
+U 1 1 79246B89
+P -12150 7750
+F 0 "#PWR0158" H -12150 7600 50  0001 C CNN
+F 1 "VDD" H -12135 7923 50  0000 C CNN
+F 2 "" H -12150 7750 50  0001 C CNN
+F 3 "" H -12150 7750 50  0001 C CNN
+	1    -12150 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12250 7800 -12150 7800
+Wire Wire Line
+	-12150 7800 -12150 7750
+$Comp
+L power:VDD #PWR0157
+U 1 1 792DABB5
+P -12150 6650
+F 0 "#PWR0157" H -12150 6500 50  0001 C CNN
+F 1 "VDD" H -12135 6823 50  0000 C CNN
+F 2 "" H -12150 6650 50  0001 C CNN
+F 3 "" H -12150 6650 50  0001 C CNN
+	1    -12150 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12250 6700 -12150 6700
+Wire Wire Line
+	-12150 6700 -12150 6650
+$Comp
+L power:VDD #PWR0168
+U 1 1 7936F5AB
+P -10550 6650
+F 0 "#PWR0168" H -10550 6500 50  0001 C CNN
+F 1 "VDD" H -10535 6823 50  0000 C CNN
+F 2 "" H -10550 6650 50  0001 C CNN
+F 3 "" H -10550 6650 50  0001 C CNN
+	1    -10550 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10650 6700 -10550 6700
+Wire Wire Line
+	-10550 6700 -10550 6650
+$Comp
+L power:VDD #PWR0169
+U 1 1 794048E7
+P -10550 7750
+F 0 "#PWR0169" H -10550 7600 50  0001 C CNN
+F 1 "VDD" H -10535 7923 50  0000 C CNN
+F 2 "" H -10550 7750 50  0001 C CNN
+F 3 "" H -10550 7750 50  0001 C CNN
+	1    -10550 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10650 7800 -10550 7800
+Wire Wire Line
+	-10550 7800 -10550 7750
+$Comp
+L power:+24V #PWR0195
+U 1 1 7949A7C0
+P -4800 7100
+F 0 "#PWR0195" H -4800 6950 50  0001 C CNN
+F 1 "+24V" H -4785 7273 50  0000 C CNN
+F 2 "" H -4800 7100 50  0001 C CNN
+F 3 "" H -4800 7100 50  0001 C CNN
+	1    -4800 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4650 7300 -4800 7300
+Wire Wire Line
+	-4800 7300 -4800 7100
+$Comp
+L Connector:Screw_Terminal_01x03 J14
+U 1 1 798BAA1C
+P -4450 7900
+F 0 "J14" H -4370 7942 50  0000 L CNN
+F 1 "ZW_GND" H -4370 7851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H -4450 7900 50  0001 C CNN
+F 3 "~" H -4450 7900 50  0001 C CNN
+	1    -4450 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4800 8000 -4800 8150
+Wire Wire Line
+	-4650 8000 -4800 8000
+$Comp
+L power:GNDA #PWR0193
+U 1 1 79CE37F4
+P -5050 8150
+F 0 "#PWR0193" H -5050 7900 50  0001 C CNN
+F 1 "GNDA" H -5045 7977 50  0000 C CNN
+F 2 "" H -5050 8150 50  0001 C CNN
+F 3 "" H -5050 8150 50  0001 C CNN
+	1    -5050 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4650 7900 -5050 7900
+Wire Wire Line
+	-5050 7900 -5050 8150
+$Comp
+L power:GND #PWR0191
+U 1 1 79E14CC0
+P -5250 8150
+F 0 "#PWR0191" H -5250 7900 50  0001 C CNN
+F 1 "GND" H -5245 7977 50  0000 C CNN
+F 2 "" H -5250 8150 50  0001 C CNN
+F 3 "" H -5250 8150 50  0001 C CNN
+	1    -5250 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4650 7800 -5250 7800
+Wire Wire Line
+	-5250 7800 -5250 8150
+$Comp
+L power:GND1 #PWR0196
+U 1 1 6C6B0F2F
+P -4800 8150
+F 0 "#PWR0196" H -4800 7900 50  0001 C CNN
+F 1 "GND1" H -4795 7977 50  0000 C CNN
+F 2 "" H -4800 8150 50  0001 C CNN
+F 3 "" H -4800 8150 50  0001 C CNN
+	1    -4800 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0200
+U 1 1 6C6B16E6
+P -3350 7900
+F 0 "#PWR0200" H -3350 7650 50  0001 C CNN
+F 1 "GND1" H -3345 7727 50  0000 C CNN
+F 2 "" H -3350 7900 50  0001 C CNN
+F 3 "" H -3350 7900 50  0001 C CNN
+	1    -3350 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3350 4200 3550
+Wire Wire Line
+	4050 3350 4200 3350
+$Comp
+L power:GND #PWR05
+U 1 1 62C4A8BB
+P 4200 3550
+F 0 "#PWR05" H 4200 3300 50  0001 C CNN
+F 1 "GND" V 4205 3422 50  0000 R CNN
+F 2 "" H 4200 3550 50  0001 C CNN
+F 3 "" H 4200 3550 50  0001 C CNN
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3350 3450 3350
+Wire Wire Line
+	3350 3450 3350 3350
+$Comp
+L Device:R R1
+U 1 1 61FD4E8C
+P 3200 3150
+F 0 "R1" H 3270 3196 50  0000 L CNN
+F 1 "4.7k" H 3270 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 3150 50  0001 C CNN
+F 3 "~" H 3200 3150 50  0001 C CNN
+F 4 "C238881" H 3200 3150 50  0001 C CNN "JLCPCB"
+	1    3200 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U1
+U 1 1 6183965E
+P 3750 3250
+F 0 "U1" H 3750 3575 50  0000 C CNN
+F 1 "EL357N-G" H 3750 3484 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 3050 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 3250 50  0001 L CNN
+F 4 "C6649" H 3750 3250 50  0001 C CNN "JLCPCB"
+	1    3750 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 3150 2    50   Input ~ 0
+P8.45
+Wire Wire Line
+	4050 3150 4550 3150
+Wire Wire Line
+	4550 3000 4550 3150
+Connection ~ 4550 3150
+Wire Wire Line
+	4550 3150 4900 3150
+Wire Wire Line
+	4550 3250 4550 3150
+Wire Wire Line
+	2700 3450 3350 3450
+Wire Wire Line
+	3350 3150 3450 3150
+$Comp
+L power:GNDA #PWR?
+U 1 1 65D26443
+P 2950 3550
+F 0 "#PWR?" H 2950 3300 50  0001 C CNN
+F 1 "GNDA" H 2955 3377 50  0000 C CNN
+F 2 "" H 2950 3550 50  0001 C CNN
+F 3 "" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3150 2950 3150
+Wire Wire Line
+	2950 3550 2950 3150
+$Comp
+L Device:R R?
+U 1 1 66177B91
+P 4550 4450
+F 0 "R?" H 4620 4496 50  0000 L CNN
+F 1 "10k" H 4620 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 4450 50  0001 C CNN
+F 3 "~" H 4550 4450 50  0001 C CNN
+F 4 "C238881" H 4550 4450 50  0001 C CNN "JLCPCB"
+	1    4550 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66177B97
+P 4550 4150
+F 0 "#PWR?" H 4550 4000 50  0001 C CNN
+F 1 "+3.3V" H 4565 4323 50  0000 C CNN
+F 2 "" H 4550 4150 50  0001 C CNN
+F 3 "" H 4550 4150 50  0001 C CNN
+	1    4550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4150 4550 4300
+$Comp
+L Device:C C?
+U 1 1 66177B9F
+P 4550 5000
+F 0 "C?" H 4665 5046 50  0000 L CNN
+F 1 "100n" H 4665 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 4850 50  0001 C CNN
+F 3 "~" H 4550 5000 50  0001 C CNN
+F 4 "C14663" H 4550 5000 50  0001 C CNN "JLCPCB"
+	1    4550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66177BA5
+P 4550 5150
+F 0 "#PWR?" H 4550 4900 50  0001 C CNN
+F 1 "GND" H 4555 4977 50  0000 C CNN
+F 2 "" H 4550 5150 50  0001 C CNN
+F 3 "" H 4550 5150 50  0001 C CNN
+	1    4550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4950 4200 5150
+Wire Wire Line
+	4050 4950 4200 4950
+$Comp
+L power:GND #PWR?
+U 1 1 66177BAD
+P 4200 5150
+F 0 "#PWR?" H 4200 4900 50  0001 C CNN
+F 1 "GND" V 4205 5022 50  0000 R CNN
+F 2 "" H 4200 5150 50  0001 C CNN
+F 3 "" H 4200 5150 50  0001 C CNN
+	1    4200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4950 3450 4950
+Wire Wire Line
+	3350 5050 3350 4950
+$Comp
+L Device:R R?
+U 1 1 66177BB6
+P 3200 4750
+F 0 "R?" H 3270 4796 50  0000 L CNN
+F 1 "4.7k" H 3270 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 4750 50  0001 C CNN
+F 3 "~" H 3200 4750 50  0001 C CNN
+F 4 "C238881" H 3200 4750 50  0001 C CNN "JLCPCB"
+	1    3200 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66177BBD
+P 3750 4850
+F 0 "U?" H 3750 5175 50  0000 C CNN
+F 1 "EL357N-G" H 3750 5084 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 4650 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 4850 50  0001 L CNN
+F 4 "C6649" H 3750 4850 50  0001 C CNN "JLCPCB"
+	1    3750 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 4750 2    50   Input ~ 0
+P8.44
+Wire Wire Line
+	4050 4750 4550 4750
+Wire Wire Line
+	4550 4600 4550 4750
+Connection ~ 4550 4750
+Wire Wire Line
+	4550 4750 4900 4750
+Wire Wire Line
+	4550 4850 4550 4750
+Wire Wire Line
+	2700 5050 3350 5050
+Wire Wire Line
+	3350 4750 3450 4750
+$Comp
+L power:GNDA #PWR?
+U 1 1 66177BCB
+P 2950 5150
+F 0 "#PWR?" H 2950 4900 50  0001 C CNN
+F 1 "GNDA" H 2955 4977 50  0000 C CNN
+F 2 "" H 2950 5150 50  0001 C CNN
+F 3 "" H 2950 5150 50  0001 C CNN
+	1    2950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4750 2950 4750
+Wire Wire Line
+	2950 5150 2950 4750
+$Comp
+L Device:R R?
+U 1 1 664A315C
+P 4550 6050
+F 0 "R?" H 4620 6096 50  0000 L CNN
+F 1 "10k" H 4620 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 6050 50  0001 C CNN
+F 3 "~" H 4550 6050 50  0001 C CNN
+F 4 "C238881" H 4550 6050 50  0001 C CNN "JLCPCB"
+	1    4550 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 664A3162
+P 4550 5750
+F 0 "#PWR?" H 4550 5600 50  0001 C CNN
+F 1 "+3.3V" H 4565 5923 50  0000 C CNN
+F 2 "" H 4550 5750 50  0001 C CNN
+F 3 "" H 4550 5750 50  0001 C CNN
+	1    4550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5750 4550 5900
+$Comp
+L Device:C C?
+U 1 1 664A316A
+P 4550 6600
+F 0 "C?" H 4665 6646 50  0000 L CNN
+F 1 "100n" H 4665 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 6450 50  0001 C CNN
+F 3 "~" H 4550 6600 50  0001 C CNN
+F 4 "C14663" H 4550 6600 50  0001 C CNN "JLCPCB"
+	1    4550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 664A3170
+P 4550 6750
+F 0 "#PWR?" H 4550 6500 50  0001 C CNN
+F 1 "GND" H 4555 6577 50  0000 C CNN
+F 2 "" H 4550 6750 50  0001 C CNN
+F 3 "" H 4550 6750 50  0001 C CNN
+	1    4550 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6550 4200 6750
+Wire Wire Line
+	4050 6550 4200 6550
+$Comp
+L power:GND #PWR?
+U 1 1 664A3178
+P 4200 6750
+F 0 "#PWR?" H 4200 6500 50  0001 C CNN
+F 1 "GND" V 4205 6622 50  0000 R CNN
+F 2 "" H 4200 6750 50  0001 C CNN
+F 3 "" H 4200 6750 50  0001 C CNN
+	1    4200 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6550 3450 6550
+Wire Wire Line
+	3350 6650 3350 6550
+$Comp
+L Device:R R?
+U 1 1 664A3181
+P 3200 6350
+F 0 "R?" H 3270 6396 50  0000 L CNN
+F 1 "4.7k" H 3270 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 6350 50  0001 C CNN
+F 3 "~" H 3200 6350 50  0001 C CNN
+F 4 "C238881" H 3200 6350 50  0001 C CNN "JLCPCB"
+	1    3200 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 664A3188
+P 3750 6450
+F 0 "U?" H 3750 6775 50  0000 C CNN
+F 1 "EL357N-G" H 3750 6684 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 6250 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 6450 50  0001 L CNN
+F 4 "C6649" H 3750 6450 50  0001 C CNN "JLCPCB"
+	1    3750 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 6350 2    50   Input ~ 0
+P8.43
+Wire Wire Line
+	4050 6350 4550 6350
+Wire Wire Line
+	4550 6200 4550 6350
+Connection ~ 4550 6350
+Wire Wire Line
+	4550 6350 4900 6350
+Wire Wire Line
+	4550 6450 4550 6350
+Wire Wire Line
+	2700 6650 3350 6650
+Wire Wire Line
+	3350 6350 3450 6350
+$Comp
+L power:GNDA #PWR?
+U 1 1 664A3196
+P 2950 6750
+F 0 "#PWR?" H 2950 6500 50  0001 C CNN
+F 1 "GNDA" H 2955 6577 50  0000 C CNN
+F 2 "" H 2950 6750 50  0001 C CNN
+F 3 "" H 2950 6750 50  0001 C CNN
+	1    2950 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6350 2950 6350
+Wire Wire Line
+	2950 6750 2950 6350
+$Comp
+L Device:R R?
+U 1 1 665EF92B
+P 4550 7550
+F 0 "R?" H 4620 7596 50  0000 L CNN
+F 1 "10k" H 4620 7505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 7550 50  0001 C CNN
+F 3 "~" H 4550 7550 50  0001 C CNN
+F 4 "C238881" H 4550 7550 50  0001 C CNN "JLCPCB"
+	1    4550 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 665EF931
+P 4550 7250
+F 0 "#PWR?" H 4550 7100 50  0001 C CNN
+F 1 "+3.3V" H 4565 7423 50  0000 C CNN
+F 2 "" H 4550 7250 50  0001 C CNN
+F 3 "" H 4550 7250 50  0001 C CNN
+	1    4550 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 7250 4550 7400
+$Comp
+L Device:C C?
+U 1 1 665EF939
+P 4550 8100
+F 0 "C?" H 4665 8146 50  0000 L CNN
+F 1 "100n" H 4665 8055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 7950 50  0001 C CNN
+F 3 "~" H 4550 8100 50  0001 C CNN
+F 4 "C14663" H 4550 8100 50  0001 C CNN "JLCPCB"
+	1    4550 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 665EF93F
+P 4550 8250
+F 0 "#PWR?" H 4550 8000 50  0001 C CNN
+F 1 "GND" H 4555 8077 50  0000 C CNN
+F 2 "" H 4550 8250 50  0001 C CNN
+F 3 "" H 4550 8250 50  0001 C CNN
+	1    4550 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 8050 4200 8250
+Wire Wire Line
+	4050 8050 4200 8050
+$Comp
+L power:GND #PWR?
+U 1 1 665EF947
+P 4200 8250
+F 0 "#PWR?" H 4200 8000 50  0001 C CNN
+F 1 "GND" V 4205 8122 50  0000 R CNN
+F 2 "" H 4200 8250 50  0001 C CNN
+F 3 "" H 4200 8250 50  0001 C CNN
+	1    4200 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 8050 3450 8050
+Wire Wire Line
+	3350 8150 3350 8050
+$Comp
+L Device:R R?
+U 1 1 665EF950
+P 3200 7850
+F 0 "R?" H 3270 7896 50  0000 L CNN
+F 1 "4.7k" H 3270 7805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 7850 50  0001 C CNN
+F 3 "~" H 3200 7850 50  0001 C CNN
+F 4 "C238881" H 3200 7850 50  0001 C CNN "JLCPCB"
+	1    3200 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 665EF957
+P 3750 7950
+F 0 "U?" H 3750 8275 50  0000 C CNN
+F 1 "EL357N-G" H 3750 8184 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 7750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 7950 50  0001 L CNN
+F 4 "C6649" H 3750 7950 50  0001 C CNN "JLCPCB"
+	1    3750 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 7850 2    50   Input ~ 0
+P8.42
+Wire Wire Line
+	4050 7850 4550 7850
+Wire Wire Line
+	4550 7700 4550 7850
+Connection ~ 4550 7850
+Wire Wire Line
+	4550 7850 4900 7850
+Wire Wire Line
+	4550 7950 4550 7850
+Wire Wire Line
+	2700 8150 3350 8150
+Wire Wire Line
+	3350 7850 3450 7850
+$Comp
+L power:GNDA #PWR?
+U 1 1 665EF965
+P 2950 8250
+F 0 "#PWR?" H 2950 8000 50  0001 C CNN
+F 1 "GNDA" H 2955 8077 50  0000 C CNN
+F 2 "" H 2950 8250 50  0001 C CNN
+F 3 "" H 2950 8250 50  0001 C CNN
+	1    2950 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 7850 2950 7850
+Wire Wire Line
+	2950 8250 2950 7850
+$Comp
+L Device:R R?
+U 1 1 6690F93E
+P 4550 9100
+F 0 "R?" H 4620 9146 50  0000 L CNN
+F 1 "10k" H 4620 9055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 9100 50  0001 C CNN
+F 3 "~" H 4550 9100 50  0001 C CNN
+F 4 "C238881" H 4550 9100 50  0001 C CNN "JLCPCB"
+	1    4550 9100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6690F944
+P 4550 8800
+F 0 "#PWR?" H 4550 8650 50  0001 C CNN
+F 1 "+3.3V" H 4565 8973 50  0000 C CNN
+F 2 "" H 4550 8800 50  0001 C CNN
+F 3 "" H 4550 8800 50  0001 C CNN
+	1    4550 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 8800 4550 8950
+$Comp
+L Device:C C?
+U 1 1 6690F94C
+P 4550 9650
+F 0 "C?" H 4665 9696 50  0000 L CNN
+F 1 "100n" H 4665 9605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 9500 50  0001 C CNN
+F 3 "~" H 4550 9650 50  0001 C CNN
+F 4 "C14663" H 4550 9650 50  0001 C CNN "JLCPCB"
+	1    4550 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6690F952
+P 4550 9800
+F 0 "#PWR?" H 4550 9550 50  0001 C CNN
+F 1 "GND" H 4555 9627 50  0000 C CNN
+F 2 "" H 4550 9800 50  0001 C CNN
+F 3 "" H 4550 9800 50  0001 C CNN
+	1    4550 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 9600 4200 9800
+Wire Wire Line
+	4050 9600 4200 9600
+$Comp
+L power:GND #PWR?
+U 1 1 6690F95A
+P 4200 9800
+F 0 "#PWR?" H 4200 9550 50  0001 C CNN
+F 1 "GND" V 4205 9672 50  0000 R CNN
+F 2 "" H 4200 9800 50  0001 C CNN
+F 3 "" H 4200 9800 50  0001 C CNN
+	1    4200 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 9600 3450 9600
+Wire Wire Line
+	3350 9700 3350 9600
+$Comp
+L Device:R R?
+U 1 1 6690F963
+P 3200 9400
+F 0 "R?" H 3270 9446 50  0000 L CNN
+F 1 "4.7k" H 3270 9355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 9400 50  0001 C CNN
+F 3 "~" H 3200 9400 50  0001 C CNN
+F 4 "C238881" H 3200 9400 50  0001 C CNN "JLCPCB"
+	1    3200 9400
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6690F96A
+P 3750 9500
+F 0 "U?" H 3750 9825 50  0000 C CNN
+F 1 "EL357N-G" H 3750 9734 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 9300 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 9500 50  0001 L CNN
+F 4 "C6649" H 3750 9500 50  0001 C CNN "JLCPCB"
+	1    3750 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 9400 2    50   Input ~ 0
+P8.41
+Wire Wire Line
+	4050 9400 4550 9400
+Wire Wire Line
+	4550 9250 4550 9400
+Connection ~ 4550 9400
+Wire Wire Line
+	4550 9400 4900 9400
+Wire Wire Line
+	4550 9500 4550 9400
+Wire Wire Line
+	2700 9700 3350 9700
+Wire Wire Line
+	3350 9400 3450 9400
+$Comp
+L power:GNDA #PWR?
+U 1 1 6690F978
+P 2950 9800
+F 0 "#PWR?" H 2950 9550 50  0001 C CNN
+F 1 "GNDA" H 2955 9627 50  0000 C CNN
+F 2 "" H 2950 9800 50  0001 C CNN
+F 3 "" H 2950 9800 50  0001 C CNN
+	1    2950 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 9400 2950 9400
+Wire Wire Line
+	2950 9800 2950 9400
+$Comp
+L Device:R R?
+U 1 1 66A4B00E
+P 4550 10600
+F 0 "R?" H 4620 10646 50  0000 L CNN
+F 1 "10k" H 4620 10555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 10600 50  0001 C CNN
+F 3 "~" H 4550 10600 50  0001 C CNN
+F 4 "C238881" H 4550 10600 50  0001 C CNN "JLCPCB"
+	1    4550 10600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66A4B014
+P 4550 10300
+F 0 "#PWR?" H 4550 10150 50  0001 C CNN
+F 1 "+3.3V" H 4565 10473 50  0000 C CNN
+F 2 "" H 4550 10300 50  0001 C CNN
+F 3 "" H 4550 10300 50  0001 C CNN
+	1    4550 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 10300 4550 10450
+$Comp
+L Device:C C?
+U 1 1 66A4B01C
+P 4550 11150
+F 0 "C?" H 4665 11196 50  0000 L CNN
+F 1 "100n" H 4665 11105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 11000 50  0001 C CNN
+F 3 "~" H 4550 11150 50  0001 C CNN
+F 4 "C14663" H 4550 11150 50  0001 C CNN "JLCPCB"
+	1    4550 11150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66A4B022
+P 4550 11300
+F 0 "#PWR?" H 4550 11050 50  0001 C CNN
+F 1 "GND" H 4555 11127 50  0000 C CNN
+F 2 "" H 4550 11300 50  0001 C CNN
+F 3 "" H 4550 11300 50  0001 C CNN
+	1    4550 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 11100 4200 11300
+Wire Wire Line
+	4050 11100 4200 11100
+$Comp
+L power:GND #PWR?
+U 1 1 66A4B02A
+P 4200 11300
+F 0 "#PWR?" H 4200 11050 50  0001 C CNN
+F 1 "GND" V 4205 11172 50  0000 R CNN
+F 2 "" H 4200 11300 50  0001 C CNN
+F 3 "" H 4200 11300 50  0001 C CNN
+	1    4200 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 11100 3450 11100
+Wire Wire Line
+	3350 11200 3350 11100
+$Comp
+L Device:R R?
+U 1 1 66A4B033
+P 3200 10900
+F 0 "R?" H 3270 10946 50  0000 L CNN
+F 1 "4.7k" H 3270 10855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 10900 50  0001 C CNN
+F 3 "~" H 3200 10900 50  0001 C CNN
+F 4 "C238881" H 3200 10900 50  0001 C CNN "JLCPCB"
+	1    3200 10900
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66A4B03A
+P 3750 11000
+F 0 "U?" H 3750 11325 50  0000 C CNN
+F 1 "EL357N-G" H 3750 11234 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 10800 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 11000 50  0001 L CNN
+F 4 "C6649" H 3750 11000 50  0001 C CNN "JLCPCB"
+	1    3750 11000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 10900 2    50   Input ~ 0
+P8.40
+Wire Wire Line
+	4050 10900 4550 10900
+Wire Wire Line
+	4550 10750 4550 10900
+Connection ~ 4550 10900
+Wire Wire Line
+	4550 10900 4900 10900
+Wire Wire Line
+	4550 11000 4550 10900
+Wire Wire Line
+	2700 11200 3350 11200
+Wire Wire Line
+	3350 10900 3450 10900
+$Comp
+L power:GNDA #PWR?
+U 1 1 66A4B048
+P 2950 11300
+F 0 "#PWR?" H 2950 11050 50  0001 C CNN
+F 1 "GNDA" H 2955 11127 50  0000 C CNN
+F 2 "" H 2950 11300 50  0001 C CNN
+F 3 "" H 2950 11300 50  0001 C CNN
+	1    2950 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 10900 2950 10900
+Wire Wire Line
+	2950 11300 2950 10900
+$Comp
+L Device:R R?
+U 1 1 66B8EAA3
+P 4550 12100
+F 0 "R?" H 4620 12146 50  0000 L CNN
+F 1 "10k" H 4620 12055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 12100 50  0001 C CNN
+F 3 "~" H 4550 12100 50  0001 C CNN
+F 4 "C238881" H 4550 12100 50  0001 C CNN "JLCPCB"
+	1    4550 12100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66B8EAA9
+P 4550 11800
+F 0 "#PWR?" H 4550 11650 50  0001 C CNN
+F 1 "+3.3V" H 4565 11973 50  0000 C CNN
+F 2 "" H 4550 11800 50  0001 C CNN
+F 3 "" H 4550 11800 50  0001 C CNN
+	1    4550 11800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 11800 4550 11950
+$Comp
+L Device:C C?
+U 1 1 66B8EAB1
+P 4550 12650
+F 0 "C?" H 4665 12696 50  0000 L CNN
+F 1 "100n" H 4665 12605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 12500 50  0001 C CNN
+F 3 "~" H 4550 12650 50  0001 C CNN
+F 4 "C14663" H 4550 12650 50  0001 C CNN "JLCPCB"
+	1    4550 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66B8EAB7
+P 4550 12800
+F 0 "#PWR?" H 4550 12550 50  0001 C CNN
+F 1 "GND" H 4555 12627 50  0000 C CNN
+F 2 "" H 4550 12800 50  0001 C CNN
+F 3 "" H 4550 12800 50  0001 C CNN
+	1    4550 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 12600 4200 12800
+Wire Wire Line
+	4050 12600 4200 12600
+$Comp
+L power:GND #PWR?
+U 1 1 66B8EABF
+P 4200 12800
+F 0 "#PWR?" H 4200 12550 50  0001 C CNN
+F 1 "GND" V 4205 12672 50  0000 R CNN
+F 2 "" H 4200 12800 50  0001 C CNN
+F 3 "" H 4200 12800 50  0001 C CNN
+	1    4200 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 12600 3450 12600
+Wire Wire Line
+	3350 12700 3350 12600
+$Comp
+L Device:R R?
+U 1 1 66B8EAC8
+P 3200 12400
+F 0 "R?" H 3270 12446 50  0000 L CNN
+F 1 "4.7k" H 3270 12355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 12400 50  0001 C CNN
+F 3 "~" H 3200 12400 50  0001 C CNN
+F 4 "C238881" H 3200 12400 50  0001 C CNN "JLCPCB"
+	1    3200 12400
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66B8EACF
+P 3750 12500
+F 0 "U?" H 3750 12825 50  0000 C CNN
+F 1 "EL357N-G" H 3750 12734 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 12300 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 12500 50  0001 L CNN
+F 4 "C6649" H 3750 12500 50  0001 C CNN "JLCPCB"
+	1    3750 12500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 12400 2    50   Input ~ 0
+P8.39
+Wire Wire Line
+	4050 12400 4550 12400
+Wire Wire Line
+	4550 12250 4550 12400
+Connection ~ 4550 12400
+Wire Wire Line
+	4550 12400 4900 12400
+Wire Wire Line
+	4550 12500 4550 12400
+Wire Wire Line
+	2700 12700 3350 12700
+Wire Wire Line
+	3350 12400 3450 12400
+$Comp
+L power:GNDA #PWR?
+U 1 1 66B8EADD
+P 2950 12800
+F 0 "#PWR?" H 2950 12550 50  0001 C CNN
+F 1 "GNDA" H 2955 12627 50  0000 C CNN
+F 2 "" H 2950 12800 50  0001 C CNN
+F 3 "" H 2950 12800 50  0001 C CNN
+	1    2950 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 12400 2950 12400
+Wire Wire Line
+	2950 12800 2950 12400
+$Comp
+L Device:R R?
+U 1 1 66CDA9F6
+P 4550 13600
+F 0 "R?" H 4620 13646 50  0000 L CNN
+F 1 "10k" H 4620 13555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 13600 50  0001 C CNN
+F 3 "~" H 4550 13600 50  0001 C CNN
+F 4 "C238881" H 4550 13600 50  0001 C CNN "JLCPCB"
+	1    4550 13600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66CDA9FC
+P 4550 13300
+F 0 "#PWR?" H 4550 13150 50  0001 C CNN
+F 1 "+3.3V" H 4565 13473 50  0000 C CNN
+F 2 "" H 4550 13300 50  0001 C CNN
+F 3 "" H 4550 13300 50  0001 C CNN
+	1    4550 13300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 13300 4550 13450
+$Comp
+L Device:C C?
+U 1 1 66CDAA04
+P 4550 14150
+F 0 "C?" H 4665 14196 50  0000 L CNN
+F 1 "100n" H 4665 14105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 14000 50  0001 C CNN
+F 3 "~" H 4550 14150 50  0001 C CNN
+F 4 "C14663" H 4550 14150 50  0001 C CNN "JLCPCB"
+	1    4550 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66CDAA0A
+P 4550 14300
+F 0 "#PWR?" H 4550 14050 50  0001 C CNN
+F 1 "GND" H 4555 14127 50  0000 C CNN
+F 2 "" H 4550 14300 50  0001 C CNN
+F 3 "" H 4550 14300 50  0001 C CNN
+	1    4550 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 14100 4200 14300
+Wire Wire Line
+	4050 14100 4200 14100
+$Comp
+L power:GND #PWR?
+U 1 1 66CDAA12
+P 4200 14300
+F 0 "#PWR?" H 4200 14050 50  0001 C CNN
+F 1 "GND" V 4205 14172 50  0000 R CNN
+F 2 "" H 4200 14300 50  0001 C CNN
+F 3 "" H 4200 14300 50  0001 C CNN
+	1    4200 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 14100 3450 14100
+Wire Wire Line
+	3350 14200 3350 14100
+$Comp
+L Device:R R?
+U 1 1 66CDAA1B
+P 3200 13900
+F 0 "R?" H 3270 13946 50  0000 L CNN
+F 1 "4.7k" H 3270 13855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 13900 50  0001 C CNN
+F 3 "~" H 3200 13900 50  0001 C CNN
+F 4 "C238881" H 3200 13900 50  0001 C CNN "JLCPCB"
+	1    3200 13900
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66CDAA22
+P 3750 14000
+F 0 "U?" H 3750 14325 50  0000 C CNN
+F 1 "EL357N-G" H 3750 14234 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 3550 13800 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3750 14000 50  0001 L CNN
+F 4 "C6649" H 3750 14000 50  0001 C CNN "JLCPCB"
+	1    3750 14000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 13900 2    50   Input ~ 0
+P8.38
+Wire Wire Line
+	4050 13900 4550 13900
+Wire Wire Line
+	4550 13750 4550 13900
+Connection ~ 4550 13900
+Wire Wire Line
+	4550 13900 4900 13900
+Wire Wire Line
+	4550 14000 4550 13900
+Wire Wire Line
+	2700 14200 3350 14200
+Wire Wire Line
+	3350 13900 3450 13900
+$Comp
+L power:GNDA #PWR?
+U 1 1 66CDAA30
+P 2950 14300
+F 0 "#PWR?" H 2950 14050 50  0001 C CNN
+F 1 "GNDA" H 2955 14127 50  0000 C CNN
+F 2 "" H 2950 14300 50  0001 C CNN
+F 3 "" H 2950 14300 50  0001 C CNN
+	1    2950 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 13900 2950 13900
+Wire Wire Line
+	2950 14300 2950 13900
+$Comp
+L Device:R R?
+U 1 1 66F8E9B9
+P 7850 2850
+F 0 "R?" H 7920 2896 50  0000 L CNN
+F 1 "10k" H 7920 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 2850 50  0001 C CNN
+F 3 "~" H 7850 2850 50  0001 C CNN
+F 4 "C238881" H 7850 2850 50  0001 C CNN "JLCPCB"
+	1    7850 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8E9C0
+P 7850 2550
+F 0 "#PWR?" H 7850 2400 50  0001 C CNN
+F 1 "+3.3V" H 7865 2723 50  0000 C CNN
+F 2 "" H 7850 2550 50  0001 C CNN
+F 3 "" H 7850 2550 50  0001 C CNN
+	1    7850 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2550 7850 2700
+$Comp
+L Device:C C?
+U 1 1 66F8E9C8
+P 7850 3400
+F 0 "C?" H 7965 3446 50  0000 L CNN
+F 1 "100n" H 7965 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 3250 50  0001 C CNN
+F 3 "~" H 7850 3400 50  0001 C CNN
+F 4 "C14663" H 7850 3400 50  0001 C CNN "JLCPCB"
+	1    7850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8E9CE
+P 7850 3550
+F 0 "#PWR?" H 7850 3300 50  0001 C CNN
+F 1 "GND" H 7855 3377 50  0000 C CNN
+F 2 "" H 7850 3550 50  0001 C CNN
+F 3 "" H 7850 3550 50  0001 C CNN
+	1    7850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3350 7500 3550
+Wire Wire Line
+	7350 3350 7500 3350
+$Comp
+L power:GND #PWR?
+U 1 1 66F8E9D6
+P 7500 3550
+F 0 "#PWR?" H 7500 3300 50  0001 C CNN
+F 1 "GND" V 7505 3422 50  0000 R CNN
+F 2 "" H 7500 3550 50  0001 C CNN
+F 3 "" H 7500 3550 50  0001 C CNN
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3350 6750 3350
+Wire Wire Line
+	6650 3450 6650 3350
+$Comp
+L Device:R R?
+U 1 1 66F8E9DF
+P 6500 3150
+F 0 "R?" H 6570 3196 50  0000 L CNN
+F 1 "4.7k" H 6570 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 3150 50  0001 C CNN
+F 3 "~" H 6500 3150 50  0001 C CNN
+F 4 "C238881" H 6500 3150 50  0001 C CNN "JLCPCB"
+	1    6500 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8E9E6
+P 7050 3250
+F 0 "U?" H 7050 3575 50  0000 C CNN
+F 1 "EL357N-G" H 7050 3484 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 3050 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 3250 50  0001 L CNN
+F 4 "C6649" H 7050 3250 50  0001 C CNN "JLCPCB"
+	1    7050 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 3150 2    50   Input ~ 0
+P8.37
+Wire Wire Line
+	7350 3150 7850 3150
+Wire Wire Line
+	7850 3000 7850 3150
+Connection ~ 7850 3150
+Wire Wire Line
+	7850 3150 8200 3150
+Wire Wire Line
+	7850 3250 7850 3150
+Wire Wire Line
+	6000 3450 6650 3450
+Wire Wire Line
+	6650 3150 6750 3150
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8E9F4
+P 6250 3550
+F 0 "#PWR?" H 6250 3300 50  0001 C CNN
+F 1 "GNDA" H 6255 3377 50  0000 C CNN
+F 2 "" H 6250 3550 50  0001 C CNN
+F 3 "" H 6250 3550 50  0001 C CNN
+	1    6250 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3150 6250 3150
+Wire Wire Line
+	6250 3550 6250 3150
+$Comp
+L Device:R R?
+U 1 1 66F8E9FD
+P 7850 4450
+F 0 "R?" H 7920 4496 50  0000 L CNN
+F 1 "10k" H 7920 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 4450 50  0001 C CNN
+F 3 "~" H 7850 4450 50  0001 C CNN
+F 4 "C238881" H 7850 4450 50  0001 C CNN "JLCPCB"
+	1    7850 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8EA03
+P 7850 4150
+F 0 "#PWR?" H 7850 4000 50  0001 C CNN
+F 1 "+3.3V" H 7865 4323 50  0000 C CNN
+F 2 "" H 7850 4150 50  0001 C CNN
+F 3 "" H 7850 4150 50  0001 C CNN
+	1    7850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4150 7850 4300
+$Comp
+L Device:C C?
+U 1 1 66F8EA0B
+P 7850 5000
+F 0 "C?" H 7965 5046 50  0000 L CNN
+F 1 "100n" H 7965 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 4850 50  0001 C CNN
+F 3 "~" H 7850 5000 50  0001 C CNN
+F 4 "C14663" H 7850 5000 50  0001 C CNN "JLCPCB"
+	1    7850 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EA11
+P 7850 5150
+F 0 "#PWR?" H 7850 4900 50  0001 C CNN
+F 1 "GND" H 7855 4977 50  0000 C CNN
+F 2 "" H 7850 5150 50  0001 C CNN
+F 3 "" H 7850 5150 50  0001 C CNN
+	1    7850 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4950 7500 5150
+Wire Wire Line
+	7350 4950 7500 4950
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EA19
+P 7500 5150
+F 0 "#PWR?" H 7500 4900 50  0001 C CNN
+F 1 "GND" V 7505 5022 50  0000 R CNN
+F 2 "" H 7500 5150 50  0001 C CNN
+F 3 "" H 7500 5150 50  0001 C CNN
+	1    7500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4950 6750 4950
+Wire Wire Line
+	6650 5050 6650 4950
+$Comp
+L Device:R R?
+U 1 1 66F8EA22
+P 6500 4750
+F 0 "R?" H 6570 4796 50  0000 L CNN
+F 1 "4.7k" H 6570 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 4750 50  0001 C CNN
+F 3 "~" H 6500 4750 50  0001 C CNN
+F 4 "C238881" H 6500 4750 50  0001 C CNN "JLCPCB"
+	1    6500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8EA29
+P 7050 4850
+F 0 "U?" H 7050 5175 50  0000 C CNN
+F 1 "EL357N-G" H 7050 5084 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 4650 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 4850 50  0001 L CNN
+F 4 "C6649" H 7050 4850 50  0001 C CNN "JLCPCB"
+	1    7050 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 4750 2    50   Input ~ 0
+P8.36
+Wire Wire Line
+	7350 4750 7850 4750
+Wire Wire Line
+	7850 4600 7850 4750
+Connection ~ 7850 4750
+Wire Wire Line
+	7850 4750 8200 4750
+Wire Wire Line
+	7850 4850 7850 4750
+Wire Wire Line
+	6000 5050 6650 5050
+Wire Wire Line
+	6650 4750 6750 4750
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8EA37
+P 6250 5150
+F 0 "#PWR?" H 6250 4900 50  0001 C CNN
+F 1 "GNDA" H 6255 4977 50  0000 C CNN
+F 2 "" H 6250 5150 50  0001 C CNN
+F 3 "" H 6250 5150 50  0001 C CNN
+	1    6250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4750 6250 4750
+Wire Wire Line
+	6250 5150 6250 4750
+$Comp
+L Device:R R?
+U 1 1 66F8EA40
+P 7850 6050
+F 0 "R?" H 7920 6096 50  0000 L CNN
+F 1 "10k" H 7920 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 6050 50  0001 C CNN
+F 3 "~" H 7850 6050 50  0001 C CNN
+F 4 "C238881" H 7850 6050 50  0001 C CNN "JLCPCB"
+	1    7850 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8EA46
+P 7850 5750
+F 0 "#PWR?" H 7850 5600 50  0001 C CNN
+F 1 "+3.3V" H 7865 5923 50  0000 C CNN
+F 2 "" H 7850 5750 50  0001 C CNN
+F 3 "" H 7850 5750 50  0001 C CNN
+	1    7850 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5750 7850 5900
+$Comp
+L Device:C C?
+U 1 1 66F8EA4E
+P 7850 6600
+F 0 "C?" H 7965 6646 50  0000 L CNN
+F 1 "100n" H 7965 6555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 6450 50  0001 C CNN
+F 3 "~" H 7850 6600 50  0001 C CNN
+F 4 "C14663" H 7850 6600 50  0001 C CNN "JLCPCB"
+	1    7850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EA54
+P 7850 6750
+F 0 "#PWR?" H 7850 6500 50  0001 C CNN
+F 1 "GND" H 7855 6577 50  0000 C CNN
+F 2 "" H 7850 6750 50  0001 C CNN
+F 3 "" H 7850 6750 50  0001 C CNN
+	1    7850 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 6550 7500 6750
+Wire Wire Line
+	7350 6550 7500 6550
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EA5C
+P 7500 6750
+F 0 "#PWR?" H 7500 6500 50  0001 C CNN
+F 1 "GND" V 7505 6622 50  0000 R CNN
+F 2 "" H 7500 6750 50  0001 C CNN
+F 3 "" H 7500 6750 50  0001 C CNN
+	1    7500 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6550 6750 6550
+Wire Wire Line
+	6650 6650 6650 6550
+$Comp
+L Device:R R?
+U 1 1 66F8EA65
+P 6500 6350
+F 0 "R?" H 6570 6396 50  0000 L CNN
+F 1 "4.7k" H 6570 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 6350 50  0001 C CNN
+F 3 "~" H 6500 6350 50  0001 C CNN
+F 4 "C238881" H 6500 6350 50  0001 C CNN "JLCPCB"
+	1    6500 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8EA6C
+P 7050 6450
+F 0 "U?" H 7050 6775 50  0000 C CNN
+F 1 "EL357N-G" H 7050 6684 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 6250 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 6450 50  0001 L CNN
+F 4 "C6649" H 7050 6450 50  0001 C CNN "JLCPCB"
+	1    7050 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 6350 2    50   Input ~ 0
+P8.35
+Wire Wire Line
+	7350 6350 7850 6350
+Wire Wire Line
+	7850 6200 7850 6350
+Connection ~ 7850 6350
+Wire Wire Line
+	7850 6350 8200 6350
+Wire Wire Line
+	7850 6450 7850 6350
+Wire Wire Line
+	6000 6650 6650 6650
+Wire Wire Line
+	6650 6350 6750 6350
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8EA7A
+P 6250 6750
+F 0 "#PWR?" H 6250 6500 50  0001 C CNN
+F 1 "GNDA" H 6255 6577 50  0000 C CNN
+F 2 "" H 6250 6750 50  0001 C CNN
+F 3 "" H 6250 6750 50  0001 C CNN
+	1    6250 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6350 6250 6350
+Wire Wire Line
+	6250 6750 6250 6350
+$Comp
+L Device:R R?
+U 1 1 66F8EA83
+P 7850 7550
+F 0 "R?" H 7920 7596 50  0000 L CNN
+F 1 "10k" H 7920 7505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 7550 50  0001 C CNN
+F 3 "~" H 7850 7550 50  0001 C CNN
+F 4 "C238881" H 7850 7550 50  0001 C CNN "JLCPCB"
+	1    7850 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8EA89
+P 7850 7250
+F 0 "#PWR?" H 7850 7100 50  0001 C CNN
+F 1 "+3.3V" H 7865 7423 50  0000 C CNN
+F 2 "" H 7850 7250 50  0001 C CNN
+F 3 "" H 7850 7250 50  0001 C CNN
+	1    7850 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 7250 7850 7400
+$Comp
+L Device:C C?
+U 1 1 66F8EA91
+P 7850 8100
+F 0 "C?" H 7965 8146 50  0000 L CNN
+F 1 "100n" H 7965 8055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 7950 50  0001 C CNN
+F 3 "~" H 7850 8100 50  0001 C CNN
+F 4 "C14663" H 7850 8100 50  0001 C CNN "JLCPCB"
+	1    7850 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EA97
+P 7850 8250
+F 0 "#PWR?" H 7850 8000 50  0001 C CNN
+F 1 "GND" H 7855 8077 50  0000 C CNN
+F 2 "" H 7850 8250 50  0001 C CNN
+F 3 "" H 7850 8250 50  0001 C CNN
+	1    7850 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 8050 7500 8250
+Wire Wire Line
+	7350 8050 7500 8050
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EA9F
+P 7500 8250
+F 0 "#PWR?" H 7500 8000 50  0001 C CNN
+F 1 "GND" V 7505 8122 50  0000 R CNN
+F 2 "" H 7500 8250 50  0001 C CNN
+F 3 "" H 7500 8250 50  0001 C CNN
+	1    7500 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 8050 6750 8050
+Wire Wire Line
+	6650 8150 6650 8050
+$Comp
+L Device:R R?
+U 1 1 66F8EAA8
+P 6500 7850
+F 0 "R?" H 6570 7896 50  0000 L CNN
+F 1 "4.7k" H 6570 7805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 7850 50  0001 C CNN
+F 3 "~" H 6500 7850 50  0001 C CNN
+F 4 "C238881" H 6500 7850 50  0001 C CNN "JLCPCB"
+	1    6500 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8EAAF
+P 7050 7950
+F 0 "U?" H 7050 8275 50  0000 C CNN
+F 1 "EL357N-G" H 7050 8184 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 7750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 7950 50  0001 L CNN
+F 4 "C6649" H 7050 7950 50  0001 C CNN "JLCPCB"
+	1    7050 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 7850 2    50   Input ~ 0
+P8.34
+Wire Wire Line
+	7350 7850 7850 7850
+Wire Wire Line
+	7850 7700 7850 7850
+Connection ~ 7850 7850
+Wire Wire Line
+	7850 7850 8200 7850
+Wire Wire Line
+	7850 7950 7850 7850
+Wire Wire Line
+	6000 8150 6650 8150
+Wire Wire Line
+	6650 7850 6750 7850
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8EABD
+P 6250 8250
+F 0 "#PWR?" H 6250 8000 50  0001 C CNN
+F 1 "GNDA" H 6255 8077 50  0000 C CNN
+F 2 "" H 6250 8250 50  0001 C CNN
+F 3 "" H 6250 8250 50  0001 C CNN
+	1    6250 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 7850 6250 7850
+Wire Wire Line
+	6250 8250 6250 7850
+$Comp
+L Device:R R?
+U 1 1 66F8EAC6
+P 7850 9100
+F 0 "R?" H 7920 9146 50  0000 L CNN
+F 1 "10k" H 7920 9055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 9100 50  0001 C CNN
+F 3 "~" H 7850 9100 50  0001 C CNN
+F 4 "C238881" H 7850 9100 50  0001 C CNN "JLCPCB"
+	1    7850 9100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8EACC
+P 7850 8800
+F 0 "#PWR?" H 7850 8650 50  0001 C CNN
+F 1 "+3.3V" H 7865 8973 50  0000 C CNN
+F 2 "" H 7850 8800 50  0001 C CNN
+F 3 "" H 7850 8800 50  0001 C CNN
+	1    7850 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 8800 7850 8950
+$Comp
+L Device:C C?
+U 1 1 66F8EAD4
+P 7850 9650
+F 0 "C?" H 7965 9696 50  0000 L CNN
+F 1 "100n" H 7965 9605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 9500 50  0001 C CNN
+F 3 "~" H 7850 9650 50  0001 C CNN
+F 4 "C14663" H 7850 9650 50  0001 C CNN "JLCPCB"
+	1    7850 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EADA
+P 7850 9800
+F 0 "#PWR?" H 7850 9550 50  0001 C CNN
+F 1 "GND" H 7855 9627 50  0000 C CNN
+F 2 "" H 7850 9800 50  0001 C CNN
+F 3 "" H 7850 9800 50  0001 C CNN
+	1    7850 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 9600 7500 9800
+Wire Wire Line
+	7350 9600 7500 9600
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EAE2
+P 7500 9800
+F 0 "#PWR?" H 7500 9550 50  0001 C CNN
+F 1 "GND" V 7505 9672 50  0000 R CNN
+F 2 "" H 7500 9800 50  0001 C CNN
+F 3 "" H 7500 9800 50  0001 C CNN
+	1    7500 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 9600 6750 9600
+Wire Wire Line
+	6650 9700 6650 9600
+$Comp
+L Device:R R?
+U 1 1 66F8EAEB
+P 6500 9400
+F 0 "R?" H 6570 9446 50  0000 L CNN
+F 1 "4.7k" H 6570 9355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 9400 50  0001 C CNN
+F 3 "~" H 6500 9400 50  0001 C CNN
+F 4 "C238881" H 6500 9400 50  0001 C CNN "JLCPCB"
+	1    6500 9400
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8EAF2
+P 7050 9500
+F 0 "U?" H 7050 9825 50  0000 C CNN
+F 1 "EL357N-G" H 7050 9734 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 9300 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 9500 50  0001 L CNN
+F 4 "C6649" H 7050 9500 50  0001 C CNN "JLCPCB"
+	1    7050 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 9400 2    50   Input ~ 0
+P8.33
+Wire Wire Line
+	7350 9400 7850 9400
+Wire Wire Line
+	7850 9250 7850 9400
+Connection ~ 7850 9400
+Wire Wire Line
+	7850 9400 8200 9400
+Wire Wire Line
+	7850 9500 7850 9400
+Wire Wire Line
+	6000 9700 6650 9700
+Wire Wire Line
+	6650 9400 6750 9400
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8EB00
+P 6250 9800
+F 0 "#PWR?" H 6250 9550 50  0001 C CNN
+F 1 "GNDA" H 6255 9627 50  0000 C CNN
+F 2 "" H 6250 9800 50  0001 C CNN
+F 3 "" H 6250 9800 50  0001 C CNN
+	1    6250 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 9400 6250 9400
+Wire Wire Line
+	6250 9800 6250 9400
+$Comp
+L Device:R R?
+U 1 1 66F8EB09
+P 7850 10600
+F 0 "R?" H 7920 10646 50  0000 L CNN
+F 1 "10k" H 7920 10555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 10600 50  0001 C CNN
+F 3 "~" H 7850 10600 50  0001 C CNN
+F 4 "C238881" H 7850 10600 50  0001 C CNN "JLCPCB"
+	1    7850 10600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8EB0F
+P 7850 10300
+F 0 "#PWR?" H 7850 10150 50  0001 C CNN
+F 1 "+3.3V" H 7865 10473 50  0000 C CNN
+F 2 "" H 7850 10300 50  0001 C CNN
+F 3 "" H 7850 10300 50  0001 C CNN
+	1    7850 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 10300 7850 10450
+$Comp
+L Device:C C?
+U 1 1 66F8EB17
+P 7850 11150
+F 0 "C?" H 7965 11196 50  0000 L CNN
+F 1 "100n" H 7965 11105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 11000 50  0001 C CNN
+F 3 "~" H 7850 11150 50  0001 C CNN
+F 4 "C14663" H 7850 11150 50  0001 C CNN "JLCPCB"
+	1    7850 11150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EB1D
+P 7850 11300
+F 0 "#PWR?" H 7850 11050 50  0001 C CNN
+F 1 "GND" H 7855 11127 50  0000 C CNN
+F 2 "" H 7850 11300 50  0001 C CNN
+F 3 "" H 7850 11300 50  0001 C CNN
+	1    7850 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 11100 7500 11300
+Wire Wire Line
+	7350 11100 7500 11100
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EB25
+P 7500 11300
+F 0 "#PWR?" H 7500 11050 50  0001 C CNN
+F 1 "GND" V 7505 11172 50  0000 R CNN
+F 2 "" H 7500 11300 50  0001 C CNN
+F 3 "" H 7500 11300 50  0001 C CNN
+	1    7500 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 11100 6750 11100
+Wire Wire Line
+	6650 11200 6650 11100
+$Comp
+L Device:R R?
+U 1 1 66F8EB2E
+P 6500 10900
+F 0 "R?" H 6570 10946 50  0000 L CNN
+F 1 "4.7k" H 6570 10855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 10900 50  0001 C CNN
+F 3 "~" H 6500 10900 50  0001 C CNN
+F 4 "C238881" H 6500 10900 50  0001 C CNN "JLCPCB"
+	1    6500 10900
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8EB35
+P 7050 11000
+F 0 "U?" H 7050 11325 50  0000 C CNN
+F 1 "EL357N-G" H 7050 11234 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 10800 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 11000 50  0001 L CNN
+F 4 "C6649" H 7050 11000 50  0001 C CNN "JLCPCB"
+	1    7050 11000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 10900 2    50   Input ~ 0
+P8.32
+Wire Wire Line
+	7350 10900 7850 10900
+Wire Wire Line
+	7850 10750 7850 10900
+Connection ~ 7850 10900
+Wire Wire Line
+	7850 10900 8200 10900
+Wire Wire Line
+	7850 11000 7850 10900
+Wire Wire Line
+	6000 11200 6650 11200
+Wire Wire Line
+	6650 10900 6750 10900
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8EB43
+P 6250 11300
+F 0 "#PWR?" H 6250 11050 50  0001 C CNN
+F 1 "GNDA" H 6255 11127 50  0000 C CNN
+F 2 "" H 6250 11300 50  0001 C CNN
+F 3 "" H 6250 11300 50  0001 C CNN
+	1    6250 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 10900 6250 10900
+Wire Wire Line
+	6250 11300 6250 10900
+$Comp
+L Device:R R?
+U 1 1 66F8EB4C
+P 7850 12100
+F 0 "R?" H 7920 12146 50  0000 L CNN
+F 1 "10k" H 7920 12055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 12100 50  0001 C CNN
+F 3 "~" H 7850 12100 50  0001 C CNN
+F 4 "C238881" H 7850 12100 50  0001 C CNN "JLCPCB"
+	1    7850 12100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8EB52
+P 7850 11800
+F 0 "#PWR?" H 7850 11650 50  0001 C CNN
+F 1 "+3.3V" H 7865 11973 50  0000 C CNN
+F 2 "" H 7850 11800 50  0001 C CNN
+F 3 "" H 7850 11800 50  0001 C CNN
+	1    7850 11800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 11800 7850 11950
+$Comp
+L Device:C C?
+U 1 1 66F8EB5A
+P 7850 12650
+F 0 "C?" H 7965 12696 50  0000 L CNN
+F 1 "100n" H 7965 12605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 12500 50  0001 C CNN
+F 3 "~" H 7850 12650 50  0001 C CNN
+F 4 "C14663" H 7850 12650 50  0001 C CNN "JLCPCB"
+	1    7850 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EB60
+P 7850 12800
+F 0 "#PWR?" H 7850 12550 50  0001 C CNN
+F 1 "GND" H 7855 12627 50  0000 C CNN
+F 2 "" H 7850 12800 50  0001 C CNN
+F 3 "" H 7850 12800 50  0001 C CNN
+	1    7850 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 12600 7500 12800
+Wire Wire Line
+	7350 12600 7500 12600
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EB68
+P 7500 12800
+F 0 "#PWR?" H 7500 12550 50  0001 C CNN
+F 1 "GND" V 7505 12672 50  0000 R CNN
+F 2 "" H 7500 12800 50  0001 C CNN
+F 3 "" H 7500 12800 50  0001 C CNN
+	1    7500 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 12600 6750 12600
+Wire Wire Line
+	6650 12700 6650 12600
+$Comp
+L Device:R R?
+U 1 1 66F8EB71
+P 6500 12400
+F 0 "R?" H 6570 12446 50  0000 L CNN
+F 1 "4.7k" H 6570 12355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 12400 50  0001 C CNN
+F 3 "~" H 6500 12400 50  0001 C CNN
+F 4 "C238881" H 6500 12400 50  0001 C CNN "JLCPCB"
+	1    6500 12400
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8EB78
+P 7050 12500
+F 0 "U?" H 7050 12825 50  0000 C CNN
+F 1 "EL357N-G" H 7050 12734 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 12300 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 12500 50  0001 L CNN
+F 4 "C6649" H 7050 12500 50  0001 C CNN "JLCPCB"
+	1    7050 12500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 12400 2    50   Input ~ 0
+P8.31
+Wire Wire Line
+	7350 12400 7850 12400
+Wire Wire Line
+	7850 12250 7850 12400
+Connection ~ 7850 12400
+Wire Wire Line
+	7850 12400 8200 12400
+Wire Wire Line
+	7850 12500 7850 12400
+Wire Wire Line
+	6000 12700 6650 12700
+Wire Wire Line
+	6650 12400 6750 12400
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8EB86
+P 6250 12800
+F 0 "#PWR?" H 6250 12550 50  0001 C CNN
+F 1 "GNDA" H 6255 12627 50  0000 C CNN
+F 2 "" H 6250 12800 50  0001 C CNN
+F 3 "" H 6250 12800 50  0001 C CNN
+	1    6250 12800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 12400 6250 12400
+Wire Wire Line
+	6250 12800 6250 12400
+$Comp
+L Device:R R?
+U 1 1 66F8EB8F
+P 7850 13600
+F 0 "R?" H 7920 13646 50  0000 L CNN
+F 1 "10k" H 7920 13555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 13600 50  0001 C CNN
+F 3 "~" H 7850 13600 50  0001 C CNN
+F 4 "C238881" H 7850 13600 50  0001 C CNN "JLCPCB"
+	1    7850 13600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 66F8EB95
+P 7850 13300
+F 0 "#PWR?" H 7850 13150 50  0001 C CNN
+F 1 "+3.3V" H 7865 13473 50  0000 C CNN
+F 2 "" H 7850 13300 50  0001 C CNN
+F 3 "" H 7850 13300 50  0001 C CNN
+	1    7850 13300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 13300 7850 13450
+$Comp
+L Device:C C?
+U 1 1 66F8EB9D
+P 7850 14150
+F 0 "C?" H 7965 14196 50  0000 L CNN
+F 1 "100n" H 7965 14105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 14000 50  0001 C CNN
+F 3 "~" H 7850 14150 50  0001 C CNN
+F 4 "C14663" H 7850 14150 50  0001 C CNN "JLCPCB"
+	1    7850 14150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EBA3
+P 7850 14300
+F 0 "#PWR?" H 7850 14050 50  0001 C CNN
+F 1 "GND" H 7855 14127 50  0000 C CNN
+F 2 "" H 7850 14300 50  0001 C CNN
+F 3 "" H 7850 14300 50  0001 C CNN
+	1    7850 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 14100 7500 14300
+Wire Wire Line
+	7350 14100 7500 14100
+$Comp
+L power:GND #PWR?
+U 1 1 66F8EBAB
+P 7500 14300
+F 0 "#PWR?" H 7500 14050 50  0001 C CNN
+F 1 "GND" V 7505 14172 50  0000 R CNN
+F 2 "" H 7500 14300 50  0001 C CNN
+F 3 "" H 7500 14300 50  0001 C CNN
+	1    7500 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 14100 6750 14100
+Wire Wire Line
+	6650 14200 6650 14100
+$Comp
+L Device:R R?
+U 1 1 66F8EBB4
+P 6500 13900
+F 0 "R?" H 6570 13946 50  0000 L CNN
+F 1 "4.7k" H 6570 13855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 13900 50  0001 C CNN
+F 3 "~" H 6500 13900 50  0001 C CNN
+F 4 "C238881" H 6500 13900 50  0001 C CNN "JLCPCB"
+	1    6500 13900
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 66F8EBBB
+P 7050 14000
+F 0 "U?" H 7050 14325 50  0000 C CNN
+F 1 "EL357N-G" H 7050 14234 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 6850 13800 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7050 14000 50  0001 L CNN
+F 4 "C6649" H 7050 14000 50  0001 C CNN "JLCPCB"
+	1    7050 14000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 13900 2    50   Input ~ 0
+P8.30
+Wire Wire Line
+	7350 13900 7850 13900
+Wire Wire Line
+	7850 13750 7850 13900
+Connection ~ 7850 13900
+Wire Wire Line
+	7850 13900 8200 13900
+Wire Wire Line
+	7850 14000 7850 13900
+Wire Wire Line
+	6000 14200 6650 14200
+Wire Wire Line
+	6650 13900 6750 13900
+$Comp
+L power:GNDA #PWR?
+U 1 1 66F8EBC9
+P 6250 14300
+F 0 "#PWR?" H 6250 14050 50  0001 C CNN
+F 1 "GNDA" H 6255 14127 50  0000 C CNN
+F 2 "" H 6250 14300 50  0001 C CNN
+F 3 "" H 6250 14300 50  0001 C CNN
+	1    6250 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 13900 6250 13900
+Wire Wire Line
+	6250 14300 6250 13900
+$Comp
+L Device:R R?
+U 1 1 6805E89D
+P 11100 2800
+F 0 "R?" H 11170 2846 50  0000 L CNN
+F 1 "10k" H 11170 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 2800 50  0001 C CNN
+F 3 "~" H 11100 2800 50  0001 C CNN
+F 4 "C238881" H 11100 2800 50  0001 C CNN "JLCPCB"
+	1    11100 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805E8A4
+P 11100 2500
+F 0 "#PWR?" H 11100 2350 50  0001 C CNN
+F 1 "+3.3V" H 11115 2673 50  0000 C CNN
+F 2 "" H 11100 2500 50  0001 C CNN
+F 3 "" H 11100 2500 50  0001 C CNN
+	1    11100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 2500 11100 2650
+$Comp
+L Device:C C?
+U 1 1 6805E8AC
+P 11100 3350
+F 0 "C?" H 11215 3396 50  0000 L CNN
+F 1 "100n" H 11215 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 3200 50  0001 C CNN
+F 3 "~" H 11100 3350 50  0001 C CNN
+F 4 "C14663" H 11100 3350 50  0001 C CNN "JLCPCB"
+	1    11100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805E8B2
+P 11100 3500
+F 0 "#PWR?" H 11100 3250 50  0001 C CNN
+F 1 "GND" H 11105 3327 50  0000 C CNN
+F 2 "" H 11100 3500 50  0001 C CNN
+F 3 "" H 11100 3500 50  0001 C CNN
+	1    11100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3300 10750 3500
+Wire Wire Line
+	10600 3300 10750 3300
+$Comp
+L power:GND #PWR?
+U 1 1 6805E8BA
+P 10750 3500
+F 0 "#PWR?" H 10750 3250 50  0001 C CNN
+F 1 "GND" V 10755 3372 50  0000 R CNN
+F 2 "" H 10750 3500 50  0001 C CNN
+F 3 "" H 10750 3500 50  0001 C CNN
+	1    10750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3300 10000 3300
+Wire Wire Line
+	9900 3400 9900 3300
+$Comp
+L Device:R R?
+U 1 1 6805E8C3
+P 9750 3100
+F 0 "R?" H 9820 3146 50  0000 L CNN
+F 1 "4.7k" H 9820 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 3100 50  0001 C CNN
+F 3 "~" H 9750 3100 50  0001 C CNN
+F 4 "C238881" H 9750 3100 50  0001 C CNN "JLCPCB"
+	1    9750 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805E8CA
+P 10300 3200
+F 0 "U?" H 10300 3525 50  0000 C CNN
+F 1 "EL357N-G" H 10300 3434 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 3000 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 3200 50  0001 L CNN
+F 4 "C6649" H 10300 3200 50  0001 C CNN "JLCPCB"
+	1    10300 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 3100 2    50   Input ~ 0
+P8.29
+Wire Wire Line
+	10600 3100 11100 3100
+Wire Wire Line
+	11100 2950 11100 3100
+Connection ~ 11100 3100
+Wire Wire Line
+	11100 3100 11450 3100
+Wire Wire Line
+	11100 3200 11100 3100
+Wire Wire Line
+	9250 3400 9900 3400
+Wire Wire Line
+	9900 3100 10000 3100
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805E8D8
+P 9500 3500
+F 0 "#PWR?" H 9500 3250 50  0001 C CNN
+F 1 "GNDA" H 9505 3327 50  0000 C CNN
+F 2 "" H 9500 3500 50  0001 C CNN
+F 3 "" H 9500 3500 50  0001 C CNN
+	1    9500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3100 9500 3100
+Wire Wire Line
+	9500 3500 9500 3100
+$Comp
+L Device:R R?
+U 1 1 6805E8E1
+P 11100 4400
+F 0 "R?" H 11170 4446 50  0000 L CNN
+F 1 "10k" H 11170 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 4400 50  0001 C CNN
+F 3 "~" H 11100 4400 50  0001 C CNN
+F 4 "C238881" H 11100 4400 50  0001 C CNN "JLCPCB"
+	1    11100 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805E8E7
+P 11100 4100
+F 0 "#PWR?" H 11100 3950 50  0001 C CNN
+F 1 "+3.3V" H 11115 4273 50  0000 C CNN
+F 2 "" H 11100 4100 50  0001 C CNN
+F 3 "" H 11100 4100 50  0001 C CNN
+	1    11100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 4100 11100 4250
+$Comp
+L Device:C C?
+U 1 1 6805E8EF
+P 11100 4950
+F 0 "C?" H 11215 4996 50  0000 L CNN
+F 1 "100n" H 11215 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 4800 50  0001 C CNN
+F 3 "~" H 11100 4950 50  0001 C CNN
+F 4 "C14663" H 11100 4950 50  0001 C CNN "JLCPCB"
+	1    11100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805E8F5
+P 11100 5100
+F 0 "#PWR?" H 11100 4850 50  0001 C CNN
+F 1 "GND" H 11105 4927 50  0000 C CNN
+F 2 "" H 11100 5100 50  0001 C CNN
+F 3 "" H 11100 5100 50  0001 C CNN
+	1    11100 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4900 10750 5100
+Wire Wire Line
+	10600 4900 10750 4900
+$Comp
+L power:GND #PWR?
+U 1 1 6805E8FD
+P 10750 5100
+F 0 "#PWR?" H 10750 4850 50  0001 C CNN
+F 1 "GND" V 10755 4972 50  0000 R CNN
+F 2 "" H 10750 5100 50  0001 C CNN
+F 3 "" H 10750 5100 50  0001 C CNN
+	1    10750 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4900 10000 4900
+Wire Wire Line
+	9900 5000 9900 4900
+$Comp
+L Device:R R?
+U 1 1 6805E906
+P 9750 4700
+F 0 "R?" H 9820 4746 50  0000 L CNN
+F 1 "4.7k" H 9820 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 4700 50  0001 C CNN
+F 3 "~" H 9750 4700 50  0001 C CNN
+F 4 "C238881" H 9750 4700 50  0001 C CNN "JLCPCB"
+	1    9750 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805E90D
+P 10300 4800
+F 0 "U?" H 10300 5125 50  0000 C CNN
+F 1 "EL357N-G" H 10300 5034 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 4600 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 4800 50  0001 L CNN
+F 4 "C6649" H 10300 4800 50  0001 C CNN "JLCPCB"
+	1    10300 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 4700 2    50   Input ~ 0
+P8.28
+Wire Wire Line
+	10600 4700 11100 4700
+Wire Wire Line
+	11100 4550 11100 4700
+Connection ~ 11100 4700
+Wire Wire Line
+	11100 4700 11450 4700
+Wire Wire Line
+	11100 4800 11100 4700
+Wire Wire Line
+	9250 5000 9900 5000
+Wire Wire Line
+	9900 4700 10000 4700
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805E91B
+P 9500 5100
+F 0 "#PWR?" H 9500 4850 50  0001 C CNN
+F 1 "GNDA" H 9505 4927 50  0000 C CNN
+F 2 "" H 9500 5100 50  0001 C CNN
+F 3 "" H 9500 5100 50  0001 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4700 9500 4700
+Wire Wire Line
+	9500 5100 9500 4700
+$Comp
+L Device:R R?
+U 1 1 6805E924
+P 11100 6000
+F 0 "R?" H 11170 6046 50  0000 L CNN
+F 1 "10k" H 11170 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 6000 50  0001 C CNN
+F 3 "~" H 11100 6000 50  0001 C CNN
+F 4 "C238881" H 11100 6000 50  0001 C CNN "JLCPCB"
+	1    11100 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805E92A
+P 11100 5700
+F 0 "#PWR?" H 11100 5550 50  0001 C CNN
+F 1 "+3.3V" H 11115 5873 50  0000 C CNN
+F 2 "" H 11100 5700 50  0001 C CNN
+F 3 "" H 11100 5700 50  0001 C CNN
+	1    11100 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 5700 11100 5850
+$Comp
+L Device:C C?
+U 1 1 6805E932
+P 11100 6550
+F 0 "C?" H 11215 6596 50  0000 L CNN
+F 1 "100n" H 11215 6505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 6400 50  0001 C CNN
+F 3 "~" H 11100 6550 50  0001 C CNN
+F 4 "C14663" H 11100 6550 50  0001 C CNN "JLCPCB"
+	1    11100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805E938
+P 11100 6700
+F 0 "#PWR?" H 11100 6450 50  0001 C CNN
+F 1 "GND" H 11105 6527 50  0000 C CNN
+F 2 "" H 11100 6700 50  0001 C CNN
+F 3 "" H 11100 6700 50  0001 C CNN
+	1    11100 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 6500 10750 6700
+Wire Wire Line
+	10600 6500 10750 6500
+$Comp
+L power:GND #PWR?
+U 1 1 6805E940
+P 10750 6700
+F 0 "#PWR?" H 10750 6450 50  0001 C CNN
+F 1 "GND" V 10755 6572 50  0000 R CNN
+F 2 "" H 10750 6700 50  0001 C CNN
+F 3 "" H 10750 6700 50  0001 C CNN
+	1    10750 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 6500 10000 6500
+Wire Wire Line
+	9900 6600 9900 6500
+$Comp
+L Device:R R?
+U 1 1 6805E949
+P 9750 6300
+F 0 "R?" H 9820 6346 50  0000 L CNN
+F 1 "4.7k" H 9820 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 6300 50  0001 C CNN
+F 3 "~" H 9750 6300 50  0001 C CNN
+F 4 "C238881" H 9750 6300 50  0001 C CNN "JLCPCB"
+	1    9750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805E950
+P 10300 6400
+F 0 "U?" H 10300 6725 50  0000 C CNN
+F 1 "EL357N-G" H 10300 6634 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 6200 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 6400 50  0001 L CNN
+F 4 "C6649" H 10300 6400 50  0001 C CNN "JLCPCB"
+	1    10300 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 6300 2    50   Input ~ 0
+P8.27
+Wire Wire Line
+	10600 6300 11100 6300
+Wire Wire Line
+	11100 6150 11100 6300
+Connection ~ 11100 6300
+Wire Wire Line
+	11100 6300 11450 6300
+Wire Wire Line
+	11100 6400 11100 6300
+Wire Wire Line
+	9250 6600 9900 6600
+Wire Wire Line
+	9900 6300 10000 6300
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805E95E
+P 9500 6700
+F 0 "#PWR?" H 9500 6450 50  0001 C CNN
+F 1 "GNDA" H 9505 6527 50  0000 C CNN
+F 2 "" H 9500 6700 50  0001 C CNN
+F 3 "" H 9500 6700 50  0001 C CNN
+	1    9500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 6300 9500 6300
+Wire Wire Line
+	9500 6700 9500 6300
+$Comp
+L Device:R R?
+U 1 1 6805E967
+P 11100 7500
+F 0 "R?" H 11170 7546 50  0000 L CNN
+F 1 "10k" H 11170 7455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 7500 50  0001 C CNN
+F 3 "~" H 11100 7500 50  0001 C CNN
+F 4 "C238881" H 11100 7500 50  0001 C CNN "JLCPCB"
+	1    11100 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805E96D
+P 11100 7200
+F 0 "#PWR?" H 11100 7050 50  0001 C CNN
+F 1 "+3.3V" H 11115 7373 50  0000 C CNN
+F 2 "" H 11100 7200 50  0001 C CNN
+F 3 "" H 11100 7200 50  0001 C CNN
+	1    11100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 7200 11100 7350
+$Comp
+L Device:C C?
+U 1 1 6805E975
+P 11100 8050
+F 0 "C?" H 11215 8096 50  0000 L CNN
+F 1 "100n" H 11215 8005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 7900 50  0001 C CNN
+F 3 "~" H 11100 8050 50  0001 C CNN
+F 4 "C14663" H 11100 8050 50  0001 C CNN "JLCPCB"
+	1    11100 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805E97B
+P 11100 8200
+F 0 "#PWR?" H 11100 7950 50  0001 C CNN
+F 1 "GND" H 11105 8027 50  0000 C CNN
+F 2 "" H 11100 8200 50  0001 C CNN
+F 3 "" H 11100 8200 50  0001 C CNN
+	1    11100 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 8000 10750 8200
+Wire Wire Line
+	10600 8000 10750 8000
+$Comp
+L power:GND #PWR?
+U 1 1 6805E983
+P 10750 8200
+F 0 "#PWR?" H 10750 7950 50  0001 C CNN
+F 1 "GND" V 10755 8072 50  0000 R CNN
+F 2 "" H 10750 8200 50  0001 C CNN
+F 3 "" H 10750 8200 50  0001 C CNN
+	1    10750 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 8000 10000 8000
+Wire Wire Line
+	9900 8100 9900 8000
+$Comp
+L Device:R R?
+U 1 1 6805E98C
+P 9750 7800
+F 0 "R?" H 9820 7846 50  0000 L CNN
+F 1 "4.7k" H 9820 7755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 7800 50  0001 C CNN
+F 3 "~" H 9750 7800 50  0001 C CNN
+F 4 "C238881" H 9750 7800 50  0001 C CNN "JLCPCB"
+	1    9750 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805E993
+P 10300 7900
+F 0 "U?" H 10300 8225 50  0000 C CNN
+F 1 "EL357N-G" H 10300 8134 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 7700 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 7900 50  0001 L CNN
+F 4 "C6649" H 10300 7900 50  0001 C CNN "JLCPCB"
+	1    10300 7900
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 7800 2    50   Input ~ 0
+P8.26
+Wire Wire Line
+	10600 7800 11100 7800
+Wire Wire Line
+	11100 7650 11100 7800
+Connection ~ 11100 7800
+Wire Wire Line
+	11100 7800 11450 7800
+Wire Wire Line
+	11100 7900 11100 7800
+Wire Wire Line
+	9250 8100 9900 8100
+Wire Wire Line
+	9900 7800 10000 7800
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805E9A1
+P 9500 8200
+F 0 "#PWR?" H 9500 7950 50  0001 C CNN
+F 1 "GNDA" H 9505 8027 50  0000 C CNN
+F 2 "" H 9500 8200 50  0001 C CNN
+F 3 "" H 9500 8200 50  0001 C CNN
+	1    9500 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 7800 9500 7800
+Wire Wire Line
+	9500 8200 9500 7800
+$Comp
+L Device:R R?
+U 1 1 6805E9AA
+P 11100 9050
+F 0 "R?" H 11170 9096 50  0000 L CNN
+F 1 "10k" H 11170 9005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 9050 50  0001 C CNN
+F 3 "~" H 11100 9050 50  0001 C CNN
+F 4 "C238881" H 11100 9050 50  0001 C CNN "JLCPCB"
+	1    11100 9050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805E9B0
+P 11100 8750
+F 0 "#PWR?" H 11100 8600 50  0001 C CNN
+F 1 "+3.3V" H 11115 8923 50  0000 C CNN
+F 2 "" H 11100 8750 50  0001 C CNN
+F 3 "" H 11100 8750 50  0001 C CNN
+	1    11100 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 8750 11100 8900
+$Comp
+L Device:C C?
+U 1 1 6805E9B8
+P 11100 9600
+F 0 "C?" H 11215 9646 50  0000 L CNN
+F 1 "100n" H 11215 9555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 9450 50  0001 C CNN
+F 3 "~" H 11100 9600 50  0001 C CNN
+F 4 "C14663" H 11100 9600 50  0001 C CNN "JLCPCB"
+	1    11100 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805E9BE
+P 11100 9750
+F 0 "#PWR?" H 11100 9500 50  0001 C CNN
+F 1 "GND" H 11105 9577 50  0000 C CNN
+F 2 "" H 11100 9750 50  0001 C CNN
+F 3 "" H 11100 9750 50  0001 C CNN
+	1    11100 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 9550 10750 9750
+Wire Wire Line
+	10600 9550 10750 9550
+$Comp
+L power:GND #PWR?
+U 1 1 6805E9C6
+P 10750 9750
+F 0 "#PWR?" H 10750 9500 50  0001 C CNN
+F 1 "GND" V 10755 9622 50  0000 R CNN
+F 2 "" H 10750 9750 50  0001 C CNN
+F 3 "" H 10750 9750 50  0001 C CNN
+	1    10750 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 9550 10000 9550
+Wire Wire Line
+	9900 9650 9900 9550
+$Comp
+L Device:R R?
+U 1 1 6805E9CF
+P 9750 9350
+F 0 "R?" H 9820 9396 50  0000 L CNN
+F 1 "4.7k" H 9820 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 9350 50  0001 C CNN
+F 3 "~" H 9750 9350 50  0001 C CNN
+F 4 "C238881" H 9750 9350 50  0001 C CNN "JLCPCB"
+	1    9750 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805E9D6
+P 10300 9450
+F 0 "U?" H 10300 9775 50  0000 C CNN
+F 1 "EL357N-G" H 10300 9684 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 9250 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 9450 50  0001 L CNN
+F 4 "C6649" H 10300 9450 50  0001 C CNN "JLCPCB"
+	1    10300 9450
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 9350 2    50   Input ~ 0
+P9.15
+Wire Wire Line
+	10600 9350 11100 9350
+Wire Wire Line
+	11100 9200 11100 9350
+Connection ~ 11100 9350
+Wire Wire Line
+	11100 9350 11450 9350
+Wire Wire Line
+	11100 9450 11100 9350
+Wire Wire Line
+	9250 9650 9900 9650
+Wire Wire Line
+	9900 9350 10000 9350
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805E9E4
+P 9500 9750
+F 0 "#PWR?" H 9500 9500 50  0001 C CNN
+F 1 "GNDA" H 9505 9577 50  0000 C CNN
+F 2 "" H 9500 9750 50  0001 C CNN
+F 3 "" H 9500 9750 50  0001 C CNN
+	1    9500 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 9350 9500 9350
+Wire Wire Line
+	9500 9750 9500 9350
+$Comp
+L Device:R R?
+U 1 1 6805E9ED
+P 11100 10550
+F 0 "R?" H 11170 10596 50  0000 L CNN
+F 1 "10k" H 11170 10505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 10550 50  0001 C CNN
+F 3 "~" H 11100 10550 50  0001 C CNN
+F 4 "C238881" H 11100 10550 50  0001 C CNN "JLCPCB"
+	1    11100 10550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805E9F3
+P 11100 10250
+F 0 "#PWR?" H 11100 10100 50  0001 C CNN
+F 1 "+3.3V" H 11115 10423 50  0000 C CNN
+F 2 "" H 11100 10250 50  0001 C CNN
+F 3 "" H 11100 10250 50  0001 C CNN
+	1    11100 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 10250 11100 10400
+$Comp
+L Device:C C?
+U 1 1 6805E9FB
+P 11100 11100
+F 0 "C?" H 11215 11146 50  0000 L CNN
+F 1 "100n" H 11215 11055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 10950 50  0001 C CNN
+F 3 "~" H 11100 11100 50  0001 C CNN
+F 4 "C14663" H 11100 11100 50  0001 C CNN "JLCPCB"
+	1    11100 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805EA01
+P 11100 11250
+F 0 "#PWR?" H 11100 11000 50  0001 C CNN
+F 1 "GND" H 11105 11077 50  0000 C CNN
+F 2 "" H 11100 11250 50  0001 C CNN
+F 3 "" H 11100 11250 50  0001 C CNN
+	1    11100 11250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 11050 10750 11250
+Wire Wire Line
+	10600 11050 10750 11050
+$Comp
+L power:GND #PWR?
+U 1 1 6805EA09
+P 10750 11250
+F 0 "#PWR?" H 10750 11000 50  0001 C CNN
+F 1 "GND" V 10755 11122 50  0000 R CNN
+F 2 "" H 10750 11250 50  0001 C CNN
+F 3 "" H 10750 11250 50  0001 C CNN
+	1    10750 11250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 11050 10000 11050
+Wire Wire Line
+	9900 11150 9900 11050
+$Comp
+L Device:R R?
+U 1 1 6805EA12
+P 9750 10850
+F 0 "R?" H 9820 10896 50  0000 L CNN
+F 1 "4.7k" H 9820 10805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 10850 50  0001 C CNN
+F 3 "~" H 9750 10850 50  0001 C CNN
+F 4 "C238881" H 9750 10850 50  0001 C CNN "JLCPCB"
+	1    9750 10850
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805EA19
+P 10300 10950
+F 0 "U?" H 10300 11275 50  0000 C CNN
+F 1 "EL357N-G" H 10300 11184 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 10750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 10950 50  0001 L CNN
+F 4 "C6649" H 10300 10950 50  0001 C CNN "JLCPCB"
+	1    10300 10950
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 10850 2    50   Input ~ 0
+P9.16
+Wire Wire Line
+	10600 10850 11100 10850
+Wire Wire Line
+	11100 10700 11100 10850
+Connection ~ 11100 10850
+Wire Wire Line
+	11100 10850 11450 10850
+Wire Wire Line
+	11100 10950 11100 10850
+Wire Wire Line
+	9250 11150 9900 11150
+Wire Wire Line
+	9900 10850 10000 10850
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805EA27
+P 9500 11250
+F 0 "#PWR?" H 9500 11000 50  0001 C CNN
+F 1 "GNDA" H 9505 11077 50  0000 C CNN
+F 2 "" H 9500 11250 50  0001 C CNN
+F 3 "" H 9500 11250 50  0001 C CNN
+	1    9500 11250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 10850 9500 10850
+Wire Wire Line
+	9500 11250 9500 10850
+$Comp
+L Device:R R?
+U 1 1 6805EA30
+P 11100 12050
+F 0 "R?" H 11170 12096 50  0000 L CNN
+F 1 "10k" H 11170 12005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 12050 50  0001 C CNN
+F 3 "~" H 11100 12050 50  0001 C CNN
+F 4 "C238881" H 11100 12050 50  0001 C CNN "JLCPCB"
+	1    11100 12050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805EA36
+P 11100 11750
+F 0 "#PWR?" H 11100 11600 50  0001 C CNN
+F 1 "+3.3V" H 11115 11923 50  0000 C CNN
+F 2 "" H 11100 11750 50  0001 C CNN
+F 3 "" H 11100 11750 50  0001 C CNN
+	1    11100 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 11750 11100 11900
+$Comp
+L Device:C C?
+U 1 1 6805EA3E
+P 11100 12600
+F 0 "C?" H 11215 12646 50  0000 L CNN
+F 1 "100n" H 11215 12555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 12450 50  0001 C CNN
+F 3 "~" H 11100 12600 50  0001 C CNN
+F 4 "C14663" H 11100 12600 50  0001 C CNN "JLCPCB"
+	1    11100 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805EA44
+P 11100 12750
+F 0 "#PWR?" H 11100 12500 50  0001 C CNN
+F 1 "GND" H 11105 12577 50  0000 C CNN
+F 2 "" H 11100 12750 50  0001 C CNN
+F 3 "" H 11100 12750 50  0001 C CNN
+	1    11100 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 12550 10750 12750
+Wire Wire Line
+	10600 12550 10750 12550
+$Comp
+L power:GND #PWR?
+U 1 1 6805EA4C
+P 10750 12750
+F 0 "#PWR?" H 10750 12500 50  0001 C CNN
+F 1 "GND" V 10755 12622 50  0000 R CNN
+F 2 "" H 10750 12750 50  0001 C CNN
+F 3 "" H 10750 12750 50  0001 C CNN
+	1    10750 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 12550 10000 12550
+Wire Wire Line
+	9900 12650 9900 12550
+$Comp
+L Device:R R?
+U 1 1 6805EA55
+P 9750 12350
+F 0 "R?" H 9820 12396 50  0000 L CNN
+F 1 "4.7k" H 9820 12305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 12350 50  0001 C CNN
+F 3 "~" H 9750 12350 50  0001 C CNN
+F 4 "C238881" H 9750 12350 50  0001 C CNN "JLCPCB"
+	1    9750 12350
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805EA5C
+P 10300 12450
+F 0 "U?" H 10300 12775 50  0000 C CNN
+F 1 "EL357N-G" H 10300 12684 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 12250 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 12450 50  0001 L CNN
+F 4 "C6649" H 10300 12450 50  0001 C CNN "JLCPCB"
+	1    10300 12450
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 12350 2    50   Input ~ 0
+P8.18
+Wire Wire Line
+	10600 12350 11100 12350
+Wire Wire Line
+	11100 12200 11100 12350
+Connection ~ 11100 12350
+Wire Wire Line
+	11100 12350 11450 12350
+Wire Wire Line
+	11100 12450 11100 12350
+Wire Wire Line
+	9250 12650 9900 12650
+Wire Wire Line
+	9900 12350 10000 12350
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805EA6A
+P 9500 12750
+F 0 "#PWR?" H 9500 12500 50  0001 C CNN
+F 1 "GNDA" H 9505 12577 50  0000 C CNN
+F 2 "" H 9500 12750 50  0001 C CNN
+F 3 "" H 9500 12750 50  0001 C CNN
+	1    9500 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 12350 9500 12350
+Wire Wire Line
+	9500 12750 9500 12350
+$Comp
+L Device:R R?
+U 1 1 6805EA73
+P 11100 13550
+F 0 "R?" H 11170 13596 50  0000 L CNN
+F 1 "10k" H 11170 13505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 13550 50  0001 C CNN
+F 3 "~" H 11100 13550 50  0001 C CNN
+F 4 "C238881" H 11100 13550 50  0001 C CNN "JLCPCB"
+	1    11100 13550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6805EA79
+P 11100 13250
+F 0 "#PWR?" H 11100 13100 50  0001 C CNN
+F 1 "+3.3V" H 11115 13423 50  0000 C CNN
+F 2 "" H 11100 13250 50  0001 C CNN
+F 3 "" H 11100 13250 50  0001 C CNN
+	1    11100 13250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 13250 11100 13400
+$Comp
+L Device:C C?
+U 1 1 6805EA81
+P 11100 14100
+F 0 "C?" H 11215 14146 50  0000 L CNN
+F 1 "100n" H 11215 14055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11138 13950 50  0001 C CNN
+F 3 "~" H 11100 14100 50  0001 C CNN
+F 4 "C14663" H 11100 14100 50  0001 C CNN "JLCPCB"
+	1    11100 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6805EA87
+P 11100 14250
+F 0 "#PWR?" H 11100 14000 50  0001 C CNN
+F 1 "GND" H 11105 14077 50  0000 C CNN
+F 2 "" H 11100 14250 50  0001 C CNN
+F 3 "" H 11100 14250 50  0001 C CNN
+	1    11100 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 14050 10750 14250
+Wire Wire Line
+	10600 14050 10750 14050
+$Comp
+L power:GND #PWR?
+U 1 1 6805EA8F
+P 10750 14250
+F 0 "#PWR?" H 10750 14000 50  0001 C CNN
+F 1 "GND" V 10755 14122 50  0000 R CNN
+F 2 "" H 10750 14250 50  0001 C CNN
+F 3 "" H 10750 14250 50  0001 C CNN
+	1    10750 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 14050 10000 14050
+Wire Wire Line
+	9900 14150 9900 14050
+$Comp
+L Device:R R?
+U 1 1 6805EA98
+P 9750 13850
+F 0 "R?" H 9820 13896 50  0000 L CNN
+F 1 "4.7k" H 9820 13805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9680 13850 50  0001 C CNN
+F 3 "~" H 9750 13850 50  0001 C CNN
+F 4 "C238881" H 9750 13850 50  0001 C CNN "JLCPCB"
+	1    9750 13850
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6805EA9F
+P 10300 13950
+F 0 "U?" H 10300 14275 50  0000 C CNN
+F 1 "EL357N-G" H 10300 14184 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 10100 13750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10300 13950 50  0001 L CNN
+F 4 "C6649" H 10300 13950 50  0001 C CNN "JLCPCB"
+	1    10300 13950
+	1    0    0    -1  
+$EndComp
+Text GLabel 11450 13850 2    50   Input ~ 0
+P8.17
+Wire Wire Line
+	10600 13850 11100 13850
+Wire Wire Line
+	11100 13700 11100 13850
+Connection ~ 11100 13850
+Wire Wire Line
+	11100 13850 11450 13850
+Wire Wire Line
+	11100 13950 11100 13850
+Wire Wire Line
+	9250 14150 9900 14150
+Wire Wire Line
+	9900 13850 10000 13850
+$Comp
+L power:GNDA #PWR?
+U 1 1 6805EAAD
+P 9500 14250
+F 0 "#PWR?" H 9500 14000 50  0001 C CNN
+F 1 "GNDA" H 9505 14077 50  0000 C CNN
+F 2 "" H 9500 14250 50  0001 C CNN
+F 3 "" H 9500 14250 50  0001 C CNN
+	1    9500 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 13850 9500 13850
+Wire Wire Line
+	9500 14250 9500 13850
+$Comp
+L Device:R R?
+U 1 1 690CA8D5
+P 14400 2750
+F 0 "R?" H 14470 2796 50  0000 L CNN
+F 1 "10k" H 14470 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 2750 50  0001 C CNN
+F 3 "~" H 14400 2750 50  0001 C CNN
+F 4 "C238881" H 14400 2750 50  0001 C CNN "JLCPCB"
+	1    14400 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CA8DB
+P 14400 2450
+F 0 "#PWR?" H 14400 2300 50  0001 C CNN
+F 1 "+3.3V" H 14415 2623 50  0000 C CNN
+F 2 "" H 14400 2450 50  0001 C CNN
+F 3 "" H 14400 2450 50  0001 C CNN
+	1    14400 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 2450 14400 2600
+$Comp
+L Device:C C?
+U 1 1 690CA8E3
+P 14400 3300
+F 0 "C?" H 14515 3346 50  0000 L CNN
+F 1 "100n" H 14515 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 3150 50  0001 C CNN
+F 3 "~" H 14400 3300 50  0001 C CNN
+F 4 "C14663" H 14400 3300 50  0001 C CNN "JLCPCB"
+	1    14400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CA8E9
+P 14400 3450
+F 0 "#PWR?" H 14400 3200 50  0001 C CNN
+F 1 "GND" H 14405 3277 50  0000 C CNN
+F 2 "" H 14400 3450 50  0001 C CNN
+F 3 "" H 14400 3450 50  0001 C CNN
+	1    14400 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 3250 14050 3450
+Wire Wire Line
+	13900 3250 14050 3250
+$Comp
+L power:GND #PWR?
+U 1 1 690CA8F1
+P 14050 3450
+F 0 "#PWR?" H 14050 3200 50  0001 C CNN
+F 1 "GND" V 14055 3322 50  0000 R CNN
+F 2 "" H 14050 3450 50  0001 C CNN
+F 3 "" H 14050 3450 50  0001 C CNN
+	1    14050 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 3250 13300 3250
+Wire Wire Line
+	13200 3350 13200 3250
+$Comp
+L Device:R R?
+U 1 1 690CA8FA
+P 13050 3050
+F 0 "R?" H 13120 3096 50  0000 L CNN
+F 1 "4.7k" H 13120 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 3050 50  0001 C CNN
+F 3 "~" H 13050 3050 50  0001 C CNN
+F 4 "C238881" H 13050 3050 50  0001 C CNN "JLCPCB"
+	1    13050 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CA901
+P 13600 3150
+F 0 "U?" H 13600 3475 50  0000 C CNN
+F 1 "EL357N-G" H 13600 3384 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 2950 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 3150 50  0001 L CNN
+F 4 "C6649" H 13600 3150 50  0001 C CNN "JLCPCB"
+	1    13600 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 3050 2    50   Input ~ 0
+P8.29
+Wire Wire Line
+	13900 3050 14400 3050
+Wire Wire Line
+	14400 2900 14400 3050
+Connection ~ 14400 3050
+Wire Wire Line
+	14400 3050 14750 3050
+Wire Wire Line
+	14400 3150 14400 3050
+Wire Wire Line
+	12550 3350 13200 3350
+Wire Wire Line
+	13200 3050 13300 3050
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CA90F
+P 12800 3450
+F 0 "#PWR?" H 12800 3200 50  0001 C CNN
+F 1 "GNDA" H 12805 3277 50  0000 C CNN
+F 2 "" H 12800 3450 50  0001 C CNN
+F 3 "" H 12800 3450 50  0001 C CNN
+	1    12800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 3050 12800 3050
+Wire Wire Line
+	12800 3450 12800 3050
+$Comp
+L Device:R R?
+U 1 1 690CA918
+P 14400 4350
+F 0 "R?" H 14470 4396 50  0000 L CNN
+F 1 "10k" H 14470 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 4350 50  0001 C CNN
+F 3 "~" H 14400 4350 50  0001 C CNN
+F 4 "C238881" H 14400 4350 50  0001 C CNN "JLCPCB"
+	1    14400 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CA91E
+P 14400 4050
+F 0 "#PWR?" H 14400 3900 50  0001 C CNN
+F 1 "+3.3V" H 14415 4223 50  0000 C CNN
+F 2 "" H 14400 4050 50  0001 C CNN
+F 3 "" H 14400 4050 50  0001 C CNN
+	1    14400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 4050 14400 4200
+$Comp
+L Device:C C?
+U 1 1 690CA926
+P 14400 4900
+F 0 "C?" H 14515 4946 50  0000 L CNN
+F 1 "100n" H 14515 4855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 4750 50  0001 C CNN
+F 3 "~" H 14400 4900 50  0001 C CNN
+F 4 "C14663" H 14400 4900 50  0001 C CNN "JLCPCB"
+	1    14400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CA92C
+P 14400 5050
+F 0 "#PWR?" H 14400 4800 50  0001 C CNN
+F 1 "GND" H 14405 4877 50  0000 C CNN
+F 2 "" H 14400 5050 50  0001 C CNN
+F 3 "" H 14400 5050 50  0001 C CNN
+	1    14400 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 4850 14050 5050
+Wire Wire Line
+	13900 4850 14050 4850
+$Comp
+L power:GND #PWR?
+U 1 1 690CA934
+P 14050 5050
+F 0 "#PWR?" H 14050 4800 50  0001 C CNN
+F 1 "GND" V 14055 4922 50  0000 R CNN
+F 2 "" H 14050 5050 50  0001 C CNN
+F 3 "" H 14050 5050 50  0001 C CNN
+	1    14050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 4850 13300 4850
+Wire Wire Line
+	13200 4950 13200 4850
+$Comp
+L Device:R R?
+U 1 1 690CA93D
+P 13050 4650
+F 0 "R?" H 13120 4696 50  0000 L CNN
+F 1 "4.7k" H 13120 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 4650 50  0001 C CNN
+F 3 "~" H 13050 4650 50  0001 C CNN
+F 4 "C238881" H 13050 4650 50  0001 C CNN "JLCPCB"
+	1    13050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CA944
+P 13600 4750
+F 0 "U?" H 13600 5075 50  0000 C CNN
+F 1 "EL357N-G" H 13600 4984 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 4550 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 4750 50  0001 L CNN
+F 4 "C6649" H 13600 4750 50  0001 C CNN "JLCPCB"
+	1    13600 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 4650 2    50   Input ~ 0
+P8.28
+Wire Wire Line
+	13900 4650 14400 4650
+Wire Wire Line
+	14400 4500 14400 4650
+Connection ~ 14400 4650
+Wire Wire Line
+	14400 4650 14750 4650
+Wire Wire Line
+	14400 4750 14400 4650
+Wire Wire Line
+	12550 4950 13200 4950
+Wire Wire Line
+	13200 4650 13300 4650
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CA952
+P 12800 5050
+F 0 "#PWR?" H 12800 4800 50  0001 C CNN
+F 1 "GNDA" H 12805 4877 50  0000 C CNN
+F 2 "" H 12800 5050 50  0001 C CNN
+F 3 "" H 12800 5050 50  0001 C CNN
+	1    12800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 4650 12800 4650
+Wire Wire Line
+	12800 5050 12800 4650
+$Comp
+L Device:R R?
+U 1 1 690CA95B
+P 14400 5950
+F 0 "R?" H 14470 5996 50  0000 L CNN
+F 1 "10k" H 14470 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 5950 50  0001 C CNN
+F 3 "~" H 14400 5950 50  0001 C CNN
+F 4 "C238881" H 14400 5950 50  0001 C CNN "JLCPCB"
+	1    14400 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CA961
+P 14400 5650
+F 0 "#PWR?" H 14400 5500 50  0001 C CNN
+F 1 "+3.3V" H 14415 5823 50  0000 C CNN
+F 2 "" H 14400 5650 50  0001 C CNN
+F 3 "" H 14400 5650 50  0001 C CNN
+	1    14400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 5650 14400 5800
+$Comp
+L Device:C C?
+U 1 1 690CA969
+P 14400 6500
+F 0 "C?" H 14515 6546 50  0000 L CNN
+F 1 "100n" H 14515 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 6350 50  0001 C CNN
+F 3 "~" H 14400 6500 50  0001 C CNN
+F 4 "C14663" H 14400 6500 50  0001 C CNN "JLCPCB"
+	1    14400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CA96F
+P 14400 6650
+F 0 "#PWR?" H 14400 6400 50  0001 C CNN
+F 1 "GND" H 14405 6477 50  0000 C CNN
+F 2 "" H 14400 6650 50  0001 C CNN
+F 3 "" H 14400 6650 50  0001 C CNN
+	1    14400 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 6450 14050 6650
+Wire Wire Line
+	13900 6450 14050 6450
+$Comp
+L power:GND #PWR?
+U 1 1 690CA977
+P 14050 6650
+F 0 "#PWR?" H 14050 6400 50  0001 C CNN
+F 1 "GND" V 14055 6522 50  0000 R CNN
+F 2 "" H 14050 6650 50  0001 C CNN
+F 3 "" H 14050 6650 50  0001 C CNN
+	1    14050 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 6450 13300 6450
+Wire Wire Line
+	13200 6550 13200 6450
+$Comp
+L Device:R R?
+U 1 1 690CA980
+P 13050 6250
+F 0 "R?" H 13120 6296 50  0000 L CNN
+F 1 "4.7k" H 13120 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 6250 50  0001 C CNN
+F 3 "~" H 13050 6250 50  0001 C CNN
+F 4 "C238881" H 13050 6250 50  0001 C CNN "JLCPCB"
+	1    13050 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CA987
+P 13600 6350
+F 0 "U?" H 13600 6675 50  0000 C CNN
+F 1 "EL357N-G" H 13600 6584 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 6150 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 6350 50  0001 L CNN
+F 4 "C6649" H 13600 6350 50  0001 C CNN "JLCPCB"
+	1    13600 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 6250 2    50   Input ~ 0
+P8.27
+Wire Wire Line
+	13900 6250 14400 6250
+Wire Wire Line
+	14400 6100 14400 6250
+Connection ~ 14400 6250
+Wire Wire Line
+	14400 6250 14750 6250
+Wire Wire Line
+	14400 6350 14400 6250
+Wire Wire Line
+	12550 6550 13200 6550
+Wire Wire Line
+	13200 6250 13300 6250
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CA995
+P 12800 6650
+F 0 "#PWR?" H 12800 6400 50  0001 C CNN
+F 1 "GNDA" H 12805 6477 50  0000 C CNN
+F 2 "" H 12800 6650 50  0001 C CNN
+F 3 "" H 12800 6650 50  0001 C CNN
+	1    12800 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 6250 12800 6250
+Wire Wire Line
+	12800 6650 12800 6250
+$Comp
+L Device:R R?
+U 1 1 690CA99E
+P 14400 7450
+F 0 "R?" H 14470 7496 50  0000 L CNN
+F 1 "10k" H 14470 7405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 7450 50  0001 C CNN
+F 3 "~" H 14400 7450 50  0001 C CNN
+F 4 "C238881" H 14400 7450 50  0001 C CNN "JLCPCB"
+	1    14400 7450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CA9A4
+P 14400 7150
+F 0 "#PWR?" H 14400 7000 50  0001 C CNN
+F 1 "+3.3V" H 14415 7323 50  0000 C CNN
+F 2 "" H 14400 7150 50  0001 C CNN
+F 3 "" H 14400 7150 50  0001 C CNN
+	1    14400 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 7150 14400 7300
+$Comp
+L Device:C C?
+U 1 1 690CA9AC
+P 14400 8000
+F 0 "C?" H 14515 8046 50  0000 L CNN
+F 1 "100n" H 14515 7955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 7850 50  0001 C CNN
+F 3 "~" H 14400 8000 50  0001 C CNN
+F 4 "C14663" H 14400 8000 50  0001 C CNN "JLCPCB"
+	1    14400 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CA9B2
+P 14400 8150
+F 0 "#PWR?" H 14400 7900 50  0001 C CNN
+F 1 "GND" H 14405 7977 50  0000 C CNN
+F 2 "" H 14400 8150 50  0001 C CNN
+F 3 "" H 14400 8150 50  0001 C CNN
+	1    14400 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 7950 14050 8150
+Wire Wire Line
+	13900 7950 14050 7950
+$Comp
+L power:GND #PWR?
+U 1 1 690CA9BA
+P 14050 8150
+F 0 "#PWR?" H 14050 7900 50  0001 C CNN
+F 1 "GND" V 14055 8022 50  0000 R CNN
+F 2 "" H 14050 8150 50  0001 C CNN
+F 3 "" H 14050 8150 50  0001 C CNN
+	1    14050 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 7950 13300 7950
+Wire Wire Line
+	13200 8050 13200 7950
+$Comp
+L Device:R R?
+U 1 1 690CA9C3
+P 13050 7750
+F 0 "R?" H 13120 7796 50  0000 L CNN
+F 1 "4.7k" H 13120 7705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 7750 50  0001 C CNN
+F 3 "~" H 13050 7750 50  0001 C CNN
+F 4 "C238881" H 13050 7750 50  0001 C CNN "JLCPCB"
+	1    13050 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CA9CA
+P 13600 7850
+F 0 "U?" H 13600 8175 50  0000 C CNN
+F 1 "EL357N-G" H 13600 8084 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 7650 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 7850 50  0001 L CNN
+F 4 "C6649" H 13600 7850 50  0001 C CNN "JLCPCB"
+	1    13600 7850
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 7750 2    50   Input ~ 0
+P8.26
+Wire Wire Line
+	13900 7750 14400 7750
+Wire Wire Line
+	14400 7600 14400 7750
+Connection ~ 14400 7750
+Wire Wire Line
+	14400 7750 14750 7750
+Wire Wire Line
+	14400 7850 14400 7750
+Wire Wire Line
+	12550 8050 13200 8050
+Wire Wire Line
+	13200 7750 13300 7750
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CA9D8
+P 12800 8150
+F 0 "#PWR?" H 12800 7900 50  0001 C CNN
+F 1 "GNDA" H 12805 7977 50  0000 C CNN
+F 2 "" H 12800 8150 50  0001 C CNN
+F 3 "" H 12800 8150 50  0001 C CNN
+	1    12800 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 7750 12800 7750
+Wire Wire Line
+	12800 8150 12800 7750
+$Comp
+L Device:R R?
+U 1 1 690CA9E1
+P 14400 9000
+F 0 "R?" H 14470 9046 50  0000 L CNN
+F 1 "10k" H 14470 8955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 9000 50  0001 C CNN
+F 3 "~" H 14400 9000 50  0001 C CNN
+F 4 "C238881" H 14400 9000 50  0001 C CNN "JLCPCB"
+	1    14400 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CA9E7
+P 14400 8700
+F 0 "#PWR?" H 14400 8550 50  0001 C CNN
+F 1 "+3.3V" H 14415 8873 50  0000 C CNN
+F 2 "" H 14400 8700 50  0001 C CNN
+F 3 "" H 14400 8700 50  0001 C CNN
+	1    14400 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 8700 14400 8850
+$Comp
+L Device:C C?
+U 1 1 690CA9EF
+P 14400 9550
+F 0 "C?" H 14515 9596 50  0000 L CNN
+F 1 "100n" H 14515 9505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 9400 50  0001 C CNN
+F 3 "~" H 14400 9550 50  0001 C CNN
+F 4 "C14663" H 14400 9550 50  0001 C CNN "JLCPCB"
+	1    14400 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CA9F5
+P 14400 9700
+F 0 "#PWR?" H 14400 9450 50  0001 C CNN
+F 1 "GND" H 14405 9527 50  0000 C CNN
+F 2 "" H 14400 9700 50  0001 C CNN
+F 3 "" H 14400 9700 50  0001 C CNN
+	1    14400 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 9500 14050 9700
+Wire Wire Line
+	13900 9500 14050 9500
+$Comp
+L power:GND #PWR?
+U 1 1 690CA9FD
+P 14050 9700
+F 0 "#PWR?" H 14050 9450 50  0001 C CNN
+F 1 "GND" V 14055 9572 50  0000 R CNN
+F 2 "" H 14050 9700 50  0001 C CNN
+F 3 "" H 14050 9700 50  0001 C CNN
+	1    14050 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 9500 13300 9500
+Wire Wire Line
+	13200 9600 13200 9500
+$Comp
+L Device:R R?
+U 1 1 690CAA06
+P 13050 9300
+F 0 "R?" H 13120 9346 50  0000 L CNN
+F 1 "4.7k" H 13120 9255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 9300 50  0001 C CNN
+F 3 "~" H 13050 9300 50  0001 C CNN
+F 4 "C238881" H 13050 9300 50  0001 C CNN "JLCPCB"
+	1    13050 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CAA0D
+P 13600 9400
+F 0 "U?" H 13600 9725 50  0000 C CNN
+F 1 "EL357N-G" H 13600 9634 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 9200 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 9400 50  0001 L CNN
+F 4 "C6649" H 13600 9400 50  0001 C CNN "JLCPCB"
+	1    13600 9400
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 9300 2    50   Input ~ 0
+P8.11
+Wire Wire Line
+	13900 9300 14400 9300
+Wire Wire Line
+	14400 9150 14400 9300
+Connection ~ 14400 9300
+Wire Wire Line
+	14400 9300 14750 9300
+Wire Wire Line
+	14400 9400 14400 9300
+Wire Wire Line
+	12550 9600 13200 9600
+Wire Wire Line
+	13200 9300 13300 9300
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CAA1B
+P 12800 9700
+F 0 "#PWR?" H 12800 9450 50  0001 C CNN
+F 1 "GNDA" H 12805 9527 50  0000 C CNN
+F 2 "" H 12800 9700 50  0001 C CNN
+F 3 "" H 12800 9700 50  0001 C CNN
+	1    12800 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 9300 12800 9300
+Wire Wire Line
+	12800 9700 12800 9300
+$Comp
+L Device:R R?
+U 1 1 690CAA24
+P 14400 10500
+F 0 "R?" H 14470 10546 50  0000 L CNN
+F 1 "10k" H 14470 10455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 10500 50  0001 C CNN
+F 3 "~" H 14400 10500 50  0001 C CNN
+F 4 "C238881" H 14400 10500 50  0001 C CNN "JLCPCB"
+	1    14400 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CAA2A
+P 14400 10200
+F 0 "#PWR?" H 14400 10050 50  0001 C CNN
+F 1 "+3.3V" H 14415 10373 50  0000 C CNN
+F 2 "" H 14400 10200 50  0001 C CNN
+F 3 "" H 14400 10200 50  0001 C CNN
+	1    14400 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 10200 14400 10350
+$Comp
+L Device:C C?
+U 1 1 690CAA32
+P 14400 11050
+F 0 "C?" H 14515 11096 50  0000 L CNN
+F 1 "100n" H 14515 11005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 10900 50  0001 C CNN
+F 3 "~" H 14400 11050 50  0001 C CNN
+F 4 "C14663" H 14400 11050 50  0001 C CNN "JLCPCB"
+	1    14400 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CAA38
+P 14400 11200
+F 0 "#PWR?" H 14400 10950 50  0001 C CNN
+F 1 "GND" H 14405 11027 50  0000 C CNN
+F 2 "" H 14400 11200 50  0001 C CNN
+F 3 "" H 14400 11200 50  0001 C CNN
+	1    14400 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 11000 14050 11200
+Wire Wire Line
+	13900 11000 14050 11000
+$Comp
+L power:GND #PWR?
+U 1 1 690CAA40
+P 14050 11200
+F 0 "#PWR?" H 14050 10950 50  0001 C CNN
+F 1 "GND" V 14055 11072 50  0000 R CNN
+F 2 "" H 14050 11200 50  0001 C CNN
+F 3 "" H 14050 11200 50  0001 C CNN
+	1    14050 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 11000 13300 11000
+Wire Wire Line
+	13200 11100 13200 11000
+$Comp
+L Device:R R?
+U 1 1 690CAA49
+P 13050 10800
+F 0 "R?" H 13120 10846 50  0000 L CNN
+F 1 "4.7k" H 13120 10755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 10800 50  0001 C CNN
+F 3 "~" H 13050 10800 50  0001 C CNN
+F 4 "C238881" H 13050 10800 50  0001 C CNN "JLCPCB"
+	1    13050 10800
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CAA50
+P 13600 10900
+F 0 "U?" H 13600 11225 50  0000 C CNN
+F 1 "EL357N-G" H 13600 11134 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 10700 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 10900 50  0001 L CNN
+F 4 "C6649" H 13600 10900 50  0001 C CNN "JLCPCB"
+	1    13600 10900
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 10800 2    50   Input ~ 0
+P8.10
+Wire Wire Line
+	13900 10800 14400 10800
+Wire Wire Line
+	14400 10650 14400 10800
+Connection ~ 14400 10800
+Wire Wire Line
+	14400 10800 14750 10800
+Wire Wire Line
+	14400 10900 14400 10800
+Wire Wire Line
+	12550 11100 13200 11100
+Wire Wire Line
+	13200 10800 13300 10800
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CAA5E
+P 12800 11200
+F 0 "#PWR?" H 12800 10950 50  0001 C CNN
+F 1 "GNDA" H 12805 11027 50  0000 C CNN
+F 2 "" H 12800 11200 50  0001 C CNN
+F 3 "" H 12800 11200 50  0001 C CNN
+	1    12800 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 10800 12800 10800
+Wire Wire Line
+	12800 11200 12800 10800
+$Comp
+L Device:R R?
+U 1 1 690CAA67
+P 14400 12000
+F 0 "R?" H 14470 12046 50  0000 L CNN
+F 1 "10k" H 14470 11955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 12000 50  0001 C CNN
+F 3 "~" H 14400 12000 50  0001 C CNN
+F 4 "C238881" H 14400 12000 50  0001 C CNN "JLCPCB"
+	1    14400 12000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CAA6D
+P 14400 11700
+F 0 "#PWR?" H 14400 11550 50  0001 C CNN
+F 1 "+3.3V" H 14415 11873 50  0000 C CNN
+F 2 "" H 14400 11700 50  0001 C CNN
+F 3 "" H 14400 11700 50  0001 C CNN
+	1    14400 11700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 11700 14400 11850
+$Comp
+L Device:C C?
+U 1 1 690CAA75
+P 14400 12550
+F 0 "C?" H 14515 12596 50  0000 L CNN
+F 1 "100n" H 14515 12505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 12400 50  0001 C CNN
+F 3 "~" H 14400 12550 50  0001 C CNN
+F 4 "C14663" H 14400 12550 50  0001 C CNN "JLCPCB"
+	1    14400 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CAA7B
+P 14400 12700
+F 0 "#PWR?" H 14400 12450 50  0001 C CNN
+F 1 "GND" H 14405 12527 50  0000 C CNN
+F 2 "" H 14400 12700 50  0001 C CNN
+F 3 "" H 14400 12700 50  0001 C CNN
+	1    14400 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 12500 14050 12700
+Wire Wire Line
+	13900 12500 14050 12500
+$Comp
+L power:GND #PWR?
+U 1 1 690CAA83
+P 14050 12700
+F 0 "#PWR?" H 14050 12450 50  0001 C CNN
+F 1 "GND" V 14055 12572 50  0000 R CNN
+F 2 "" H 14050 12700 50  0001 C CNN
+F 3 "" H 14050 12700 50  0001 C CNN
+	1    14050 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 12500 13300 12500
+Wire Wire Line
+	13200 12600 13200 12500
+$Comp
+L Device:R R?
+U 1 1 690CAA8C
+P 13050 12300
+F 0 "R?" H 13120 12346 50  0000 L CNN
+F 1 "4.7k" H 13120 12255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 12300 50  0001 C CNN
+F 3 "~" H 13050 12300 50  0001 C CNN
+F 4 "C238881" H 13050 12300 50  0001 C CNN "JLCPCB"
+	1    13050 12300
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CAA93
+P 13600 12400
+F 0 "U?" H 13600 12725 50  0000 C CNN
+F 1 "EL357N-G" H 13600 12634 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 12200 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 12400 50  0001 L CNN
+F 4 "C6649" H 13600 12400 50  0001 C CNN "JLCPCB"
+	1    13600 12400
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 12300 2    50   Input ~ 0
+P8.09
+Wire Wire Line
+	13900 12300 14400 12300
+Wire Wire Line
+	14400 12150 14400 12300
+Connection ~ 14400 12300
+Wire Wire Line
+	14400 12300 14750 12300
+Wire Wire Line
+	14400 12400 14400 12300
+Wire Wire Line
+	12550 12600 13200 12600
+Wire Wire Line
+	13200 12300 13300 12300
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CAAA1
+P 12800 12700
+F 0 "#PWR?" H 12800 12450 50  0001 C CNN
+F 1 "GNDA" H 12805 12527 50  0000 C CNN
+F 2 "" H 12800 12700 50  0001 C CNN
+F 3 "" H 12800 12700 50  0001 C CNN
+	1    12800 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 12300 12800 12300
+Wire Wire Line
+	12800 12700 12800 12300
+$Comp
+L Device:R R?
+U 1 1 690CAAAA
+P 14400 13500
+F 0 "R?" H 14470 13546 50  0000 L CNN
+F 1 "10k" H 14470 13455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 13500 50  0001 C CNN
+F 3 "~" H 14400 13500 50  0001 C CNN
+F 4 "C238881" H 14400 13500 50  0001 C CNN "JLCPCB"
+	1    14400 13500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 690CAAB0
+P 14400 13200
+F 0 "#PWR?" H 14400 13050 50  0001 C CNN
+F 1 "+3.3V" H 14415 13373 50  0000 C CNN
+F 2 "" H 14400 13200 50  0001 C CNN
+F 3 "" H 14400 13200 50  0001 C CNN
+	1    14400 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 13200 14400 13350
+$Comp
+L Device:C C?
+U 1 1 690CAAB8
+P 14400 14050
+F 0 "C?" H 14515 14096 50  0000 L CNN
+F 1 "100n" H 14515 14005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14438 13900 50  0001 C CNN
+F 3 "~" H 14400 14050 50  0001 C CNN
+F 4 "C14663" H 14400 14050 50  0001 C CNN "JLCPCB"
+	1    14400 14050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 690CAABE
+P 14400 14200
+F 0 "#PWR?" H 14400 13950 50  0001 C CNN
+F 1 "GND" H 14405 14027 50  0000 C CNN
+F 2 "" H 14400 14200 50  0001 C CNN
+F 3 "" H 14400 14200 50  0001 C CNN
+	1    14400 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 14000 14050 14200
+Wire Wire Line
+	13900 14000 14050 14000
+$Comp
+L power:GND #PWR?
+U 1 1 690CAAC6
+P 14050 14200
+F 0 "#PWR?" H 14050 13950 50  0001 C CNN
+F 1 "GND" V 14055 14072 50  0000 R CNN
+F 2 "" H 14050 14200 50  0001 C CNN
+F 3 "" H 14050 14200 50  0001 C CNN
+	1    14050 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 14000 13300 14000
+Wire Wire Line
+	13200 14100 13200 14000
+$Comp
+L Device:R R?
+U 1 1 690CAACF
+P 13050 13800
+F 0 "R?" H 13120 13846 50  0000 L CNN
+F 1 "4.7k" H 13120 13755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 13800 50  0001 C CNN
+F 3 "~" H 13050 13800 50  0001 C CNN
+F 4 "C238881" H 13050 13800 50  0001 C CNN "JLCPCB"
+	1    13050 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 690CAAD6
+P 13600 13900
+F 0 "U?" H 13600 14225 50  0000 C CNN
+F 1 "EL357N-G" H 13600 14134 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 13400 13700 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 13600 13900 50  0001 L CNN
+F 4 "C6649" H 13600 13900 50  0001 C CNN "JLCPCB"
+	1    13600 13900
+	1    0    0    -1  
+$EndComp
+Text GLabel 14750 13800 2    50   Input ~ 0
+P8.08
+Wire Wire Line
+	13900 13800 14400 13800
+Wire Wire Line
+	14400 13650 14400 13800
+Connection ~ 14400 13800
+Wire Wire Line
+	14400 13800 14750 13800
+Wire Wire Line
+	14400 13900 14400 13800
+Wire Wire Line
+	12550 14100 13200 14100
+Wire Wire Line
+	13200 13800 13300 13800
+$Comp
+L power:GNDA #PWR?
+U 1 1 690CAAE4
+P 12800 14200
+F 0 "#PWR?" H 12800 13950 50  0001 C CNN
+F 1 "GNDA" H 12805 14027 50  0000 C CNN
+F 2 "" H 12800 14200 50  0001 C CNN
+F 3 "" H 12800 14200 50  0001 C CNN
+	1    12800 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 13800 12800 13800
+Wire Wire Line
+	12800 14200 12800 13800
+$Comp
+L Device:R R?
+U 1 1 69F632FC
+P 17800 2800
+F 0 "R?" H 17870 2846 50  0000 L CNN
+F 1 "10k" H 17870 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 2800 50  0001 C CNN
+F 3 "~" H 17800 2800 50  0001 C CNN
+F 4 "C238881" H 17800 2800 50  0001 C CNN "JLCPCB"
+	1    17800 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F63302
+P 17800 2500
+F 0 "#PWR?" H 17800 2350 50  0001 C CNN
+F 1 "+3.3V" H 17815 2673 50  0000 C CNN
+F 2 "" H 17800 2500 50  0001 C CNN
+F 3 "" H 17800 2500 50  0001 C CNN
+	1    17800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 2500 17800 2650
+$Comp
+L Device:C C?
+U 1 1 69F6330A
+P 17800 3350
+F 0 "C?" H 17915 3396 50  0000 L CNN
+F 1 "100n" H 17915 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 3200 50  0001 C CNN
+F 3 "~" H 17800 3350 50  0001 C CNN
+F 4 "C14663" H 17800 3350 50  0001 C CNN "JLCPCB"
+	1    17800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F63310
+P 17800 3500
+F 0 "#PWR?" H 17800 3250 50  0001 C CNN
+F 1 "GND" H 17805 3327 50  0000 C CNN
+F 2 "" H 17800 3500 50  0001 C CNN
+F 3 "" H 17800 3500 50  0001 C CNN
+	1    17800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 3300 17450 3500
+Wire Wire Line
+	17300 3300 17450 3300
+$Comp
+L power:GND #PWR?
+U 1 1 69F63318
+P 17450 3500
+F 0 "#PWR?" H 17450 3250 50  0001 C CNN
+F 1 "GND" V 17455 3372 50  0000 R CNN
+F 2 "" H 17450 3500 50  0001 C CNN
+F 3 "" H 17450 3500 50  0001 C CNN
+	1    17450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 3300 16700 3300
+Wire Wire Line
+	16600 3400 16600 3300
+$Comp
+L Device:R R?
+U 1 1 69F63321
+P 16450 3100
+F 0 "R?" H 16520 3146 50  0000 L CNN
+F 1 "4.7k" H 16520 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 3100 50  0001 C CNN
+F 3 "~" H 16450 3100 50  0001 C CNN
+F 4 "C238881" H 16450 3100 50  0001 C CNN "JLCPCB"
+	1    16450 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F63328
+P 17000 3200
+F 0 "U?" H 17000 3525 50  0000 C CNN
+F 1 "EL357N-G" H 17000 3434 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 3000 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 3200 50  0001 L CNN
+F 4 "C6649" H 17000 3200 50  0001 C CNN "JLCPCB"
+	1    17000 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 3100 2    50   Input ~ 0
+P9.28
+Wire Wire Line
+	17300 3100 17800 3100
+Wire Wire Line
+	17800 2950 17800 3100
+Connection ~ 17800 3100
+Wire Wire Line
+	17800 3100 18150 3100
+Wire Wire Line
+	17800 3200 17800 3100
+Wire Wire Line
+	15950 3400 16600 3400
+Wire Wire Line
+	16600 3100 16700 3100
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F63336
+P 16200 3500
+F 0 "#PWR?" H 16200 3250 50  0001 C CNN
+F 1 "GNDA" H 16205 3327 50  0000 C CNN
+F 2 "" H 16200 3500 50  0001 C CNN
+F 3 "" H 16200 3500 50  0001 C CNN
+	1    16200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 3100 16200 3100
+Wire Wire Line
+	16200 3500 16200 3100
+$Comp
+L Device:R R?
+U 1 1 69F6333F
+P 17800 4400
+F 0 "R?" H 17870 4446 50  0000 L CNN
+F 1 "10k" H 17870 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 4400 50  0001 C CNN
+F 3 "~" H 17800 4400 50  0001 C CNN
+F 4 "C238881" H 17800 4400 50  0001 C CNN "JLCPCB"
+	1    17800 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F63345
+P 17800 4100
+F 0 "#PWR?" H 17800 3950 50  0001 C CNN
+F 1 "+3.3V" H 17815 4273 50  0000 C CNN
+F 2 "" H 17800 4100 50  0001 C CNN
+F 3 "" H 17800 4100 50  0001 C CNN
+	1    17800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 4100 17800 4250
+$Comp
+L Device:C C?
+U 1 1 69F6334D
+P 17800 4950
+F 0 "C?" H 17915 4996 50  0000 L CNN
+F 1 "100n" H 17915 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 4800 50  0001 C CNN
+F 3 "~" H 17800 4950 50  0001 C CNN
+F 4 "C14663" H 17800 4950 50  0001 C CNN "JLCPCB"
+	1    17800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F63353
+P 17800 5100
+F 0 "#PWR?" H 17800 4850 50  0001 C CNN
+F 1 "GND" H 17805 4927 50  0000 C CNN
+F 2 "" H 17800 5100 50  0001 C CNN
+F 3 "" H 17800 5100 50  0001 C CNN
+	1    17800 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 4900 17450 5100
+Wire Wire Line
+	17300 4900 17450 4900
+$Comp
+L power:GND #PWR?
+U 1 1 69F6335B
+P 17450 5100
+F 0 "#PWR?" H 17450 4850 50  0001 C CNN
+F 1 "GND" V 17455 4972 50  0000 R CNN
+F 2 "" H 17450 5100 50  0001 C CNN
+F 3 "" H 17450 5100 50  0001 C CNN
+	1    17450 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 4900 16700 4900
+Wire Wire Line
+	16600 5000 16600 4900
+$Comp
+L Device:R R?
+U 1 1 69F63364
+P 16450 4700
+F 0 "R?" H 16520 4746 50  0000 L CNN
+F 1 "4.7k" H 16520 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 4700 50  0001 C CNN
+F 3 "~" H 16450 4700 50  0001 C CNN
+F 4 "C238881" H 16450 4700 50  0001 C CNN "JLCPCB"
+	1    16450 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F6336B
+P 17000 4800
+F 0 "U?" H 17000 5125 50  0000 C CNN
+F 1 "EL357N-G" H 17000 5034 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 4600 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 4800 50  0001 L CNN
+F 4 "C6649" H 17000 4800 50  0001 C CNN "JLCPCB"
+	1    17000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 4700 2    50   Input ~ 0
+P9.27
+Wire Wire Line
+	17300 4700 17800 4700
+Wire Wire Line
+	17800 4550 17800 4700
+Connection ~ 17800 4700
+Wire Wire Line
+	17800 4700 18150 4700
+Wire Wire Line
+	17800 4800 17800 4700
+Wire Wire Line
+	15950 5000 16600 5000
+Wire Wire Line
+	16600 4700 16700 4700
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F63379
+P 16200 5100
+F 0 "#PWR?" H 16200 4850 50  0001 C CNN
+F 1 "GNDA" H 16205 4927 50  0000 C CNN
+F 2 "" H 16200 5100 50  0001 C CNN
+F 3 "" H 16200 5100 50  0001 C CNN
+	1    16200 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 4700 16200 4700
+Wire Wire Line
+	16200 5100 16200 4700
+$Comp
+L Device:R R?
+U 1 1 69F63382
+P 17800 6000
+F 0 "R?" H 17870 6046 50  0000 L CNN
+F 1 "10k" H 17870 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 6000 50  0001 C CNN
+F 3 "~" H 17800 6000 50  0001 C CNN
+F 4 "C238881" H 17800 6000 50  0001 C CNN "JLCPCB"
+	1    17800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F63388
+P 17800 5700
+F 0 "#PWR?" H 17800 5550 50  0001 C CNN
+F 1 "+3.3V" H 17815 5873 50  0000 C CNN
+F 2 "" H 17800 5700 50  0001 C CNN
+F 3 "" H 17800 5700 50  0001 C CNN
+	1    17800 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 5700 17800 5850
+$Comp
+L Device:C C?
+U 1 1 69F63390
+P 17800 6550
+F 0 "C?" H 17915 6596 50  0000 L CNN
+F 1 "100n" H 17915 6505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 6400 50  0001 C CNN
+F 3 "~" H 17800 6550 50  0001 C CNN
+F 4 "C14663" H 17800 6550 50  0001 C CNN "JLCPCB"
+	1    17800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F63396
+P 17800 6700
+F 0 "#PWR?" H 17800 6450 50  0001 C CNN
+F 1 "GND" H 17805 6527 50  0000 C CNN
+F 2 "" H 17800 6700 50  0001 C CNN
+F 3 "" H 17800 6700 50  0001 C CNN
+	1    17800 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 6500 17450 6700
+Wire Wire Line
+	17300 6500 17450 6500
+$Comp
+L power:GND #PWR?
+U 1 1 69F6339E
+P 17450 6700
+F 0 "#PWR?" H 17450 6450 50  0001 C CNN
+F 1 "GND" V 17455 6572 50  0000 R CNN
+F 2 "" H 17450 6700 50  0001 C CNN
+F 3 "" H 17450 6700 50  0001 C CNN
+	1    17450 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 6500 16700 6500
+Wire Wire Line
+	16600 6600 16600 6500
+$Comp
+L Device:R R?
+U 1 1 69F633A7
+P 16450 6300
+F 0 "R?" H 16520 6346 50  0000 L CNN
+F 1 "4.7k" H 16520 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 6300 50  0001 C CNN
+F 3 "~" H 16450 6300 50  0001 C CNN
+F 4 "C238881" H 16450 6300 50  0001 C CNN "JLCPCB"
+	1    16450 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F633AE
+P 17000 6400
+F 0 "U?" H 17000 6725 50  0000 C CNN
+F 1 "EL357N-G" H 17000 6634 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 6200 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 6400 50  0001 L CNN
+F 4 "C6649" H 17000 6400 50  0001 C CNN "JLCPCB"
+	1    17000 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 6300 2    50   Input ~ 0
+P9.26
+Wire Wire Line
+	17300 6300 17800 6300
+Wire Wire Line
+	17800 6150 17800 6300
+Connection ~ 17800 6300
+Wire Wire Line
+	17800 6300 18150 6300
+Wire Wire Line
+	17800 6400 17800 6300
+Wire Wire Line
+	15950 6600 16600 6600
+Wire Wire Line
+	16600 6300 16700 6300
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F633BC
+P 16200 6700
+F 0 "#PWR?" H 16200 6450 50  0001 C CNN
+F 1 "GNDA" H 16205 6527 50  0000 C CNN
+F 2 "" H 16200 6700 50  0001 C CNN
+F 3 "" H 16200 6700 50  0001 C CNN
+	1    16200 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 6300 16200 6300
+Wire Wire Line
+	16200 6700 16200 6300
+$Comp
+L Device:R R?
+U 1 1 69F633C5
+P 17800 7500
+F 0 "R?" H 17870 7546 50  0000 L CNN
+F 1 "10k" H 17870 7455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 7500 50  0001 C CNN
+F 3 "~" H 17800 7500 50  0001 C CNN
+F 4 "C238881" H 17800 7500 50  0001 C CNN "JLCPCB"
+	1    17800 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F633CB
+P 17800 7200
+F 0 "#PWR?" H 17800 7050 50  0001 C CNN
+F 1 "+3.3V" H 17815 7373 50  0000 C CNN
+F 2 "" H 17800 7200 50  0001 C CNN
+F 3 "" H 17800 7200 50  0001 C CNN
+	1    17800 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 7200 17800 7350
+$Comp
+L Device:C C?
+U 1 1 69F633D3
+P 17800 8050
+F 0 "C?" H 17915 8096 50  0000 L CNN
+F 1 "100n" H 17915 8005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 7900 50  0001 C CNN
+F 3 "~" H 17800 8050 50  0001 C CNN
+F 4 "C14663" H 17800 8050 50  0001 C CNN "JLCPCB"
+	1    17800 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F633D9
+P 17800 8200
+F 0 "#PWR?" H 17800 7950 50  0001 C CNN
+F 1 "GND" H 17805 8027 50  0000 C CNN
+F 2 "" H 17800 8200 50  0001 C CNN
+F 3 "" H 17800 8200 50  0001 C CNN
+	1    17800 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 8000 17450 8200
+Wire Wire Line
+	17300 8000 17450 8000
+$Comp
+L power:GND #PWR?
+U 1 1 69F633E1
+P 17450 8200
+F 0 "#PWR?" H 17450 7950 50  0001 C CNN
+F 1 "GND" V 17455 8072 50  0000 R CNN
+F 2 "" H 17450 8200 50  0001 C CNN
+F 3 "" H 17450 8200 50  0001 C CNN
+	1    17450 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 8000 16700 8000
+Wire Wire Line
+	16600 8100 16600 8000
+$Comp
+L Device:R R?
+U 1 1 69F633EA
+P 16450 7800
+F 0 "R?" H 16520 7846 50  0000 L CNN
+F 1 "4.7k" H 16520 7755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 7800 50  0001 C CNN
+F 3 "~" H 16450 7800 50  0001 C CNN
+F 4 "C238881" H 16450 7800 50  0001 C CNN "JLCPCB"
+	1    16450 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F633F1
+P 17000 7900
+F 0 "U?" H 17000 8225 50  0000 C CNN
+F 1 "EL357N-G" H 17000 8134 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 7700 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 7900 50  0001 L CNN
+F 4 "C6649" H 17000 7900 50  0001 C CNN "JLCPCB"
+	1    17000 7900
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 7800 2    50   Input ~ 0
+P9,25
+Wire Wire Line
+	17300 7800 17800 7800
+Wire Wire Line
+	17800 7650 17800 7800
+Connection ~ 17800 7800
+Wire Wire Line
+	17800 7800 18150 7800
+Wire Wire Line
+	17800 7900 17800 7800
+Wire Wire Line
+	15950 8100 16600 8100
+Wire Wire Line
+	16600 7800 16700 7800
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F633FF
+P 16200 8200
+F 0 "#PWR?" H 16200 7950 50  0001 C CNN
+F 1 "GNDA" H 16205 8027 50  0000 C CNN
+F 2 "" H 16200 8200 50  0001 C CNN
+F 3 "" H 16200 8200 50  0001 C CNN
+	1    16200 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 7800 16200 7800
+Wire Wire Line
+	16200 8200 16200 7800
+$Comp
+L Device:R R?
+U 1 1 69F63408
+P 17800 9050
+F 0 "R?" H 17870 9096 50  0000 L CNN
+F 1 "10k" H 17870 9005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 9050 50  0001 C CNN
+F 3 "~" H 17800 9050 50  0001 C CNN
+F 4 "C238881" H 17800 9050 50  0001 C CNN "JLCPCB"
+	1    17800 9050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F6340E
+P 17800 8750
+F 0 "#PWR?" H 17800 8600 50  0001 C CNN
+F 1 "+3.3V" H 17815 8923 50  0000 C CNN
+F 2 "" H 17800 8750 50  0001 C CNN
+F 3 "" H 17800 8750 50  0001 C CNN
+	1    17800 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 8750 17800 8900
+$Comp
+L Device:C C?
+U 1 1 69F63416
+P 17800 9600
+F 0 "C?" H 17915 9646 50  0000 L CNN
+F 1 "100n" H 17915 9555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 9450 50  0001 C CNN
+F 3 "~" H 17800 9600 50  0001 C CNN
+F 4 "C14663" H 17800 9600 50  0001 C CNN "JLCPCB"
+	1    17800 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F6341C
+P 17800 9750
+F 0 "#PWR?" H 17800 9500 50  0001 C CNN
+F 1 "GND" H 17805 9577 50  0000 C CNN
+F 2 "" H 17800 9750 50  0001 C CNN
+F 3 "" H 17800 9750 50  0001 C CNN
+	1    17800 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 9550 17450 9750
+Wire Wire Line
+	17300 9550 17450 9550
+$Comp
+L power:GND #PWR?
+U 1 1 69F63424
+P 17450 9750
+F 0 "#PWR?" H 17450 9500 50  0001 C CNN
+F 1 "GND" V 17455 9622 50  0000 R CNN
+F 2 "" H 17450 9750 50  0001 C CNN
+F 3 "" H 17450 9750 50  0001 C CNN
+	1    17450 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 9550 16700 9550
+Wire Wire Line
+	16600 9650 16600 9550
+$Comp
+L Device:R R?
+U 1 1 69F6342D
+P 16450 9350
+F 0 "R?" H 16520 9396 50  0000 L CNN
+F 1 "4.7k" H 16520 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 9350 50  0001 C CNN
+F 3 "~" H 16450 9350 50  0001 C CNN
+F 4 "C238881" H 16450 9350 50  0001 C CNN "JLCPCB"
+	1    16450 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F63434
+P 17000 9450
+F 0 "U?" H 17000 9775 50  0000 C CNN
+F 1 "EL357N-G" H 17000 9684 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 9250 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 9450 50  0001 L CNN
+F 4 "C6649" H 17000 9450 50  0001 C CNN "JLCPCB"
+	1    17000 9450
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 9350 2    50   Input ~ 0
+P9.11
+Wire Wire Line
+	17300 9350 17800 9350
+Wire Wire Line
+	17800 9200 17800 9350
+Connection ~ 17800 9350
+Wire Wire Line
+	17800 9350 18150 9350
+Wire Wire Line
+	17800 9450 17800 9350
+Wire Wire Line
+	15950 9650 16600 9650
+Wire Wire Line
+	16600 9350 16700 9350
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F63442
+P 16200 9750
+F 0 "#PWR?" H 16200 9500 50  0001 C CNN
+F 1 "GNDA" H 16205 9577 50  0000 C CNN
+F 2 "" H 16200 9750 50  0001 C CNN
+F 3 "" H 16200 9750 50  0001 C CNN
+	1    16200 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 9350 16200 9350
+Wire Wire Line
+	16200 9750 16200 9350
+$Comp
+L Device:R R?
+U 1 1 69F6344B
+P 17800 10550
+F 0 "R?" H 17870 10596 50  0000 L CNN
+F 1 "10k" H 17870 10505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 10550 50  0001 C CNN
+F 3 "~" H 17800 10550 50  0001 C CNN
+F 4 "C238881" H 17800 10550 50  0001 C CNN "JLCPCB"
+	1    17800 10550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F63451
+P 17800 10250
+F 0 "#PWR?" H 17800 10100 50  0001 C CNN
+F 1 "+3.3V" H 17815 10423 50  0000 C CNN
+F 2 "" H 17800 10250 50  0001 C CNN
+F 3 "" H 17800 10250 50  0001 C CNN
+	1    17800 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 10250 17800 10400
+$Comp
+L Device:C C?
+U 1 1 69F63459
+P 17800 11100
+F 0 "C?" H 17915 11146 50  0000 L CNN
+F 1 "100n" H 17915 11055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 10950 50  0001 C CNN
+F 3 "~" H 17800 11100 50  0001 C CNN
+F 4 "C14663" H 17800 11100 50  0001 C CNN "JLCPCB"
+	1    17800 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F6345F
+P 17800 11250
+F 0 "#PWR?" H 17800 11000 50  0001 C CNN
+F 1 "GND" H 17805 11077 50  0000 C CNN
+F 2 "" H 17800 11250 50  0001 C CNN
+F 3 "" H 17800 11250 50  0001 C CNN
+	1    17800 11250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 11050 17450 11250
+Wire Wire Line
+	17300 11050 17450 11050
+$Comp
+L power:GND #PWR?
+U 1 1 69F63467
+P 17450 11250
+F 0 "#PWR?" H 17450 11000 50  0001 C CNN
+F 1 "GND" V 17455 11122 50  0000 R CNN
+F 2 "" H 17450 11250 50  0001 C CNN
+F 3 "" H 17450 11250 50  0001 C CNN
+	1    17450 11250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 11050 16700 11050
+Wire Wire Line
+	16600 11150 16600 11050
+$Comp
+L Device:R R?
+U 1 1 69F63470
+P 16450 10850
+F 0 "R?" H 16520 10896 50  0000 L CNN
+F 1 "4.7k" H 16520 10805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 10850 50  0001 C CNN
+F 3 "~" H 16450 10850 50  0001 C CNN
+F 4 "C238881" H 16450 10850 50  0001 C CNN "JLCPCB"
+	1    16450 10850
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F63477
+P 17000 10950
+F 0 "U?" H 17000 11275 50  0000 C CNN
+F 1 "EL357N-G" H 17000 11184 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 10750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 10950 50  0001 L CNN
+F 4 "C6649" H 17000 10950 50  0001 C CNN "JLCPCB"
+	1    17000 10950
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 10850 2    50   Input ~ 0
+P9.12
+Wire Wire Line
+	17300 10850 17800 10850
+Wire Wire Line
+	17800 10700 17800 10850
+Connection ~ 17800 10850
+Wire Wire Line
+	17800 10850 18150 10850
+Wire Wire Line
+	17800 10950 17800 10850
+Wire Wire Line
+	15950 11150 16600 11150
+Wire Wire Line
+	16600 10850 16700 10850
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F63485
+P 16200 11250
+F 0 "#PWR?" H 16200 11000 50  0001 C CNN
+F 1 "GNDA" H 16205 11077 50  0000 C CNN
+F 2 "" H 16200 11250 50  0001 C CNN
+F 3 "" H 16200 11250 50  0001 C CNN
+	1    16200 11250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 10850 16200 10850
+Wire Wire Line
+	16200 11250 16200 10850
+$Comp
+L Device:R R?
+U 1 1 69F6348E
+P 17800 12050
+F 0 "R?" H 17870 12096 50  0000 L CNN
+F 1 "10k" H 17870 12005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 12050 50  0001 C CNN
+F 3 "~" H 17800 12050 50  0001 C CNN
+F 4 "C238881" H 17800 12050 50  0001 C CNN "JLCPCB"
+	1    17800 12050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F63494
+P 17800 11750
+F 0 "#PWR?" H 17800 11600 50  0001 C CNN
+F 1 "+3.3V" H 17815 11923 50  0000 C CNN
+F 2 "" H 17800 11750 50  0001 C CNN
+F 3 "" H 17800 11750 50  0001 C CNN
+	1    17800 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 11750 17800 11900
+$Comp
+L Device:C C?
+U 1 1 69F6349C
+P 17800 12600
+F 0 "C?" H 17915 12646 50  0000 L CNN
+F 1 "100n" H 17915 12555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 12450 50  0001 C CNN
+F 3 "~" H 17800 12600 50  0001 C CNN
+F 4 "C14663" H 17800 12600 50  0001 C CNN "JLCPCB"
+	1    17800 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F634A2
+P 17800 12750
+F 0 "#PWR?" H 17800 12500 50  0001 C CNN
+F 1 "GND" H 17805 12577 50  0000 C CNN
+F 2 "" H 17800 12750 50  0001 C CNN
+F 3 "" H 17800 12750 50  0001 C CNN
+	1    17800 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 12550 17450 12750
+Wire Wire Line
+	17300 12550 17450 12550
+$Comp
+L power:GND #PWR?
+U 1 1 69F634AA
+P 17450 12750
+F 0 "#PWR?" H 17450 12500 50  0001 C CNN
+F 1 "GND" V 17455 12622 50  0000 R CNN
+F 2 "" H 17450 12750 50  0001 C CNN
+F 3 "" H 17450 12750 50  0001 C CNN
+	1    17450 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 12550 16700 12550
+Wire Wire Line
+	16600 12650 16600 12550
+$Comp
+L Device:R R?
+U 1 1 69F634B3
+P 16450 12350
+F 0 "R?" H 16520 12396 50  0000 L CNN
+F 1 "4.7k" H 16520 12305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 12350 50  0001 C CNN
+F 3 "~" H 16450 12350 50  0001 C CNN
+F 4 "C238881" H 16450 12350 50  0001 C CNN "JLCPCB"
+	1    16450 12350
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F634BA
+P 17000 12450
+F 0 "U?" H 17000 12775 50  0000 C CNN
+F 1 "EL357N-G" H 17000 12684 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 12250 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 12450 50  0001 L CNN
+F 4 "C6649" H 17000 12450 50  0001 C CNN "JLCPCB"
+	1    17000 12450
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 12350 2    50   Input ~ 0
+P9.13
+Wire Wire Line
+	17300 12350 17800 12350
+Wire Wire Line
+	17800 12200 17800 12350
+Connection ~ 17800 12350
+Wire Wire Line
+	17800 12350 18150 12350
+Wire Wire Line
+	17800 12450 17800 12350
+Wire Wire Line
+	15950 12650 16600 12650
+Wire Wire Line
+	16600 12350 16700 12350
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F634C8
+P 16200 12750
+F 0 "#PWR?" H 16200 12500 50  0001 C CNN
+F 1 "GNDA" H 16205 12577 50  0000 C CNN
+F 2 "" H 16200 12750 50  0001 C CNN
+F 3 "" H 16200 12750 50  0001 C CNN
+	1    16200 12750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 12350 16200 12350
+Wire Wire Line
+	16200 12750 16200 12350
+$Comp
+L Device:R R?
+U 1 1 69F634D1
+P 17800 13550
+F 0 "R?" H 17870 13596 50  0000 L CNN
+F 1 "10k" H 17870 13505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17730 13550 50  0001 C CNN
+F 3 "~" H 17800 13550 50  0001 C CNN
+F 4 "C238881" H 17800 13550 50  0001 C CNN "JLCPCB"
+	1    17800 13550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 69F634D7
+P 17800 13250
+F 0 "#PWR?" H 17800 13100 50  0001 C CNN
+F 1 "+3.3V" H 17815 13423 50  0000 C CNN
+F 2 "" H 17800 13250 50  0001 C CNN
+F 3 "" H 17800 13250 50  0001 C CNN
+	1    17800 13250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 13250 17800 13400
+$Comp
+L Device:C C?
+U 1 1 69F634DF
+P 17800 14100
+F 0 "C?" H 17915 14146 50  0000 L CNN
+F 1 "100n" H 17915 14055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17838 13950 50  0001 C CNN
+F 3 "~" H 17800 14100 50  0001 C CNN
+F 4 "C14663" H 17800 14100 50  0001 C CNN "JLCPCB"
+	1    17800 14100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 69F634E5
+P 17800 14250
+F 0 "#PWR?" H 17800 14000 50  0001 C CNN
+F 1 "GND" H 17805 14077 50  0000 C CNN
+F 2 "" H 17800 14250 50  0001 C CNN
+F 3 "" H 17800 14250 50  0001 C CNN
+	1    17800 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17450 14050 17450 14250
+Wire Wire Line
+	17300 14050 17450 14050
+$Comp
+L power:GND #PWR?
+U 1 1 69F634ED
+P 17450 14250
+F 0 "#PWR?" H 17450 14000 50  0001 C CNN
+F 1 "GND" V 17455 14122 50  0000 R CNN
+F 2 "" H 17450 14250 50  0001 C CNN
+F 3 "" H 17450 14250 50  0001 C CNN
+	1    17450 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16600 14050 16700 14050
+Wire Wire Line
+	16600 14150 16600 14050
+$Comp
+L Device:R R?
+U 1 1 69F634F6
+P 16450 13850
+F 0 "R?" H 16520 13896 50  0000 L CNN
+F 1 "4.7k" H 16520 13805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16380 13850 50  0001 C CNN
+F 3 "~" H 16450 13850 50  0001 C CNN
+F 4 "C238881" H 16450 13850 50  0001 C CNN "JLCPCB"
+	1    16450 13850
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 69F634FD
+P 17000 13950
+F 0 "U?" H 17000 14275 50  0000 C CNN
+F 1 "EL357N-G" H 17000 14184 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 16800 13750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 17000 13950 50  0001 L CNN
+F 4 "C6649" H 17000 13950 50  0001 C CNN "JLCPCB"
+	1    17000 13950
+	1    0    0    -1  
+$EndComp
+Text GLabel 18150 13850 2    50   Input ~ 0
+P9.14
+Wire Wire Line
+	17300 13850 17800 13850
+Wire Wire Line
+	17800 13700 17800 13850
+Connection ~ 17800 13850
+Wire Wire Line
+	17800 13850 18150 13850
+Wire Wire Line
+	17800 13950 17800 13850
+Wire Wire Line
+	15950 14150 16600 14150
+Wire Wire Line
+	16600 13850 16700 13850
+$Comp
+L power:GNDA #PWR?
+U 1 1 69F6350B
+P 16200 14250
+F 0 "#PWR?" H 16200 14000 50  0001 C CNN
+F 1 "GNDA" H 16205 14077 50  0000 C CNN
+F 2 "" H 16200 14250 50  0001 C CNN
+F 3 "" H 16200 14250 50  0001 C CNN
+	1    16200 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16300 13850 16200 13850
+Wire Wire Line
+	16200 14250 16200 13850
+$Comp
+L Device:R R?
+U 1 1 6AC7F16D
+P 21150 2750
+F 0 "R?" H 21220 2796 50  0000 L CNN
+F 1 "10k" H 21220 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 2750 50  0001 C CNN
+F 3 "~" H 21150 2750 50  0001 C CNN
+F 4 "C238881" H 21150 2750 50  0001 C CNN "JLCPCB"
+	1    21150 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F173
+P 21150 2450
+F 0 "#PWR?" H 21150 2300 50  0001 C CNN
+F 1 "+3.3V" H 21165 2623 50  0000 C CNN
+F 2 "" H 21150 2450 50  0001 C CNN
+F 3 "" H 21150 2450 50  0001 C CNN
+	1    21150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 2450 21150 2600
+$Comp
+L Device:C C?
+U 1 1 6AC7F17B
+P 21150 3300
+F 0 "C?" H 21265 3346 50  0000 L CNN
+F 1 "100n" H 21265 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 3150 50  0001 C CNN
+F 3 "~" H 21150 3300 50  0001 C CNN
+F 4 "C14663" H 21150 3300 50  0001 C CNN "JLCPCB"
+	1    21150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F181
+P 21150 3450
+F 0 "#PWR?" H 21150 3200 50  0001 C CNN
+F 1 "GND" H 21155 3277 50  0000 C CNN
+F 2 "" H 21150 3450 50  0001 C CNN
+F 3 "" H 21150 3450 50  0001 C CNN
+	1    21150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 3250 20800 3450
+Wire Wire Line
+	20650 3250 20800 3250
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F189
+P 20800 3450
+F 0 "#PWR?" H 20800 3200 50  0001 C CNN
+F 1 "GND" V 20805 3322 50  0000 R CNN
+F 2 "" H 20800 3450 50  0001 C CNN
+F 3 "" H 20800 3450 50  0001 C CNN
+	1    20800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 3250 20050 3250
+Wire Wire Line
+	19950 3350 19950 3250
+$Comp
+L Device:R R?
+U 1 1 6AC7F192
+P 19800 3050
+F 0 "R?" H 19870 3096 50  0000 L CNN
+F 1 "4.7k" H 19870 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 3050 50  0001 C CNN
+F 3 "~" H 19800 3050 50  0001 C CNN
+F 4 "C238881" H 19800 3050 50  0001 C CNN "JLCPCB"
+	1    19800 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F199
+P 20350 3150
+F 0 "U?" H 20350 3475 50  0000 C CNN
+F 1 "EL357N-G" H 20350 3384 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 2950 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 3150 50  0001 L CNN
+F 4 "C6649" H 20350 3150 50  0001 C CNN "JLCPCB"
+	1    20350 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 3050 2    50   Input ~ 0
+P9.29
+Wire Wire Line
+	20650 3050 21150 3050
+Wire Wire Line
+	21150 2900 21150 3050
+Connection ~ 21150 3050
+Wire Wire Line
+	21150 3050 21500 3050
+Wire Wire Line
+	21150 3150 21150 3050
+Wire Wire Line
+	19300 3350 19950 3350
+Wire Wire Line
+	19950 3050 20050 3050
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F1A7
+P 19550 3450
+F 0 "#PWR?" H 19550 3200 50  0001 C CNN
+F 1 "GNDA" H 19555 3277 50  0000 C CNN
+F 2 "" H 19550 3450 50  0001 C CNN
+F 3 "" H 19550 3450 50  0001 C CNN
+	1    19550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 3050 19550 3050
+Wire Wire Line
+	19550 3450 19550 3050
+$Comp
+L Device:R R?
+U 1 1 6AC7F1B0
+P 21150 4350
+F 0 "R?" H 21220 4396 50  0000 L CNN
+F 1 "10k" H 21220 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 4350 50  0001 C CNN
+F 3 "~" H 21150 4350 50  0001 C CNN
+F 4 "C238881" H 21150 4350 50  0001 C CNN "JLCPCB"
+	1    21150 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F1B6
+P 21150 4050
+F 0 "#PWR?" H 21150 3900 50  0001 C CNN
+F 1 "+3.3V" H 21165 4223 50  0000 C CNN
+F 2 "" H 21150 4050 50  0001 C CNN
+F 3 "" H 21150 4050 50  0001 C CNN
+	1    21150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 4050 21150 4200
+$Comp
+L Device:C C?
+U 1 1 6AC7F1BE
+P 21150 4900
+F 0 "C?" H 21265 4946 50  0000 L CNN
+F 1 "100n" H 21265 4855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 4750 50  0001 C CNN
+F 3 "~" H 21150 4900 50  0001 C CNN
+F 4 "C14663" H 21150 4900 50  0001 C CNN "JLCPCB"
+	1    21150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F1C4
+P 21150 5050
+F 0 "#PWR?" H 21150 4800 50  0001 C CNN
+F 1 "GND" H 21155 4877 50  0000 C CNN
+F 2 "" H 21150 5050 50  0001 C CNN
+F 3 "" H 21150 5050 50  0001 C CNN
+	1    21150 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 4850 20800 5050
+Wire Wire Line
+	20650 4850 20800 4850
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F1CC
+P 20800 5050
+F 0 "#PWR?" H 20800 4800 50  0001 C CNN
+F 1 "GND" V 20805 4922 50  0000 R CNN
+F 2 "" H 20800 5050 50  0001 C CNN
+F 3 "" H 20800 5050 50  0001 C CNN
+	1    20800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 4850 20050 4850
+Wire Wire Line
+	19950 4950 19950 4850
+$Comp
+L Device:R R?
+U 1 1 6AC7F1D5
+P 19800 4650
+F 0 "R?" H 19870 4696 50  0000 L CNN
+F 1 "4.7k" H 19870 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 4650 50  0001 C CNN
+F 3 "~" H 19800 4650 50  0001 C CNN
+F 4 "C238881" H 19800 4650 50  0001 C CNN "JLCPCB"
+	1    19800 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F1DC
+P 20350 4750
+F 0 "U?" H 20350 5075 50  0000 C CNN
+F 1 "EL357N-G" H 20350 4984 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 4550 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 4750 50  0001 L CNN
+F 4 "C6649" H 20350 4750 50  0001 C CNN "JLCPCB"
+	1    20350 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 4650 2    50   Input ~ 0
+P9.18
+Wire Wire Line
+	20650 4650 21150 4650
+Wire Wire Line
+	21150 4500 21150 4650
+Connection ~ 21150 4650
+Wire Wire Line
+	21150 4650 21500 4650
+Wire Wire Line
+	21150 4750 21150 4650
+Wire Wire Line
+	19300 4950 19950 4950
+Wire Wire Line
+	19950 4650 20050 4650
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F1EA
+P 19550 5050
+F 0 "#PWR?" H 19550 4800 50  0001 C CNN
+F 1 "GNDA" H 19555 4877 50  0000 C CNN
+F 2 "" H 19550 5050 50  0001 C CNN
+F 3 "" H 19550 5050 50  0001 C CNN
+	1    19550 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 4650 19550 4650
+Wire Wire Line
+	19550 5050 19550 4650
+$Comp
+L Device:R R?
+U 1 1 6AC7F1F3
+P 21150 5950
+F 0 "R?" H 21220 5996 50  0000 L CNN
+F 1 "10k" H 21220 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 5950 50  0001 C CNN
+F 3 "~" H 21150 5950 50  0001 C CNN
+F 4 "C238881" H 21150 5950 50  0001 C CNN "JLCPCB"
+	1    21150 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F1F9
+P 21150 5650
+F 0 "#PWR?" H 21150 5500 50  0001 C CNN
+F 1 "+3.3V" H 21165 5823 50  0000 C CNN
+F 2 "" H 21150 5650 50  0001 C CNN
+F 3 "" H 21150 5650 50  0001 C CNN
+	1    21150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 5650 21150 5800
+$Comp
+L Device:C C?
+U 1 1 6AC7F201
+P 21150 6500
+F 0 "C?" H 21265 6546 50  0000 L CNN
+F 1 "100n" H 21265 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 6350 50  0001 C CNN
+F 3 "~" H 21150 6500 50  0001 C CNN
+F 4 "C14663" H 21150 6500 50  0001 C CNN "JLCPCB"
+	1    21150 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F207
+P 21150 6650
+F 0 "#PWR?" H 21150 6400 50  0001 C CNN
+F 1 "GND" H 21155 6477 50  0000 C CNN
+F 2 "" H 21150 6650 50  0001 C CNN
+F 3 "" H 21150 6650 50  0001 C CNN
+	1    21150 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 6450 20800 6650
+Wire Wire Line
+	20650 6450 20800 6450
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F20F
+P 20800 6650
+F 0 "#PWR?" H 20800 6400 50  0001 C CNN
+F 1 "GND" V 20805 6522 50  0000 R CNN
+F 2 "" H 20800 6650 50  0001 C CNN
+F 3 "" H 20800 6650 50  0001 C CNN
+	1    20800 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 6450 20050 6450
+Wire Wire Line
+	19950 6550 19950 6450
+$Comp
+L Device:R R?
+U 1 1 6AC7F218
+P 19800 6250
+F 0 "R?" H 19870 6296 50  0000 L CNN
+F 1 "4.7k" H 19870 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 6250 50  0001 C CNN
+F 3 "~" H 19800 6250 50  0001 C CNN
+F 4 "C238881" H 19800 6250 50  0001 C CNN "JLCPCB"
+	1    19800 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F21F
+P 20350 6350
+F 0 "U?" H 20350 6675 50  0000 C CNN
+F 1 "EL357N-G" H 20350 6584 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 6150 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 6350 50  0001 L CNN
+F 4 "C6649" H 20350 6350 50  0001 C CNN "JLCPCB"
+	1    20350 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 6250 2    50   Input ~ 0
+P9.21
+Wire Wire Line
+	20650 6250 21150 6250
+Wire Wire Line
+	21150 6100 21150 6250
+Connection ~ 21150 6250
+Wire Wire Line
+	21150 6250 21500 6250
+Wire Wire Line
+	21150 6350 21150 6250
+Wire Wire Line
+	19300 6550 19950 6550
+Wire Wire Line
+	19950 6250 20050 6250
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F22D
+P 19550 6650
+F 0 "#PWR?" H 19550 6400 50  0001 C CNN
+F 1 "GNDA" H 19555 6477 50  0000 C CNN
+F 2 "" H 19550 6650 50  0001 C CNN
+F 3 "" H 19550 6650 50  0001 C CNN
+	1    19550 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 6250 19550 6250
+Wire Wire Line
+	19550 6650 19550 6250
+$Comp
+L Device:R R?
+U 1 1 6AC7F236
+P 21150 7450
+F 0 "R?" H 21220 7496 50  0000 L CNN
+F 1 "10k" H 21220 7405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 7450 50  0001 C CNN
+F 3 "~" H 21150 7450 50  0001 C CNN
+F 4 "C238881" H 21150 7450 50  0001 C CNN "JLCPCB"
+	1    21150 7450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F23C
+P 21150 7150
+F 0 "#PWR?" H 21150 7000 50  0001 C CNN
+F 1 "+3.3V" H 21165 7323 50  0000 C CNN
+F 2 "" H 21150 7150 50  0001 C CNN
+F 3 "" H 21150 7150 50  0001 C CNN
+	1    21150 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 7150 21150 7300
+$Comp
+L Device:C C?
+U 1 1 6AC7F244
+P 21150 8000
+F 0 "C?" H 21265 8046 50  0000 L CNN
+F 1 "100n" H 21265 7955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 7850 50  0001 C CNN
+F 3 "~" H 21150 8000 50  0001 C CNN
+F 4 "C14663" H 21150 8000 50  0001 C CNN "JLCPCB"
+	1    21150 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F24A
+P 21150 8150
+F 0 "#PWR?" H 21150 7900 50  0001 C CNN
+F 1 "GND" H 21155 7977 50  0000 C CNN
+F 2 "" H 21150 8150 50  0001 C CNN
+F 3 "" H 21150 8150 50  0001 C CNN
+	1    21150 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 7950 20800 8150
+Wire Wire Line
+	20650 7950 20800 7950
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F252
+P 20800 8150
+F 0 "#PWR?" H 20800 7900 50  0001 C CNN
+F 1 "GND" V 20805 8022 50  0000 R CNN
+F 2 "" H 20800 8150 50  0001 C CNN
+F 3 "" H 20800 8150 50  0001 C CNN
+	1    20800 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 7950 20050 7950
+Wire Wire Line
+	19950 8050 19950 7950
+$Comp
+L Device:R R?
+U 1 1 6AC7F25B
+P 19800 7750
+F 0 "R?" H 19870 7796 50  0000 L CNN
+F 1 "4.7k" H 19870 7705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 7750 50  0001 C CNN
+F 3 "~" H 19800 7750 50  0001 C CNN
+F 4 "C238881" H 19800 7750 50  0001 C CNN "JLCPCB"
+	1    19800 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F262
+P 20350 7850
+F 0 "U?" H 20350 8175 50  0000 C CNN
+F 1 "EL357N-G" H 20350 8084 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 7650 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 7850 50  0001 L CNN
+F 4 "C6649" H 20350 7850 50  0001 C CNN "JLCPCB"
+	1    20350 7850
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 7750 2    50   Input ~ 0
+P9.22
+Wire Wire Line
+	20650 7750 21150 7750
+Wire Wire Line
+	21150 7600 21150 7750
+Connection ~ 21150 7750
+Wire Wire Line
+	21150 7750 21500 7750
+Wire Wire Line
+	21150 7850 21150 7750
+Wire Wire Line
+	19300 8050 19950 8050
+Wire Wire Line
+	19950 7750 20050 7750
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F270
+P 19550 8150
+F 0 "#PWR?" H 19550 7900 50  0001 C CNN
+F 1 "GNDA" H 19555 7977 50  0000 C CNN
+F 2 "" H 19550 8150 50  0001 C CNN
+F 3 "" H 19550 8150 50  0001 C CNN
+	1    19550 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 7750 19550 7750
+Wire Wire Line
+	19550 8150 19550 7750
+$Comp
+L Device:R R?
+U 1 1 6AC7F279
+P 21150 9000
+F 0 "R?" H 21220 9046 50  0000 L CNN
+F 1 "10k" H 21220 8955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 9000 50  0001 C CNN
+F 3 "~" H 21150 9000 50  0001 C CNN
+F 4 "C238881" H 21150 9000 50  0001 C CNN "JLCPCB"
+	1    21150 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F27F
+P 21150 8700
+F 0 "#PWR?" H 21150 8550 50  0001 C CNN
+F 1 "+3.3V" H 21165 8873 50  0000 C CNN
+F 2 "" H 21150 8700 50  0001 C CNN
+F 3 "" H 21150 8700 50  0001 C CNN
+	1    21150 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 8700 21150 8850
+$Comp
+L Device:C C?
+U 1 1 6AC7F287
+P 21150 9550
+F 0 "C?" H 21265 9596 50  0000 L CNN
+F 1 "100n" H 21265 9505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 9400 50  0001 C CNN
+F 3 "~" H 21150 9550 50  0001 C CNN
+F 4 "C14663" H 21150 9550 50  0001 C CNN "JLCPCB"
+	1    21150 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F28D
+P 21150 9700
+F 0 "#PWR?" H 21150 9450 50  0001 C CNN
+F 1 "GND" H 21155 9527 50  0000 C CNN
+F 2 "" H 21150 9700 50  0001 C CNN
+F 3 "" H 21150 9700 50  0001 C CNN
+	1    21150 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 9500 20800 9700
+Wire Wire Line
+	20650 9500 20800 9500
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F295
+P 20800 9700
+F 0 "#PWR?" H 20800 9450 50  0001 C CNN
+F 1 "GND" V 20805 9572 50  0000 R CNN
+F 2 "" H 20800 9700 50  0001 C CNN
+F 3 "" H 20800 9700 50  0001 C CNN
+	1    20800 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 9500 20050 9500
+Wire Wire Line
+	19950 9600 19950 9500
+$Comp
+L Device:R R?
+U 1 1 6AC7F29E
+P 19800 9300
+F 0 "R?" H 19870 9346 50  0000 L CNN
+F 1 "4.7k" H 19870 9255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 9300 50  0001 C CNN
+F 3 "~" H 19800 9300 50  0001 C CNN
+F 4 "C238881" H 19800 9300 50  0001 C CNN "JLCPCB"
+	1    19800 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F2A5
+P 20350 9400
+F 0 "U?" H 20350 9725 50  0000 C CNN
+F 1 "EL357N-G" H 20350 9634 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 9200 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 9400 50  0001 L CNN
+F 4 "C6649" H 20350 9400 50  0001 C CNN "JLCPCB"
+	1    20350 9400
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 9300 2    50   Input ~ 0
+P9.24
+Wire Wire Line
+	20650 9300 21150 9300
+Wire Wire Line
+	21150 9150 21150 9300
+Connection ~ 21150 9300
+Wire Wire Line
+	21150 9300 21500 9300
+Wire Wire Line
+	21150 9400 21150 9300
+Wire Wire Line
+	19300 9600 19950 9600
+Wire Wire Line
+	19950 9300 20050 9300
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F2B3
+P 19550 9700
+F 0 "#PWR?" H 19550 9450 50  0001 C CNN
+F 1 "GNDA" H 19555 9527 50  0000 C CNN
+F 2 "" H 19550 9700 50  0001 C CNN
+F 3 "" H 19550 9700 50  0001 C CNN
+	1    19550 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 9300 19550 9300
+Wire Wire Line
+	19550 9700 19550 9300
+$Comp
+L Device:R R?
+U 1 1 6AC7F2BC
+P 21150 10500
+F 0 "R?" H 21220 10546 50  0000 L CNN
+F 1 "10k" H 21220 10455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 10500 50  0001 C CNN
+F 3 "~" H 21150 10500 50  0001 C CNN
+F 4 "C238881" H 21150 10500 50  0001 C CNN "JLCPCB"
+	1    21150 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F2C2
+P 21150 10200
+F 0 "#PWR?" H 21150 10050 50  0001 C CNN
+F 1 "+3.3V" H 21165 10373 50  0000 C CNN
+F 2 "" H 21150 10200 50  0001 C CNN
+F 3 "" H 21150 10200 50  0001 C CNN
+	1    21150 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 10200 21150 10350
+$Comp
+L Device:C C?
+U 1 1 6AC7F2CA
+P 21150 11050
+F 0 "C?" H 21265 11096 50  0000 L CNN
+F 1 "100n" H 21265 11005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 10900 50  0001 C CNN
+F 3 "~" H 21150 11050 50  0001 C CNN
+F 4 "C14663" H 21150 11050 50  0001 C CNN "JLCPCB"
+	1    21150 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F2D0
+P 21150 11200
+F 0 "#PWR?" H 21150 10950 50  0001 C CNN
+F 1 "GND" H 21155 11027 50  0000 C CNN
+F 2 "" H 21150 11200 50  0001 C CNN
+F 3 "" H 21150 11200 50  0001 C CNN
+	1    21150 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 11000 20800 11200
+Wire Wire Line
+	20650 11000 20800 11000
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F2D8
+P 20800 11200
+F 0 "#PWR?" H 20800 10950 50  0001 C CNN
+F 1 "GND" V 20805 11072 50  0000 R CNN
+F 2 "" H 20800 11200 50  0001 C CNN
+F 3 "" H 20800 11200 50  0001 C CNN
+	1    20800 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 11000 20050 11000
+Wire Wire Line
+	19950 11100 19950 11000
+$Comp
+L Device:R R?
+U 1 1 6AC7F2E1
+P 19800 10800
+F 0 "R?" H 19870 10846 50  0000 L CNN
+F 1 "4.7k" H 19870 10755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 10800 50  0001 C CNN
+F 3 "~" H 19800 10800 50  0001 C CNN
+F 4 "C238881" H 19800 10800 50  0001 C CNN "JLCPCB"
+	1    19800 10800
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F2E8
+P 20350 10900
+F 0 "U?" H 20350 11225 50  0000 C CNN
+F 1 "EL357N-G" H 20350 11134 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 10700 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 10900 50  0001 L CNN
+F 4 "C6649" H 20350 10900 50  0001 C CNN "JLCPCB"
+	1    20350 10900
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 10800 2    50   Input ~ 0
+P9.23
+Wire Wire Line
+	20650 10800 21150 10800
+Wire Wire Line
+	21150 10650 21150 10800
+Connection ~ 21150 10800
+Wire Wire Line
+	21150 10800 21500 10800
+Wire Wire Line
+	21150 10900 21150 10800
+Wire Wire Line
+	19300 11100 19950 11100
+Wire Wire Line
+	19950 10800 20050 10800
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F2F6
+P 19550 11200
+F 0 "#PWR?" H 19550 10950 50  0001 C CNN
+F 1 "GNDA" H 19555 11027 50  0000 C CNN
+F 2 "" H 19550 11200 50  0001 C CNN
+F 3 "" H 19550 11200 50  0001 C CNN
+	1    19550 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 10800 19550 10800
+Wire Wire Line
+	19550 11200 19550 10800
+$Comp
+L Device:R R?
+U 1 1 6AC7F2FF
+P 21150 12000
+F 0 "R?" H 21220 12046 50  0000 L CNN
+F 1 "10k" H 21220 11955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 12000 50  0001 C CNN
+F 3 "~" H 21150 12000 50  0001 C CNN
+F 4 "C238881" H 21150 12000 50  0001 C CNN "JLCPCB"
+	1    21150 12000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F305
+P 21150 11700
+F 0 "#PWR?" H 21150 11550 50  0001 C CNN
+F 1 "+3.3V" H 21165 11873 50  0000 C CNN
+F 2 "" H 21150 11700 50  0001 C CNN
+F 3 "" H 21150 11700 50  0001 C CNN
+	1    21150 11700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 11700 21150 11850
+$Comp
+L Device:C C?
+U 1 1 6AC7F30D
+P 21150 12550
+F 0 "C?" H 21265 12596 50  0000 L CNN
+F 1 "100n" H 21265 12505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 12400 50  0001 C CNN
+F 3 "~" H 21150 12550 50  0001 C CNN
+F 4 "C14663" H 21150 12550 50  0001 C CNN "JLCPCB"
+	1    21150 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F313
+P 21150 12700
+F 0 "#PWR?" H 21150 12450 50  0001 C CNN
+F 1 "GND" H 21155 12527 50  0000 C CNN
+F 2 "" H 21150 12700 50  0001 C CNN
+F 3 "" H 21150 12700 50  0001 C CNN
+	1    21150 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 12500 20800 12700
+Wire Wire Line
+	20650 12500 20800 12500
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F31B
+P 20800 12700
+F 0 "#PWR?" H 20800 12450 50  0001 C CNN
+F 1 "GND" V 20805 12572 50  0000 R CNN
+F 2 "" H 20800 12700 50  0001 C CNN
+F 3 "" H 20800 12700 50  0001 C CNN
+	1    20800 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 12500 20050 12500
+Wire Wire Line
+	19950 12600 19950 12500
+$Comp
+L Device:R R?
+U 1 1 6AC7F324
+P 19800 12300
+F 0 "R?" H 19870 12346 50  0000 L CNN
+F 1 "4.7k" H 19870 12255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 12300 50  0001 C CNN
+F 3 "~" H 19800 12300 50  0001 C CNN
+F 4 "C238881" H 19800 12300 50  0001 C CNN "JLCPCB"
+	1    19800 12300
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F32B
+P 20350 12400
+F 0 "U?" H 20350 12725 50  0000 C CNN
+F 1 "EL357N-G" H 20350 12634 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 12200 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 12400 50  0001 L CNN
+F 4 "C6649" H 20350 12400 50  0001 C CNN "JLCPCB"
+	1    20350 12400
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 12300 2    50   Input ~ 0
+P9.17
+Wire Wire Line
+	20650 12300 21150 12300
+Wire Wire Line
+	21150 12150 21150 12300
+Connection ~ 21150 12300
+Wire Wire Line
+	21150 12300 21500 12300
+Wire Wire Line
+	21150 12400 21150 12300
+Wire Wire Line
+	19300 12600 19950 12600
+Wire Wire Line
+	19950 12300 20050 12300
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F339
+P 19550 12700
+F 0 "#PWR?" H 19550 12450 50  0001 C CNN
+F 1 "GNDA" H 19555 12527 50  0000 C CNN
+F 2 "" H 19550 12700 50  0001 C CNN
+F 3 "" H 19550 12700 50  0001 C CNN
+	1    19550 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 12300 19550 12300
+Wire Wire Line
+	19550 12700 19550 12300
+$Comp
+L Device:R R?
+U 1 1 6AC7F342
+P 21150 13500
+F 0 "R?" H 21220 13546 50  0000 L CNN
+F 1 "10k" H 21220 13455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 21080 13500 50  0001 C CNN
+F 3 "~" H 21150 13500 50  0001 C CNN
+F 4 "C238881" H 21150 13500 50  0001 C CNN "JLCPCB"
+	1    21150 13500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6AC7F348
+P 21150 13200
+F 0 "#PWR?" H 21150 13050 50  0001 C CNN
+F 1 "+3.3V" H 21165 13373 50  0000 C CNN
+F 2 "" H 21150 13200 50  0001 C CNN
+F 3 "" H 21150 13200 50  0001 C CNN
+	1    21150 13200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 13200 21150 13350
+$Comp
+L Device:C C?
+U 1 1 6AC7F350
+P 21150 14050
+F 0 "C?" H 21265 14096 50  0000 L CNN
+F 1 "100n" H 21265 14005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 21188 13900 50  0001 C CNN
+F 3 "~" H 21150 14050 50  0001 C CNN
+F 4 "C14663" H 21150 14050 50  0001 C CNN "JLCPCB"
+	1    21150 14050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F356
+P 21150 14200
+F 0 "#PWR?" H 21150 13950 50  0001 C CNN
+F 1 "GND" H 21155 14027 50  0000 C CNN
+F 2 "" H 21150 14200 50  0001 C CNN
+F 3 "" H 21150 14200 50  0001 C CNN
+	1    21150 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20800 14000 20800 14200
+Wire Wire Line
+	20650 14000 20800 14000
+$Comp
+L power:GND #PWR?
+U 1 1 6AC7F35E
+P 20800 14200
+F 0 "#PWR?" H 20800 13950 50  0001 C CNN
+F 1 "GND" V 20805 14072 50  0000 R CNN
+F 2 "" H 20800 14200 50  0001 C CNN
+F 3 "" H 20800 14200 50  0001 C CNN
+	1    20800 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 14000 20050 14000
+Wire Wire Line
+	19950 14100 19950 14000
+$Comp
+L Device:R R?
+U 1 1 6AC7F367
+P 19800 13800
+F 0 "R?" H 19870 13846 50  0000 L CNN
+F 1 "4.7k" H 19870 13755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 19730 13800 50  0001 C CNN
+F 3 "~" H 19800 13800 50  0001 C CNN
+F 4 "C238881" H 19800 13800 50  0001 C CNN "JLCPCB"
+	1    19800 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6AC7F36E
+P 20350 13900
+F 0 "U?" H 20350 14225 50  0000 C CNN
+F 1 "EL357N-G" H 20350 14134 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 20150 13700 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 20350 13900 50  0001 L CNN
+F 4 "C6649" H 20350 13900 50  0001 C CNN "JLCPCB"
+	1    20350 13900
+	1    0    0    -1  
+$EndComp
+Text GLabel 21500 13800 2    50   Input ~ 0
+P8.46
+Wire Wire Line
+	20650 13800 21150 13800
+Wire Wire Line
+	21150 13650 21150 13800
+Connection ~ 21150 13800
+Wire Wire Line
+	21150 13800 21500 13800
+Wire Wire Line
+	21150 13900 21150 13800
+Wire Wire Line
+	19300 14100 19950 14100
+Wire Wire Line
+	19950 13800 20050 13800
+$Comp
+L power:GNDA #PWR?
+U 1 1 6AC7F37C
+P 19550 14200
+F 0 "#PWR?" H 19550 13950 50  0001 C CNN
+F 1 "GNDA" H 19555 14027 50  0000 C CNN
+F 2 "" H 19550 14200 50  0001 C CNN
+F 3 "" H 19550 14200 50  0001 C CNN
+	1    19550 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 13800 19550 13800
+Wire Wire Line
+	19550 14200 19550 13800
+$Comp
+L Device:R R?
+U 1 1 6B834932
+P 24250 2700
+F 0 "R?" H 24320 2746 50  0000 L CNN
+F 1 "10k" H 24320 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 24180 2700 50  0001 C CNN
+F 3 "~" H 24250 2700 50  0001 C CNN
+F 4 "C238881" H 24250 2700 50  0001 C CNN "JLCPCB"
+	1    24250 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	24250 2400 24250 2550
+$Comp
+L Device:C C?
+U 1 1 6B83493A
+P 24250 3250
+F 0 "C?" H 24365 3296 50  0000 L CNN
+F 1 "100n" H 24365 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 24288 3100 50  0001 C CNN
+F 3 "~" H 24250 3250 50  0001 C CNN
+F 4 "C14663" H 24250 3250 50  0001 C CNN "JLCPCB"
+	1    24250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6B834940
+P 24250 3400
+F 0 "#PWR?" H 24250 3150 50  0001 C CNN
+F 1 "GND" H 24255 3227 50  0000 C CNN
+F 2 "" H 24250 3400 50  0001 C CNN
+F 3 "" H 24250 3400 50  0001 C CNN
+	1    24250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23900 3200 23900 3400
+Wire Wire Line
+	23750 3200 23900 3200
+$Comp
+L power:GND #PWR?
+U 1 1 6B834948
+P 23900 3400
+F 0 "#PWR?" H 23900 3150 50  0001 C CNN
+F 1 "GND" V 23905 3272 50  0000 R CNN
+F 2 "" H 23900 3400 50  0001 C CNN
+F 3 "" H 23900 3400 50  0001 C CNN
+	1    23900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23050 3200 23150 3200
+Wire Wire Line
+	23050 3300 23050 3200
+$Comp
+L Device:R R?
+U 1 1 6B834951
+P 22900 3000
+F 0 "R?" H 22970 3046 50  0000 L CNN
+F 1 "4.7k" H 22970 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 22830 3000 50  0001 C CNN
+F 3 "~" H 22900 3000 50  0001 C CNN
+F 4 "C238881" H 22900 3000 50  0001 C CNN "JLCPCB"
+	1    22900 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6B834958
+P 23450 3100
+F 0 "U?" H 23450 3425 50  0000 C CNN
+F 1 "EL357N-G" H 23450 3334 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 23250 2900 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 23450 3100 50  0001 L CNN
+F 4 "C6649" H 23450 3100 50  0001 C CNN "JLCPCB"
+	1    23450 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 24600 3000 2    50   Input ~ 0
+P9.07
+Wire Wire Line
+	23750 3000 24250 3000
+Wire Wire Line
+	24250 2850 24250 3000
+Connection ~ 24250 3000
+Wire Wire Line
+	24250 3000 24600 3000
+Wire Wire Line
+	24250 3100 24250 3000
+Wire Wire Line
+	22400 3300 23050 3300
+Wire Wire Line
+	23050 3000 23150 3000
+$Comp
+L power:GNDA #PWR?
+U 1 1 6B834966
+P 22650 3400
+F 0 "#PWR?" H 22650 3150 50  0001 C CNN
+F 1 "GNDA" H 22655 3227 50  0000 C CNN
+F 2 "" H 22650 3400 50  0001 C CNN
+F 3 "" H 22650 3400 50  0001 C CNN
+	1    22650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22750 3000 22650 3000
+Wire Wire Line
+	22650 3400 22650 3000
+$Comp
+L Device:R R?
+U 1 1 6B83496F
+P 24250 4200
+F 0 "R?" H 24320 4246 50  0000 L CNN
+F 1 "10k" H 24320 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 24180 4200 50  0001 C CNN
+F 3 "~" H 24250 4200 50  0001 C CNN
+F 4 "C238881" H 24250 4200 50  0001 C CNN "JLCPCB"
+	1    24250 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6B834975
+P 24250 3900
+F 0 "#PWR?" H 24250 3750 50  0001 C CNN
+F 1 "+3.3V" H 24265 4073 50  0000 C CNN
+F 2 "" H 24250 3900 50  0001 C CNN
+F 3 "" H 24250 3900 50  0001 C CNN
+	1    24250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24250 3900 24250 4050
+$Comp
+L Device:C C?
+U 1 1 6B83497D
+P 24250 4750
+F 0 "C?" H 24365 4796 50  0000 L CNN
+F 1 "100n" H 24365 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 24288 4600 50  0001 C CNN
+F 3 "~" H 24250 4750 50  0001 C CNN
+F 4 "C14663" H 24250 4750 50  0001 C CNN "JLCPCB"
+	1    24250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6B834983
+P 24250 4900
+F 0 "#PWR?" H 24250 4650 50  0001 C CNN
+F 1 "GND" H 24255 4727 50  0000 C CNN
+F 2 "" H 24250 4900 50  0001 C CNN
+F 3 "" H 24250 4900 50  0001 C CNN
+	1    24250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23900 4700 23900 4900
+Wire Wire Line
+	23750 4700 23900 4700
+$Comp
+L power:GND #PWR?
+U 1 1 6B83498B
+P 23900 4900
+F 0 "#PWR?" H 23900 4650 50  0001 C CNN
+F 1 "GND" V 23905 4772 50  0000 R CNN
+F 2 "" H 23900 4900 50  0001 C CNN
+F 3 "" H 23900 4900 50  0001 C CNN
+	1    23900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23050 4700 23150 4700
+Wire Wire Line
+	23050 4800 23050 4700
+$Comp
+L Device:R R?
+U 1 1 6B834994
+P 22900 4500
+F 0 "R?" H 22970 4546 50  0000 L CNN
+F 1 "4.7k" H 22970 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 22830 4500 50  0001 C CNN
+F 3 "~" H 22900 4500 50  0001 C CNN
+F 4 "C238881" H 22900 4500 50  0001 C CNN "JLCPCB"
+	1    22900 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6B83499B
+P 23450 4600
+F 0 "U?" H 23450 4925 50  0000 C CNN
+F 1 "EL357N-G" H 23450 4834 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 23250 4400 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 23450 4600 50  0001 L CNN
+F 4 "C6649" H 23450 4600 50  0001 C CNN "JLCPCB"
+	1    23450 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 24600 4500 2    50   Input ~ 0
+P9.42
+Wire Wire Line
+	23750 4500 24250 4500
+Wire Wire Line
+	24250 4350 24250 4500
+Connection ~ 24250 4500
+Wire Wire Line
+	24250 4500 24600 4500
+Wire Wire Line
+	24250 4600 24250 4500
+Wire Wire Line
+	22400 4800 23050 4800
+Wire Wire Line
+	23050 4500 23150 4500
+$Comp
+L power:GNDA #PWR?
+U 1 1 6B8349A9
+P 22650 4900
+F 0 "#PWR?" H 22650 4650 50  0001 C CNN
+F 1 "GNDA" H 22655 4727 50  0000 C CNN
+F 2 "" H 22650 4900 50  0001 C CNN
+F 3 "" H 22650 4900 50  0001 C CNN
+	1    22650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22750 4500 22650 4500
+Wire Wire Line
+	22650 4900 22650 4500
+$Comp
+L Device:R R?
+U 1 1 6B8349B2
+P 24250 5700
+F 0 "R?" H 24320 5746 50  0000 L CNN
+F 1 "10k" H 24320 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 24180 5700 50  0001 C CNN
+F 3 "~" H 24250 5700 50  0001 C CNN
+F 4 "C238881" H 24250 5700 50  0001 C CNN "JLCPCB"
+	1    24250 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6B8349B8
+P 24250 5400
+F 0 "#PWR?" H 24250 5250 50  0001 C CNN
+F 1 "+3.3V" H 24265 5573 50  0000 C CNN
+F 2 "" H 24250 5400 50  0001 C CNN
+F 3 "" H 24250 5400 50  0001 C CNN
+	1    24250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24250 5400 24250 5550
+$Comp
+L Device:C C?
+U 1 1 6B8349C0
+P 24250 6250
+F 0 "C?" H 24365 6296 50  0000 L CNN
+F 1 "100n" H 24365 6205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 24288 6100 50  0001 C CNN
+F 3 "~" H 24250 6250 50  0001 C CNN
+F 4 "C14663" H 24250 6250 50  0001 C CNN "JLCPCB"
+	1    24250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6B8349C6
+P 24250 6400
+F 0 "#PWR?" H 24250 6150 50  0001 C CNN
+F 1 "GND" H 24255 6227 50  0000 C CNN
+F 2 "" H 24250 6400 50  0001 C CNN
+F 3 "" H 24250 6400 50  0001 C CNN
+	1    24250 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23900 6200 23900 6400
+Wire Wire Line
+	23750 6200 23900 6200
+$Comp
+L power:GND #PWR?
+U 1 1 6B8349CE
+P 23900 6400
+F 0 "#PWR?" H 23900 6150 50  0001 C CNN
+F 1 "GND" V 23905 6272 50  0000 R CNN
+F 2 "" H 23900 6400 50  0001 C CNN
+F 3 "" H 23900 6400 50  0001 C CNN
+	1    23900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23050 6200 23150 6200
+Wire Wire Line
+	23050 6300 23050 6200
+$Comp
+L Device:R R?
+U 1 1 6B8349D7
+P 22900 6000
+F 0 "R?" H 22970 6046 50  0000 L CNN
+F 1 "4.7k" H 22970 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 22830 6000 50  0001 C CNN
+F 3 "~" H 22900 6000 50  0001 C CNN
+F 4 "C238881" H 22900 6000 50  0001 C CNN "JLCPCB"
+	1    22900 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6B8349DE
+P 23450 6100
+F 0 "U?" H 23450 6425 50  0000 C CNN
+F 1 "EL357N-G" H 23450 6334 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 23250 5900 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 23450 6100 50  0001 L CNN
+F 4 "C6649" H 23450 6100 50  0001 C CNN "JLCPCB"
+	1    23450 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 24600 6000 2    50   Input ~ 0
+P9.31
+Wire Wire Line
+	23750 6000 24250 6000
+Wire Wire Line
+	24250 5850 24250 6000
+Connection ~ 24250 6000
+Wire Wire Line
+	24250 6000 24600 6000
+Wire Wire Line
+	24250 6100 24250 6000
+Wire Wire Line
+	22400 6300 23050 6300
+Wire Wire Line
+	23050 6000 23150 6000
+$Comp
+L power:GNDA #PWR?
+U 1 1 6B8349EC
+P 22650 6400
+F 0 "#PWR?" H 22650 6150 50  0001 C CNN
+F 1 "GNDA" H 22655 6227 50  0000 C CNN
+F 2 "" H 22650 6400 50  0001 C CNN
+F 3 "" H 22650 6400 50  0001 C CNN
+	1    22650 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22750 6000 22650 6000
+Wire Wire Line
+	22650 6400 22650 6000
+$Comp
+L Device:R R?
+U 1 1 6B8349F5
+P 24250 7200
+F 0 "R?" H 24320 7246 50  0000 L CNN
+F 1 "10k" H 24320 7155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 24180 7200 50  0001 C CNN
+F 3 "~" H 24250 7200 50  0001 C CNN
+F 4 "C238881" H 24250 7200 50  0001 C CNN "JLCPCB"
+	1    24250 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6B8349FB
+P 24250 6900
+F 0 "#PWR?" H 24250 6750 50  0001 C CNN
+F 1 "+3.3V" H 24265 7073 50  0000 C CNN
+F 2 "" H 24250 6900 50  0001 C CNN
+F 3 "" H 24250 6900 50  0001 C CNN
+	1    24250 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24250 6900 24250 7050
+$Comp
+L Device:C C?
+U 1 1 6B834A03
+P 24250 7750
+F 0 "C?" H 24365 7796 50  0000 L CNN
+F 1 "100n" H 24365 7705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 24288 7600 50  0001 C CNN
+F 3 "~" H 24250 7750 50  0001 C CNN
+F 4 "C14663" H 24250 7750 50  0001 C CNN "JLCPCB"
+	1    24250 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6B834A09
+P 24250 7900
+F 0 "#PWR?" H 24250 7650 50  0001 C CNN
+F 1 "GND" H 24255 7727 50  0000 C CNN
+F 2 "" H 24250 7900 50  0001 C CNN
+F 3 "" H 24250 7900 50  0001 C CNN
+	1    24250 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23900 7700 23900 7900
+Wire Wire Line
+	23750 7700 23900 7700
+$Comp
+L power:GND #PWR?
+U 1 1 6B834A11
+P 23900 7900
+F 0 "#PWR?" H 23900 7650 50  0001 C CNN
+F 1 "GND" V 23905 7772 50  0000 R CNN
+F 2 "" H 23900 7900 50  0001 C CNN
+F 3 "" H 23900 7900 50  0001 C CNN
+	1    23900 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23050 7700 23150 7700
+Wire Wire Line
+	23050 7800 23050 7700
+$Comp
+L Device:R R?
+U 1 1 6B834A1A
+P 22900 7500
+F 0 "R?" H 22970 7546 50  0000 L CNN
+F 1 "4.7k" H 22970 7455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 22830 7500 50  0001 C CNN
+F 3 "~" H 22900 7500 50  0001 C CNN
+F 4 "C238881" H 22900 7500 50  0001 C CNN "JLCPCB"
+	1    22900 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 6B834A21
+P 23450 7600
+F 0 "U?" H 23450 7925 50  0000 C CNN
+F 1 "EL357N-G" H 23450 7834 50  0000 C CNN
+F 2 "Package_SO:OPTO_EL357N-G" H 23250 7400 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 23450 7600 50  0001 L CNN
+F 4 "C6649" H 23450 7600 50  0001 C CNN "JLCPCB"
+	1    23450 7600
+	1    0    0    -1  
+$EndComp
+Text GLabel 24600 7500 2    50   Input ~ 0
+P9.30
+Wire Wire Line
+	23750 7500 24250 7500
+Wire Wire Line
+	24250 7350 24250 7500
+Connection ~ 24250 7500
+Wire Wire Line
+	24250 7500 24600 7500
+Wire Wire Line
+	24250 7600 24250 7500
+Wire Wire Line
+	22400 7800 23050 7800
+Wire Wire Line
+	23050 7500 23150 7500
+$Comp
+L power:GNDA #PWR?
+U 1 1 6B834A2F
+P 22650 7900
+F 0 "#PWR?" H 22650 7650 50  0001 C CNN
+F 1 "GNDA" H 22655 7727 50  0000 C CNN
+F 2 "" H 22650 7900 50  0001 C CNN
+F 3 "" H 22650 7900 50  0001 C CNN
+	1    22650 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22750 7500 22650 7500
+Wire Wire Line
+	22650 7900 22650 7500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6B8E5D4A
+P 24250 2400
+F 0 "#PWR?" H 24250 2250 50  0001 C CNN
+F 1 "+3.3V" H 24265 2573 50  0000 C CNN
+F 2 "" H 24250 2400 50  0001 C CNN
+F 3 "" H 24250 2400 50  0001 C CNN
+	1    24250 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
