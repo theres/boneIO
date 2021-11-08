@@ -1040,7 +1040,7 @@ P8.08_OUT
 Text GLabel 6450 8900 2    50   Input ~ 0
 P8.07_OUT
 $Comp
-L RF_Module:RS485 U11
+L boneIO_input-board_v0.3-rescue:RS485-RF_Module U11
 U 1 1 6187A9D0
 P 6350 4700
 F 0 "U11" H 6250 4767 50  0000 C CNN
@@ -1379,7 +1379,7 @@ P8.35_OUT
 Text GLabel 3250 7550 2    50   Input ~ 0
 P8.39_OUT
 $Comp
-L Connector_Generic:BeagleBone_Black_Header J15
+L boneIO_input-board_v0.3-rescue:BeagleBone_Black_Header-Connector_Generic J15
 U 1 1 64765995
 P 27900 3650
 F 0 "J15" H 27900 2375 50  0000 C CNN
@@ -1564,7 +1564,7 @@ F 3 "" H 28600 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:BeagleBone_Black_Header J16
+L boneIO_input-board_v0.3-rescue:BeagleBone_Black_Header-Connector_Generic J16
 U 1 1 643393F0
 P 29900 3650
 F 0 "J16" H 29900 2375 50  0000 C CNN
@@ -1965,9 +1965,9 @@ Text GLabel 6450 9000 2    50   Input ~ 0
 P9.42_OUT
 Text GLabel 6450 9100 2    50   Input ~ 0
 P9.31_OUT
-Text GLabel 6450 9200 2    50   Input ~ 0
-P9.30_OUT
 Text GLabel 6450 9300 2    50   Input ~ 0
+P9.30_OUT
+Text GLabel 6450 9200 2    50   Input ~ 0
 P9.29_OUT
 Text GLabel 8050 7600 2    50   Input ~ 0
 P9.28_OUT
@@ -6619,7 +6619,7 @@ F 4 "C6649" H 16550 16000 50  0001 C CNN "JLCPCB"
 	1    0    0    -1  
 $EndComp
 Text GLabel 17700 15900 2    50   Input ~ 0
-P9,25
+P9.25
 Wire Wire Line
 	16850 15900 17350 15900
 Wire Wire Line
