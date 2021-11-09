@@ -1,0 +1,44 @@
+name: circuit-workflow
+on:
+  push:
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+    - '**config.kibot.yml'
+    branches:
+    - main
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+      - '**/config.kibot.yml'
+
+jobs:
+  circuits:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        circuit:
+        # list of circuits here
+        - Circuit/boneIO-expansion-module/boneIO-expansion-module
+        - Circuit/boneIO-input-board/boneIO_input-board_v0.2
+        - Circuit/boneIO-input-board-template/boneIO_input-board_template
+        - Circuit/boneIO-relay-board-24x16A/boneIO-relay-board
+        - Circuit/boneIO-relay-board-32x5A/boneIO-relay-board-32x5A
+        # - Circuit/boneIO-SSR-D0-board/boneIO-SSR-D0-board # disabled for now as it do not pass
+        # - Circuit/boneIOs-input-board-esp/boneIOs-input-board-esp # disabled for now as it do not pass
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v1
+      with:
+        config: Circuit/config.kibot.yml
+        dir: output
+        schema: '${{matrix.circuit}}.sch'
+        board:  '${{matrix.circuit}}.kicad_pcb'
+    - name: upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: output
+        path: output
