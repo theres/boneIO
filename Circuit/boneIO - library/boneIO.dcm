@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EL817
+D DC Optocoupler, Vce 35V, DIP-4
+K NPN DC Optocoupler
+F http://www.everlight.com/file/ProductFile/EL817.pdf
+$ENDCMP
+#
 $CMP HF46F
 D Sub-miniature intermediate power relay
 $ENDCMP
@@ -14,6 +20,12 @@ $CMP MCP9808_MSOP
 D +/-0.25C (+/-0.5C) Typical (Maximum), Digital Temperature Sensor, MSOP-8
 K temperature sensor I2C
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
+$ENDCMP
+#
+$CMP PC817
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
+K NPN DC Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
 $CMP RM85-2011-35-1005
