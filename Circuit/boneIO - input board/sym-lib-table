@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name boneIO_input-board-rescue)(type Legacy)(uri "${KIPRJMOD}/boneIO_input board-rescue.lib")(options "")(descr ""))
-  (lib (name ESP32-PoE_Rev_B1)(type Legacy)(uri C:/Users/Kamil/OneDrive/Desktop/ESP32-POE-master/HARDWARE/ESP32-PoE-hardware-revision-B1/ESP32-PoE_Rev_B1.lib)(options "")(descr ""))
+  (lib (name boneIO)(type Legacy)(uri "C:/GITHUB/boneIO/Circuit/boneIO - library/boneIO.lib")(options "")(descr ""))
 )

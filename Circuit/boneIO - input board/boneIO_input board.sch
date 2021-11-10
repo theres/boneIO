@@ -570,7 +570,7 @@ U 1 1 64765985
 P 15650 5150
 F 0 "BT1" V 15895 5150 50  0000 C CNN
 F 1 "Battery" V 15804 5150 50  0000 C CNN
-F 2 "Battery:Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles" V 15650 5210 50  0001 C CNN
+F 2 "boneIO:Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles" V 15650 5210 50  0001 C CNN
 F 3 "~" V 15650 5210 50  0001 C CNN
 	1    15650 5150
 	0    -1   -1   0   
@@ -1040,7 +1040,7 @@ P8.08_OUT
 Text GLabel 27650 17650 2    50   Input ~ 0
 P8.07_OUT
 $Comp
-L boneIO_input-board-rescue:RS485-RF_Module-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue U11
+L boneIO:RS485-RF_Module-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue U11
 U 1 1 6187A9D0
 P 28300 9450
 F 0 "U11" H 28200 9517 50  0000 C CNN
@@ -1380,7 +1380,7 @@ P8.35_OUT
 Text GLabel 24450 16750 2    50   Input ~ 0
 P8.39_OUT
 $Comp
-L boneIO_input-board-rescue:BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue J15
+L boneIO:BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue J15
 U 1 1 64765995
 P 27050 6200
 F 0 "J15" H 27050 4925 50  0000 C CNN
@@ -1565,7 +1565,7 @@ F 3 "" H 27750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO_input-board-rescue:BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue J16
+L boneIO:BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue J16
 U 1 1 643393F0
 P 29050 6200
 F 0 "J16" H 29050 4925 50  0000 C CNN
