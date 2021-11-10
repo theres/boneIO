@@ -1040,7 +1040,7 @@ P8.08_OUT
 Text GLabel 27600 17650 2    50   Input ~ 0
 P8.07_OUT
 $Comp
-L boneIO_input-board_v0.3-rescue:RS485-RF_Module U11
+L boneIO_input-board-rescue:RS485-RF_Module-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue U11
 U 1 1 6187A9D0
 P 28250 9450
 F 0 "U11" H 28150 9517 50  0000 C CNN
@@ -1380,7 +1380,7 @@ P8.35_OUT
 Text GLabel 24400 16750 2    50   Input ~ 0
 P8.39_OUT
 $Comp
-L boneIO_input-board_v0.3-rescue:BeagleBone_Black_Header-Connector_Generic J15
+L boneIO_input-board-rescue:BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue J15
 U 1 1 64765995
 P 27000 6200
 F 0 "J15" H 27000 4925 50  0000 C CNN
@@ -1565,7 +1565,7 @@ F 3 "" H 27700 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boneIO_input-board_v0.3-rescue:BeagleBone_Black_Header-Connector_Generic J16
+L boneIO_input-board-rescue:BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue J16
 U 1 1 643393F0
 P 29000 6200
 F 0 "J16" H 29000 4925 50  0000 C CNN

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BeagleBone_Black_Header-Connector_Generic
+# BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue
 #
-DEF BeagleBone_Black_Header-Connector_Generic J 0 40 Y N 1 F N
+DEF BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue J 0 40 Y N 1 F N
 F0 "J" 50 1100 50 H V C CNN
-F1 "BeagleBone_Black_Header-Connector_Generic" 50 -1200 50 H V C CNN
+F1 "BeagleBone_Black_Header-Connector_Generic-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -109,11 +109,11 @@ X Pin_9 9 250 750 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RS485-RF_Module
+# RS485-RF_Module-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue
 #
-DEF RS485-RF_Module U 0 40 Y Y 1 F N
+DEF RS485-RF_Module-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue U 0 40 Y Y 1 F N
 F0 "U" 350 -50 50 H V C CNN
-F1 "RS485-RF_Module" -450 -50 50 H V C CNN
+F1 "RS485-RF_Module-boneIO_input-board_v0.3-rescue-boneIO_input-board-rescue" -450 -50 50 H V C CNN
 F2 "" 350 -50 50 H I C CNN
 F3 "" 350 -50 50 H I C CNN
 DRAW
