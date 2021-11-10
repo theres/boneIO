@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Socket_BeagleBone_Black)(type KiCad)(uri "$(KIPRJMOD)/Socket_BeagleBone_Black.pretty")(options "")(descr ""))
   (lib (name RM85-2011-35-1005)(type Legacy)(uri ${KIPRJMOD}/RM85-2011-35-1005/KiCad/RM85-2011-35-1005.mod)(options "")(descr ""))
+  (lib (name ph80ds-21)(type KiCad)(uri ${KIPRJMOD}/PH80DS-21/ph80ds-21.pretty)(options "")(descr ""))
 )
