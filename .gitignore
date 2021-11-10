@@ -145,3 +145,19 @@ _autosave-*
 fp-info-cache
 *-rescue.lib
 *.step
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+
+
+
+
