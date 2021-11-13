@@ -21,13 +21,9 @@ jobs:
       matrix:
         circuit:
         # list of circuits here
-        - Circuit/boneIO-expansion-module/boneIO-expansion-module
-        - Circuit/boneIO-input-board/boneIO_input-board_v0.2
-        - Circuit/boneIO-input-board-template/boneIO_input-board_template
+        - Circuit/boneIO-input-board/boneIO_input-board
         - Circuit/boneIO-relay-board-24x16A/boneIO-relay-board
         - Circuit/boneIO-relay-board-32x5A/boneIO-relay-board-32x5A
-        # - Circuit/boneIO-SSR-D0-board/boneIO-SSR-D0-board # disabled for now as it do not pass
-        # - Circuit/boneIOs-input-board-esp/boneIOs-input-board-esp # disabled for now as it do not pass
 
     steps:
     - uses: actions/checkout@v2
